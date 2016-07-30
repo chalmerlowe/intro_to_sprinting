@@ -23,10 +23,11 @@ python -m venv mycalc
 # How do you populate it with the right software versions and libraries?
 Once you have created a virtualenv you need to activate it AND then populate it with software.
 
-```python
+```bash
 # typical linux
 $ source mycalc/bin/activate
-
+```
+```bat
 # typical windows 
 C:\> mycalc\Scripts\activate.bat
 ```
