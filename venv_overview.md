@@ -13,7 +13,7 @@ Virtual environments (virtualenv) are tools used to keep projects separate, espe
 # When should we use a virtual environment?
 Many programmers use virtual environments for all but the most trivial programming tasks. Especially for beginners, tackling this early on builds a valuable skill AND helps eliminate sneaky bugs related to version discrepancies that can be hard to diagnose.
 
-# How do you create a virtual environment? 
+# How do you create a virtual environment?
 The exact method may vary depending on your system and version of Python. See the Resources section for links to resources that can provide additional guidance. But for our purposes, the general workflow looks something like this:
 
 ```python
@@ -28,10 +28,19 @@ Once you have created a virtualenv you need to activate it AND then populate it 
 $ source mycalc/bin/activate
 ```
 ```bat
-rem typical windows 
+rem typical windows
 C:\> mycalc\Scripts\activate.bat
 ```
 
+
+# How do you get out of the virtual environment when you are done? #
+
+```bash
+$ deactivate
+```
+```bat
+(mycalc) C:\> deactivate
+```
 
 # HANDS-ON
 
