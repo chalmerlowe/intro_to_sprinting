@@ -28,7 +28,7 @@ Once you have created a virtualenv you need to activate it AND then populate it 
 $ source mycalc/bin/activate
 ```
 ```bat
-# typical windows 
+rem typical windows 
 C:\> mycalc\Scripts\activate.bat
 ```
 
