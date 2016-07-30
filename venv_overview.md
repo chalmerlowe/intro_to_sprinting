@@ -16,9 +16,9 @@ Many programmers use virtual environments for all but the most trivial programmi
 # How do you create a virtual environment? 
 The exact method may vary depending on your system and version of Python. See the Resources section for links to resources that can provide additional guidance. But for our purposes, we will use a tool package created by Continuum Analytics called miniconda ([download here](https://conda.pydata.org/miniconda.html)).
 
-Miniconda allows you to make virtual enviroments as well as provides access to all the benefits you get from the heavyweight tool Anaconda.
+Miniconda allows you to make virtual enviroments as well as provides easy access to all the benefits you get from the heavyweight tool Anaconda.
 
-Once you have miniconda (or Anaconda) installed, the general workflow for creating a virtual environment goes something like this:
+Once you have miniconda (or Anaconda) installed, the general workflow for creating a virtual environment called 'mycalc' for our calculator program goes something like this:
 
 ```python
 conda create -n mycalc python=3
@@ -27,22 +27,37 @@ conda create -n mycalc python=3
 # How do you populate it with the right software versions and libraries?
 Once you have created a virtualenv you need to activate it AND then populate it with software.
 
+## Activating your virtualenv
+### Linux version
 ```bash
-# typical linux
 $ source mycalc/bin/activate
 ```
+
+### Windows version
 ```bat
 rem typical windows
 C:\> mycalc\Scripts\activate.bat
 ```
 
+## adding software
+To add software to the virtualenv, you can use a tool call pip, which comes by default in modern versions of Python. For example, to install IPython, you can use the following command:
 
-# How do you get out of the virtual environment when you are done? #
-
-```bash
-$ deactivate
 ```
+pip install ipython
+```
+
+# How do you get out of the virtual environment when you are done? 
+When you are done working in your virtualenv, you can deactivate it using the following command:
+
+### Linux version
+```bash
+# typical linux
+(mycalc) $ deactivate
+```
+
+### Windows version
 ```bat
+rem typical windows
 (mycalc) C:\> deactivate
 ```
 
