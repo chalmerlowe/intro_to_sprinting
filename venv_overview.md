@@ -13,17 +13,12 @@ Virtual environments (virtualenv) are tools used to keep projects separate, espe
 # When should we use a virtual environment?
 Many programmers use virtual environments for all but the most trivial programming tasks. Especially for beginners, tackling this early on builds a valuable skill AND helps eliminate sneaky bugs related to version discrepancies that can be hard to diagnose.
 
-<<<<<<< HEAD
-# How do you create a virtual environment?
-The exact method may vary depending on your system and version of Python. See the Resources section for links to resources that can provide additional guidance. But for our purposes, the general workflow looks something like this:
-=======
 # How do you create a virtual environment? 
 The exact method may vary depending on your system and version of Python. See the Resources section for links to resources that can provide additional guidance. But for our purposes, we will use a tool package created by Continuum Analytics called miniconda [download here](https://conda.pydata.org/miniconda.html).
 
 Miniconda allows you to make virtual enviroments as well as provides access to all the benefits you get from the heavyweight tool Anaconda.
 
 Once you have miniconda (or Anaconda) installed, the general workflow for creating a virtual environment goes something like this:
->>>>>>> hlvenv
 
 ```python
 conda create -n mycalc python=3
