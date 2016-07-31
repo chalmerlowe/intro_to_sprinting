@@ -2,3 +2,4 @@ We are very grateful for the support and contributions of all our contributors. 
 
 chalmer lowe
 Tasha Markovich
+James Small
