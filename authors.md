@@ -4,3 +4,4 @@ We are very grateful for the support and contributions of all our contributors. 
 * [Tasha Markovich](https://github.com/TashaMC)
 * [John Francis Marion](https://github.com/jfmario)
 * [Shannon Whalen](https://github.com/shay2501)
+* [James Small](https://github.com/sockduct)
