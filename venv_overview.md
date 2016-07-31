@@ -13,7 +13,7 @@ Virtual environments (virtualenv) are tools used to keep projects separate, espe
 # When should we use a virtual environment?
 Many programmers use virtual environments for all but the most trivial programming tasks. Especially for beginners, tackling this early on builds a valuable skill AND helps eliminate sneaky bugs related to version discrepancies that can be hard to diagnose.
 
-# How do you create a virtual environment? 
+# How do you create a virtual environment?
 The exact method may vary depending on your system and version of Python. See the Resources section for links to resources that can provide additional guidance. But for our purposes, we will use a tool package created by Continuum Analytics called miniconda ([download here](https://conda.pydata.org/miniconda.html)).
 
 Miniconda allows you to make virtual enviroments as well as provides easy access to all the benefits you get from the heavyweight tool Anaconda.
@@ -30,13 +30,13 @@ Once you have created a virtualenv you need to activate it AND then populate it 
 ## Activating your virtualenv
 ### Linux version
 ```bash
-$ source mycalc/bin/activate
+$ source activate mycalc
 ```
 
 ### Windows version
 ```bat
 rem typical windows
-C:\> mycalc\Scripts\activate.bat
+C:\> activate mycalc
 ```
 
 ## adding software
@@ -46,7 +46,7 @@ To add software to the virtualenv, you can use a tool call pip, which comes by d
 pip install ipython
 ```
 
-# How do you get out of the virtual environment when you are done? 
+# How do you get out of the virtual environment when you are done?
 When you are done working in your virtualenv, you can deactivate it using the following command:
 
 ### Linux version
@@ -64,3 +64,5 @@ rem typical windows
 # HANDS-ON
 
 # Resources: Where can I learn more?
+
+[Conda Docs](http://conda.pydata.org/docs/get-started.html)
