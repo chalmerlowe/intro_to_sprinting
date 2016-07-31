@@ -10,9 +10,9 @@ This overview will walk attendees through the following open source skillsets in
 
 In addition, the overview will include numerous resources for self-study.
 
-From [wikipedia](https://en.wikipedia.org/wiki/Sprint_(software_development))
+From [wikipedia](https://en.wikipedia.org/wiki/Sprint_(software_development)):
 
-A sprint is a get-together of people involved in a project to further a focused development of the project. Sprints typically last from one week up to three weeks. Sprints have become popular events in some open-source projects. For example, the PyPy project is mostly developed during regularly held sprints where most of the international developer team gathers.[1]
+A sprint is a get-together of people involved in a project to further a focused development of the project. Sprints typically last from one week up to three weeks. Sprints have become popular events in some open-source projects. For example, the PyPy project is mostly developed during regularly held sprints where most of the international developer team gathers.
 
 Sprints often take place near conferences which most of the project team attend, but they can also be hosted by some involved party at their premises or at some interesting location.
 
