@@ -5,3 +5,4 @@ We are very grateful for the support and contributions of all our contributors. 
 * [John Francis Marion](https://github.com/jfmario)
 * [Shannon Whalen](https://github.com/shay2501)
 * [James Small](https://github.com/sockduct)
+* [Michael King](https://github.com/mbking92)
