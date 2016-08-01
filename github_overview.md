@@ -1,3 +1,4 @@
+####################################################################################################
 # Using GitHub
 GitHub is a Git repository (repo) hosting service - it provides a Web-based graphical interface
 which offers collaboration features for projects.
@@ -15,8 +16,31 @@ deal with conflicting changes and keep all project participants synchronized.
 
 # How do you get started?
 ## Create a GitHub account
-Open your browser and navigate to github.com
+* Open your browser and navigate to [The GitHub Home Page](https://github.com/)
+* Fill out the forms and click "Sign up for GitHub"
 
-## Clone a project
-Navigate to Chalmer Lowe's intro_to_sprinting repo and clone it
+## Fork a project
+Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerlowe/intro_to_sprinting/) and fork it
+* In the upper right hand corner, you'll see a "Fork" Icon:
+  * ![Fork a Repo Button](images/fork-repo-icon.png)
+* Click on it to create a fork (a copy linked to the original) of this repo in your account
+* Note:  The fork refers back to the original - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro_to_sprinting:"
+  * ![Fork link to original repo](images/fork-repo-link.png)
+* From your working system you'll need to clone this repo to create a local copy and make changes - refer to the [Git Overview](git_overview.md)
+* If you make changes you want to share with the original author, Chalmer Lowe, you'll need to submit a Pull Request:
+  * Using git on your local repo on your working system you'll need to push the changes to your GitHub repo - refer to the [Git Overview](git_overview.md) on how to do this
+  * Once you have the changes in your GitHub Repo, above the file list on the left hand side, click on "New Pull Request:"
+    * ![New Pull Request Button](images/new-pull-request-icon.png)
+  * Next
+    1. Make sure the base fork is chalmerlowe/intro_to_sprinting and the head fork is your repo
+    2. Make sure you get a green check mark and "Able to merge" - if there are conflicts, you should pull all changes from chalmerlowe's upstream repo, resolve the conflicts and then submit the pull request - see the [Git Overview](git_overview.md) for how to do this
+    3. Click on "Create pull request:"
+      * ![Create Pull Request One](images/create-pull-request-one.png)
+  * Next
+    1. Write a summary title describing the changes
+    2. Write a brief description of what you're changing in this pull request
+    3. Click on "Create pull request:"
+      * ![Create Pull Request Two](images/create-pull-request-two.png)
+  * Note:  This leaves you in author's repo (Chalmer Lowe in this case) and not your own!
+  * Extra:  What's the difference between Fork and Clone?  [See StackOverview discussion of, "Are git forks actually git clones?"](http://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)
 
