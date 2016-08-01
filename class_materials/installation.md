@@ -24,15 +24,15 @@ If git is not installed your command prompt will tell you. Follow the instructio
 
 ## Windows
 
-Download the ([git installer]https://git-scm.com/download/windows)
+Download the [git installer](https://git-scm.com/download/windows)
 
-If you are unsure if you need the 32 or 64-bit version, you can ([follow these steps]https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq)
+If you are unsure if you need the 32 or 64-bit version, you can [follow these steps](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq)
 
 Run the .exe file that you downloaded and follow the instructions.
 
 ## Mac OS
 
-Download the ([git installer]https://git-scm.com/download/mac)
+Download the [git installer](https://git-scm.com/download/mac)
 
 open the .dmg file that you downloaded. Run the installer inside and follow the instructions.
 
@@ -50,11 +50,11 @@ $ sudo apt-get install git-all
 ```
 
 # Installing miniconda
-Follow the instructions in the ([miniconda quickstart guide]http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install)
+Follow the instructions in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install)
 
-* ([Windows] http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install)
-* ([OS X] http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install)
-* ([Linux]http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install)
+* [Windows](http://conda.pydata.org/docs/install/quick.html#windows-miniconda-install)
+* [OS X](http://conda.pydata.org/docs/install/quick.html#os-x-miniconda-install)
+* [Linux](http://conda.pydata.org/docs/install/quick.html#linux-miniconda-install)
 
 
 # Testing
@@ -89,7 +89,7 @@ rem typical windows
 # Resources: Where can I learn more?
 
 
-([Using conda]http://conda.pydata.org/docs/using/index.html)
+[Using conda](http://conda.pydata.org/docs/using/index.html)
 
 
 
