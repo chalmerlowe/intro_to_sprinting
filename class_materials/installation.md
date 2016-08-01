@@ -147,6 +147,8 @@ Great work! You just created a git repository and commited your first file.
 * [Git Immersion](http://gitimmersion.com/index.html)
 
 
+
+
 # Miniconda
 ## What is miniconda?
 Miniconda is a tool that installs and manages different versions of Python and optional libraries. It's a good idea to maintain a seperate environmenmt for each project you work on. We will give a deeper explanation in a later session.
