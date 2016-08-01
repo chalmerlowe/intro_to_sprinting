@@ -44,3 +44,28 @@ See that everything is in order with:
 ```bash
 git remote -v
 ```
+
+## Contribute to a project
+After cloning the code from your fork you are free to create and expand upon the
+project. Once you have completed something sizeable, be it a feature, function,
+or documentation, it is time to commit. First off we are going to have to add all
+the files that you chanegd with:
+```bash
+git add <file1> <file2>...
+```
+After adding the files you chnaged it is time to add a description to what you
+changed in these files with:
+```bash
+git commit -m "Description of changes"
+```
+Lastly, you are going to have to send the commit to Github or another Source Code
+Manager with:
+```bash
+git push origin master
+```
+After pushing to your fork you will have to go and create a pull request, which is
+explained in the github\_overview.
+
+## Addtional Information
+# Links
+For more interesting information about git check out the [docs](https://git-scm.com/)
