@@ -44,3 +44,63 @@ See that everything is in order with:
 ```bash
 git remote -v
 ```
+
+## Contribute to a project
+After cloning the code from your fork you are free to create and expand upon the
+project. Once you have completed something sizeable, be it a feature, function,
+or documentation, it is time to commit. First off we are going to have to add all
+the files that you chanegd with:
+```bash
+git add <file1> <file2>...
+```
+After adding the files you chnaged it is time to add a description to what you
+changed in these files with:
+```bash
+git commit -m "Description of changes"
+```
+Lastly, you are going to have to send the commit to Github or another Source Code
+Manager with:
+```bash
+git push origin master
+```
+After pushing to your fork you will have to go and create a pull request, which is
+explained in the github\_overview.
+
+## Addtional Information
+# Adding
+There are couple tricks that makes adding files to a commit a little bit easier
+if you pay attention to what you are doing. For instance you can add all of the
+changed files to your commit with:
+```bash
+git add *
+```
+This can lead to problems if you add files that aren't related to the commit at
+to protect against this you can view which files have pending changes before you
+add them with:
+```bash
+git status
+```
+
+# Committing
+The method taugt above works fine, but there are additional flags and paramters
+that can make for a better commit. First of all if you would like to add a more
+in depth description you can use:
+```bash
+git commit
+```
+It will bring you into a command line text editor like vim or emacs where the
+first line serves as the title and if you add a blank line and begin typeing more
+you can add the mentioned details.
+
+Another feature related to that, which ties in with open source spriting is if you
+enter
+```bash
+git commit -s
+```
+It will bring of the same prompt as before but with a `Signed off by:` section 
+with your name after it giving the rights to your code to whomever you committed
+it to.
+
+
+# Links
+For more interesting information about git check out the [docs](https://git-scm.com/)
