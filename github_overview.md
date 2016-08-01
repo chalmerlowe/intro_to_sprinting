@@ -22,10 +22,10 @@ deal with conflicting changes and keep all project participants synchronized.
 ## Clone a project
 Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerlowe/intro_to_sprinting/) and clone it
 * In the upper right hand corner, you'll see a "Fork" Icon:
-  ![Fork a Repo Button](images/fork-repo-icon.png)
+  *![Fork a Repo Button](images/fork-repo-icon.png)
 * Click on it to create a fork (a copy linked to the original) of this repo in your account
 * Note:  The fork refers back to the original - if you look under your repo name, you'll see
 it's "forked from chalmerlowe/intro_to_sprinting:"
-  ![Fork link to original repo](images/fork-repo-link.png)
+  *![Fork link to original repo](images/fork-repo-link.png)
 * From your working system you'll need to clone this repo to create a local copy and make changes - refer to the Git section
 
