@@ -19,7 +19,7 @@ deal with conflicting changes and keep all project participants synchronized.
 * Open your browser and navigate to [The GitHub Home Page](https://github.com/)
 * Fill out the forms and click "Sign up for GitHub"
 
-## Clone a project
+## Fork a project
 Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerlowe/intro_to_sprinting/) and fork it
 * In the upper right hand corner, you'll see a "Fork" Icon:
   * ![Fork a Repo Button](images/fork-repo-icon.png)
@@ -42,4 +42,5 @@ Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerl
     3. Click on "Create pull request:"
       * ![Create Pull Request Two](images/create-pull-request-two.png)
   * Note:  This leaves you in author's repo (Chalmer Lowe in this case) and not your own!
+  * Extra:  What's the difference between Fork and Clone?  [See StackOverview discussion of, "Are git forks actually git clones?"](http://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)
 
