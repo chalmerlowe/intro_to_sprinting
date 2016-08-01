@@ -16,15 +16,16 @@ deal with conflicting changes and keep all project participants synchronized.
 
 # How do you get started?
 ## Create a GitHub account
-Open your browser and navigate to [The GitHub Home Page](https://github.com/)
+* Open your browser and navigate to [The GitHub Home Page](https://github.com/)
+* Fill out the forms and click "Sign up for GitHub"
 
 ## Clone a project
 Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerlowe/intro_to_sprinting/) and clone it
 * In the upper right hand corner, you'll see a "Fork" Icon:
-[[images/fork-repo-icon.png|alt=octocat]]
+[Fork a Repo Button](images/fork-repo-icon.png)
 * Click on it to create a fork (a copy linked to the original) of this repo in your account
 * Note:  The fork refers back to the original - if you look under your repo name, you'll see
 it's "forked from chalmerlowe/intro_to_sprinting:"
-[[images/fork-repo-link.png|octocat]]
+[Fork link to original repo](images/fork-repo-link.png)
 * From your working system you'll need to clone this repo to create a local copy and make changes - refer to the Git section
 
