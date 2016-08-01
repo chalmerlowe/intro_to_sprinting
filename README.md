@@ -1,7 +1,9 @@
 # intro_to_sprinting
-This represents a high-level overview of the steps, tools and tradecraft needed to introduce beginners to open source sprints.
+This represents a high-level overview of the steps, tools and tradecraft needed
+to introduce beginners to open source sprints.
 
-This overview will walk attendees through the following open source skillsets in both a discussion format AND a hands-on format.
+This overview will walk attendees through the following open source skills in
+both a discussion format **and** a hands-on format.
 
 * Understanding, creating, and using virtual environments
 * Using version control tools such as git and github
