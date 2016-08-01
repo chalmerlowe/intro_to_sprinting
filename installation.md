@@ -95,11 +95,7 @@ Type `echo "new file" > handson.txt` This will create a tiny text file in sprint
 $ echo "new file" > handson.txt
 ```
 
-<<<<<<< HEAD
 Type `git status` This will show you that git is aware of a new file in your project. It gives you a hint for what to do next.
-=======
-Type `git status` This will show you that git is aware of a new file in your project. It gives you a hint for what to o next.
->>>>>>> b224b9f9faf9c0b42fcb109bc3f9f732f466cc39
 
 ```bash
 $ git status
