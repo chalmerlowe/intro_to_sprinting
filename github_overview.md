@@ -1,3 +1,4 @@
+####################################################################################################
 # Using GitHub
 GitHub is a Git repository (repo) hosting service - it provides a Web-based graphical interface
 which offers collaboration features for projects.
@@ -15,8 +16,15 @@ deal with conflicting changes and keep all project participants synchronized.
 
 # How do you get started?
 ## Create a GitHub account
-Open your browser and navigate to github.com
+Open your browser and navigate to [The GitHub Home Page](https://github.com/)
 
 ## Clone a project
-Navigate to Chalmer Lowe's intro_to_sprinting repo and clone it
+Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerlowe/intro_to_sprinting/) and clone it
+* In the upper right hand corner, you'll see a "Fork" Icon:
+[[images/fork-repo-icon.png|alt=octocat]]
+* Click on it to create a fork (a copy linked to the original) of this repo in your account
+* Note:  The fork refers back to the original - if you look under your repo name, you'll see
+it's "forked from chalmerlowe/intro_to_sprinting:"
+[[images/fork-repo-link.png|octocat]]
+* From your working system you'll need to clone this repo to create a local copy and make changes - refer to the Git section
 
