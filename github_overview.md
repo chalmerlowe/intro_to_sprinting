@@ -33,7 +33,7 @@ Navigate to [Chalmer Lowe's intro_to_sprinting repo](https://github.com/chalmerl
     * ![New Pull Request Button](images/new-pull-request-icon.png)
   * Next
     1. Make sure the base fork is chalmerlowe/intro_to_sprinting and the head fork is your repo
-    2. Make sure you get a green check mark and "Able to merge" - if there are conflicts, you should pull all changes from chalmerlowe's upstream repo - see the [Git Overview](git_overview.md) for how to do this
+    2. Make sure you get a green check mark and "Able to merge" - if there are conflicts, you should pull all changes from chalmerlowe's upstream repo, resolve the conflicts and then submit the pull request - see the [Git Overview](git_overview.md) for how to do this
     3. Click on "Create pull request:"
       * ![Create Pull Request One](images/create-pull-request-one.png)
   * Next
