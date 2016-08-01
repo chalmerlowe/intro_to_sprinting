@@ -134,8 +134,8 @@ Changes to be committed:
 Type `git commit -m'a new commit'` This will tell git to store a copy of this file in your repository. 
 
 ```bash
-$ git commit -m'a new` commit'
-[master (root-commit) a69c665] a new` commit
+$ git commit -m'a new commit'
+[master (root-commit) a69c665] a new commit
  1 file changed, 1 insertion(+)
  create mode 100644 handson.txt
 ```
