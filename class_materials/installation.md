@@ -145,6 +145,7 @@ Great work! You just created a git repository and commited your first file.
 ## Git Resources: Where can I learn more?
 
 * [Git Immersion](http://gitimmersion.com/index.html)
+* [Git Basics (from the Git Book)](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 
 
@@ -176,17 +177,21 @@ root                  *  /Users/jeff/miniconda3
 
 ## Hands-on miniconda
 
+Try running the command below. When it finishes you will have a new python environment available to use in this sprint.
+
 ### Linux version
 ```bash
 # typical linux
-(mycalc) $ deactivate
+$ conda create -n mycalc python
 ```
 
 ### Windows version
 ```bat
 rem typical windows
-(mycalc) C:\> deactivate
+C:\> conda create -n mycalc python
 ```
+
+
 
 ## Miniconda Resources: Where can I learn more?
 
