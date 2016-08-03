@@ -15,15 +15,7 @@ working on. The project code lives in a central _remote repository_, called the
 where they can work on adding features and squashing bugs. When finished, they
 push the code back into `origin`, for other contributers to see and pull from.
 
-# Installing git
-## Linux
-
-## Mac
-
-## Windows
-*Browse to http://git-scm.com/download/win and follow the instructions.
-
-#Gitting Started
+# Gitting Started
 ## Introduce yourself to git
 When you contribute to a project, you'll want your name on it. The following
 let's git get to know you:
