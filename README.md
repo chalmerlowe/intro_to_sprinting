@@ -1,5 +1,6 @@
 # intro_to_sprinting
-The point of this project is to help beginners contribute to sprints.
+The point of this project is to help beginners be successful contributing to
+sprints.
 
 The problem has been that beginners need to learn much before they can
 contribute and they are limited by the sprint leader's availability to help
