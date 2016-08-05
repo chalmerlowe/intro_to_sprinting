@@ -34,12 +34,11 @@ This project can be modified for the needs of other sprints.
 Beginners will need to already know the following.
 
 1. How to edit plain text files on their computer.
-(add other things here)
+2. (add other things here)
 
 # questions
 
-Who is the audience of this file?
-    the beginners? the sprint leader? both?
-Should it be directed towards the beginner even if sprint leaders would read it
-also?
-What can we learn from others? from Habit For Humanity?
+- Who is the audience of this file? the beginners? the sprint leader? both?
+  - Should it be directed towards the beginner even if sprint leaders would
+    read it also?
+- What can we learn from others? from Habit For Humanity?
