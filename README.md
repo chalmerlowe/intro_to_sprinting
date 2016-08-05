@@ -10,8 +10,11 @@ frustrated.
 
 This project aims to fix that by having the materials and instructions for the
 beginners to teach themselves the bare minimum to become productive, and to
-have a little sample project for them to practice sprinting on. When they
-complete that, they are ready to contribute to the real project of interest.
+have a little sample project for them to practice sprinting on. They can still
+get help from the sprint leader, but since most of their learning is on their
+own, the sprint leader is not a bottleneck and will be more likely to be
+available when needed. When they complete that, they are ready to contribute to
+the real project of interest.
 
 # continued
 This represents a high-level overview of the steps, tools and tradecraft needed
