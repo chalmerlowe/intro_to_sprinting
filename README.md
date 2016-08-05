@@ -13,7 +13,7 @@ beginners to teach themselves the bare minimum to become productive, and to
 have a little sample project for them to practice sprinting on. When they
 complete that, they are ready to contribute to the real project of interest.
 
-#
+# continued
 This represents a high-level overview of the steps, tools and tradecraft needed
 to introduce beginners to open source sprints.
 
@@ -29,3 +29,17 @@ In addition, the overview will include numerous resources for self-study.
 
 This project is based on anaconda, git, and github for Python sprints.
 This project can be modified for the needs of other sprints.
+
+# Prerequisites
+
+Beginners will need to already know the following.
+
+1. How to edit plain text files on their computer.
+(add other things here)
+
+# questions
+
+Who is the audience of this file?
+    the beginners? the sprint leader? both?
+Should it be directed towards the beginner even if sprint leaders would read it
+also?
