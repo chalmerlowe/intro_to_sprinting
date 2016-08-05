@@ -1,10 +1,10 @@
 # intro_to_sprinting
-The point of this project is to make eager beginners successful contributing to
-sprints as quickly as possible.
+The point of this project is to make beginners successful contributors to
+sprints.
 
 The problem has been that beginners need to learn much before they can
 contribute and they are limited by the sprint leader's availability to help
-them learn. The sprint leader becomes the bottleneck. The beginners don't learn
+them learn. The sprint leader becomes a bottleneck. The beginners don't learn
 enough quickly enough to contribute, so little is accomplished and everyone is
 frustrated.
 
@@ -43,3 +43,4 @@ Who is the audience of this file?
     the beginners? the sprint leader? both?
 Should it be directed towards the beginner even if sprint leaders would read it
 also?
+What can we learn from others? from Habit For Humanity?
