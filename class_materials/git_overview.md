@@ -37,3 +37,9 @@ See that everything is in order with:
 ```bash
 git remote -v
 ```
+
+##Make a change and commit it!
+
+##You're not quite done.  Pushing your changes.
+
+##Now go back to github and create a pull request.
