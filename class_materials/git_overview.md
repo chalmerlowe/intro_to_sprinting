@@ -8,14 +8,7 @@ Through participating in this session, attendees will be able to:
 * Understand why git is used in an open source project
 * Use basic git commands to contribute to a project
 
-# What is git?
-Git is a tool that makes it easy to contribute to projects that other people are
-working on. The project code lives in a central _remote repository_, called the 
-`origin`. Programmers pull the project into their own _local repository_,
-where they can work on adding features and squashing bugs. When finished, they
-push the code back into `origin`, for other contributers to see and pull from.
-
-# How do you get started?
+# Gitting Started
 ## Introduce yourself to git
 When you contribute to a project, you'll want your name on it. The following
 let's git get to know you:
@@ -44,3 +37,9 @@ See that everything is in order with:
 ```bash
 git remote -v
 ```
+
+##Make a change and commit it!
+
+##You're not quite done.  Pushing your changes.
+
+##Now go back to github and create a pull request.

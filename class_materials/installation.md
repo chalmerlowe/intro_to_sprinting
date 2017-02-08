@@ -8,7 +8,7 @@ Through participating in this session, attendees will be able to:
 * Run a short series of commands that will do something useful with the tool 
 
 # What is git?
-Git is a distrubuted version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project. 
+Git is a distrubuted version control system for managing files.  It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project.  This local software works hand-in-hand with the github website.  We will go over this relationship in detail later.
 
 # What is miniconda?
 Miniconda is a tool that installs and manages different versions of Python and optional libraries. It's a good idea to maintain a seperate environmenmt for each project you work on. We will give a deeper explanation in a later session.
@@ -28,7 +28,7 @@ Download the [git installer](https://git-scm.com/download/windows)
 
 If you are unsure if you need the 32 or 64-bit version, you can [follow these steps](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq)
 
-Run the .exe file that you downloaded and follow the instructions.
+Run the .exe file that you downloaded and follow the instructions.  Installing with the default options checked should work.
 
 ## Mac OS
 
