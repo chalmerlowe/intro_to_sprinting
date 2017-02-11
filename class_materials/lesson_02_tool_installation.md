@@ -36,6 +36,14 @@ Download the [git installer](https://git-scm.com/download/mac)
 
 open the .dmg file that you downloaded. Run the installer inside and follow the instructions.
 
+### Alternately, install using homebrew
+
+Many Mac users use [homebrew](http://brew.sh/) to install programs.
+
+```shell
+brew install git
+```
+
 ## Linux
 
 There is a good chance that you already have git installed. If it isn't, install it by typing one of these commands into your command prompt.
