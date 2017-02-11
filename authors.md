@@ -1,4 +1,5 @@
-We are very grateful for the support and contributions of all our contributors. Please feel free to add your name to the bottom of this document.
+We are very grateful for the support and contributions of all our contributors.
+Please feel free to add your name to the bottom of this document.
 
 * [Chalmer Lowe](https://github.com/chalmerlowe)
 * [Tasha Markovich](https://github.com/TashaMC)
@@ -9,3 +10,4 @@ We are very grateful for the support and contributions of all our contributors. 
 * [Brian Smith](https://github.com/briansmithbeta)
 * [Chris Ostrouchov](https://github.com/costrouc)
 * [Cory Taylor](https://github.com/ctaylor08)
+* [James Prior](https://github.com/james-prior)
