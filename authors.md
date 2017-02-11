@@ -8,3 +8,4 @@ We are very grateful for the support and contributions of all our contributors. 
 * [Michael King](https://github.com/mbking92)
 * [Brian Smith](https://github.com/briansmithbeta)
 * [Chris Ostrouchov](https://github.com/costrouc)
+* [Cory Taylor](https://github.com/ctaylor08)
