@@ -1,19 +1,44 @@
 # Using Git
-Git is a version control system - it let's you keep track of changes to an open
-source project, and helps ensure every contributor is working on the same
-codebase.
 
-# Objectives
-Through participating in this session, attendees will be able to:
-* Understand why git is used in an open source project
-* Use basic git commands to contribute to a project
+## TODOS:
+[ ] decide on an overall format for each lesson and ensure that each lesson matches that format:  
+
+* [ ] intro to the lessons  
+* [ ] objectives  
+* [ ] lecture/demos  
+* [ ] hands-on  
+* [ ] resources 
 
 # What is git?
+Git is a version control system - it enables you to control the various versions of projects, such as open source projects.
+
+
+it let's you keep track of changes to an open
+source project, and helps ensure every contributor is working on the same
+codebase.
 Git is a tool that makes it easy to contribute to projects that other people are
 working on. The project code lives in a central _remote repository_, called the 
 `origin`. Programmers pull the project into their own _local repository_,
 where they can work on adding features and squashing bugs. When finished, they
 push the code back into `origin`, for other contributers to see and pull from.
+
+
+# Objectives
+Through participating in this session, attendees will be able to:
+
+* Understand why git is used in an open source project
+* Use basic git commands to:
+    * configure git for use
+    * get a copy of an open source project
+    * save modifications/additions/deletions to the project
+    * submit those changes to the project
+    * incorporate other's changes to the project 
+    * verify the status of the project repository
+    * basic troubleshooting
+
+NOTE: this will be a hands-on overview of git. It is incredibly powerful with many options and capabilities. The goal is to get you started with git, not make you into an expert.
+
+
 
 # How do you get started?
 ## Introduce yourself to git

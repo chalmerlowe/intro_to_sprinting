@@ -1,8 +1,20 @@
 # Tools for Sprinting
-Collaborating on sprints is fun and effective when people have tools that make them powerful and efficient. `git` and `miniconda` are the tools we will use to practice a sprint. 
+## TODO:
+[ ] make sure that the lower-level objectives tie to the higher level objectives  
+[ ] decide on an overall format for each lesson and ensure that each lesson matches that format:  
+
+* [ ] intro to the lessons  
+* [ ] objectives  
+* [ ] lecture/demos  
+* [ ] hands-on  
+* [ ] resources  
+[ ] Add navigation links? (previous lesson | next lesson) Do this for all pages.    
+
+Collaborating on sprints generally requires the use of software tools to truly be effective and efficient. For this workshop, we will use `git` and `conda` to practice our skills. 
 
 # Objectives
 Through participating in this session, attendees will be able to:
+
 * Download the tools that we will use for test project
 * Install and test the tools to ensure that they are installed properly
 * Run a short series of commands that will do something useful with the tool 

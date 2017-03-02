@@ -1,4 +1,16 @@
 # Virtual Environments
+
+## TODOS:
+
+[ ] decide on an overall format for each lesson and ensure that each lesson matches that format:  
+
+* [ ] intro to the lessons  
+* [ ] objectives  
+* [ ] lecture/demos  
+* [ ] hands-on  
+* [ ] resources 
+
+
 Virtual environments enable you to create standalone environments for your project so that you can avoid conflicts between one project and another in terms of Python versions as well as the versions of other libraries that your project might depend upon.
 
 # Objectives

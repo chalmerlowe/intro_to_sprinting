@@ -1,20 +1,26 @@
-# intro_to_sprinting
-The point of this project is to help beginners be successful contributing to
-sprints.
+# Intro to Sprinting
 
-The problem has been that beginners need to learn much before they can
-contribute and they are limited by the sprint leader's availability to help
-them learn. The sprint leader becomes a bottleneck. The beginners don't learn
-enough quickly enough to contribute, so little is accomplished and everyone is
-frustrated.
+## TODOs:
+[ ] figure out where we want to put the pre-reqs ... thinking a link to the intro to the workshop doc
+[ ] add an audience section? OR add a link to the intro to the workshop doc 
+[ ]
 
-This project aims to fix that by having the materials and instructions for the
-beginners to teach themselves the bare minimum to become productive, and to
-have a little sample project for them to practice sprinting on. They can still
-get help from the sprint leader, but since most of their learning is on their
-own, the sprint leader is not a bottleneck and will be more likely to be
-available when needed. When they complete that, they are ready to contribute to
-the real project of interest.
+This project is designed to help beginners learn AND practice the basic skills necessary to contribute to open source projects. While it is designed to be delivered as a workshop for a group of students, it can also be used individually as self-study.
+
+It can be used in multiple ways:
+
+* as a lead-in for open source sprints at programming conferences
+* as class material for teachers
+* as preparation for hackathons OR group projects
+* as a resource for open source project leaders
+
+# Why an introduction to sprinting?
+
+At many programming conferences, time is set aside for developers to come together to work on open source projects (called sprints or sprinting). Many project leaders welcome new developers of all skill levels to contribute. This works fine if a developer has contributed to a project before and has an understanding of the tools and processes. 
+
+The problem has been that beginners often have a very steep learning curve and need to learn too many new tools and new skills before they can successfully contribute. They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like setting up virtual environments, using version control software, interacting with version control repositories (repos) and the process of submitting patches and contributions. They are often limited by the sprint leader's availability to help them learn. The sprint leader becomes, through no fault of their own, a bottleneck. The beginners often spend so much time figuring out the basics that they can't really get into the project sufficiently to understand nuances of the bugs they want to fix OR the contributions they want to add. Due to limitations on time, new contributors often leave the sprints without having successfully contributed to the project, at all. Furthermore, once new contributors arrive at home, they are often so removed from the project and the mentorship opportunity, that they may not be able to pick up from where they left off.
+
+This project aims to fix some of these problems by having materials and instructions available group/classroom study AND self-study so that new contributors can learn the basics before they ever sit down with their sprint lead and can start focusing more on the project and less on the learning curve. In addition, should they run into a problem, they have a ready resource to turn to, thus taking some of the burden off the sprint lead.
 
 # continued
 This represents a high-level overview of the steps, tools and tradecraft needed

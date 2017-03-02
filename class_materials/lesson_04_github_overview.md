@@ -1,5 +1,12 @@
-####################################################################################################
 # Using GitHub
+[ ] decide on an overall format for each lesson and ensure that each lesson matches that format:  
+
+* [ ] intro to the lessons  
+* [ ] objectives  
+* [ ] lecture/demos  
+* [ ] hands-on  
+* [ ] resources 
+
 GitHub is a Git repository (repo) hosting service - it provides a Web-based graphical interface
 which offers collaboration features for projects.
 
