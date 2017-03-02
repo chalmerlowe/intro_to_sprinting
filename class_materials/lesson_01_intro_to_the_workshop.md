@@ -15,10 +15,12 @@ This intro has several key sections. The beginning is a general intro. The next 
 
 This workshop covers...
 
-* [Lesson 02](./lesson_02_tool_installation.md): how to use git, a version control software 
-* interaction with github, a version control repository 
-* creation and use of virtual environments to keep the code from one project separate from other projects
-* hands-on practice contributing your code to a simple sample project (namely a calculator) so that the student can practice, repeately, all of the skills from A to Z of contributing to a project.
+* [Lesson 02](./lesson_02_tool_installation.md): installing a basic set of tools often used in open source development
+* [Lesson 03](./lesson_03_venv_overview.md): An overview of virtual environments, a tool to keep the code from one project separate from other projects
+* [Lesson 04](./lesson_04_github_overview.md): An overview of github, a version control repository
+* [Lesson 05](./lesson_05_git_overview.md): An overview of git, a form of version control software
+* [Lesson 06](./lesson_06_intro_to_the_project.md): An introduction to the sample project
+* [Lesson 07](./lesson_07_project_hands_on.md): The sample project: a way cool calculator -  a hands-on project so the students can practice, repeatedly, all of the skills from A to Z of contributing to a project.
 
 # What not to expect
 This workshop does not cover...
