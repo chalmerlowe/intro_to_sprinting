@@ -61,10 +61,12 @@ brew install git
 There is a good chance that you already have git installed. If it isn't, install it by typing one of these commands into your command prompt.
 
 Red Hat based systems (Red Hat, centos, fedora) use:
+
 ```bash
 $ sudo yum install git-all
 ```
 debian based systems (Ubuntu, debian) use:
+
 ```bash
 $ sudo apt-get install git-all
 ```
@@ -95,12 +97,14 @@ In a command prompt type con
 
 ##Miniconda
 ### Linux version
+
 ```bash
 # typical linux
 (mycalc) $ deactivate
 ```
 
 ### Windows version
+
 ```bat
 rem typical windows
 (mycalc) C:\> deactivate
