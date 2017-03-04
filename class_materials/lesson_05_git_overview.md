@@ -1,15 +1,6 @@
 # Using Git
 
-## TODOS:
-[ ] decide on an overall format for each lesson and ensure that each lesson matches that format:  
-
-* [ ] intro to the lessons  
-* [ ] objectives  
-* [ ] lecture/demos  
-* [ ] hands-on  
-* [ ] resources 
-
-# What is git?
+# Introduction: What is git?
 Git is a version control system - it enables you to control the various versions of projects, such as open source projects.
 
 
@@ -38,10 +29,10 @@ Through participating in this session, attendees will be able to:
 
 NOTE: this will be a hands-on overview of git. It is incredibly powerful with many options and capabilities. The goal is to get you started with git, not make you into an expert.
 
+# Lecture and Demos
 
-
-# How do you get started?
-## Introduce yourself to git
+## How do you get started?
+### Introduce yourself to git
 When you contribute to a project, you'll want your name on it. The following
 let's git get to know you:
 ```bash
@@ -49,7 +40,7 @@ git config --global user.name "<Your Name here>"
 git config --global user.email "<your_email@domainname.com>"
 ```
 
-## Clone a project
+### Clone a project
 There's a project hosted on github, and you're ready to contribute. It's time to
 clone the project, so you have a copy on your machine to do work on. We're
 assuming you've already read the github\_overview, and have forked your project
@@ -70,7 +61,7 @@ See that everything is in order with:
 git remote -v
 ```
 
-## Contribute to a project
+### Contribute to a project
 After cloning the code from your fork you are free to create and expand upon the
 project. Once you have completed something sizeable, be it a feature, function,
 or documentation, it is time to commit. First off we are going to have to add all
@@ -91,7 +82,7 @@ git push origin master
 After pushing to your fork you will have to go and create a pull request, which is
 explained in the github\_overview.
 
-## Addtional Information
+### Addtional Information
 # Adding
 There are couple tricks that makes adding files to a commit a little bit easier
 if you pay attention to what you are doing. For instance you can add all of the
@@ -106,7 +97,7 @@ add them with:
 git status
 ```
 
-# Committing
+## Committing
 The method taugt above works fine, but there are additional flags and paramters
 that can make for a better commit. First of all if you would like to add a more
 in depth description you can use:
@@ -127,5 +118,10 @@ with your name after it giving the rights to your code to whomever you committed
 it to.
 
 
-# Links
+# Hands-on
+
+JKE: This should basically be the steps above, but with little to no commentary.
+
+
+# Resources
 For more interesting information about git check out the [docs](https://git-scm.com/)

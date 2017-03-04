@@ -19,24 +19,24 @@ This workshop covers...
 * [Lesson 03](./lesson_03_venv_overview.md): An overview of virtual environments, a tool to keep the code from one project separate from other projects
 * [Lesson 04](./lesson_04_github_overview.md): An overview of github, a version control repository
 * [Lesson 05](./lesson_05_git_overview.md): An overview of git, a form of version control software
-* [Lesson 06](./lesson_06_intro_to_the_project.md): An introduction to the sample project
-* [Lesson 07](./lesson_07_project_hands_on.md): The sample project: a way cool calculator -  a hands-on project so the students can practice, repeatedly, all of the skills from A to Z of contributing to a project.
+* [Lesson 06](./lesson_06_intro_to_the_project.md): An introduction to the sample project: a way cool calculator
+* [Lesson 07](./lesson_07_project_hands_on.md): The sample project: a hands-on project so the students can practice, repeatedly, all of the skills from A to Z of contributing to an open source code base.
 
 # What not to expect
 This workshop does not cover...
 
 * How to program
-* Programming in Python
+* Programming in any specific language
 
 This is not a programming workshop, nor is it a Python workshop. It is intended to prep students to contribute to open source projects, it is not intended to teach students how to program.
 
-The example code in this version of the workshop is written in Python, but this project can be run using an example project in another programming language. 
+The example code in this version of the workshop is written in Python, but this project can be run using an example project in another programming language, if desired. 
 
 # Learning objectives
 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
 
-* Be able to install the following software
+* Be able to install the following software: conda, git, etc
 * Be able to create a virtual environment
 * Be able to use git and github to create a copy of an open source project on their own computer
 * Upon editing OR adding content to the project
