@@ -9,7 +9,7 @@
 [ ] clean up the prerequisites 
 [ ] add a link to basic commandline tutorial   
 
-This intro has several key sections. The beginning is a general intro. The next section is intended for instructors to enable them to prep for the workshop. The last section is intended for students to help them prep for the workshop.
+Welcome to the **Introduction to Open Source Workshop**. Participants are expected to walk away with enough knowledge to be able to participate in a typical open source project. The workshop has a mixture of hands-on and lecture/demo, with the focus on hands-on. This introduction document outlines general expectations. It also includes a section for instructors to orient them on running the workshop and a section for students to help them prep for the workshop.
 
 # What to expect
 
@@ -23,7 +23,7 @@ This workshop covers...
 * [Lesson 07](./lesson_07_project_hands_on.md): The sample project: a hands-on project so the students can practice, repeatedly, all of the skills from A to Z of contributing to an open source code base.
 
 # What not to expect
-This workshop does not cover...
+This workshop does *not* cover...
 
 * How to program
 * Programming in any specific language
@@ -39,8 +39,8 @@ Participants should expect to achieve the following learning objectives upon com
 * Be able to install the following software: conda, git, etc
 * Be able to create a virtual environment
 * Be able to use git and github to create a copy of an open source project on their own computer
-* Upon editing OR adding content to the project
-  * incorporate others changes to the project into their own local copy
+* Upon editing, adding, or deleting content in a project:
+  * incorporate any changes to the project, made by others, into their own local copy
   * correct any conflicts between their changes and other's changes
   * successfully issue a request for their contribution to be added to the open source project
 
@@ -58,35 +58,42 @@ In the hands-on practice session, you will be using command-line tools to contri
 
 # For the Instructor
 
-*  This section is intended for the workshop instructor
-*  It outlines what the instructor should do to successfully execute this workshop
+This section is intended for the workshop instructor. It outlines what the instructor should do to successfully execute this workshop.
 
-# Teaching methods
+## Teaching methods
 
 This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following
 
 * Short sections of lecture to elaborate on the what and the why
 * Short demos to show participants what to expect
-* Hands-on practice labs 
+* Hands-on practice labs to enable participants to practice all the skills in a supportive environment
 * Side-saddle mentoring and question answering
 * Pair programming to enable participants to help each other
-* Hands-on project classwork to enable participants to practice all the skills in a supportive environment.
+* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see [this Software Carpentry article](https://swcarpentry.github.io/instructor-training/15-practices/).
 
-# Learning objectives
+## Advance Preparation (prior to the workshop)
 
-* xxx
-* xxx
+* JKE please add some steps on what an instructor should do to get this lesson/the calc material cloned??? so that students can work on a clean copy.  
+* Miscellaneous: 
+  * Secure a location with a projector, tables, chairs, whiteboard, etc.
+  * Advertise the session and process registrations, waitlist, etc.
+  * Plan for food and beverages (the workshop is ~four hours in length)
+  * Acquire supplies: post-it notes, pencils, markers, etc
 
-# Prep
+## Day-of Preparation
 
-* create a copy of the basic course material on github so that students can manipulate the calculator code freely, without cluttering up the master copy
-* walk the students through each session
-* 
-* 
+* Set up the projector, tables, chairs
+* Pick up any food/beverages
+* Distribute post-it notes, pencils to each student
 
+## Post workshop follow-up
+[To be added]
 
 # For the Student
 
-* This section is intended for the workshop student
-* It outlines what the student should do to get the most out of the workshop
+This section is intended for the workshop student. It outlines what the student should do to get the most out of the workshop.
 
+## Learning methods
+
+## Prep
+Each lesson has the lecture content your instructor will cover. It also provides hands-on steps necessary to successfully navigate through the workshop.
