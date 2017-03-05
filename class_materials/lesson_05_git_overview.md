@@ -35,6 +35,7 @@ NOTE: this will be a hands-on overview of git. It is incredibly powerful with ma
 ### Introduce yourself to git
 When you contribute to a project, you'll want your name on it. The following
 let's git get to know you:
+
 ```bash
 git config --global user.name "<Your Name here>"
 git config --global user.email "<your_email@domainname.com>"
@@ -45,6 +46,7 @@ There's a project hosted on github, and you're ready to contribute. It's time to
 clone the project, so you have a copy on your machine to do work on. We're
 assuming you've already read the github\_overview, and have forked your project
 into your own repository. First, use:
+
 ```bash
 git clone git@github.com:<your_username>/<the_project>
 <destination/directory/path>
@@ -124,4 +126,25 @@ JKE: This should basically be the steps above, but with little to no commentary.
 
 
 # Resources
-For more interesting information about git check out the [docs](https://git-scm.com/)
+To learn more about git, try these resources:
+
+## Documentation and Books:
+[Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub
+
+[User Manual](https://git-scm.com/docs/user-manual.html)
+
+
+## Tutorials and videos:
+[Interactive Tutorial](https://try.github.io/levels/1/challenges/1)
+
+[Written Tutorial](https://git-scm.com/docs/gittutorial)
+
+[Videos](https://git-scm.com/videos)
+
+## Reference Manuals:
+[Official Reference Manual](https://git-scm.com/docs)
+
+
+For more interesting information about git check out the [docs](https://git-scm.com/docs)
+
+[]()

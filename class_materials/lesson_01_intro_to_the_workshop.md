@@ -78,6 +78,7 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
   * Secure a location with a projector, tables, chairs, whiteboard, etc.
   * Advertise the session and process registrations, waitlist, etc.
   * Plan for food and beverages (the workshop is ~four hours in length)
+  * Set up an online collaboration where participants can share resources, ideas, etc. Etherpad
   * Acquire supplies: post-it notes, pencils, markers, etc
 
 ## Day-of Preparation
@@ -86,14 +87,24 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 * Pick up any food/beverages
 * Distribute post-it notes, pencils to each student
 
+
 ## Post workshop follow-up
 [To be added]
 
 # For the Student
 
-This section is intended for the workshop student. It outlines what the student should do to get the most out of the workshop.
+This section is intended for the workshop student. It outlines what students should do to get the most out of the workshop.
 
 ## Learning methods
+The workshop is about four hours and covers a lot of material. Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
+* Ask questions. Lots of questions. Take advantage of the fact that you are in a room with mentors to get your questions answered. 
+* Participate
+* Take notes
+* 
+
+
+
+
 
 ## Prep
 Each lesson has the lecture content your instructor will cover. It also provides hands-on steps necessary to successfully navigate through the workshop.
