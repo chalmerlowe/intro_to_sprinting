@@ -12,3 +12,4 @@ Please feel free to add your name to the bottom of this document.
 * [Cory Taylor](https://github.com/ctaylor08)
 * [James Prior](https://github.com/james-prior)
 * [David Lance](https://github.com/DLance96)
+* [Joe Friedrich](https://github.com/joefriedrich)
