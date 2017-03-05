@@ -73,13 +73,24 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 ## Advance Preparation (prior to the workshop)
 
-* JKE please add some steps on what an instructor should do to get this lesson/the calc material cloned??? so that students can work on a clean copy.  
-* Miscellaneous: 
-  * Secure a location with a projector, tables, chairs, whiteboard, etc.
-  * Advertise the session and process registrations, waitlist, etc.
-  * Plan for food and beverages (the workshop is ~four hours in length)
-  * Set up an online collaboration where participants can share resources, ideas, etc. Etherpad
-  * Acquire supplies: post-it notes, pencils, markers, etc
+##### Fork and clone the repository we will be using for the workshop:
+
+* Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [seawolf42/rpn-calc-workshop-2017-03-11](https://github.com/seawolf42/rpn-calc-workshop-2017-03-11)
+* Click on "Fork" in the upper-right corner (<img src="http://timhettler.github.io/sassconf-2015/slides/assets/svg/fork.svg" width=12>), and follow the instructions to create a copy of the repository in your account
+* In the newly-forked copy, click on "Clone or download" about half-way down the page on the right
+* In the dialog that pops up, click the "copy to keyboard" icon (<img src="https://clipboardjs.com/assets/images/clippy.svg" width=12>) on the right side
+* Open terminal and navigate to your development directory
+* Type `git clone <paste the contents of the clipboard here>`
+
+**Note:** If you run into difficulty, read [Fork A Repo](https://help.github.com/articles/fork-a-repo/) and [Cloning a repository](https://help.github.com/articles/cloning-a-repository/) in the GitHub documentation
+
+##### Miscellaneous:
+
+* Secure a location with a projector, tables, chairs, whiteboard, etc.
+* Advertise the session and process registrations, waitlist, etc.
+* Plan for food and beverages (the workshop is ~four hours in length)
+* Set up an online collaboration where participants can share resources, ideas, etc. Etherpad
+* Acquire supplies: post-it notes, pencils, markers, etc
 
 ## Day-of Preparation
 
@@ -97,6 +108,7 @@ This section is intended for the workshop student. It outlines what students sho
 
 ## Learning methods
 The workshop is about four hours and covers a lot of material. Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
+
 * Ask questions. Lots of questions. Take advantage of the fact that you are in a room with mentors to get your questions answered. 
 * Participate
 * Take notes
