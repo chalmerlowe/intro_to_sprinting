@@ -239,3 +239,4 @@ To learn more about git, try these resources:
 ## Reference Manuals:
 [Official Reference Manual](https://git-scm.com/docs)
 
+[Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
