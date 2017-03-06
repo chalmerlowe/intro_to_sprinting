@@ -118,3 +118,4 @@ rem typical windows
 
 
 
+[conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf)
