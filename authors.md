@@ -13,3 +13,4 @@ Please feel free to add your name to the bottom of this document.
 * [James Prior](https://github.com/james-prior)
 * [David Lance](https://github.com/DLance96)
 * [Joe Friedrich](https://github.com/joefriedrich)
+* [Jeffrey Eliasen](https://github.com/seawolf42)
