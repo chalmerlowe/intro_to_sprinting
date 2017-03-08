@@ -120,3 +120,7 @@ The workshop is about four hours and covers a lot of material. Anything you can 
 
 ## Prep
 Each lesson has the lecture content your instructor will cover. It also provides hands-on steps necessary to successfully navigate through the workshop.
+
+|||
+|:--|--:|
+||[Next Lesson: Tool installation >>>](./lesson_02_tool_installation.md)|
