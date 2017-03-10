@@ -1,6 +1,6 @@
 # Using Git
 
-# Introduction: What is git?
+## What is git?
 Git is a version control system - it enables you to control the various versions of projects, such as open source projects.
 
 
