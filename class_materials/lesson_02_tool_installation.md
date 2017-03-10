@@ -78,12 +78,14 @@ In a command prompt type `git config`. If git is installed properly, you will se
 ## Miniconda
 In a command prompt type `conda list`. If conda is installed properly, you will see a summary of the packages installed by conda.
 
-# Resources: Where can I learn more?
+# Resources
+
+For more information, try these resources:
 
 [Using conda](http://conda.pydata.org/docs/using/index.html): A tutorial on how to use conda
 
 [conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf): A cheatsheet of the most common conda commands
 
-|||
-|:--|--:|
 |[<<< Previous Lesson: Intro to the workshop](./lesson_01_intro_to_the_workshop.md)|[Next Lesson: Virtual Environment Overview >>>](./lesson_03_venv_overview.md)|
+|:--|--:|
+|||

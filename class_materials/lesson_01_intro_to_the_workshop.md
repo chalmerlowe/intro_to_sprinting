@@ -112,15 +112,12 @@ The workshop is about four hours and covers a lot of material. Anything you can 
 * Ask questions. Lots of questions. Take advantage of the fact that you are in a room with mentors to get your questions answered. 
 * Participate
 * Take notes
-* 
-
-
-
-
 
 ## Prep
 Each lesson has the lecture content your instructor will cover. It also provides hands-on steps necessary to successfully navigate through the workshop.
 
-|||
-|:--|--:|
+[To be added]
+
 ||[Next Lesson: Tool installation >>>](./lesson_02_tool_installation.md)|
+|:--|--:|
+|||

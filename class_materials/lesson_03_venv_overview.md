@@ -21,7 +21,7 @@ As noted above, anytime you have more than one project and there is a possibilit
 
 ## How do you create a virtual environment?
 
-There a several programs or libraries that can generate virtualenvs (see the [Resources](#resources:-where-can-i-learn-more?) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
+There a several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
 
 Presuming you have `conda` installed, then follow these steps to create your first virtual environment.
 
@@ -89,7 +89,9 @@ rem typical windows
 
 # HANDS-ON
 
-# Resources: Where can I learn more?
+# Resources
+
+For more information, try these resources:
 
 [Conda Docs](http://conda.pydata.org/docs/get-started.html)
 
