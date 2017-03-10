@@ -21,26 +21,24 @@ As noted above, anytime you have more than one project and there is a possibilit
 
 ## How do you create a virtual environment?
 
-There a several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
+There are several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
 
-Presuming you have `conda` installed, then follow these steps to create your first virtual environment.
-
-
-
-
-
-
-
-
-Other tools include `virtualenv` and `venv` The exact method may vary depending on your system, the tool you choose to use and your version of Python. See the Resources section for links to resources that can provide additional guidance. But for our purposes, we will use a tool package created by Continuum Analytics called miniconda ([download here](https://conda.pydata.org/miniconda.html)).
-
-Miniconda allows you to make virtual enviroments as well as provides easy access to all the benefits you get from the heavyweight tool Anaconda.
-
-Once you have miniconda (or Anaconda) installed, the general workflow for creating a virtual environment called 'mycalc' for our calculator program goes something like this:
+Presuming you have `conda` installed, the following steps will enable you to create your first virtual environment.
 
 ```python
-conda create -n mycalc python=3
+$ conda create -n mycalc python=3
 ```
+`conda` runs the conda program.
+
+`create` tells it to create a virtualenv
+
+`-n` identifies the name of the virtualenv, in this case, `mycalc`
+
+`python=3` tells conda that you want to install Python version 3 in this virtualenv
+
+NOTE: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python (sorta [1](#footnotes)).
+
+
 
 ## How do you populate it with the right software versions and libraries?
 
@@ -96,6 +94,13 @@ For more information, try these resources:
 [Conda Docs](http://conda.pydata.org/docs/get-started.html)
 
 
+
+Other tools include `virtualenv` and `venv` The exact method may vary depending on your system, the tool you choose to use and your version of Python. 
+
+
+
 |[<<< Previous Lesson: Tool Installation](./lesson_02_tool_installation.md)|[Next Lesson: Github Overview >>>](./lesson_04_github_overview.md)|
 |:--|--:|
-|||
+
+# Footnotes
+[1]: the maintainers of conda put together packages for the most recent versions of Python as they get released, but sometimes there may be a short lag.
