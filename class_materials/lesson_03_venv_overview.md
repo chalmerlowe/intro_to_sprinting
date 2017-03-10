@@ -103,4 +103,5 @@ Other tools include `virtualenv` and `venv` The exact method may vary depending 
 |:--|--:|
 
 # Footnotes
+
 [1]: the maintainers of conda put together packages for the most recent versions of Python as they get released, but sometimes there may be a short lag.
