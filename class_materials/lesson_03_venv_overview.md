@@ -36,7 +36,7 @@ $ conda create -n mycalc python=3
 
 `python=3` tells conda that you want to install Python version 3 in this virtualenv
 
-NOTE: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python (sorta [1](#footnotes)).
+NOTE: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta, [see footnotes](#footnotes).
 
 
 
