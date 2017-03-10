@@ -26,78 +26,183 @@ There are several programs or libraries that can generate virtualenvs (see the [
 Presuming you have `conda` installed, the following steps will enable you to create your first virtual environment.
 
 ```python
-$ conda create -n mycalc python=3
+$ conda create -n mytest python=3
 ```
 `conda` runs the conda program.
 
 `create` tells it to create a virtualenv
 
-`-n` identifies the name of the virtualenv, in this case, `mycalc`
+`-n` identifies the name of the virtualenv, in this case, `mytest`
 
 `python=3` tells conda that you want to install Python version 3 in this virtualenv
 
-NOTE: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta, [see footnotes](#footnotes).
+**NOTE**: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta... [see footnote 1](#footnotes). If you need to select a specific minor version of python, use the following syntax:
 
+`python=3.2`
 
+Conda will prepare to install python and any dependencies that Python relies upon. It will display output similar to the following. 
 
-## How do you populate it with the right software versions and libraries?
+    MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
+    Fetching package metadata .......
+    Solving package specifications: ..........
+    
+    Package plan for installation in environment /Users/username/miniconda3/envs/mytest:
+    
+    The following packages will be downloaded:
+    
+        package                    |            build
+        ---------------------------|-----------------
+        openssl-1.0.2k             |                1         3.0 MB
+        python-3.6.0               |                0        11.7 MB
+        setuptools-27.2.0          |           py36_0         523 KB
+        wheel-0.29.0               |           py36_0          87 KB
+        pip-9.0.1                  |           py36_1         1.7 MB
+        ------------------------------------------------------------
+                                               Total:        17.0 MB
+    
+    The following NEW packages will be INSTALLED:
+    
+        openssl:    1.0.2k-1
+        pip:        9.0.1-py36_1
+        python:     3.6.0-0
+        readline:   6.2-2
+        setuptools: 27.2.0-py36_0
+        sqlite:     3.13.0-0
+        tk:         8.5.18-0
+        wheel:      0.29.0-py36_0
+        xz:         5.2.2-1
+        zlib:       1.2.8-3
+    
+    Proceed ([y]/n)?
 
-Once you have created a virtualenv you need to activate it AND then populate it with software.
+To finish the creation of the virtualenv and install the software, press:
 
-### Activating your virtualenv
+`y`
 
-#### Linux\Mac OSX version
+## Activate your virtualenv
+
+Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
+
+* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's bin/ directory. 
+* It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
+    * `(mytest) $` OR 
+    * `(mytest) C:\>`
+
+To activate your virtualenv, run the appropriate command for your operating system:
+
+### Linux\Mac OSX version
 
 ```bash
-$ source activate mycalc
+$ source activate mytest
 ```
-
-#### Windows version
+### Windows version
 
 ```bat
-rem typical windows
-C:\> activate mycalc
+C:\> activate mytest
 ```
 
-## adding software
+## Adding software to your virtualenv 
 
-To add software to the virtualenv, you can use a tool call pip, which comes by default in modern versions of Python. For example, to install IPython, you can use the following command:
+To add more software to the virtualenv, you can use `conda` to install the software. The maintainers of conda provide access to many Python libraries, but not all of them. If conda cannot install a particular library that you need, you can generally use `pip` to install it instead (covering pip is outside the scope of this workshop).
+
+For example, to install IPython, you can use the following `conda` command:
 
 ```
-pip install ipython
+conda install ipython
 ```
 
-## How do you get out of the virtual environment when you are done?
+Conda will prepare to install IPython and any dependencies that IPython relies upon. It will display output similar to the following (truncated to save space).
+
+
+    Fetching package metadata .......
+    Solving package specifications: ..........
+    
+    Package plan for installation in environment /Users/chalmerlowe/miniconda3:
+    
+    The following packages will be downloaded:
+    
+        package                    |            build
+        ---------------------------|-----------------
+        conda-env-2.6.0            |                0          601 B
+        ...
+        ipython-5.3.0              |           py35_0        1021 KB
+        conda-4.3.14               |           py35_0         505 KB
+        ------------------------------------------------------------
+                                               Total:         3.8 MB
+    
+    The following NEW packages will be INSTALLED:
+    
+        appnope:          0.1.0-py35_0
+        ...
+        wcwidth:          0.1.7-py35_0
+    
+    The following packages will be UPDATED:
+    
+        conda:            4.1.11-py35_0 --> 4.3.14-py35_0
+        conda-env:        2.5.2-py35_0  --> 2.6.0-0
+        requests:         2.10.0-py35_0 --> 2.13.0-py35_0
+    
+    Proceed ([y]/n)?
+
+To finish the installation of IPython and its dependencies, press:
+
+`y`
+
+Multiple packages can be installed at the same time, by separating the package names with spaces:
+
+`conda install click flask pandas`
+
+## Leaving the virtualenv when you are done
 
 When you are done working in your virtualenv, you can deactivate it using the following command:
 
 ### Linux\Mac OSX version
 
 ```bash
-# typical linux
-(mycalc) $ deactivate
+(mytest) $ source deactivate
 ```
 
 ### Windows version
 
 ```bat
-rem typical windows
-(mycalc) C:\> deactivate
+(mytest) C:\> deactivate
 ```
 
-# HANDS-ON
+# Hands-on
+The following steps will set up your system in preparation for the remaining lessons:
+
+## Linux\Mac OSX version
+
+`conda create -n rpncalc python=3`
+
+`source activate rpncalc`
+
+`conda install ipython`
+
+## Windows version
+
+`conda create -n rpncalc python=3`
+
+`activate rpncalc`
+
+`conda install ipython`
+
 
 # Resources
 
 For more information, try these resources:
 
-[Conda Docs](http://conda.pydata.org/docs/get-started.html)
+## Conda
+[Conda Docs](http://conda.pydata.org/docs/get-started.html): A getting started guide on how to use conda
 
+## Other tools
 
+Other tools include:
 
-Other tools include `virtualenv` and `venv` The exact method may vary depending on your system, the tool you choose to use and your version of Python. 
+* `virtualenv` AND 
+* `venv` 
 
-
+Using either of these tools should be very similar to using conda, but there may be nuances depending on your system, the tool you choose to use and your version of Python. 
 
 |[<<< Previous Lesson: Tool Installation](./lesson_02_tool_installation.md)|[Next Lesson: Github Overview >>>](./lesson_04_github_overview.md)|
 |:--|--:|
