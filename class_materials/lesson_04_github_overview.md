@@ -33,7 +33,7 @@ A **fork** of a repository is a copy, hosted under your account, of a repository
 
 To practice these steps, we will have you fork these instructions to your local machine. Navigate to Chalmer Lowe's Introduction to Sprinting repo @ [https://github.com/chalmerlowe/intro_to_sprinting/](https://github.com/chalmerlowe/intro_to_sprinting/).
 
-1. In the upper right hand corner, you'll see a **Fork** button:
+1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
 2. Click the Fork button to to create a fork under your account
 3. **NOTE**:  As mentioned, the fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro_to_sprinting:"
@@ -75,7 +75,7 @@ For the hands-on portion of the Calculator project, you will need to fork the ca
 3. The next step: Cloning the repo to your local computer, will be covered in the next lesson [Git Overview](./lesson_05_git_overview.md).
 
 Once you have made changes to your local code:
-
+        
 1. Push those changes back up to your github account (Details on how to do this will be covered in the next lesson: [Git Overview](./lesson_05_git_overview.md))
 2. Return to your github account and issue a pull request, as described in the instructions above.
 
