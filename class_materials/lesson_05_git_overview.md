@@ -235,16 +235,14 @@ The history created by the above steps would look something like this:
 
 # Hands-on
 
-Here you will create a local repository for the calculator project that we will be working on later.
+Here you will create a repo locally and make some changes.
 
 ##### Create a repo locally
 
     cd ~
-    mkdir rpncalc
-    cd rpncalc
-    
+    mkdir my-project-name
+    cd my-project-name
     git init
-    git clone https://github.com/chalmerlowe/rpn_project_20170311
 
 ##### Make a branch for your changes
 
