@@ -70,7 +70,7 @@ Once your changes have been pushed to your own Github repo, you will need to sub
 
 For the hands-on portion of the Calculator project, you will need to fork the calculator repo.
 
-1. Navigate to this github repo: [RPN Calculator](https://github.com/chalmerlowe/rpn_project_20170311)
+1. Navigate to this github repo: [RPN Calculator](https://github.com/seawolf42/rpn-calc-workshop-2017-03-11)
 2. Fork the repo to your github account as described in the instructions above.
 3. The next step: Cloning the repo to your local computer, will be covered in the next lesson [Git Overview](./lesson_05_git_overview.md).
 
