@@ -296,5 +296,5 @@ To learn more about git, try these resources:
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) 
 
-|[<<< Previous Lesson: Virtual Environments](./lesson_03_venv_overview.md)|[Next Lesson: Git Overview >>>](./lesson_05_git_overview.md)|
+|[<<< Previous Lesson: GitHub Overview](./lesson_04_github_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_06_intro_to_the_project.md)|
 |:--|--:|
