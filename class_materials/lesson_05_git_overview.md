@@ -49,7 +49,7 @@ Now, you're ready to contribute. It's time to clone the project, so you have a c
 Enter the following on the command line:
 
 ```bash
-git clone git@github.com:<your_username>/<the_project> <destination/directory/path>
+git clone https://github.com/<your_username>/<the_project> <destination/directory/path>
 ```
 
 This command creates a folder, which should be full of project files. Git will automatically set up `origin` as a **remote** repository, which points to **your** fork of the repository. 
@@ -148,13 +148,19 @@ There are couple tricks that makes adding files to a commit a little bit easier 
 git add *
 ```
 
+You can add all changed files from the current directory using:
+
+```bash
+git add .
+```
+
 **NOTE**: This can lead to problems if you add files that aren't related to the commit. To protect against this you can view which files have pending changes before you add them with:
 
 ```bash
 git status
 ```
 
-## Committing
+### Committing
 
 The method taught above works fine, but there are additional flags and parameters that can make for a better commit. First of all, if you would like to add a more in depth description you can use:
 
@@ -171,72 +177,84 @@ Another feature related to that, which ties in with open source sprinting is if 
 git commit -s
 ```
 
-It will bring of the same as before but with a `Signed off by:` section 
-with your name after it giving the rights to your code to whomever you committed
-it to.
+It will bring of the same command line text editor as before but with a `Signed off by:` section 
+listing your name, giving the rights to your code to whomever you committed it to.
 
 
 ### Pushing
 
-The `commit` command saves your changes locally, but they are not yet changed on the server. To push your changes up to GitHub, you use the `git push` command:
+The `commit` command notes your changes locally, but they are not yet changed on the **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
 
 ```bash
-git push origin master
+git push <repository_name> <branch_name>
 ```
 
-This can be condensed to `git push` if you are pushing to `origin` (the conventional name for your primary repo) on the current branch (in this case `master`).
+The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is by default, called `master`. 
 
+This command can be condensed to simply  `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
 
 ### Branching and Merging
 
-With larger projects, it is very common to *branch* and *merge* when you make changes. You've seen references to `master` above, this is the name used by convention for the default branch. A typical enhancement would be done by:
+With larger projects, it is very common to create **branches** and then **merge** the branch into the main project when you make changes. You've seen references to `master` above, the default branch. A typical enhancement would be done by:
 
-1. branching from master (so you have a separate workspace to work in)
-1. doing your work as a series of `git add`, `git commit` cycles as described above
-1. merging your changes back to master
+1. creating a branch (so you have a separate workspace to work in) using `git checkout`
+1. doing your work as a series of `git add`, `git commit` cycles to the branch, as described above
+1. merging your changes back into master
 
-By following this pattern, you keep your work isolated from the work of others until it is ready for others to see.
+By following this pattern, you keep your work isolated from the rest of the project until it is ready to be released. Examples include:
+* creating new features
+* experimenting with changes to the code
+* fixing bugs
 
-A typical iteration of creating a feature would look like this:
+Branches should be small and self-contained so that they can be merged. Sprawling and convoluted changes to code can make it nearly impossible to merge. In addition, it is customary for branches to be focused on specific problems: i.e. one bug fix per branch OR one new feature per branch.
+
+A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
 
 ```bash
-git checkout -b my-feature-name  # this creates the branch
+git checkout -b my-feature-name         # "-b" creates a new branch named "my-feature-branch"
 # <do some work in my editor or IDE>
+
 git add .
 git commit -m 'my first bit of work'
 # <do more work in my editor or IDE>
+
 git add .
 git commit -m 'my second bit of work'
-git checkout master
+
+git checkout master                      # this checks out the master branch              
 git merge my-feature-name
 git push origin master
 ```
 
+Let's imagine that you are working on a project with multiple commits to the master branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the master branch during that same timeframe.
+
 The history created by the above steps would look something like this:
 
 <img src="http://sentheon.com/images/27052016_branches.png">
-
-`iss53` is the name of the branch being worked on, `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else during that same timeframe.
+**Source**: http://sentheon.com/images/27052016_branches.png
 
 # Hands-on
 
-Here you will create a repo locally and make some changes.
+Here you will create a local repository for the calculator project that we will be working on later.
 
 ##### Create a repo locally
 
     cd ~
-    mkdir my-project-name
+    mkdir rpncalc
+    cd rpncalc
+    
     git init
+    git clone https://github.com/chalmerlowe/rpn_project_20170311
 
 ##### Make a branch for your changes
 
-    git checkout -b feature/my-change-name
+**Note:** replace "my_change_name" with the name of the feature you are adding.
 
-**Note:** replace "my-change-name" with the name of the feature you are adding.
+    git checkout -b feature/my_change_name
 
 ##### Make your changes
 
-Open your favorite editor or IDE and make the changes desired.
+Open your favorite editor or IDE and make the changes desired. When you are finished making changes, proceed with the remaining steps.
 
 ##### Commit your changes
 
@@ -246,11 +264,11 @@ Open your favorite editor or IDE and make the changes desired.
 ##### Merge your changes into the master branch
 
     git checkout master
-    git merge feature/my-change-name
+    git merge feature/my_change_name
 
 ##### Delete your feature branch
 
-    git branch -d feature/my-change-name
+    git branch -d feature/my_change_name
 
 
 # Resources

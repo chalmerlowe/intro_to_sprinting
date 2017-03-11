@@ -24,3 +24,8 @@ OR
 # Do it all over again...
 
 # And again...
+
+REVISE:
+
+|[<<< Previous Lesson: Intro to the Project](./lesson_06_intro_to_the_project.md)|
+|:--|
