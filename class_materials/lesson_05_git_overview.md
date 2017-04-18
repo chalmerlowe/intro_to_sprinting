@@ -235,16 +235,14 @@ The history created by the above steps would look something like this:
 
 # Hands-on
 
-Here you will create a local repository for the calculator project that we will be working on later.
+Here you will create a repo locally and make some changes.
 
 ##### Create a repo locally
 
     cd ~
-    mkdir rpncalc
-    cd rpncalc
-    
+    mkdir my-project-name
+    cd my-project-name
     git init
-    git clone https://github.com/chalmerlowe/rpn_project_20170311
 
 ##### Make a branch for your changes
 
@@ -296,5 +294,5 @@ To learn more about git, try these resources:
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) 
 
-|[<<< Previous Lesson: Virtual Environments](./lesson_03_venv_overview.md)|[Next Lesson: Git Overview >>>](./lesson_05_git_overview.md)|
+|[<<< Previous Lesson: GitHub Overview](./lesson_04_github_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_06_intro_to_the_project.md)|
 |:--|--:|

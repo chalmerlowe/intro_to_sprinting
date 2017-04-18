@@ -20,7 +20,6 @@ This workshop covers...
 * [Lesson 04](./lesson_04_github_overview.md): An overview of github, a version control repository
 * [Lesson 05](./lesson_05_git_overview.md): An overview of git, a form of version control software
 * [Lesson 06](./lesson_06_intro_to_the_project.md): An introduction to the sample project: a way cool calculator
-* [Lesson 07](./lesson_07_project_hands_on.md): The sample project: a hands-on project so the students can practice, repeatedly, all of the skills from A to Z of contributing to an open source code base.
 
 # What not to expect
 This workshop does *not* cover...
