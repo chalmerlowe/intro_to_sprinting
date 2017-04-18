@@ -2,13 +2,6 @@
 
 ## TODOs:
 
-[ ] add internal links to sections within this doc  
-[ ] add external links to sections outside this doc  
-[ ] add external links to outside resources  
-[ ] rewrite this draft: = )  
-[ ] clean up the prerequisites 
-[ ] add a link to basic commandline tutorial   
-
 Welcome to the **Introduction to Open Source Workshop**. Participants are expected to walk away with enough knowledge to be able to participate in a typical open source project. The workshop has a mixture of hands-on and lecture/demo, with the focus on hands-on. This introduction document outlines general expectations. It also includes a section for instructors to orient them on running the workshop and a section for students to help them prep for the workshop.
 
 # What to expect
