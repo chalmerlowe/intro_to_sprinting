@@ -67,14 +67,9 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 ##### Fork and clone the repository we will be using for the workshop:
 
-* Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [seawolf42/rpn-calc-workshop-2017-03-11](https://github.com/seawolf42/rpn-calc-workshop-2017-03-11)
-* Click on "Fork" in the upper-right corner (<img src="http://timhettler.github.io/sassconf-2015/slides/assets/svg/fork.svg" width=12>), and follow the instructions to create a copy of the repository in your account
-* In the newly-forked copy, click on "Clone or download" about half-way down the page on the right
-* In the dialog that pops up, click the "copy to keyboard" icon (<img src="https://clipboardjs.com/assets/images/clippy.svg" width=12>) on the right side
-* Open terminal and navigate to your development directory
-* Type `git clone <paste the contents of the clipboard here>`
-
-**Note:** If you run into difficulty, read [Fork A Repo](https://help.github.com/articles/fork-a-repo/) and [Cloning a repository](https://help.github.com/articles/cloning-a-repository/) in the GitHub documentation
+* Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [seawolf42/python-rpncalc](https://github.com/seawolf42/python-rpncalc)
+* Duplicate the project into a new project of your own (**do not** fork, you want a completely separate copy of the project)
+* For more information specific to the `rpncalc` project, see the [Instructor ReadMe](https://github.com/seawolf42/python-rpncalc/blob/master/INTRO_TO_SPRINTING_USAGE.md)
 
 ##### Miscellaneous:
 
