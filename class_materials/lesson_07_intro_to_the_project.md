@@ -60,6 +60,69 @@ You are welcome to add to the project in any way that you would like:
 
 As each of you add functions, you will need to confirm that you have the latest and greatest code updates from your fellow collaborators.
 
+## Suggested functions
+
+### existing
+* + (add)
+* / (dividie)
+
+### additional possibilities
+
+#### easier
+* multiply = (a * b)
+* divide  = (a / b)
+* zeros = (a) <- add that many zeros to the stack
+* mod = (a, b) <- modulo a % b 
+
+#### mediumer
+
+* lt = (a , b)  <- returns 1 if a is less than b else 0
+* gt = (a , b)  <- returns 1 if a is greater than b else 0
+* eq = (a == b) <- returns 1 if a is exactly equal to b else 0
+
+* min = (a,b) 
+* max = (a,b) 
+* sum = (a,b) 
+
+* pi = () <- return pi to some number of decimal places
+
+* fact! = (a) a factorial 
+
+* hypotenuse = (a,b)  <- hypotenuse of a triangle given lengths a and b (i.e. h^2 = a^2 + b^2)
+
+* deg_to_rad ()
+* rad_to_deg ()
+
+* cel_to_far ()
+* far_to_cel ()
+
+* pounds_to_kg ()
+* kg_to_pounds ()
+
+* mph_to_kph ()
+* kph_to_mph ()
+
+#### harder
+
+* fib = (length) <- return Fibonacci sequence of given length
+
+* min_of_n = (n) 
+* max_of_n = (n) 
+* sum_of_n = (n) 
+
+* exp = (a, b) <- exponetial function a^b
+* log = (a) <- natural logrithm of a
+* log10 = (a) <- log base 10 of a
+
+#### expert
+* log_fancy = (a,b) <- log base b of a
+
+* (VERY RISKY) hidden_message = (string, depth)  <-- (depth must be at least 5 elements in, to 'be hidden', and not break code that expects number)
+
+
+
+
+
 ## Choose an issue
 
 * Select an issue in the project tracker<br> 
