@@ -18,7 +18,7 @@ Through participating in this session, attendees will be able to:
 
 If you **DO NOT** have a Github account, you will need to make one:
 
-1. Open your browser and navigate to [The GitHub Home Page](https://github.com/)
+1. Open your browser and navigate to the [GitHub Home Page](https://github.com/)
 2. Fill out the form on the home page:
    * Pick a username (you will need a unique username)
    * Enter your email address
@@ -31,12 +31,12 @@ If you **ALREADY** have a Github account, log into your regular account.
 
 A **fork** of a repository is a copy, hosted under your account, of a repository created by someone else. You then have complete control to modify and change the code to suit your needs (within the limits of copyright/the license on the project). The fork is tied to the original repository (repo) and you can issue requests to the original owner to incorporate your changes into the original project. This process is called a **pull request**.
 
-To practice these steps, we will have you fork these instructions to your local machine. Navigate to Chalmer Lowe's Introduction to Sprinting repo @ [https://github.com/chalmerlowe/intro_to_sprinting/](https://github.com/chalmerlowe/intro_to_sprinting/).
+To practice these steps, we will have you fork these instructions to your local machine. Navigate to [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
 
 1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
 2. Click the Fork button to to create a fork under your account
-3. **NOTE**:  As mentioned, the fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro_to_sprinting:"<br>
+3. **NOTE**:  As mentioned, the fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro\_to\_sprinting\_codeless\_project:"<br>
 ![Fork link to original repo](images/fork-repo-link.png)
 4. The next step will be to clone the repo from your online Github account to your local computer. That step will be covered in depth in the next lesson: [Git Overview](./lesson_05_git_overview.md)
 
