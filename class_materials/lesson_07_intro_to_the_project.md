@@ -60,6 +60,67 @@ You are welcome to add to the project in any way that you would like:
 
 As each of you add functions, you will need to confirm that you have the latest and greatest code updates from your fellow collaborators.
 
+## Suggested functions
+
+### existing
+* add = (a, b)
+* divide = (a, b)
+
+### additional possibilities
+
+#### easier
+* subtract  = (a, b) <- returns a - b
+* multiply = (a, b)  <- returns a * b
+* zeros = (a) <- add that many zeros to the stack
+* modulo = (a, b) <- return a % b (easy to implement but the concept might be new..)
+
+#### mediumer
+
+* lt = (a, b) <- returns 1 if a is less than b else 0
+* gt = (a, b) <- returns 1 if a is greater than b else 0
+* eq = (a, b) <- returns 1 if a is exactly equal to b else 0
+
+* min = (a, b) <- return smallest value, i.e. either a or b
+* max = (a, b) <- return largest value, i.e. either a or b
+
+* sum = (a, b) <- return total of a and b
+
+* pi = () <- return pi to, say, 6 decimal places
+
+* fact! = (a) <- return factorial of a
+
+* hypotenuse = (a,b)  <- hypotenuse of a triangle given lengths a and b (i.e. h^2 = a^2 + b^2)
+
+* deg_to_rad (a) <- convert degrees to radians
+* rad_to_deg (a) <- convert radians to degrees
+
+* cel_to_far (a) <- convert celsius to farenheit
+* far_to_cel (a) <- convert farenheit to celsius
+
+* pounds_to_kg (a) <- convert pounds to kilograms
+* kg_to_pounds (a) <- convert kilograms to pounds
+
+* mph_to_kph (a) <- convert miles-per-hour to kilometers-per-hour
+* kph_to_mph (a) <- convert kilometers-per-hour to miles-per-hour
+
+#### harder
+
+* fib = (length) <- return Fibonacci sequence of given length
+
+* min_of_n = (n) <- return minumum number in last n elements on stack
+* max_of_n = (n) <- return maximum number in last n elements on stack
+* sum_of_n = (n) <- return sum of numbers in last n elements on stack
+
+* exp = (a, b) <- exponetial function a^b
+* log = (a) <- natural logrithm of a
+* log10 = (a) <- log base 10 of a
+
+#### expert
+* log_fancy = (a,b) <- log base b of a
+
+* (VERY RISKY) hidden_message = (string, depth)  <-- (depth must be at least 5 elements in, to 'be hidden', and not break code that expects number)
+
+
 ## Choose an issue
 
 * Select an issue in the project tracker<br> 
