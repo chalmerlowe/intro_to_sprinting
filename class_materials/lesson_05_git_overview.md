@@ -6,7 +6,7 @@ Git is a version control system - it enables you to control the various versions
 Version control systems, along with managing changes to projects, help ensure every contributor is working on the same codebase.
 
 Git is a tool that makes it easy to contribute to projects that other people are
-working on. The project code lives in a central **remote repository**, traditionally called 
+working on. The project code lives in a central **remote repository**, traditionally called
 `origin`. Programmers copy the project into their own **local repository**,
 where they can work on adding features and squashing bugs. When finished, they
 push the code back into `origin`, for other contributers to see and pull from.
@@ -20,7 +20,7 @@ Through participating in this session, attendees will be able to:
     * get a copy of an open source project
     * save modifications/additions/deletions to the project
     * submit those changes to the project
-    * incorporate other's changes to the project 
+    * incorporate other's changes to the project
     * verify the status of the project repository
     * perform basic troubleshooting
 
@@ -44,7 +44,7 @@ git config --global user.email "<your_email@domainname.com>"
 ### Clone a project
 We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked Chalmer's Intro to Sprinting repo @ [https://github.com/chalmerlowe/intro_to_sprinting/](https://github.com/chalmerlowe/intro_to_sprinting/) into your own Github repository. IF NOT, go do that now.
 
-Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on. 
+Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on.
 
 Enter the following on the command line:
 
@@ -52,7 +52,7 @@ Enter the following on the command line:
 git clone https://github.com/<your_username>/<the_project> <destination/directory/path>
 ```
 
-This command creates a folder, which should be full of project files. Git will automatically set up `origin` as a **remote** repository, which points to **your** fork of the repository. 
+This command creates a folder, which should be full of project files. Git will automatically set up `origin` as a **remote** repository, which points to **your** fork of the repository.
 
 Next we inform git of where to find the upstream repository (the repo that your fork was forked from) using the following command:
 
@@ -103,39 +103,39 @@ Below, we will see how you move files from category to category.
 
 After cloning the code from your fork you are free to create and expand upon the
 project. Once you have completed something sizeable, be it a feature, function,
-or documentation, it is time to commit. 
+or documentation, it is time to commit.
 
 For now, let's edit the `class_materials/student_names.txt` file, by adding your name to the line with your student number. (The instructor will provide you with a student number).
 
 1. Change directories in your **local directory** until you are in the `class_materials` folder.
 2. Edit the `student_names.txt` file, adding your name, as described above.
 3. **Add** the `student_names.txt` file to the git **staging area**.
-        
+
     ```bash
     git add student_names.txt
     ```
-        
+
     If you need to add more than one file to the staging area, simply separate the filenames with a space:
-        
+
     ```bash
     git add <file1> <file2> ...
     ```
-        
+
 4. After adding the files you changed it is time to **commit** them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
-    
+
     ```bash
     git commit -m "Description of changes"
     ```
     **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
-    
+
 5. Lastly, you are going to have to send the commit to Github or another Source Code Manager with:
-    
+
     ```bash
     git push origin master
     ```
 
     In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
-    
+
 After pushing to origin you will have to go and create a pull request, which is explained in the [github\_overview](./lesson_04_github_overview.md).
 
 ## Common Operations
@@ -177,7 +177,7 @@ Another feature related to that, which ties in with open source sprinting is if 
 git commit -s
 ```
 
-It will bring of the same command line text editor as before but with a `Signed off by:` section 
+It will bring of the same command line text editor as before but with a `Signed off by:` section
 listing your name, giving the rights to your code to whomever you committed it to.
 
 
@@ -189,7 +189,7 @@ The `commit` command notes your changes locally, but they are not yet changed on
 git push <repository_name> <branch_name>
 ```
 
-The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is by default, called `master`. 
+The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is by default, called `master`.
 
 This command can be condensed to simply  `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
 
@@ -292,7 +292,7 @@ To learn more about git, try these resources:
 ## Reference Manuals:
 [Official Reference Manual](https://git-scm.com/docs)
 
-[Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) 
+[Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-|[<<< Previous Lesson: GitHub Overview](./lesson_04_github_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_06_intro_to_the_project.md)|
+|[<<< Previous Lesson: GitHub Overview](./lesson_04_github_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_06_github_part_deux.md)|
 |:--|--:|
