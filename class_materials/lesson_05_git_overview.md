@@ -1,6 +1,7 @@
 # Using Git
 
 ## What is git?
+
 Git is a version control system - it enables you to control the various versions of projects, such as open source projects.
 
 Version control systems, along with managing changes to projects, help ensure every contributor is working on the same codebase.
@@ -12,6 +13,7 @@ where they can work on adding features and squashing bugs. When finished, they
 push the code back into `origin`, for other contributers to see and pull from.
 
 # Objectives
+
 Through participating in this session, attendees will be able to:
 
 * Understand why git is used in an open source project
@@ -28,9 +30,23 @@ Through participating in this session, attendees will be able to:
 
 # Lecture and Demos
 
-## How do you get started?
+## Introduce yourself to the command line
 
-### Introduce yourself to git
+`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it.  
+
+If you need a primer for the command line, check out the [free course on Codecademy](https://www.codecademy.com/learn/learn-the-command-line). If you just need a quick reference, check out the [Linux commands cheat sheet on It's Foss](https://itsfoss.com/linux-commands-cheat-sheets/).
+
+### GUI-based git tools
+
+There are GUI tools available as well, but they are beyond the scope of this project.
+
+* [gitk](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
+* [SourceTree](https://www.sourcetreeapp.com/)
+
+... and there are many others.
+
+
+## Introduce yourself to git
 
 When you contribute to a project, you'll want your name associated with your contributions. The following commands allow git to get to know you:
 
@@ -41,8 +57,9 @@ git config --global user.email "<your_email@domainname.com>"
 
 **Note:** You'll only need to do this once on your computer.
 
-### Clone a project
-We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked Chalmer's Intro to Sprinting repo @ [https://github.com/chalmerlowe/intro_to_sprinting/](https://github.com/chalmerlowe/intro_to_sprinting/) into your own Github repository. IF NOT, go do that now.
+## Clone a project
+
+We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked the [Intro to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project) into your own Github repository. IF NOT, go do that now.
 
 Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on.
 
@@ -57,7 +74,7 @@ This command creates a folder, which should be full of project files. Git will a
 Next we inform git of where to find the upstream repository (the repo that your fork was forked from) using the following command:
 
 ```bash
-git remote add upstream <main repo>
+git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
 Confirm that git has stored the correct upstream repository with this command:
@@ -68,75 +85,123 @@ git remote -v
 
 **Note:** You'll do this **one time for each project** you want to work on.
 
-### Contribute to the project
-
-#### How git handles files
+## Git concepts
 
 Git repositories are very sophisticated, but at the lowest level, they are fairly simple. Git tracks changes to files in a database AND categorizes files in the following ways:
 
 1. Local directory (warehouse)
 2. Staging area (pallet)
 3. Commit (truck)
-4. Origin
+4. Remote (remote warehouse shared by all, typically called "origin")
 
 As we look at each of these, we will imagine that we are processing materials in a warehouse and shipping them to another location.
 
-#### Local directory
+### Local directory
 
-The **local directory** is simply the directory on your machine and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the warehouse in our example. There are plenty of materials, some that are necessary to run the warehouse, but not part of what is typically stored in the warehouse, some things that have been ordered and some things that are not quite ready to ship. Any new files you create in your local directory will only be visible to you.
+The **local directory** is simply the directory on your machine and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the warehouse in our example. There are plenty of materials: some that are necessary to run the warehouse (but not part of what is typically stored in the warehouse), some things that have been ordered, and some things that are not quite ready to ship. Any new files you create in your local directory will only be visible to you.
 
-#### Staging area
+### Staging area
 
-The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `add` command (described below). Just like a pallet, you can continue to add files to the pallet, essentially indefinitely. When you are done making all the changes you want to, you move the pallet into the truck. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc. **NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, you will need to add the file a second time to capture the newest changes.
+The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `git add` command (described below). Just like a pallet, you can continue to add files to the pallet, essentially indefinitely. When you are done making all the changes you want to, you move the pallet into the truck. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
 
-#### Commit
+**NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, you will need to add the file a second time to capture the newest changes.
 
-The **commit area** holds all the changes that you are going to release to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `commit` command (described below). **NOTE**: much like we saw above...if you edit something that has been committed, then the new changes will not be released to the original author. Any new changes will have to be added to the staging area and then committed.
+### Commit
 
-#### Origin
+The **commit area** holds all the changes that you are going to release to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `git commit` command (described below).
 
-The **origin** is your Github repository or **remote repository**. Nothing gets moved off your local system until you `push` it to your origin repository. Only items that have been committed are pushed to Origin. Pushing to origin can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository.
+**NOTE**: much like we saw above...if you edit something that has been committed, then the new changes will not be released to the original author. Any new changes will have to be added to the staging area and then committed.
+
+### Remote
+
+A **remote** is some other repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere. Remotes are named, and the default name for the first remote is **origin**. Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you forked from.
+
+Nothing gets moved off your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to a remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository.
 
 Below, we will see how you move files from category to category.
 
-### Making changes to files
+### Checking the status of eveyrthing
 
-After cloning the code from your fork you are free to create and expand upon the
-project. Once you have completed something sizeable, be it a feature, function,
-or documentation, it is time to commit.
+There is a simple way to see what status every file is in: `git status`. Don't try this yet (we'll do it soon), just read the various types of status messages you will encounter regularly and see if you can make sense of them:
 
-For now, let's edit the `class_materials/student_names.txt` file, by adding your name to the line with your student number. (The instructor will provide you with a student number).
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+```
 
-1. Change directories in your **local directory** until you are in the `class_materials` folder.
-2. Edit the `student_names.txt` file, adding your name, as described above.
-3. **Add** the `student_names.txt` file to the git **staging area**.
+This tells you that right now your local copy matches what your computer last heard is on the server... everything is **clean**.
 
-    ```bash
-    git add student_names.txt
-    ```
+If you have locally changed files that are in a **working** state (not yet staged), you will see something like this:
 
-    If you need to add more than one file to the staging area, simply separate the filenames with a space:
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-    ```bash
-    git add <file1> <file2> ...
-    ```
+	modified:   README.md
 
-4. After adding the files you changed it is time to **commit** them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
+no changes added to commit (use "git add" and/or "git commit -a")
+```
 
-    ```bash
-    git commit -m "Description of changes"
-    ```
-    **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
+This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there: they tell me how to **add** it and how to **revert** it (get it back to the way it was before I made my change) should I want to do those things.
 
-5. Lastly, you are going to have to send the commit to Github or another Source Code Manager with:
+Next I want to move the file to staging (**add** it):
 
-    ```bash
-    git push origin master
-    ```
+```bash
+$ git add README.md
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
 
-    In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
+	modified:   README.md
+```
 
-After pushing to origin you will have to go and create a pull request, which is explained in the [github\_overview](./lesson_04_github_overview.md).
+Now I can see that the file is **staged**, but not yet **committed**. I can also see what to type to move it back to an unstaged state.
+
+Next I want to commit the file:
+
+```bash
+$ git commit -m 'my short description of the work'
+[master 206546b] my short description of the work
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+```
+
+Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see what to type to push the file up to Github.
+
+I can push that file:
+
+```bash
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To github:myusername/my_repo.git
+   98b2f3f..206546b  master -> master
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+```
+
+... and everything is clean again, but now with my local change pushed to GitHub and available to the world.
+
+Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
 
 ## Common Operations
 
@@ -183,13 +248,13 @@ listing your name, giving the rights to your code to whomever you committed it t
 
 ### Pushing
 
-The `commit` command notes your changes locally, but they are not yet changed on the **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
+The `git commit` command notes your changes locally, but they are not yet changed on the **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
 
 ```bash
 git push <repository_name> <branch_name>
 ```
 
-The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is by default, called `master`.
+The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is called `master` by default.
 
 This command can be condensed to simply  `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
 
@@ -197,11 +262,12 @@ This command can be condensed to simply  `git push` if you are pushing to `origi
 
 With larger projects, it is very common to create **branches** and then **merge** the branch into the main project when you make changes. You've seen references to `master` above, the default branch. A typical enhancement would be done by:
 
-1. creating a branch (so you have a separate workspace to work in) using `git checkout`
+1. creating a branch (so you have a separate workspace to work in) using `git checkout -b <branch name>`
 1. doing your work as a series of `git add`, `git commit` cycles to the branch, as described above
 1. merging your changes back into master
 
 By following this pattern, you keep your work isolated from the rest of the project until it is ready to be released. Examples include:
+
 * creating new features
 * experimenting with changes to the code
 * fixing bugs
@@ -211,7 +277,8 @@ Branches should be small and self-contained so that they can be merged. Sprawlin
 A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
 
 ```bash
-git checkout -b my-feature-name         # "-b" creates a new branch named "my-feature-branch"
+git checkout -b my-feature-name     # "-b" creates a new branch named "my-feature-branch"
+
 # <do some work in my editor or IDE>
 
 git add .
@@ -221,7 +288,7 @@ git commit -m 'my first bit of work'
 git add .
 git commit -m 'my second bit of work'
 
-git checkout master                      # this checks out the master branch              
+git checkout master     # this checks out the master branch              
 git merge my-feature-name
 git push origin master
 ```
@@ -235,39 +302,111 @@ The history created by the above steps would look something like this:
 
 # Hands-on
 
-Here you will create a repo locally and make some changes.
+## Making changes to files
 
-##### Create a repo locally
+After cloning the code from your fork you are free to create and expand upon the
+project. Once you have completed something sizeable, be it a feature, function,
+or documentation, it is time to commit.
 
-    cd ~
-    mkdir my-project-name
-    cd my-project-name
-    git init
+For now, let's edit the `all_student_names.txt` file, by adding your name to the line with your student number. (The instructor will provide you with a student number).
 
-##### Make a branch for your changes
+1. Change directories on your computer until you are in the top-level folder for the repository. If you type `ls` (or `dir` in Windows) you should see a file called `all_student_names.txt`.
+2. Edit the `all_student_names.txt` file, adding your name, as described above, and save the file.
+3. Check the current status of all files in the repository:
 
-**Note:** replace "my_change_name" with the name of the feature you are adding.
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-    git checkout -b feature/my_change_name
+	modified:   all_student_names.txt
+```
 
-##### Make your changes
+3. **Add** the `all_student_names.txt` file to the git **staging area**.
 
-Open your favorite editor or IDE and make the changes desired. When you are finished making changes, proceed with the remaining steps.
+    ```bash
+    git add all_student_names.txt
+    ```
 
-##### Commit your changes
+    If you need to add more than one file to the staging area, simply separate the filenames with a space:
 
-    git add .
-    git commit -m 'added my new feature'
+    ```bash
+    git add <file1> <file2> ...
+    ```
+    
+    ... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
+    
+    ```bash
+    git add *.txt
+    ```
 
-##### Merge your changes into the master branch
+4. After adding the files you changed it is time to **commit** them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
 
-    git checkout master
-    git merge feature/my_change_name
+    ```bash
+    git commit -m "Description of changes"
+    ```
+    **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
-##### Delete your feature branch
+5. Lastly, you are going to have to send the commit to Github or another Source Code Manager with:
 
-    git branch -d feature/my_change_name
+    ```bash
+    git push origin master
+    ```
 
+    In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
+
+After pushing to origin you will have to go and create a pull request, which is explained in the [github\_overview](./lesson_04_github_overview.md).
+
+## Make a change in a branch
+
+Here we will make another change, but using the branch-work-merge flow to isolate our work from changes made by others.
+
+### Create a branch
+
+**Note:** replace "my\_change\_name" with the name of the feature you are adding.
+
+```bash
+git checkout -b feature/my_change_name
+```
+
+### Make your changes
+
+Open your favorite editor or IDE and make the changes desired. Perhaps you want to add a new file with your favorite poems or joke?
+
+When you are finished making changes, proceed with the remaining steps.
+
+### Commit your changes
+
+```bash
+git add .
+git commit -m 'added my new feature'
+```
+
+### Merge changes from master into your branch
+
+Sometimes other people will make changes that impact the thing you were working on. It's easiest to catch this early by trying to merge **master** into your feature branch:
+
+```bash
+git merge master
+```
+
+If you have any conflicts, you will need to address them. GitHub has a simple resource for [resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
+
+### Merge your changes into the master branch
+
+```bash
+git checkout master
+git merge feature/my_change_name
+```
+
+### Delete your feature branch
+
+```bash
+git branch -d feature/my_change_name
+```
 
 # Resources
 To learn more about git, try these resources:
