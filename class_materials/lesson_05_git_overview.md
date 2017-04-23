@@ -205,6 +205,111 @@ Get in the habit of using `git status` regularly, it is probably the most inform
 
 ## Common Operations
 
+
+### Seeing what you've changed
+
+It can be very helpful to see what's different between the file you are working on and the last-committed version. To do this, use the `git diff` command.
+
+`git diff` represents changes in a manner referred to generally as "diff format". This format most basically represents all changes as the addition or removal of lines from files.
+
+**Note:** the examples below are in black/white, but in most command-line environments (`bash`, for example) they will also be color-coded to help make them easier to read.
+
+If I add a line to a file, I'll see something like this:
+
+```bash
+$ git diff
+diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
+index 90cd3cd..e22a262 100644
+--- a/rpncalculator/parser.py
++++ b/rpncalculator/parser.py
+@@ -39,6 +39,7 @@ class Parser(object):
+         """scan input stream and return token generator"""
+         if isinstance(stream, str):
+             stream = StringIO(stream)
++        print(str(stream))
+         for line in stream:
+             tokens, remainder = _scanner.scan(line)
+             for t in tokens:
+```
+
+The first part of the output shows me which file is being displayed. The output from `git diff` can contain many files; you can specify individual files or groups of files by providing the file name(s) to git diff with `git diff <file1> <file2> ...`. Even with a single file specified, the output will always tell you which file(s) are being compared with each change.
+
+The line that starts with `+` indicates that line is new compared to what's currently committed. Also note that the tool shows me a few lines before and after the change to help me see the context of the change.
+
+Also you can see which line number(s) are involved in the change. The `@@` line tells you that line 39 is the affected line. There are two line numbers there because changes to multiple places in a file can mess up your idea of line numbers. Just remember that the first number is the line in the original file and the second number is the line in the modified file.
+
+Similarly, if I remove a line:
+
+```bash
+$ git diff
+diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
+index e22a262..90cd3cd 100644
+--- a/rpncalculator/parser.py
++++ b/rpncalculator/parser.py
+@@ -39,7 +39,6 @@ class Parser(object):
+         """scan input stream and return token generator"""
+         if isinstance(stream, str):
+             stream = StringIO(stream)
+-        print(str(stream))
+         for line in stream:
+             tokens, remainder = _scanner.scan(line)
+             for t in tokens:
+```
+
+Here, the `-` shows me the line that was removed.
+
+If I *change* a line, it will show as a removed line and an added line:
+
+```bash
+$ git diff
+diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
+index e22a262..b186e9a 100644
+--- a/rpncalculator/parser.py
++++ b/rpncalculator/parser.py
+@@ -39,7 +39,7 @@ class Parser(object):
+         """scan input stream and return token generator"""
+         if isinstance(stream, str):
+             stream = StringIO(stream)
+-        print(str(stream))
++        log.debug(str(stream))
+         for line in stream:
+             tokens, remainder = _scanner.scan(line)
+             for t in tokens:
+```
+
+Here you can see that I changed the print() call to a log.debug() call.
+
+A file with multiple changes would look like this:
+
+```bash
+$ git diff
+diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
+index e22a262..7e8bf4a 100644
+--- a/rpncalculator/parser.py
++++ b/rpncalculator/parser.py
+@@ -39,7 +39,7 @@ class Parser(object):
+         """scan input stream and return token generator"""
+         if isinstance(stream, str):
+             stream = StringIO(stream)
+-        print str(stream)
++        log.debug(str(stream))
+         for line in stream:
+             tokens, remainder = _scanner.scan(line)
+             for t in tokens:
+@@ -50,6 +50,7 @@ class Parser(object):
+         if not engine:
+             engine = Engine()
+         result = None
++        log.debug(str(stream))
+         for token in self.scan(stream):
+             if isinstance(token, float) or isinstance(token, int):
+                 result = engine.push(token)
+```
+
+Here I can see that I changed line 39 from a `print()` to `log.debug()` and that I also added a new `log.debug()` call at line 50.
+
+Many GUI-based tools will show you more information, such as highlighting the individual characters in a line that were changed. Since this varies from tool to tool, it won't be covered in detail here.
+
 ### Adding
 
 There are couple tricks that makes adding files to a commit a little bit easier if you pay attention to what you are doing. For instance you can add all of the changed files to your staging area with:
@@ -409,6 +514,7 @@ git branch -d feature/my_change_name
 ```
 
 # Resources
+
 To learn more about git, try these resources:
 
 ## Documentation and Books:
@@ -418,6 +524,7 @@ To learn more about git, try these resources:
 [User Manual](https://git-scm.com/docs/user-manual.html)
 
 ## Tutorials and videos:
+
 [Interactive Tutorial](https://try.github.io/levels/1/challenges/1)
 
 [A Successful Git Branching Model](http://nvie.com/posts/a-successful-git-branching-model/), which describes the branching model used by a variety of large and small projects; some projects do this differently, but the basic ideas are common with all of them
@@ -429,6 +536,7 @@ To learn more about git, try these resources:
 [50/72 rule for git commit messages](http://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting) How to format git commit messages efficiently
 
 ## Reference Manuals:
+
 [Official Reference Manual](https://git-scm.com/docs)
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
