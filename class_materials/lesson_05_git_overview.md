@@ -541,5 +541,5 @@ To learn more about git, try these resources:
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-|[<<< Previous Lesson: GitHub Overview](./lesson_04_github_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_06_github_part_deux.md)|
+|[<<< Previous Lesson: GitHub Overview](./lesson_04_github_overview.md)|[Next Lesson: GitHub Part Deux >>>](./lesson_06_github_part_deux.md)|
 |:--|--:|

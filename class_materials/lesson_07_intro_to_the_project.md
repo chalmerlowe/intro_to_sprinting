@@ -139,5 +139,5 @@ AND then
 
 [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
-|[<<< Previous Lesson: Git overview](./lesson_05_git_overview.md)|
+|[<<< Previous Lesson: Intro to the Project](./lesson_06_github_part_deux.md)|
 |:--|
