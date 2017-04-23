@@ -34,15 +34,19 @@ Through participating in this session, attendees will be able to:
 
 ### Introduce yourself to the command line
 
-`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are GUI tools available as well, but they are beyond the focus of this lab. 
+`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it.  
 
+If you need a primer for the command line, check out the [free course on Codecademy](https://www.codecademy.com/learn/learn-the-command-line). If you just need a quick reference, check out the [Linux commands cheat sheet on It's Foss](https://itsfoss.com/linux-commands-cheat-sheets/).
 
 #### GUI-based git tools
+
+There are GUI tools available as well, but they are beyond the scope of this project.
 
 * [gitk](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
 * [SourceTree](https://www.sourcetreeapp.com/)
 
 ... and there are many others.
+
 
 ### Introduce yourself to git
 
