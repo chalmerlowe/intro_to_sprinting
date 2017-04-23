@@ -30,15 +30,13 @@ Through participating in this session, attendees will be able to:
 
 # Lecture and Demos
 
-## How do you get started?
-
-### Introduce yourself to the command line
+## Introduce yourself to the command line
 
 `git` is a command-line tool, and as such you will be doing a lot of typing when you work with it.  
 
 If you need a primer for the command line, check out the [free course on Codecademy](https://www.codecademy.com/learn/learn-the-command-line). If you just need a quick reference, check out the [Linux commands cheat sheet on It's Foss](https://itsfoss.com/linux-commands-cheat-sheets/).
 
-#### GUI-based git tools
+### GUI-based git tools
 
 There are GUI tools available as well, but they are beyond the scope of this project.
 
@@ -48,7 +46,7 @@ There are GUI tools available as well, but they are beyond the scope of this pro
 ... and there are many others.
 
 
-### Introduce yourself to git
+## Introduce yourself to git
 
 When you contribute to a project, you'll want your name associated with your contributions. The following commands allow git to get to know you:
 
@@ -59,7 +57,8 @@ git config --global user.email "<your_email@domainname.com>"
 
 **Note:** You'll only need to do this once on your computer.
 
-### Clone a project
+## Clone a project
+
 We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked the [Intro to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project) into your own Github repository. IF NOT, go do that now.
 
 Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on.
@@ -86,34 +85,38 @@ git remote -v
 
 **Note:** You'll do this **one time for each project** you want to work on.
 
-### Contribute to the project
-
-#### How git handles files
+## Git concepts
 
 Git repositories are very sophisticated, but at the lowest level, they are fairly simple. Git tracks changes to files in a database AND categorizes files in the following ways:
 
 1. Local directory (warehouse)
 2. Staging area (pallet)
 3. Commit (truck)
-4. Origin
+4. Remote (remote warehouse shared by all, typically called "origin")
 
 As we look at each of these, we will imagine that we are processing materials in a warehouse and shipping them to another location.
 
-#### Local directory
+### Local directory
 
-The **local directory** is simply the directory on your machine and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the warehouse in our example. There are plenty of materials, some that are necessary to run the warehouse, but not part of what is typically stored in the warehouse, some things that have been ordered and some things that are not quite ready to ship. Any new files you create in your local directory will only be visible to you.
+The **local directory** is simply the directory on your machine and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the warehouse in our example. There are plenty of materials: some that are necessary to run the warehouse (but not part of what is typically stored in the warehouse), some things that have been ordered, and some things that are not quite ready to ship. Any new files you create in your local directory will only be visible to you.
 
-#### Staging area
+### Staging area
 
-The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `add` command (described below). Just like a pallet, you can continue to add files to the pallet, essentially indefinitely. When you are done making all the changes you want to, you move the pallet into the truck. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc. **NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, you will need to add the file a second time to capture the newest changes.
+The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `git add` command (described below). Just like a pallet, you can continue to add files to the pallet, essentially indefinitely. When you are done making all the changes you want to, you move the pallet into the truck. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
 
-#### Commit
+**NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, you will need to add the file a second time to capture the newest changes.
 
-The **commit area** holds all the changes that you are going to release to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `commit` command (described below). **NOTE**: much like we saw above...if you edit something that has been committed, then the new changes will not be released to the original author. Any new changes will have to be added to the staging area and then committed.
+### Commit
 
-#### Origin
+The **commit area** holds all the changes that you are going to release to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `git commit` command (described below).
 
-The **origin** is your Github repository or **remote repository**. Nothing gets moved off your local system until you `push` it to your origin repository. Only items that have been committed are pushed to Origin. Pushing to origin can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository.
+**NOTE**: much like we saw above...if you edit something that has been committed, then the new changes will not be released to the original author. Any new changes will have to be added to the staging area and then committed.
+
+### Remote
+
+A **remote** is some other repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere. Remotes are named, and the default name for the first remote is **origin**. Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you forked from.
+
+Nothing gets moved off your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to a remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository.
 
 Below, we will see how you move files from category to category.
 
