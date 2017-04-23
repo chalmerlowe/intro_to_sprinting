@@ -209,20 +209,39 @@ After cloning the code from your fork you are free to create and expand upon the
 project. Once you have completed something sizeable, be it a feature, function,
 or documentation, it is time to commit.
 
-For now, let's edit the `class_materials/student_names.txt` file, by adding your name to the line with your student number. (The instructor will provide you with a student number).
+For now, let's edit the `all_student_names.txt` file, by adding your name to the line with your student number. (The instructor will provide you with a student number).
 
-1. Change directories in your **local directory** until you are in the `class_materials` folder.
-2. Edit the `student_names.txt` file, adding your name, as described above.
-3. **Add** the `student_names.txt` file to the git **staging area**.
+1. Change directories on your computer until you are in the top-level folder for the repository. If you type `ls` (or `dir` in Windows) you should see a file called `all_student_names.txt`.
+2. Edit the `all_student_names.txt` file, adding your name, as described above, and save the file.
+3. Check the current status of all files in the repository:
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   all_student_names.txt
+```
+
+3. **Add** the `all_student_names.txt` file to the git **staging area**.
 
     ```bash
-    git add student_names.txt
+    git add all_student_names.txt
     ```
 
     If you need to add more than one file to the staging area, simply separate the filenames with a space:
 
     ```bash
     git add <file1> <file2> ...
+    ```
+    
+    ... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
+    
+    ```bash
+    git add *.txt
     ```
 
 4. After adding the files you changed it is time to **commit** them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
