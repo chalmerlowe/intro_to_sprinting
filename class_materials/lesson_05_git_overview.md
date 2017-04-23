@@ -60,7 +60,7 @@ git config --global user.email "<your_email@domainname.com>"
 **Note:** You'll only need to do this once on your computer.
 
 ### Clone a project
-We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked Chalmer's Intro to Sprinting repo @ [https://github.com/chalmerlowe/intro_to_sprinting/](https://github.com/chalmerlowe/intro_to_sprinting/) into your own Github repository. IF NOT, go do that now.
+We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked the [Intro to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project) into your own Github repository. IF NOT, go do that now.
 
 Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on.
 
@@ -75,7 +75,7 @@ This command creates a folder, which should be full of project files. Git will a
 Next we inform git of where to find the upstream repository (the repo that your fork was forked from) using the following command:
 
 ```bash
-git remote add upstream <main repo>
+git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
 Confirm that git has stored the correct upstream repository with this command:
