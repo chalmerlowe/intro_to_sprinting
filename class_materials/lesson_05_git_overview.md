@@ -1,6 +1,7 @@
 # Using Git
 
 ## What is git?
+
 Git is a version control system - it enables you to control the various versions of projects, such as open source projects.
 
 Version control systems, along with managing changes to projects, help ensure every contributor is working on the same codebase.
@@ -12,6 +13,7 @@ where they can work on adding features and squashing bugs. When finished, they
 push the code back into `origin`, for other contributers to see and pull from.
 
 # Objectives
+
 Through participating in this session, attendees will be able to:
 
 * Understand why git is used in an open source project
@@ -29,6 +31,18 @@ Through participating in this session, attendees will be able to:
 # Lecture and Demos
 
 ## How do you get started?
+
+### Introduce yourself to the command line
+
+`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are GUI tools available as well, but they are beyond the focus of this lab. 
+
+
+#### GUI-based git tools
+
+* [gitk](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
+* [SourceTree](https://www.sourcetreeapp.com/)
+
+... and there are many others.
 
 ### Introduce yourself to git
 
