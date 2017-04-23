@@ -120,6 +120,89 @@ Nothing gets moved off your local system until you `git push` it to a remote rep
 
 Below, we will see how you move files from category to category.
 
+### Checking the status of eveyrthing
+
+There is a simple way to see what status every file is in: `git status`. Don't try this yet (we'll do it soon), just read the various types of status messages you will encounter regularly and see if you can make sense of them:
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+```
+
+This tells you that right now your local copy matches what your computer last heard is on the server... everything is **clean**.
+
+If you have locally changed files that are in a **working** state (not yet staged), you will see something like this:
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there: they tell me how to **add** it and how to **revert** it (get it back to the way it was before I made my change) should I want to do those things.
+
+Next I want to move the file to staging (**add** it):
+
+```bash
+$ git add README.md
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   README.md
+```
+
+Now I can see that the file is **staged**, but not yet **committed**. I can also see what to type to move it back to an unstaged state.
+
+Next I want to commit the file:
+
+```bash
+$ git commit -m 'my short description of the work'
+[master 206546b] my short description of the work
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+```
+
+Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see what to type to push the file up to Github.
+
+I can push that file:
+
+```bash
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+To github:myusername/my_repo.git
+   98b2f3f..206546b  master -> master
+
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+```
+
+... and everything is clean again, but now with my local change pushed to GitHub and available to the world.
+
+Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
+
 ### Making changes to files
 
 After cloning the code from your fork you are free to create and expand upon the
