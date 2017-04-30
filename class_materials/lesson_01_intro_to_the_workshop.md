@@ -1,5 +1,5 @@
 # Introduction to Open Source Workshop:
----
+
 
 Welcome to the **Introduction to Open Source Workshop**. Participants are expected to walk away with enough knowledge to be able to participate in a typical open source project. The workshop has a mixture of hands-on and lecture/demo, with the focus on hands-on. This document outlines:
 
@@ -11,7 +11,7 @@ Welcome to the **Introduction to Open Source Workshop**. Participants are expect
 * Instructions for the Student
 
 # What to expect
----
+
 
 This workshop covers...
 
@@ -23,7 +23,7 @@ This workshop covers...
 * [Lesson 07](./lesson_07_project_hands_on.md): the sample project: a hands-on project so the students can practice, repeatedly, all of the skills from A to Z of contributing to an open source code base.
 
 # What not to expect
----
+
 
 This workshop does **not** cover...
 
@@ -35,7 +35,7 @@ This is not a programming workshop, nor is it a Python workshop. It is intended 
 The example code in this version of the workshop is written in Python, but this project can be run using an example project in another programming language, if desired. 
 
 # Learning objectives
----
+
 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
 
@@ -48,7 +48,7 @@ Participants should expect to achieve the following learning objectives upon com
   * successfully issue a request for their contribution to be added to the open source project
 
 # Prerequisites
----
+
 
 Not all contributors to open source projects are programmers, so this workshop makes no presumption that participants know how to program. Contributions to open source projects include documentation, design, graphics, user experience, etc. This workshop will enable programmers and non-programmers to contribute. 
 
@@ -65,7 +65,7 @@ In the hands-on practice session, you will be using command-line tools to contri
 [Linux/Mac command-line](https://files.fosswire.com/2007/08/fwunixref.pdf)
 
 # For the Instructor
----
+
 
 This section is intended for the workshop instructor. It outlines what the instructor should do to successfully execute this workshop.
 
