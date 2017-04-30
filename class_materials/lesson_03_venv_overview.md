@@ -5,6 +5,7 @@ Virtual environments enable you to create a standalone environment for your proj
 # Objectives
 
 Through participating in this session, attendees will be able to:
+
 * Identify what a virtual environment is AND when using a virtual environment is a suitable solution to a task
 * Create a virtual enviroment
 * Populate a virtual environment with the software necessary to complete a programming/development task
