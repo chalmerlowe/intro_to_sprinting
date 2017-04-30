@@ -1,6 +1,6 @@
 # Virtual Environments
 
-Virtual environments enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of Python versions as well as the versions of other libraries that your project might depend upon.
+Virtual environments enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (ie. `python` or `ruby`) as well as the versions of other libraries that your project might depend upon.
 
 # Objectives
 
@@ -14,7 +14,7 @@ Through participating in this session, attendees will be able to:
 
 ## What is a virtual environment?
 
-Virtual environments (also called virtualenvs) are tools used to keep projects separate, especially in terms of keeping different Python versions separate and different library versions separate. Virtualenvs prevent Python's site packages folder  from getting disorganized and cluttered AND prevents problems that arise when one project needs version x.x of a library but another project needs version y.y of the same library. At their core, virtualenvs are glorified directories that use scripts and metadata to organize and control the environment. You are allowed to have an unlimited number of virtualenvs. And as you will see, they are very easy to create using the various command line tools, such as conda.
+Virtual environments (also called virtualenvs) are tools used to keep projects separate, especially in terms of keeping different software versions separate and different library versions separate. For example, virtualenvs prevent Python's site packages folder from getting disorganized and cluttered AND prevents problems that arise when one project needs **version x.x** of a library but another project needs **version y.y** of the same library. At their core, virtualenvs are glorified directories that use scripts and metadata to organize and control the environment. You are allowed to have an unlimited number of virtualenvs. And as you will see, they are very easy to create using various command line tools, such as `conda`.
 
 ## When should we use a virtual environment?
 
@@ -84,7 +84,7 @@ To finish the creation of the virtualenv and install the software, press:
 
 Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
 
-* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's bin/ directory. 
+* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
     * `(mytest) $` OR 
     * `(mytest) C:\>`
@@ -104,7 +104,7 @@ C:\> activate mytest
 
 ## Adding software to your virtualenv 
 
-To add more software to the virtualenv, you can use `conda` to install the software. The maintainers of conda provide access to many Python libraries, but not all of them. If conda cannot install a particular library that you need, you can generally use `pip` to install it instead (covering pip is outside the scope of this workshop).
+To add more software to the virtualenv, you can use `conda` to install the software. The maintainers of conda provide access to many Python and non-Python libraries, but not all of them. If conda cannot install a particular library that you need, you can generally use `pip` or a similar package installation tool to install it instead (covering `pip` is outside the scope of this workshop).
 
 For example, to install IPython, you can use the following `conda` command:
 
@@ -148,6 +148,8 @@ Conda will prepare to install IPython and any dependencies that IPython relies u
 To finish the installation of IPython and its dependencies, press:
 
 `y`
+
+### Multiple packages
 
 Multiple packages can be installed at the same time, by separating the package names with spaces:
 
