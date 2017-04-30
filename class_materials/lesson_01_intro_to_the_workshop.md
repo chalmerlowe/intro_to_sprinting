@@ -123,6 +123,7 @@ The workshop is about four hours and covers a lot of material. Anything you can 
 Each lesson has the lecture content your instructor will be covering. Each lesson also provides the hands-on steps necessary to successfully navigate through the workshop.
 
 [TODO: add any additional steps]
+<div style="float:right">[Next Lesson: Tool installation >>>](./lesson_02_tool_installation.md)</div>
 
 ||[Next Lesson: Tool installation >>>](./lesson_02_tool_installation.md)|
 |:--|--:|
