@@ -14,3 +14,7 @@ Please feel free to add your name to the bottom of this document.
 * [David Lance](https://github.com/DLance96)
 * [Joe Friedrich](https://github.com/joefriedrich)
 * [Jeffrey Eliasen](https://github.com/seawolf42)
+* [Sam Murphy](https://github.com/samsammurphy)
+* [Jim Hogarty](https://github.com/808kimosan)
+* [Steve Lorenz](https://github.com/lorenz21)
+
