@@ -531,7 +531,9 @@ To learn more about git, try these resources:
 
 [Written Tutorial](https://git-scm.com/docs/gittutorial)
 
-[Videos](https://git-scm.com/videos)
+[Git Happens](https://youtu.be/yCh6TSLIQBQ) video by Jessitron (Jessica Kerr) that uses the warehouse analogy to help clarify directory, staging, commit
+
+[Video collection](https://git-scm.com/videos)
 
 [50/72 rule for git commit messages](http://stackoverflow.com/questions/2290016/git-commit-messages-50-72-formatting) How to format git commit messages efficiently
 
