@@ -1,14 +1,15 @@
 # Using GitHub
 
-GitHub is a web-based version control repository. It also serves as an Internet hosting service. Github provides the functionality of Git (like distributed version control and source code management). It also offers bug tracking, task management, wikis, gists, feature requests and more. Github is the world's largest repository for source code. Github is used in tandem with Git to make changes, share changes, deal with conflicts and enable project participants to synchronize their work.
+GitHub is a web-based version control repository. It also serves as an Internet hosting service. Github provides the functionality of `Git` (like distributed version control and source code management). It also offers bug tracking, task management, wikis, gists, feature requests and more. Github is the world's largest repository for source code. Github is used in tandem with `Git` to make changes, share changes, deal with conflicts and enable project participants to synchronize their work.
 
 # Objectives
 Through participating in this session, attendees will be able to:
 
 * Understand why GitHub is used in an open source project
-* Use some basic features of GitHub to contribute to a project, including:
-  * Creating your own copy of the project
-  * Issuing requests to the owners of the project to incorporate changes you suggest
+* Use some basic features of GitHub to contribute to a project, including creating a copy of the project
+
+A later session will show additional steps in the process such as issuing a pull request, etc.
+
 
 # Lecture/Demos
 
@@ -31,7 +32,7 @@ If you **ALREADY** have a Github account, log into your regular account.
 
 A **fork** of a repository is a copy, hosted under your account, of a repository created by someone else. You then have complete control to modify and change the code to suit your needs (within the limits of copyright/the license on the project). The fork is tied to the original repository (repo) and you can issue requests to the original owner to incorporate your changes into the original project. This process is called a **pull request**.
 
-To practice these steps, we will have you fork these instructions to your local machine. Navigate to [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
+To practice these steps, we will have you fork fork a sample project to your github account. Navigate to [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
 
 1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
@@ -40,13 +41,12 @@ To practice these steps, we will have you fork these instructions to your local 
 ![Fork link to original repo](images/fork-repo-link.png)
 4. The next step will be to clone the repo from your online Github account to your local computer. That step will be covered in depth in the next lesson: [Git Overview](./lesson_05_git_overview.md)
 
-In the interim, since we are here looking at Github, let's figure out how to make a Pull Request.
 
 # Hands-on
 
 For the hands-on portion of the Calculator project, you will need to fork the calculator repo.
 
-1. Navigate to this github repo: [RPN Calculator](https://github.com/seawolf42/rpn-calc-workshop-2017-03-11)
+1. Navigate to this github repo: [RPN Calculator](https://github.com/chalmerlowe/python-rpncalc-20170506)
 2. Fork the repo to your github account as described in the instructions above.
 3. The next step: Cloning the repo to your local computer, will be covered in the next lesson [Git Overview](./lesson_05_git_overview.md).
 
