@@ -57,16 +57,23 @@ git config --global user.email "<your_email@domainname.com>"
 
 **Note:** You'll only need to do this once on your computer.
 
+## The big picture
+
+Before you can start adding to a project, you will need to clone the project to your local computer in your local working directory.
+
+![cloning](images/git.png)
+
+
 ## Clone a project
 
 We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked the [Intro to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project) into your own Github repository. IF NOT, go do that now.
 
 Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on.
 
-Enter the following on the command line:
+Enter the following command on the command line, **ENSURE that you change `<your_username>`** to the name of your account:
 
 ```bash
-git clone https://github.com/<your_username>/<the_project> <destination/directory/path>
+git clone https://github.com/<your_username>/intro_to_sprinting_codeless_project.git
 ```
 
 This command creates a folder, which should be full of project files. Git will automatically set up `origin` as a **remote** repository, which points to **your** fork of the repository.
@@ -104,11 +111,21 @@ The **local directory** is simply the directory on your machine and it contains 
 
 The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `git add` command (described below). Just like a pallet, you can continue to add files to the pallet, essentially indefinitely. When you are done making all the changes you want to, you move the pallet into the truck. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
 
+
+#### The big picture
+
+![staging](images/git_staging.png)
+
+
 **NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, you will need to add the file a second time to capture the newest changes.
 
 ### Commit
 
 The **commit area** holds all the changes that you are going to release to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `git commit` command (described below).
+
+#### The big picture
+
+![commiting](images/git_commit.png)
 
 **NOTE**: much like we saw above...if you edit something that has been committed, then the new changes will not be released to the original author. Any new changes will have to be added to the staging area and then committed.
 
@@ -118,9 +135,13 @@ A **remote** is some other repository other than the local copy on your computer
 
 Nothing gets moved off your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to a remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository.
 
+#### The big picture
+
+![git push](images/git_push.png)
+
 Below, we will see how you move files from category to category.
 
-### Checking the status of eveyrthing
+### Checking the status of everything
 
 There is a simple way to see what status every file is in: `git status`. Don't try this yet (we'll do it soon), just read the various types of status messages you will encounter regularly and see if you can make sense of them:
 
