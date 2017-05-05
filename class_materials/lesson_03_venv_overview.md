@@ -20,6 +20,30 @@ Virtual environments (also called virtualenvs) are tools used to keep projects s
 
 As noted above, anytime you have more than one project and there is a possibility of conflicts between your libraries, it is a good time to use a virtualenv. Having said that, many programmers use virtual environments for **all but the most trivial** programming tasks. Especially for beginners, using virtualenvs early on in your learning career will build a valuable skill AND help eliminate sneaky bugs related to version discrepancies. Bugs that can be hard to diagnose.
 
+## The big picture
+
+Throughout this workshop, we will be looking at a series of images to help us understand what we are doing and what effect our changes will have.
+
+We will try to highlight when we are interacting with local files OR with our Github Repository OR with the original project's repository, etc.
+
+For this lesson, we can image a fairly typical directory/folder structure on your local computer. Note:
+
+* a directory that **your project(s)** will be saved in
+* a directory for **miniconda**
+
+![Our Local Directories](images/basic_dir.png)
+
+When you create a virtualenv, conda will make changes to the miniconda directory. It will create a directory that will contain:
+
+* a database and metadata about the virtualenv
+* software and libraries related to the project (i.e. Python and any modules you install in the virtualenv)
+
+NOTE: these folders are **NOT** duplicates of each other, but they are tied to one another. The miniconda virtualenv folders will **NOT** contain your project code.
+
+
+![Our Local Directories](images/conda_envs.png)
+
+
 ## How do you create a virtual environment?
 
 There are several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
