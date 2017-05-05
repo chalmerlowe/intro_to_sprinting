@@ -60,65 +60,85 @@ You are welcome to add to the project in any way that you would like:
 
 As each of you add functions, you will need to confirm that you have the latest and greatest code updates from your fellow collaborators.
 
-## Suggested functions
+## Awesome functions
+
+Functions are great! They get things done, but the calculator only has a couple of existing functions!
+
+Let's give it some more power!
 
 ### existing
-* add = (a, b)
-* divide = (a, b)
 
-### additional possibilities
+Name	| Operator	| Description
+-----|:--------:|------------|
+add | + | adds **a** and **b**
+divide | / | divide **a** by **b**
+
+here **a** and **b** are shorthand for 'the most recent numbers on the stack'.
+
+the function's output will go on top of **a** and **b** in the stack.
+
+### additional possibilities..
 
 #### easier
-* subtract  = (a, b) <- returns a - b
-* multiply = (a, b)  <- returns a * b
-* zeros = (a) <- add that many zeros to the stack
-* modulo = (a, b) <- return a % b (easy to implement but the concept might be new..)
+
+Name	| Operator	| Description
+-----|:--------:|------------|
+multiply | * | multiply **a** and **b**
+subtract | - | take **b** from **a**
+zeros | zeros |  push **n** zeros to the stack
+modulo | % | **a** mod **b**
+
+(pro tip) modulo might be a [new concept](https://en.wikipedia.org/wiki/Modular_arithmetic) but is easy to implement
 
 #### mediumer
 
-* lt = (a, b) <- returns 1 if a is less than b else 0
-* gt = (a, b) <- returns 1 if a is greater than b else 0
-* eq = (a, b) <- returns 1 if a is exactly equal to b else 0
+Some of these functions are asking 'logical questions' which have
+yes or no answers (yes = 1 and no = 0).
 
-* min = (a, b) <- return smallest value, i.e. either a or b
-* max = (a, b) <- return largest value, i.e. either a or b
-
-* sum = (a, b) <- return total of a and b
-
-* pi = () <- return pi to, say, 6 decimal places
-
-* fact! = (a) <- return factorial of a
-
-* hypotenuse = (a,b)  <- hypotenuse of a triangle given lengths a and b (i.e. h^2 = a^2 + b^2)
-
-* deg_to_rad (a) <- convert degrees to radians
-* rad_to_deg (a) <- convert radians to degrees
-
-* cel_to_far (a) <- convert celsius to farenheit
-* far_to_cel (a) <- convert farenheit to celsius
-
-* pounds_to_kg (a) <- convert pounds to kilograms
-* kg_to_pounds (a) <- convert kilograms to pounds
-
-* mph_to_kph (a) <- convert miles-per-hour to kilometers-per-hour
-* kph_to_mph (a) <- convert kilometers-per-hour to miles-per-hour
+Name	| Operator	| Description
+-----|:--------:|------------|
+less than | lt | is **a** less than **b**?
+greater than | gt | is **a** greater than **b**?
+equal to | eq | is **a** equal to **b**?
+minimum | min | return smallest value, i.e. either **a** or **b**
+maximum | max | return largest value, i.e. either **a** or **b**
+pi | pi | return pi (e.g. to 6 decimal places)
+factorial | ! | **a** factorial 
+hypotenuse | hyp | hypotenuse of a triangle given lengths **a** and **b**
+deg_to_rad | deg_to_rad | convert degrees to radians
+rad_to_deg | rad_to_deg | convert radians to degrees
+cel_to_far | cel_to_far | convert celsius to farenheit
+far_to_cel | far_to_cel | convert farenheit to celsius
+pounds_to_kg | pounds_to_kg | convert pounds to kilograms
+kg_to_pounds | kg_to_pounds | convert kilograms to pounds
+mph_to_kph | mph_to_kph | convert miles-per-hour to kilometers-per-hour
+kph_to_mph | kph_to_mph | convert kilometers-per-hour to miles-per-hour
 
 #### harder
 
-* fib = (length) <- return Fibonacci sequence of given length
-
-* min_of_n = (n) <- return minumum number in last n elements on stack
-* max_of_n = (n) <- return maximum number in last n elements on stack
-* sum_of_n = (n) <- return sum of numbers in last n elements on stack
-
-* exp = (a, b) <- exponetial function a^b
-* log = (a) <- natural logrithm of a
-* log10 = (a) <- log base 10 of a
+Name	| Operator	| Description
+-----|:--------:|------------|
+fibonacci | fib | return Fibonacci sequence of length **a**
+min_of_n | min_of_n | return minumum number in last **n** elements on stack
+max_of_n | max_of_n | return maximum number in last **n** elements on stack
+sum_of_n | sum_of_n | return sum of numbers in last **n** elements on stack
+exponential | exp | exponetial function **a**^**b**
+logarithm | log | natural logarithm of **a**
+loagirthm10 | log10 | log base 10 of **a**
 
 #### expert
-* log_fancy = (a,b) <- log base b of a
 
-* (VERY RISKY) hidden_message = (string, depth)  <-- (depth must be at least 5 elements in, to 'be hidden', and not break code that expects number)
+
+Name	| Operator	| Description
+-----|:--------:|------------|
+log_fancy | log_fancy | log base **b** of **a**
+hidden_message | secret | see notes below
+
+secret = hide message in stack using numeric alphabet (e.g. a = 1, b = 2, etc.)..
+
+* extra bonus points if you write a function to retrieve your message
+* double bonus points if you find someone else's message 
+* triple bonus points if you find their message and change it :)
 
 
 ## Choose an issue
