@@ -8,7 +8,7 @@ Through participating in this session, attendees will be able to:
 * Understand why GitHub is used in an open source project
 * Use some basic features of GitHub to contribute to a project, including creating a copy of the project
 
-A later session will show additional steps in the process such as issuing a pull request, etc.
+A later session will show additional steps in the process such as issuing a **pull request**, etc.
 
 
 # Lecture/Demos
@@ -27,6 +27,19 @@ If you **DO NOT** have a Github account, you will need to make one:
 3. Click "Sign up for GitHub"
 
 If you **ALREADY** have a Github account, log into your regular account.
+
+## The big picture
+
+Projects files on Github are often called repositories or **repo/repos** for short. For every project you contribute to, you will interact with two different repos:
+
+* One repo will be the original project repository
+* The other repo will be your personal copy of the original repo
+
+![Remote Repo](images/github_part_1_remote.png)
+
+When you want to work on a project, Github will enable you to **fork** the project so that you can have a copy of the project under your account.
+
+![Personal Repo](images/github_part_1_personal.png)
 
 ## Fork a repository
 

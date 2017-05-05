@@ -41,7 +41,7 @@ When you create a virtualenv, conda will make changes to the miniconda directory
 NOTE: these folders are **NOT** duplicates of each other, but they are tied to one another. The miniconda virtualenv folders will **NOT** contain your project code.
 
 
-![Our Local Directories](images/conda_envs.png)
+![Local Dirs with conda environments](images/conda_envs.png)
 
 
 ## How do you create a virtual environment?
