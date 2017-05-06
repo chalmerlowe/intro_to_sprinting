@@ -345,7 +345,7 @@ Here I can see that I changed line 39 from a `print()` to `log.debug()` and that
 
 Many GUI-based tools will show you more information, such as highlighting the individual characters in a line that were changed. Since this varies from tool to tool, it won't be covered in detail here.
 
-### Adding
+### Adding lots of stuff (at once)
 
 There are couple tricks that make adding files to a commit a little bit easier if you pay attention to what you are doing. For instance you can add **all** of the changed files to your staging area with:
 
@@ -365,7 +365,7 @@ git add .
 git status
 ```
 
-### Committing
+### Committing (when you have lots to say)
 
 The method taught above works fine, but there are additional flags and parameters that can make for a better commit. First of all, if you would like to add a more in depth description you can use (without the `-m`):
 
@@ -386,7 +386,7 @@ It will bring of the same command line text editor as before but with a `Signed 
 listing your name, giving the rights to your code to whomever you committed it to.
 
 
-### Pushing
+### Pushing your changes to your repo
 
 The `git commit` command notes your changes locally, but they are not yet changed on your **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
 
@@ -394,7 +394,10 @@ The `git commit` command notes your changes locally, but they are not yet change
 git push <repository_name> <branch_name>
 ```
 
-The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is called `master` by default.
+Note: git uses some defaults:
+
+* The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be.
+* The branch name is often the main branch which is called `master` by default.
 
 This command can be condensed to simply `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
 
@@ -453,17 +456,27 @@ The history created by the above steps would look something like this:
 
 ## Making changes to files
 
-After cloning the code from your fork of you are free to create and expand upon the
-project. Once you have completed something sizeable, be it a feature, function,
-or documentation, it is time to commit.
+This practice presumes that:
 
-For now, let's edit content from [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
+* you are in your `mytest` directory
+* your `mytest` virtualenv is active
+* you have forked [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
+* you have cloned that material into your local directory
 
-This project is full of files with poems.
+With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of files with poems.
 
-1. Change directories on your computer until you are in the top-level folder for the repository. If you type `ls` (or `dir` in Windows) you should see multiple files.
-2. Pick a file and edit it. Add your name, change a line, a word, a phrase and save the file. **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). Play like a champion.
-3. Check the current status of all files in the repository:
+
+**Ensure** you are in the top-level folder for the repository. 
+   
+   * If you type `ls` (or `dir` in Windows) you should see multiple files.
+
+Pick a file and edit it.
+ 
+   * Change a line, a word, a phrase, any change to the file will be sufficient
+   * Save the file. 
+   * **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
+
+**Check** the current status of all files in the repository:
 
 ```bash
 $ git status
@@ -475,8 +488,7 @@ Changes not staged for commit:
 
 	modified:   <file you edited>
 ```
-
-3. **Add** the file you edited, to the git **staging area**.
+**Add** the file you edited, to the git **staging area**.
 
     ```bash
     git add <file you edited>
@@ -494,14 +506,14 @@ Changes not staged for commit:
     git add *.txt
     ```
 
-4. After adding the files you changed it is time to **commit** them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
+**Commit** your changes when you are ready to make a permanent record of them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
 
     ```bash
     git commit -m "Description of changes"
     ```
     **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
-5. Lastly, you are going to have to send the commit to Github or another Source Code Manager with:
+**Push** the commit to Github or another Source Code Manager with:
 
     ```bash
     git push origin master
@@ -509,11 +521,11 @@ Changes not staged for commit:
 
     In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
 
-After pushing to origin you will have to go and create a pull request, which is explained in the [github\_overview](./lesson_04_github_overview.md).
+After pushing to origin you will have to go and create a pull request, which is explained in the [Github\_overview](./lesson_04_github_overview.md).
 
 ## Make a change in a branch
 
-Here we will make another change, but using the branch-work-merge flow to isolate our work from changes made by others.
+As you get used to the above steps, the next step is to grow familiar with using the branch-work-merge flow to isolate your work from changes made by others.
 
 ### Create a branch
 
