@@ -54,15 +54,6 @@ To practice these steps, we will have you fork fork a sample project to your git
 ![Fork link to original repo](images/fork-repo-link.png)
 4. The next step will be to clone the repo from your online Github account to your local computer. That step will be covered in depth in the next lesson: [Git Overview](./lesson_05_git_overview.md)
 
-
-# Hands-on
-
-For the hands-on portion of the Calculator project, you will need to fork the calculator repo.
-
-1. Navigate to this github repo: [RPN Calculator](https://github.com/chalmerlowe/python-rpncalc-20170506)
-2. Fork the repo to your github account as described in the instructions above.
-3. The next step: Cloning the repo to your local computer, will be covered in the next lesson [Git Overview](./lesson_05_git_overview.md).
-
 # Resources
 
 Curious about the difference between a Fork and a Clone? See the StackOverflow discussion of: ["Are git forks actually git clones?"](http://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)

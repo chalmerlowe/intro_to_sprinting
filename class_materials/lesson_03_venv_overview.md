@@ -195,26 +195,6 @@ When you are done working in your virtualenv, you can deactivate it using the fo
 (mytest) C:\> deactivate
 ```
 
-# Hands-on
-The following steps will set up your system in preparation for the remaining lessons:
-
-## Linux\Mac OSX version
-
-`conda create -n rpncalc python=3`
-
-`source activate rpncalc`
-
-`conda install ipython`
-
-## Windows version
-
-`conda create -n rpncalc python=3`
-
-`activate rpncalc`
-
-`conda install ipython`
-
-
 # Resources
 
 For more information, try these resources:
