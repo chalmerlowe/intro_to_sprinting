@@ -48,12 +48,5 @@ Success!
 
 Now, go do it again!
 
-# Hands-on
-
-Once you have made changes to your local code:
-        
-1. Push those changes back up to your github account (Details on how to do this will be covered in the next lesson: [Git Overview](./lesson_05_git_overview.md))
-2. Return to your github account and issue a pull request, as described in the instructions above.
-
 |[<<< Previous Lesson: Git Overview](./lesson_05_git_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_07_intro_to_the_project.md)|
 |:--|--:|

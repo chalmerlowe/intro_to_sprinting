@@ -449,7 +449,7 @@ The history created by the above steps would look something like this:
 <img src="http://sentheon.com/images/27052016_branches.png">
 **Source**: http://sentheon.com/images/27052016_branches.png
 
-# Hands-on
+# Lesson Practice
 
 ## Making changes to files
 
@@ -457,10 +457,12 @@ After cloning the code from your fork of you are free to create and expand upon 
 project. Once you have completed something sizeable, be it a feature, function,
 or documentation, it is time to commit.
 
-For now, let's edit the `all_student_names.txt` file, by adding your name to the line with your student number. (The instructor will provide you with a student number).
+For now, let's edit content from [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
 
-1. Change directories on your computer until you are in the top-level folder for the repository. If you type `ls` (or `dir` in Windows) you should see a file called `all_student_names.txt`.
-2. Edit the `all_student_names.txt` file, adding your name, as described above, and save the file.
+This project is full of files with poems.
+
+1. Change directories on your computer until you are in the top-level folder for the repository. If you type `ls` (or `dir` in Windows) you should see multiple files.
+2. Pick a file and edit it. Add your name, change a line, a word, a phrase and save the file. **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). Play like a champion.
 3. Check the current status of all files in the repository:
 
 ```bash
@@ -471,13 +473,13 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   all_student_names.txt
+	modified:   <file you edited>
 ```
 
-3. **Add** the `all_student_names.txt` file to the git **staging area**.
+3. **Add** the file you edited, to the git **staging area**.
 
     ```bash
-    git add all_student_names.txt
+    git add <file you edited>
     ```
 
     If you need to add more than one file to the staging area, simply separate the filenames with a space:

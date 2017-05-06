@@ -68,36 +68,44 @@ git remote -v
 
 ## Stage, Commit, Push
 
+```bash
 git checkout -b mybranch
+```
 
+```bash
+git add <file>
+git commit -m "supremely concise, but explanatory message "
+```
 
-git add
-git commit -m "message"
+```bash
+git add <file>
+git commit -m "awesomely short, but descriptive message"
+```
 
-git add
-git commit -m "message"
-
+```bash
 git checkout master
+```
 
+```bash
 git merge
+```
 
+```bash
 git push
-
-
-
-
+```
 
 
 ## Pull Requests
 
-click on "New Pull Request:
+Navigate via your browser to your Github account:
 
-Click on "**Create pull request**"
+1. Click on "**New Pull Request**" button
 
-Add summary notes
+You will be transferred to the original project Github Repo:
 
-Click on "**Create pull request**" again
-
+1. Click on "**Create pull request**" button
+1. Add summary notes
+1. Click on "**Create pull request**" button
 
 
 |[<<< Previous Lesson: GitHub Part Deux](./lesson_06_github_part_deux.md)|[Next Lesson: Intro to the Project >>>](./lesson_08_intro_to_the_project.md)|
