@@ -8,13 +8,13 @@ Now that you've seen how to make changes
 
 **NOTE**: the following steps are to be used **AFTER** you have made changes to the project and are ready to share those changes with the original project author. 
 
-**NOTE**: We are presuming that your changes have **already** been pushed to your OWN Github repo (instructions on how to do this were covered in the previous lesson: [Git Overview](./lesson_05_git_overview.md). 
+**NOTE**: We are presuming that your changes have **already** been pushed to **your own** Github repo (instructions on how to do this were covered in the previous lesson: [Git Overview](./lesson_05_git_overview.md). 
 
 # The big picture
 
-![Pull Request](images/git_pull_request.png)
-
 Once your changes have been pushed to your own Github repo, you will need to submit a Pull Request.
+
+![Pull Request](images/git_pull_request.png)
 
 ## Submit a Pull Request
  
@@ -38,11 +38,11 @@ Once your changes have been pushed to your own Github repo, you will need to sub
 
 ## The big picture
 
-![Merge](images/github_merge.png)
-
-If the author of the original project agrees with and approves your **suggested changes** they will merge the changes to their project.
+If the author of the original project agrees with and approves your **suggested changes** they will merge the changes into their project.
 
 = )
+
+![Merge](images/github_merge.png)
 
 Success!
 
