@@ -401,6 +401,42 @@ Note: git uses some defaults:
 
 This command can be condensed to simply `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
 
+
+### The importance of `git pull`
+
+When you `git push` your code up to a remote, it is always possible that someone else has already made other changes that might conflict with yours. If any other changes exist on the remote that aren't in your local copy, git will stop the push:
+
+```bash
+$ git push
+To github.com:myusername/my_repo.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'git@github.com:myusername/my_repo.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+Typcially this means you just need to pull all remote changes and then push yours back:
+
+```bash
+$ git pull
+remote: Counting objects: 12, done.
+remote: Compressing objects: 100% (12/12), done.
+remote: Total 12 (delta 9), reused 0 (delta 0)
+Unpacking objects: 100% (12/12), done.
+From github.com:myusername/my_repo
+   9c9bc05..dc5ad51  master      -> origin/master
+Updating 9c9bc05..dc5ad51
+Fast-forward
+ file1.py                         | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+```
+
+... and then your push will succeed.
+
+
 ### Branching and Merging
 
 With larger projects, it is very common to create **branches** and then **merge** the branch into the main project when you make changes. You've seen references to `master` above, the default branch. A typical enhancement would be done by:
@@ -440,7 +476,8 @@ git commit -m 'my second bit of work'
 Once we are done, let's merge the feature branch back into the master branch
 
 ```
-git checkout master     # this checks out the master branch              
+git checkout master     # this checks out the master branch   
+git pull                # this pulls any remote changes into master           
 git merge my-feature-name
 git push origin master
 ```
@@ -566,6 +603,7 @@ If you have any conflicts, you will need to address them. GitHub has a simple re
 
 ```bash
 git checkout master
+git pull
 git merge feature/my_change_name
 ```
 
