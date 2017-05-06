@@ -109,7 +109,7 @@ The **local directory** is simply the directory on your machine and it contains 
 
 ### Staging area
 
-The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `git add` command (described below). Just like a pallet, you can continue to add files to the pallet, essentially indefinitely. When you are done making all the changes you want to, you move the pallet into the truck. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
+The **staging area** holds all the files that are ready to added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add  it to the pallet), you will use the `git add` command (described below). Just like a pallet, you can continue to add files to the staging area, essentially indefinitely. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
 
 
 #### The big picture
@@ -121,7 +121,7 @@ The **staging area** holds all the files that are ready to added to the project 
 
 ### Commit
 
-The **commit area** holds all the changes that you are going to release to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `git commit` command (described below).
+The **commit area** holds all the changes that you are going to release to the internet, and ultimately to original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `git commit` command (described below).
 
 #### The big picture
 
@@ -133,13 +133,16 @@ The **commit area** holds all the changes that you are going to release to the o
 
 A **remote** is some other repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere. Remotes are named, and the default name for the first remote is **origin**. Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you forked from.
 
-Nothing gets moved off your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to a remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository.
+Nothing gets copied from your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to a remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in your Github repository. 
 
 #### The big picture
 
 ![git push](images/git_push.png)
 
-Below, we will see how you move files from category to category.
+**NOTE:** in our [next lesson](./lesson_06_github_part_deux.md), we will show how to contact the author of the upstream project about changes you want to suggest.
+
+
+Below, we will show you how to move files from category to category and track your progress, status and changes as you go.
 
 ### Checking the status of everything
 
@@ -169,12 +172,16 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there: they tell me how to **add** it and how to **revert** it (get it back to the way it was before I made my change) should I want to do those things.
+This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there: they tell me how to **add** the README.md file to the staging area and how to **revert** it (get it back to the way it was before I made my change) should I want to do those things.
 
 Next I want to move the file to staging (**add** it):
 
 ```bash
 $ git add README.md
+```
+It is especially useful as you learn to check the status regularly. It will help you get familiar with the messages and hints AND drive home the concepts related to local changes, staged changes, committed changes, etc.
+
+```
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -184,15 +191,19 @@ Changes to be committed:
 	modified:   README.md
 ```
 
-Now I can see that the file is **staged**, but not yet **committed**. I can also see what to type to move it back to an unstaged state.
+Now we can see that the file is **staged**, but not yet **committed**. We can also see the hint for what to type to if we need to move it back to an unstaged state.
 
-Next I want to commit the file:
+Next I want to commit the file (i.e. load it on the truck) using `git commit -m "a short description"`, where `-m` is a flag for my commit message. Good commit messages should be short, sweet and descriptive.
 
 ```bash
 $ git commit -m 'my short description of the work'
 [master 206546b] my short description of the work
  1 file changed, 1 insertion(+), 1 deletion(-)
+```
 
+`git status` again comes to the rescue to help us confirm and understand the changes we have initiated.
+
+```
 $ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -213,14 +224,17 @@ Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
 To github:myusername/my_repo.git
    98b2f3f..206546b  master -> master
+```
+Let's take a look at the results of our work:
 
+```
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-... and everything is clean again, but now with my local change pushed to GitHub and available to the world.
+... and everything is clean again, but now with my local change pushed to GitHub and available to the world. **IF** you go to **your** github repository, you can see your changes via your web browser.
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
 
@@ -333,19 +347,19 @@ Many GUI-based tools will show you more information, such as highlighting the in
 
 ### Adding
 
-There are couple tricks that makes adding files to a commit a little bit easier if you pay attention to what you are doing. For instance you can add all of the changed files to your staging area with:
+There are couple tricks that make adding files to a commit a little bit easier if you pay attention to what you are doing. For instance you can add **all** of the changed files to your staging area with:
 
 ```bash
 git add *
 ```
 
-You can add all changed files from the current directory using:
+You can add **all** changed files from the current directory using:
 
 ```bash
 git add .
 ```
 
-**NOTE**: This can lead to problems if you add files that aren't related to the commit. To protect against this you can view which files have pending changes before you add them with:
+**NOTE**: This can lead to problems if you add files that aren't related to the commit. To protect against this you can view which files have pending changes **before** you add them with:
 
 ```bash
 git status
@@ -353,7 +367,7 @@ git status
 
 ### Committing
 
-The method taught above works fine, but there are additional flags and parameters that can make for a better commit. First of all, if you would like to add a more in depth description you can use:
+The method taught above works fine, but there are additional flags and parameters that can make for a better commit. First of all, if you would like to add a more in depth description you can use (without the `-m`):
 
 ```bash
 git commit
@@ -374,7 +388,7 @@ listing your name, giving the rights to your code to whomever you committed it t
 
 ### Pushing
 
-The `git commit` command notes your changes locally, but they are not yet changed on the **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
+The `git commit` command notes your changes locally, but they are not yet changed on your **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
 
 ```bash
 git push <repository_name> <branch_name>
@@ -382,7 +396,7 @@ git push <repository_name> <branch_name>
 
 The repository will generally be `origin` (the conventional name for your primary repository), but does not have to be. In this case we worked on the main branch which is called `master` by default.
 
-This command can be condensed to simply  `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
+This command can be condensed to simply `git push` if you are pushing to `origin` on the branch that is currently active in Git (in this case `master`).
 
 ### Branching and Merging
 
@@ -390,7 +404,7 @@ With larger projects, it is very common to create **branches** and then **merge*
 
 1. creating a branch (so you have a separate workspace to work in) using `git checkout -b <branch name>`
 1. doing your work as a series of `git add`, `git commit` cycles to the branch, as described above
-1. merging your changes back into master
+1. merging your changes back into `master`
 
 By following this pattern, you keep your work isolated from the rest of the project until it is ready to be released. Examples include:
 
@@ -404,16 +418,25 @@ A typical iteration of creating a feature (sometimes called a `feature branch`) 
 
 ```bash
 git checkout -b my-feature-name     # "-b" creates a new branch named "my-feature-branch"
+```
 
-# <do some work in my editor or IDE>
+... do some work in my editor or IDE ...
 
+```
 git add .
 git commit -m 'my first bit of work'
-# <do more work in my editor or IDE>
+```
 
+... do more work in my editor or IDE ...
+
+```
 git add .
 git commit -m 'my second bit of work'
+```
 
+Once we are done, let's merge the feature branch back into the master branch
+
+```
 git checkout master     # this checks out the master branch              
 git merge my-feature-name
 git push origin master
@@ -430,7 +453,7 @@ The history created by the above steps would look something like this:
 
 ## Making changes to files
 
-After cloning the code from your fork you are free to create and expand upon the
+After cloning the code from your fork of you are free to create and expand upon the
 project. Once you have completed something sizeable, be it a feature, function,
 or documentation, it is time to commit.
 
