@@ -472,9 +472,13 @@ With a freshly cloned repo, we can make some edits and revisions to the Codeless
 
 Pick a file and edit it.
  
-   * Change a line, a word, a phrase, any change to the file will be sufficient
+   * Open your favorite editor or IDE and make some desired changes. 
+     * Perhaps you want to add a new file with your favorite poems
+     * Add a joke to a Nerd Jokes file
+     * But any change to a line, a word, a phrase will be sufficient
+     * **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
    * Save the file. 
-   * **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
+  
 
 **Check** the current status of all files in the repository:
 
@@ -513,7 +517,7 @@ Changes not staged for commit:
     ```
     **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
-**Push** the commit to Github or another Source Code Manager with:
+**Push** the commit to Github with:
 
     ```bash
     git push origin master
@@ -537,7 +541,7 @@ git checkout -b feature/my_change_name
 
 ### Make your changes
 
-Open your favorite editor or IDE and make the changes desired. Perhaps you want to add a new file with your favorite poems or joke?
+
 
 When you are finished making changes, proceed with the remaining steps.
 
@@ -566,6 +570,8 @@ git merge feature/my_change_name
 ```
 
 ### Delete your feature branch
+
+When you are finished using a branch (i.e. all the pertinent changes have been merged into master), you can simply delete it:
 
 ```bash
 git branch -d feature/my_change_name

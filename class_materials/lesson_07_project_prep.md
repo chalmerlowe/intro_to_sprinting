@@ -2,28 +2,28 @@
 
 Now that you have been through the demo and seen, heard and in some cases, tried each of the steps, let's put it all together and get you set up to work on the RPN Calculator project.
 
-The details of the Project will be described in the next lesson. This lesson is more about getting your working environment set up, etc.
+The details of the Project will be described in the next lesson. This lesson is more about getting your working environment set up, AND giving you a summary of the major commands, etc.
 
-These steps are intended to be worked directly with little to no explanation. If you need some help, feel free to ask the mentors in the room OR to refer back to the main lecture/demo materials. 
+These steps purposely limit the explanation to highlight the major commands and steps. If you need some review on a given command, feel free to ask the mentors in the room OR to refer back to the main lecture/demo materials. 
 
 # Objectives
 
 Through participating in this session, attendees will be able to:
 
-* Do all the preliminary steps necessary to:
+* Prep their environment:  do all the preliminary steps necessary to:
     * setup a virtual environment specific to this project
     * activate the virtualenv
     * install the software required for the project in the virtualenv
     * fork the project to your Github repo
     * clone the project to your local directory
-
-* Notes are also included to highlight the steps needed when you have made changes    
+* Review the major steps performed when making changes
+* Review the major steps when issuing a Pull Request
 
 # Hands-on
 
-The following steps will set up your system in preparation for the remaining lessons:
-
 ## Make your virtual environment
+
+The following steps will set up your system in preparation for the remaining lessons:
 
 Follow the directions below, depending on your operating system.
 
@@ -72,10 +72,14 @@ git remote -v
 git checkout -b mybranch
 ```
 
+Make wonderful, glorious changes to the project.
+
 ```bash
 git add <file>
 git commit -m "supremely concise, but explanatory message "
 ```
+
+Continue the process of saving the world through code!
 
 ```bash
 git add <file>
@@ -93,7 +97,6 @@ git merge
 ```bash
 git push
 ```
-
 
 ## Pull Requests
 
