@@ -66,20 +66,20 @@ Functions are great! They get things done, but the calculator only has a couple 
 
 Let's give it some more power!
 
-### existing
+### Existing
 
 Name	| Operator	| Description
 -----|:--------:|------------|
 add | + | adds **a** and **b**
 divide | / | divide **a** by **b**
 
-here **a** and **b** are shorthand for 'the most recent numbers on the stack'.
+Here **a** and **b** are shorthand for 'the most recent numbers on the stack'.
 
-the function's output will go on top of **a** and **b** in the stack.
+The function's output will replace **a** and **b** in the stack.
 
-### additional possibilities..
+### Additional possibilities..
 
-#### easier
+#### Easier
 
 Name	| Operator	| Description
 -----|:--------:|------------|
@@ -90,43 +90,43 @@ modulo | % | **a** mod **b**
 
 (pro tip) modulo might be a [new concept](https://en.wikipedia.org/wiki/Modular_arithmetic) but is easy to implement
 
-#### mediumer
+#### Mediumer
 
 Some of these functions are asking 'logical questions' which have
 yes or no answers (yes = 1 and no = 0).
 
 Name	| Operator	| Description
 -----|:--------:|------------|
-less than | lt | is **a** less than **b**?
-greater than | gt | is **a** greater than **b**?
-equal to | eq | is **a** equal to **b**?
+less_than | lt | is **a** less than **b**?
+greater_than | gt | is **a** greater than **b**?
+equal_to | eq | is **a** equal to **b**?
 minimum | min | return smallest value, i.e. either **a** or **b**
 maximum | max | return largest value, i.e. either **a** or **b**
 pi | pi | return pi (e.g. to 6 decimal places)
 factorial | ! | **a** factorial 
 hypotenuse | hyp | hypotenuse of a triangle given lengths **a** and **b**
-deg_to_rad | deg_to_rad | convert degrees to radians
-rad_to_deg | rad_to_deg | convert radians to degrees
-cel_to_far | cel_to_far | convert celsius to farenheit
-far_to_cel | far_to_cel | convert farenheit to celsius
-pounds_to_kg | pounds_to_kg | convert pounds to kilograms
-kg_to_pounds | kg_to_pounds | convert kilograms to pounds
-mph_to_kph | mph_to_kph | convert miles-per-hour to kilometers-per-hour
-kph_to_mph | kph_to_mph | convert kilometers-per-hour to miles-per-hour
+deg\_to\_rad | deg\_to\_rad | convert degrees to radians
+rad\_to\_deg | rad\_to\_deg | convert radians to degrees
+cel\_to\_far | cel\_to\_far | convert celsius to farenheit
+far\_to\_cel | far\_to\_cel | convert farenheit to celsius
+pounds\_to\_kg | pounds\_to\_kg | convert pounds to kilograms
+kg\_to\_pounds | kg\_to\_pounds | convert kilograms to pounds
+mph\_to\_kph | mph\_to\_kph | convert miles-per-hour to kilometers-per-hour
+kph\_to\_mph | kph\_to\_mph | convert kilometers-per-hour to miles-per-hour
 
-#### harder
+#### Harder
 
 Name	| Operator	| Description
 -----|:--------:|------------|
 fibonacci | fib | return Fibonacci sequence of length **a**
-min_of_n | min_of_n | return minumum number in last **n** elements on stack
-max_of_n | max_of_n | return maximum number in last **n** elements on stack
-sum_of_n | sum_of_n | return sum of numbers in last **n** elements on stack
-exponential | exp | exponetial function **a**^**b**
+min\_of\_n | min\_of\_n | return minumum number in last **n** elements on stack
+max\_of\_n | max\_of\_n | return maximum number in last **n** elements on stack
+sum\_of\_n | sum\_of\_n | return sum of numbers in last **n** elements on stack
+exponential | exp | exponential function **a**^**b**
 logarithm | log | natural logarithm of **a**
-loagirthm10 | log10 | log base 10 of **a**
+logarithm10 | log10 | log base 10 of **a**
 
-#### expert
+#### Expertest
 
 
 Name	| Operator	| Description
@@ -145,7 +145,7 @@ secret = hide message in stack using numeric alphabet (e.g. a = 1, b = 2, etc.).
 
 * Select an issue in the project tracker<br> 
 OR
-* Identify something you would like to work on and add an issue to the github repo
+* Identify something you would like to work on and add an issue to the Github repo
 * Create a submission (addition, deletion, modification to the project)
 * Stage your submission
 * Commit your submission
