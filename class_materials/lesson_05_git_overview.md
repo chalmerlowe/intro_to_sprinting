@@ -36,9 +36,9 @@ Through participating in this session, attendees will be able to:
 
 If you need a primer for the command line, check out the [free course on Codecademy](https://www.codecademy.com/learn/learn-the-command-line). If you just need a quick reference, check out the [Linux commands cheat sheet on It's Foss](https://itsfoss.com/linux-commands-cheat-sheets/).
 
-### GUI-based git tools
+### Graphical User Interface (GUI)-based git tools
 
-There are GUI tools available as well, but they are beyond the scope of this project.
+There are Graphical User Interface (GUI) tools available as well, but they are beyond the scope of this workshop.
 
 * [gitk](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
 * [SourceTree](https://www.sourcetreeapp.com/)
