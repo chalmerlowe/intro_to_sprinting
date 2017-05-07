@@ -187,12 +187,14 @@ When you are done working in your virtualenv, you can deactivate it using the fo
 
 ```bash
 (mytest) $ source deactivate
+$
 ```
 
 ### Windows version
 
 ```bat
 (mytest) C:\> deactivate
+C:\>
 ```
 
 # Resources
