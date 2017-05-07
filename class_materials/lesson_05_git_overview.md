@@ -75,6 +75,7 @@ Enter the following command on the command line, **ENSURE that you change `<your
 ```bash
 $ cd /path/to/my/dev/directory
 $ git clone https://github.com/<your_username>/intro_to_sprinting_codeless_project.git
+$ cd intro_to_sprinting_codeless_project
 ```
 
 This command creates a folder, which should be full of project files. Git will automatically set up `origin` as a **remote** repository, which points to **your** fork of the repository.
