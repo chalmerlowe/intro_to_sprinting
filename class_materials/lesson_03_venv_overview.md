@@ -120,11 +120,14 @@ To activate your virtualenv, run the appropriate command for your operating syst
 ```bash
 $ source activate mytest
 ```
+
 ### Windows version
 
 ```bat
 C:\> activate mytest
 ```
+
+**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
 
 ## Adding software to your virtualenv 
 
