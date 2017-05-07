@@ -66,7 +66,7 @@ Before you can start adding to a project, you will need to clone the project to 
 
 ## Clone a project
 
-We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked the [Intro to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project) into your own Github repository. IF NOT, go do that **[now](./lesson_04_github_overview.md)**.
+We're presuming you've already read the [github\_overview](./lesson_04_github_overview.md), and have forked the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project) into your own Github repository. IF NOT, go do that **[now](./lesson_04_github_overview.md)**.
 
 Now, you're ready to contribute. It's time to clone the project, so you have a copy on your machine to do work on.
 
@@ -497,7 +497,7 @@ This practice presumes that:
 
 * you are in your `mytest` directory
 * your `mytest` virtualenv is active
-* you have forked [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
+* you have forked the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
 * you have cloned that material into your local directory
 
 With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of files with poems.
