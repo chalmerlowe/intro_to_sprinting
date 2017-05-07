@@ -45,7 +45,7 @@ When you want to work on a project, Github will enable you to **fork** the proje
 
 A **fork** of a repository is a copy, hosted under your account, of a repository created by someone else. You then have complete control to modify and change the code to suit your needs (within the limits of copyright/the license on the project). The fork is tied to the original repository (repo) and you can issue requests to the original owner to incorporate your changes into the original project. This process is called a **pull request**.
 
-To practice these steps, we will have you fork fork a sample project to your github account. Navigate to [Chalmer Lowe's Introduction to Sprinting Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
+To practice these steps, we will have you fork fork a sample project to your github account. Navigate to the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
 
 1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
