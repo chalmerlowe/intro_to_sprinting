@@ -177,7 +177,7 @@ To finish the installation of IPython and its dependencies, press:
 
 Multiple packages can be installed at the same time, by separating the package names with spaces:
 
-`conda install click flask pandas`
+`conda install flake8 mock funcsigs`
 
 ## Leaving the virtualenv when you are done
 
