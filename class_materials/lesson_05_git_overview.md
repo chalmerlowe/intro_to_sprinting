@@ -104,6 +104,10 @@ Git repositories are very sophisticated, but at the lowest level, they are fairl
 
 As we look at each of these, we will imagine that we are processing materials in a warehouse and shipping them to another location.
 
+[Jessica Kerr](https://github.com/jessitron) gave a great talk using this analogy, you can watch it here:
+
+[![Git Happens](https://img.youtube.com/vi/yCh6TSLIQBQ/0.jpg)](https://www.youtube.com/watch?v=yCh6TSLIQBQ)
+
 ### Local directory
 
 The **local directory** is simply the directory on your machine and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the warehouse in our example. There are plenty of materials: some that are necessary to run the warehouse (but not part of what is typically stored in the warehouse), some things that have been ordered, and some things that are not quite ready to ship. Any new files you create in your local directory will only be visible to you.
