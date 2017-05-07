@@ -2,13 +2,13 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/en/6/6b/Hot_Shots_part_deux.jpg" align="right">
 
-Now that you've seen how to make changes 
+Now that you've seen how to make changes
 
 ## Pull Requests
 
-**NOTE**: the following steps are to be used **AFTER** you have made changes to the project and are ready to share those changes with the original project author. 
+**NOTE**: the following steps are to be used **AFTER** you have made changes to the project and are ready to share those changes with the original project author.
 
-**NOTE**: We are presuming that your changes have **already** been pushed to **your own** Github repo (instructions on how to do this were covered in the previous lesson: [Git Overview](./lesson_05_git_overview.md). 
+**NOTE**: We are presuming that your changes have **already** been pushed to **your own** Github repo (instructions on how to do this were covered in the previous lesson: [Git Overview](./lesson_05_git_overview.md).
 
 # The big picture
 
@@ -17,10 +17,10 @@ Once your changes have been pushed to your own Github repo, you will need to sub
 ![Pull Request](images/git_pull_request.png)
 
 ## Submit a Pull Request
- 
+
 1. Above the file list on the left hand side, click on "New Pull Request:"<br>
 ![New Pull Request Button](images/new-pull-request-icon.png)
-2. Github will allow you to confirm which changes in your repo you want to share with the original author, as shown in the following image. **NOTE**: Github transfers you to the repo of the original author, so you will **no longer** be on your Github account page. 
+2. Github will allow you to confirm which changes in your repo you want to share with the original author, as shown in the following image. **NOTE**: Github transfers you to the repo of the original author, so you will **no longer** be on your Github account page.
 3. Before proceeding, you should check for the following items.
   * Confirm that the **base fork** is your fork
   * Confirm that the **head fork** is the original author's fork
@@ -48,5 +48,5 @@ Success!
 
 Now, go do it again!
 
-|[<<< Previous Lesson: Git Overview](./lesson_05_git_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_07_intro_to_the_project.md)|
+|[<<< Previous Lesson: Git Overview](./lesson_05_git_overview.md)|[Next Lesson: Intro to the Project >>>](./lesson_07_project_prep.md)|
 |:--|--:|
