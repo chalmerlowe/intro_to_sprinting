@@ -73,6 +73,7 @@ Now, you're ready to contribute. It's time to clone the project, so you have a c
 Enter the following command on the command line, **ENSURE that you change `<your_username>`** to the name of your account:
 
 ```bash
+cd /path/to/my/dev/directory
 git clone https://github.com/<your_username>/intro_to_sprinting_codeless_project.git
 ```
 
