@@ -51,8 +51,8 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 When you contribute to a project, you'll want your name associated with your contributions. The following commands allow git to get to know you:
 
 ```bash
-git config --global user.name "<Your Name here>"
-git config --global user.email "<your_email@domainname.com>"
+$ git config --global user.name "<Your Name here>"
+$ git config --global user.email "<your_email@domainname.com>"
 ```
 
 **Note:** You'll only need to do this once on your computer.
@@ -73,8 +73,8 @@ Now, you're ready to contribute. It's time to clone the project, so you have a c
 Enter the following command on the command line, **ENSURE that you change `<your_username>`** to the name of your account:
 
 ```bash
-cd /path/to/my/dev/directory
-git clone https://github.com/<your_username>/intro_to_sprinting_codeless_project.git
+$ cd /path/to/my/dev/directory
+$ git clone https://github.com/<your_username>/intro_to_sprinting_codeless_project.git
 ```
 
 This command creates a folder, which should be full of project files. Git will automatically set up `origin` as a **remote** repository, which points to **your** fork of the repository.
@@ -82,13 +82,13 @@ This command creates a folder, which should be full of project files. Git will a
 Next we inform git of where to find the upstream repository (the repo that your fork was forked from) using the following command:
 
 ```bash
-git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
+$ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
 Confirm that git has stored the correct upstream repository with this command:
 
 ```bash
-git remote -v
+$ git remote -v
 ```
 
 **Note:** You'll do this **one time for each project** you want to work on.
@@ -351,19 +351,19 @@ Many GUI-based tools will show you more information, such as highlighting the in
 There are couple tricks that make adding files to a commit a little bit easier if you pay attention to what you are doing. For instance you can add **all** of the changed files to your staging area with:
 
 ```bash
-git add *
+$ git add *
 ```
 
 You can add **all** changed files from the current directory using:
 
 ```bash
-git add .
+$ git add .
 ```
 
 **NOTE**: This can lead to problems if you add files that aren't related to the commit. To protect against this you can view which files have pending changes **before** you add them with:
 
 ```bash
-git status
+$ git status
 ```
 
 ### Committing (when you have lots to say)
@@ -371,7 +371,7 @@ git status
 The method taught above works fine, but there are additional flags and parameters that can make for a better commit. First of all, if you would like to add a more in depth description you can use (without the `-m`):
 
 ```bash
-git commit
+$ git commit
 ```
 
 This command will bring you into a command line text editor like **vi/vim** or **emacs** where the
@@ -380,7 +380,7 @@ first line serves as the title of the commit, followed by a blank line and then 
 Another feature related to that, which ties in with open source sprinting is if you enter
 
 ```bash
-git commit -s
+$ git commit -s
 ```
 
 It will bring of the same command line text editor as before but with a `Signed off by:` section
@@ -392,7 +392,7 @@ listing your name, giving the rights to your code to whomever you committed it t
 The `git commit` command notes your changes locally, but they are not yet changed on your **origin (remote repository)**. To push your changes up to GitHub, you use the `git push` command:
 
 ```bash
-git push <repository_name> <branch_name>
+$ git push <repository_name> <branch_name>
 ```
 
 Note: git uses some defaults:
@@ -457,30 +457,30 @@ Branches should be small and self-contained so that they can be merged. Sprawlin
 A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
 
 ```bash
-git checkout -b my-feature-name     # "-b" creates a new branch named "my-feature-branch"
+$ git checkout -b my-feature-name     # "-b" creates a new branch named "my-feature-branch"
 ```
 
 ... do some work in my editor or IDE ...
 
 ```
-git add .
-git commit -m 'my first bit of work'
+$ git add .
+$ git commit -m 'my first bit of work'
 ```
 
 ... do more work in my editor or IDE ...
 
 ```
-git add .
-git commit -m 'my second bit of work'
+$ git add .
+$ git commit -m 'my second bit of work'
 ```
 
 Once we are done, let's merge the feature branch back into the master branch
 
 ```
-git checkout master     # this checks out the master branch   
-git pull                # this pulls any remote changes into master           
-git merge my-feature-name
-git push origin master
+$ git checkout master     # this checks out the master branch   
+$ git pull                # this pulls any remote changes into master           
+$ git merge my-feature-name
+$ git push origin master
 ```
 
 Let's imagine that you are working on a project with multiple commits to the master branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the master branch during that same timeframe.
@@ -532,36 +532,37 @@ Changes not staged for commit:
 ```
 **Add** the file you edited, to the git **staging area**.
 
-    ```bash
-    git add <file you edited>
-    ```
+```bash
+$ git add <file you edited>
+```
 
-    If you need to add more than one file to the staging area, simply separate the filenames with a space:
+If you need to add more than one file to the staging area, simply separate the filenames with a space:
 
-    ```bash
-    git add <file1> <file2> ...
-    ```
+```bash
+$ git add <file1> <file2> ...
+```
     
-    ... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
+... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
     
-    ```bash
-    git add *.txt
-    ```
+```bash
+$ git add *.txt
+```
 
 **Commit** your changes when you are ready to make a permanent record of them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
 
-    ```bash
-    git commit -m "Description of changes"
-    ```
-    **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
+```bash
+$ git commit -m "Description of changes"
+```
+
+**NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
 **Push** the commit to Github with:
 
-    ```bash
-    git push origin master
-    ```
+```bash
+$ git push origin master
+```
 
-    In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
+In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
 
 After pushing to origin you will have to go and create a pull request, which is explained in the [Github\_overview](./lesson_04_github_overview.md).
 
@@ -574,7 +575,7 @@ As you get used to the above steps, the next step is to grow familiar with using
 **Note:** replace "my\_change\_name" with the name of the feature you are adding.
 
 ```bash
-git checkout -b feature/my_change_name
+$ git checkout -b feature/my_change_name
 ```
 
 ### Make your changes
@@ -586,8 +587,8 @@ When you are finished making changes, proceed with the remaining steps.
 ### Commit your changes
 
 ```bash
-git add .
-git commit -m 'added my new feature'
+$ git add .
+$ git commit -m 'added my new feature'
 ```
 
 ### Merge changes from master into your branch
@@ -595,7 +596,7 @@ git commit -m 'added my new feature'
 Sometimes other people will make changes that impact the thing you were working on. It's easiest to catch this early by trying to merge **master** into your feature branch:
 
 ```bash
-git merge master
+$ git merge master
 ```
 
 If you have any conflicts, you will need to address them. GitHub has a simple resource for [resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
@@ -603,9 +604,9 @@ If you have any conflicts, you will need to address them. GitHub has a simple re
 ### Merge your changes into the master branch
 
 ```bash
-git checkout master
-git pull
-git merge feature/my_change_name
+$ git checkout master
+$ git pull
+$ git merge feature/my_change_name
 ```
 
 ### Delete your feature branch
@@ -613,7 +614,7 @@ git merge feature/my_change_name
 When you are finished using a branch (i.e. all the pertinent changes have been merged into master), you can simply delete it:
 
 ```bash
-git branch -d feature/my_change_name
+$ git branch -d feature/my_change_name
 ```
 
 # Resources
