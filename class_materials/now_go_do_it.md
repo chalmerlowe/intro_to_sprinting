@@ -1,4 +1,4 @@
-# Git Concepts
+# Now Go Do It!
 
 ## Time-box
 

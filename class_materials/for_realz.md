@@ -1,4 +1,4 @@
-# Using Git
+# Practicing for Realz
 
 ## Time-box
 
