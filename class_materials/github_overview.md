@@ -15,4 +15,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [Table of Contents](./toc.md) | [<next title>](./<filename>.md) |
+| [<prev title>](./<filename>.md) | [Table of Contents](./README.md) | [<next title>](./<filename>.md) |
