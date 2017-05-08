@@ -279,3 +279,79 @@ $ git commit -s
 
 It will bring of the same command line text editor as before but with a `Signed off by:` section
 listing your name, giving the rights to your code to whomever you committed it to.
+
+
+
+# Lesson Practice
+
+## Making changes to files
+
+This practice presumes that:
+
+* you are in your `mytest` directory
+* your `mytest` virtualenv is active
+* you have forked the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
+* you have cloned that material into your local directory
+
+With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of files with poems.
+
+
+**Ensure** you are in the top-level folder for the repository. 
+   
+   * If you type `ls` (or `dir` in Windows) you should see multiple files.
+
+Pick a file and edit it.
+ 
+   * Open your favorite editor or IDE and make some desired changes. 
+     * Perhaps you want to add a new file with your favorite poems
+     * Add a joke to a Nerd Jokes file
+     * But any change to a line, a word, a phrase will be sufficient
+     * **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
+   * Save the file. 
+  
+
+**Check** the current status of all files in the repository:
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   <file you edited>
+```
+**Add** the file you edited, to the git **staging area**.
+
+```bash
+$ git add <file you edited>
+```
+
+If you need to add more than one file to the staging area, simply separate the filenames with a space:
+
+```bash
+$ git add <file1> <file2> ...
+```
+    
+... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
+    
+```bash
+$ git add *.txt
+```
+
+**Commit** your changes when you are ready to make a permanent record of them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
+
+```bash
+$ git commit -m "Description of changes"
+```
+
+**NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
+
+**Push** the commit to Github with:
+
+```bash
+$ git push origin master
+```
+
+In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.

@@ -17,6 +17,22 @@ working on. The project code lives in a central **remote repository**, tradition
 where they can work on adding features and squashing bugs. When finished, they
 push the code back into `origin`, for other contributers to see and pull from.
 
+## Objectives
+
+Through participating in this session, attendees will be able to:
+
+* Understand why git is used in an open source project
+* Use basic git commands to:
+    * get a copy of an open source project
+    * save modifications/additions/deletions to the project
+    * submit those changes to the project
+    * incorporate other's changes to the project
+    * verify the status of the project repository
+    * perform basic troubleshooting
+
+**NOTE**: this will be a **hands-on** overview of git. It is incredibly powerful with many options and capabilities. The goal is to get you **started** with git, but it will take time and practice on your own to make you into an expert.
+
+
 ### Command-line interface
 
 We will be using `git` from the command line in this course. There are a lot of commands, and they can be kind of confusing. That's OK... it will start to make sense once you do it a few times. And that's why you're here!

@@ -83,3 +83,58 @@ The history created by the above steps would look something like this:
 
 <img src="http://sentheon.com/images/27052016_branches.png">
 **Source**: http://sentheon.com/images/27052016_branches.png
+
+
+
+
+
+## Make a change in a branch
+
+As you get used to the above steps, the next step is to grow familiar with using the branch-work-merge flow to isolate your work from changes made by others.
+
+### Create a branch
+
+**Note:** replace "my\_change\_name" with the name of the feature you are adding.
+
+```bash
+$ git checkout -b feature/my_change_name
+```
+
+### Make your changes
+
+
+
+When you are finished making changes, proceed with the remaining steps.
+
+### Commit your changes
+
+```bash
+$ git add .
+$ git commit -m 'added my new feature'
+```
+
+### Merge changes from master into your branch
+
+Sometimes other people will make changes that impact the thing you were working on. It's easiest to catch this early by trying to merge **master** into your feature branch:
+
+```bash
+$ git merge master
+```
+
+If you have any conflicts, you will need to address them. GitHub has a simple resource for [resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
+
+### Merge your changes into the master branch
+
+```bash
+$ git checkout master
+$ git pull
+$ git merge feature/my_change_name
+```
+
+### Delete your feature branch
+
+When you are finished using a branch (i.e. all the pertinent changes have been merged into master), you can simply delete it:
+
+```bash
+$ git branch -d feature/my_change_name
+```
