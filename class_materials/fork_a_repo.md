@@ -27,4 +27,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Setting up GitHub](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using the Command Line](./command_line.md) |

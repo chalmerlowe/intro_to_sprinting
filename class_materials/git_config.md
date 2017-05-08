@@ -41,4 +41,4 @@ If you need a primer for the command line, check out the [free course on Codecad
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Using the Command Line](./command_line.md) | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |

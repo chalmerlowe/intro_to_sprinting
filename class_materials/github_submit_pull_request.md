@@ -61,4 +61,4 @@ If they agree with and approve your **suggested changes** they will merge the ch
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Git Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Pull Request Tips and Suggestions](./pull_request_tips.md) |

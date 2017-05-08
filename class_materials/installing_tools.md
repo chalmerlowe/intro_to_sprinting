@@ -98,4 +98,4 @@ Miniconda contains the `conda` package manager and `Python`. `conda` is language
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up Virtual Environments](./virtual_environments.md) |

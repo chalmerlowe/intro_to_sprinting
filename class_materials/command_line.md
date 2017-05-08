@@ -27,4 +27,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Forking a Repository](./fork_a_repo.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |

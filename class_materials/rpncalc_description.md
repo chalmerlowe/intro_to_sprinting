@@ -27,4 +27,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Practicing for Realz](./for_realz.md) | [Practicing for Realz](./for_realz.md) | [Now Go Do It!](./now_go_do_it.md) |
