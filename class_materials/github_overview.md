@@ -1,14 +1,18 @@
 # Using GitHub
 
+
 ## Time-box
 
-<XX> Minutes
+2 Minutes
+
 
 ## Overview
 
-<2-3 paragraphs> to discuss Github.
-More details will be shared in the github_concepts.md. >> the parts and pieces of Github (the tabs, the graphs, etc 
-Further details on pull requests will be covered in the github_submit_pull_request.md
+Let's switch gears a bit and discuss Github. In the next few sessions, we will explore several capabilities available in Github that greatly simplify code sharing and collaboration. Concepts to be covered include:
+
+* Github user interface
+* Pull requests
+* Github Flow (lightweight branch-based workflow)
 
 
 ## Lessons
