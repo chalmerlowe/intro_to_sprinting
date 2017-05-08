@@ -54,4 +54,4 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Course Overview and Preparation](./prereq_overview.md) | [Course Overview and Preparation](./prereq_overview.md) | [Student Preparation](./prereq_student.md) |

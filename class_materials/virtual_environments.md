@@ -238,4 +238,4 @@ Discussing these is outside the scope of this course. Using either of these tool
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub](./github_setup.md) |

@@ -45,4 +45,4 @@ In the hands-on practice session, you will be using command-line tools to contri
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Instructor Preparation](./prereq_instructor.md) | [Course Overview and Preparation](./prereq_overview.md) | [Environment Set-up](./environment_overview.md) |

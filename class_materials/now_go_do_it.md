@@ -27,4 +27,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [RPN Calculator Project](./rpncalc_description.md) | [Practicing for Realz](./for_realz.md) |  |

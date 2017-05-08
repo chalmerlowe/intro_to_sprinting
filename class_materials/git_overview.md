@@ -55,4 +55,4 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [Table of Contents](./README.md) | [<next title>](./<filename>.md) |
+| [Setting up Git](./git_config.md) | [Table of Contents](./README.md) | [Git Concepts](./git_concepts.md) |

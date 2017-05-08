@@ -15,4 +15,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [Table of Contents](./README.md) | [<next title>](./<filename>.md) |
+| [Pull Request Tips and Suggestions](./pull_request_tips.md) | [Table of Contents](./README.md) | [RPN Calculator Project](./rpncalc_description.md) |

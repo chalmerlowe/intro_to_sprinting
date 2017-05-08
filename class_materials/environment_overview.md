@@ -15,4 +15,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [Table of Contents](./README.md) | [<next title>](./<filename>.md) |
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |

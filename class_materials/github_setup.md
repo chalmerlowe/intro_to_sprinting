@@ -74,4 +74,4 @@ A **fork** of a repository is a copy, hosted under your account, of a repository
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Setting up Virtual Environments](./virtual_environments.md) | [Environment Set-up](./environment_overview.md) | [Forking a Repository](./fork_a_repo.md) |

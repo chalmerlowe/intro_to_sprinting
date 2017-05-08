@@ -22,4 +22,4 @@ Let's switch gears a bit and discuss Github. In the next few sessions, we will e
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [Table of Contents](./README.md) | [<next title>](./<filename>.md) |
+| [Dealing with Merge Conflicts](./git_merge_conflicts.md) | [Table of Contents](./README.md) | [GitHub Concepts](./github_concepts.md) |
