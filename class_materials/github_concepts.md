@@ -2,11 +2,12 @@
 
 ## Time-box
 
-<XX> Minutes
+10 Minutes
 
 ## Overview
 
-<put single paragraph here>
+Github is a powerful platform.
+
 
 ## What to do
 

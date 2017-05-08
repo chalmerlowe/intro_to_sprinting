@@ -1,12 +1,19 @@
 # Using GitHub
 
+
 ## Time-box
 
-<XX> Minutes
+2 Minutes
+
 
 ## Overview
 
-<2-3 paragraphs>
+Let's switch gears a bit and discuss Github. In the next few sessions, we will explore several capabilities available in Github that greatly simplify code sharing and collaboration. Concepts to be covered include:
+
+* Github user interface
+* Pull requests
+* Github Flow (lightweight branch-based workflow)
+
 
 ## Lessons
 
