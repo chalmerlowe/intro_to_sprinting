@@ -53,4 +53,4 @@ Participants should expect to achieve the following learning objectives upon com
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| | [Table of Contents](./toc.md) | [Instructor Preparation](./prereq_instructor.md) |
+| | [Table of Contents](./README.md) | [Instructor Preparation](./prereq_instructor.md) |
