@@ -84,8 +84,6 @@ In a command prompt type `conda list`. If `conda` is installed properly, you wil
 
 `git` is a distributed version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project. A later lesson will provide more details on `git`.
 
-# `conda`
-
 ### What is miniconda (`conda`)?
 
 Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to create virtual environments and manage separate installations of `Python` along with a large number of Python packages/libraries. Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide details on both virtual environments and the use of the `conda` package manager.
