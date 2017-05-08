@@ -1,5 +1,8 @@
 Table of Contents
 
+1. [Course Overview and Preparation](./prereq_overview.md)
+  1. [Instructor Preparation](./prereq_instructor.md)
+  1. [Student Preparation](./prereq_student.md)
 1. [Environment Set-up](./environment_overview.md)
   1. [Installing the Software You'll Need](./installing_tools.md)
   1. [Setting up Virtual Environments](./virtual_environments.md)
