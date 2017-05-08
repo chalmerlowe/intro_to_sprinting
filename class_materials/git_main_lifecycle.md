@@ -34,7 +34,7 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
 
 
 

@@ -27,4 +27,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Submitting a Pull Request](./github_submit_pull_request.md) | [Using GitHub](./github_overview.md) | [Practicing for Realz](./for_realz.md) |

@@ -27,4 +27,4 @@
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+| [Branching and Merging](./git_branch_merge.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
