@@ -4,7 +4,7 @@ Now that you have been through the demo and seen, heard and in some cases, tried
 
 The details of the Project will be described in the next lesson. This lesson is more about getting your working environment set up, AND giving you a summary of the major commands, etc.
 
-These steps purposely limit the explanation to highlight the major commands and steps. If you need some review on a given command, feel free to ask the mentors in the room OR to refer back to the main lecture/demo materials. 
+These steps purposely limit the explanation to highlight the major commands and steps. If you need some review on a given command, feel free to ask the mentors in the room OR to refer back to the main lecture/demo materials.
 
 # Objectives
 
@@ -51,51 +51,52 @@ You will need to fork the calculator repo.
 Clone a copy of your repo to your desktop:
 
 ```bash
-git clone https://github.com/<your_username>/python-rpncalc-20170506.git
+$ git clone https://github.com/<your_username>/python-rpncalc-20170506.git
+$ cd python-rpncalc-20170506
 ```
 
 Add the upstream repo:
 
 ```bash
-git remote add upstream https://github.com/chalmerlowe/python-rpncalc-20170506.git
+$ git remote add upstream https://github.com/chalmerlowe/python-rpncalc-20170506.git
 ```
 
 Confirm that git has stored the correct upstream repository with this command:
 
 ```bash
-git remote -v
+$ git remote -v
 ```
 
 ## Stage, Commit, Push
 
 ```bash
-git checkout -b mybranch
+$ git checkout -b mybranch
 ```
 
 Make wonderful, glorious changes to the project.
 
 ```bash
-git add <file>
-git commit -m "supremely concise, but explanatory message "
+$ git add <file>
+$ git commit -m "supremely concise, but explanatory message "
 ```
 
 Continue the process of saving the world through code!
 
 ```bash
-git add <file>
-git commit -m "awesomely short, but descriptive message"
+$ git add <file>
+$ git commit -m "awesomely short, but descriptive message"
 ```
 
 ```bash
-git checkout master
+$ git checkout master
 ```
 
 ```bash
-git merge
+$ git merge
 ```
 
 ```bash
-git push
+$ git push
 ```
 
 ## Pull Requests
