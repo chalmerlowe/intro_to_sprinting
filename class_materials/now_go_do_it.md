@@ -6,7 +6,7 @@
 
 ## Overview
 
-<put single paragraph here>
+![Just Deux It](images/Hot_Shots_part_deux.jpg)
 
 ## What to do
 
