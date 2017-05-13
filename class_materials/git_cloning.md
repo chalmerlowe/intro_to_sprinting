@@ -13,6 +13,7 @@ It's time to clone the project, so you have a copy on your machine to do work on
 
 ## What to do
 
+**Note:** *ENSURE* that you change `<your_username>` to the name of your account.
 
 ```bash
 $ cd /path/to/my/dev/directory
@@ -20,9 +21,6 @@ $ git clone https://github.com/<your_username>/intro_to_sprinting_codeless_proje
 $ cd intro_to_sprinting_codeless_project
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
-
-**Note:** *ENSURE* that you change `<your_username>` to the name of your account.
-
 
 ## The big picture
 
@@ -59,15 +57,14 @@ $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_code
 
 Confirm that git has stored the correct upstream repository with this command:
 
+**Note:** You'll do this **one time for each project** you want to work on.
+
 ```bash
 $ git remote -v
 origin   https://github.com/myusername/intro_to_sprinting_codeless_project (fetch)
 origin   https://github.com/myusername/intro_to_sprinting_codeless_project (push)
 upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
 ```
-
-**Note:** You'll do this **one time for each project** you want to work on.
-
 
 ## Resources
 
