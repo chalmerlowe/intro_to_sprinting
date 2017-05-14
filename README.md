@@ -56,4 +56,4 @@ Beginners will NOT need to have in depth knowledge on the following:
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-|  | [Table of Contents](./class_materials/Readme.md) | [Class Materials](./class_materials/Readme.md) |
+|  | [Table of Contents](./class_materials/README.md) | [Class Materials](./class_materials/README.md) |
