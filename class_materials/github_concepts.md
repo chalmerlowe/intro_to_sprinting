@@ -12,11 +12,12 @@ Github is a powerful platform. There are many features and capabilities availabl
 ## What to do
 
 1. Navigate to your Github repo for the codeless project.
-1. The repo has a number of tabs across the top >>> `Code`, `Issues`, `Pull requests`, `Wiki`, `Graphs`, etc.
+1. The repo has a number of tabs across the top: `Code`, `Issues`, `Pull requests`, `Wiki`, `Graphs`, etc.
 ![Codeless Repo](images/github_codeless_repo.png)
-1. Click on the `Issues` tab. You will find 
+1. Click on the `Issues` tab. You will find a list of issues<br><br>
 ![Issues tab](images/github_issues.png)
-
+1. Click on several Issues and explore them: see the milestones, the labels, the commentary, etc.
+1. Click on the `Wiki` tab.
 
 
 
@@ -41,4 +42,8 @@ Navigate to the upstream Github repo for the codeless project.
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) |
+| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
+
+
+
+
