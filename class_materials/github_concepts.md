@@ -40,10 +40,9 @@ Navigate to the upstream Github repo for the codeless project.
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [<prev title>](./<filename>.md) | [<section title>](./<filename>.md) | [<next title>](./<filename>.md) |
-
-
+| [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) | 
 
 
