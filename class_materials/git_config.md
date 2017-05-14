@@ -18,10 +18,10 @@ $ git config --global user.email "<your_email@domainname.com>"
 ```
 
 **Note:**
-The "--global" option applies these settings to all git projects on your machine  
+The __--global__ option applies these settings to all git projects on your machine  
 * You only need to run this once per computer.  
 * Re-run the command to change a setting.  
-* To override these settings for specific projects, simply run the command while in that project area, and leave out the "--global" option.
+* To override these settings for specific projects, simply run the command while in that project area, and leave out the __--global__ option.
 
 ## The big picture
 
