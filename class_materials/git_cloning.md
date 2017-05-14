@@ -13,6 +13,7 @@ It's time to clone the project, so you have a copy on your machine to do work on
 
 ## What to do
 
+### **Note:** *ENSURE* that you change `<your_username>` to the name of your account.
 
 ```bash
 $ cd /path/to/my/dev/directory
@@ -21,7 +22,7 @@ $ cd intro_to_sprinting_codeless_project
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
-**Note:** *ENSURE* that you change `<your_username>` to the name of your account.
+
 
 
 ## The big picture
