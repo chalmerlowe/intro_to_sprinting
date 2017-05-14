@@ -33,14 +33,6 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
-
-
-
-
 Git repositories are very sophisticated, but at the lowest level, they are fairly simple. Git tracks changes to files in a database AND categorizes files in the following ways:
 
 1. Local directory (warehouse)
@@ -108,3 +100,11 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 [Official Reference Manual](https://git-scm.com/docs)
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
+
+
+
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
+
+
