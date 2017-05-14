@@ -1,4 +1,4 @@
-# Git Concepts
+# GitHub Concepts
 
 ## Time-box
 
