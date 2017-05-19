@@ -3,7 +3,7 @@
 
 ## Time-box
 
-N/A: this should be completed prior to the start of the course.
+N/A: the steps in this section should ideally be completed by the instructor and/or the participants prior to arrival at the workshop.
 
 
 ## Overview
@@ -15,10 +15,10 @@ Welcome to the **Introduction to Open Source Workshop**. Participants are expect
 
 This workshop covers...
 
-* [Section](./<section>.md): <section description>
-* [Section](./<section>.md): <section description>
-* [Section](./<section>.md): <section description>
-* [Section](./<section>.md): <section description>
+* [Environment Setup](./environment_overview.md): Installing software, creating a virtual environment, forking a repository and setting up version control software.
+* [Using Git](./git_overview.md): basic commands to copy a repository, add your changes, commit those changes and push the changes to Github.
+* [Using Github](./github_overview.md): basic overview of the collaborative tools on Github and how to issue a pull request.
+* [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on Github.
 
 
 ### What not to expect
@@ -48,8 +48,8 @@ Participants should expect to achieve the following learning objectives upon com
 
 ## Preparatory Lessons
 
-* [Instructor Preparation](./prereq_instructor.md): <objective of lesson>
-* [Student Preparation](./prereq_student.md): <objective of lesson>
+* [Instructor Preparation](./prereq_instructor.md): Steps the instructor should take to prepare for the workshop.
+* [Student Preparation](./prereq_student.md): Steps the students should take to prepare for the workshop.
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
