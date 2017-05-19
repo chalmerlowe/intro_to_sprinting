@@ -42,7 +42,7 @@ In the hands-on practice session, you will be using command-line tools to contri
 ## Resources
 
 * [Windows command-line](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) Windows commandline stuff
-* [Linux/Mac command-line](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux command stuff
+* [Linux/Mac command-line](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux commandline stuff
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
