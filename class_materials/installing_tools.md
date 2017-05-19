@@ -19,7 +19,7 @@ Collaborating on sprints generally requires the use of software tools to truly b
 
 ## What to do
 
-### Install `git`
+### Download and Install `git`
 
 First check to see if `git` is already installed on your computer.
 
@@ -45,7 +45,7 @@ If `git` **is not** installed your command prompt will tell you. Follow the inst
 
 Many Mac users use [homebrew](http://brew.sh/) to install programs.
 
-```shell
+```bash
 brew install git
 ```
 
@@ -69,7 +69,7 @@ $ sudo apt-get install git-all
 
 In a command prompt type `git config`. If `git` is installed properly, you will see text explaining some of the common configuration options for `git`.
 
-### Install `conda`
+### Download and Install `conda`
 
 Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html).
 
@@ -80,14 +80,25 @@ In a command prompt type `conda list`. If `conda` is installed properly, you wil
 
 ## The big picture
 
-### What is `git`?
+### What is `git` and why did we install it?
 
 `git` is a distributed version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project. A later lesson will provide more details on `git`.
 
-### What is miniconda (`conda`)?
+### What is miniconda (`conda`) and why did we install it?
 
-Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to create virtual environments and manage separate installations of `Python` along with a large number of Python packages/libraries. Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide details on both virtual environments and the use of the `conda` package manager.
+Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to: 
 
+* create virtual environments and 
+* manage separate installations of `Python` 
+* manage a large number of Python packages/libraries
+
+Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
+
+**NOTE** It is not uncommon for people to suggest the use of alternate tools to create virtual environments OR to handle package management. Some of the most common are listed below. There are instructions online for the use of these tools. The principles for these tools will be very similar to what we cover with `conda`:
+
+* Python's `venv` >>> creates virtual environments
+* `virtualenv` >>> creates virtual environments
+* `pip` >>> Python's Package manager
 
 ## Resources
 
