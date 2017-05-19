@@ -3,12 +3,12 @@
 
 ## Time-box
 
-N/A: this should be completed prior to the start of the course.
+N/A: these preparatory steps should be completed prior to the start of the course.
 
 
 ## Overview
 
-This section is intended for the workshop instructor. It outlines what the instructor should do to successfully execute this workshop.
+This section is intended for the workshop **instructor**. It outlines what the instructor should do to successfully execute this workshop.
 
 This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following
 
@@ -44,13 +44,15 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 ### Post workshop follow-up
 
-[TODO: add any additional steps]
+* Thank the attendees for their participation
+* Issue a post-workshop survey (i.e. using Surveymonkey.com OR Google forms)
+* If you have suggestions OR found something that just doesn't work: submit an issue to the repo [Intro to Sprinting Workshop](https://github.com/chalmerlowe/intro_to_sprinting/issues/) OR 
+* Better yet, work with your students to have them submit a Pull Request with suggestions or improvements.
 
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
+N/A
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
