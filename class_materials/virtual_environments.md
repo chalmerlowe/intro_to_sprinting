@@ -244,17 +244,17 @@ Discussing these is outside the scope of this course. Using either of these tool
 
 ## Resources
 
-* [Conda Docs](http://conda.pydata.org/docs/get-started.html): A getting started guide on how to use conda
-* [Pip instructions](https://docs.python.org/3/installing/): An overview of a Python-oriented package manager: Pip
+* [Conda Documentation](http://conda.pydata.org/docs/get-started.html): A getting started guide on how to use conda
+* [pip instructions](https://docs.python.org/3/installing/): An overview of a Python-oriented package manager: Pip
 * [Conda vs Pip](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/): Excellent discussion on the benefits of conda and the differences between conda and pip
 * [venv](https://docs.python.org/3/library/venv.html): A tool, included with Python, to create isolated Python environments
-* [Virtualenv](https://virtualenv.pypa.io/en/stable/): A popular tool, albeit 3rd party, to create isolated Python environments
+* [virtualenv](https://virtualenv.pypa.io/en/stable/): A popular tool, albeit 3rd party, to create isolated Python environments
 
 
 
 ## Footnotes
 
-[1]: the maintainers of conda put together packages for the most recent versions of Python as they get released, but sometimes there may be a short lag.
+[1]: the maintainers of conda put together resources for the most recent versions of Python libraries as they get released, but sometimes there may be a short lag.
 
 
 | Previous | Up | Next |
