@@ -3,7 +3,7 @@
 
 ## Time-box
 
-<XX> Minutes
+XX Minutes
 
 
 ## Overview
@@ -16,11 +16,13 @@ GitHub is a web-based version control repository. It also serves as an Internet 
 Through participating in this session, attendees will be able to:
 
 * Understand why GitHub is used in an open source project
-* Use some basic features of GitHub to contribute to a project, including creating a copy of the project
+* Use some basic features of GitHub to prepare for contributing to a project, including creating a copy of the project
 
-A later session will show additional steps in the process such as issuing a **pull request**, etc.
+A later session will discuss features and capabilities of Github and will discuss additional steps in the open source process such as issuing a **pull request**, etc.
 
 ## What to do
+
+### Login/create an account
 
 If you **ALREADY** have a Github account, log into your regular account.
 
@@ -33,37 +35,38 @@ If you **DO NOT** have a Github account, you will need to make one:
    * Create a password   
 3. Click "Sign up for GitHub"
 
+### Get a copy of the project you want to work on
+
 Fork the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) into your GitHub acccount:
 
 1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
 2. Click the Fork button to to create a fork under your account
 
-**NOTE**:  As mentioned, the fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro\_to\_sprinting\_codeless\_project:"<br>
+**NOTE**:  The fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro\_to\_sprinting\_codeless\_project:"<br>
 ![Fork link to original repo](images/fork-repo-link.png)
 
 
 ## The big picture
 
-Projects files on Github are often called repositories or **repo/repos** for short. For every project you contribute to, you will interact with two different repos:
+Project files on Github are often called repositories or **repo/repos** for short. For every project you contribute to, you will interact with two different repos:
 
 * One repo will be the original project repository
-* The other repo will be your personal copy of the original repo
+* The other repo will be **your personal copy** of the original repo
 
 ![Remote Repo](images/github_part_1_remote.png)
 
-When you want to work on a project, Github will enable you to **fork** the project so that you can have a copy of the project under your account.
+When you want to work on a project, Github will enable you to **fork** the original project so that you can have a copy of the project under your account.
 
 ![Personal Repo](images/github_part_1_personal.png)
 
-## Deep dive
+There are several nuances to understand about this: 
 
-
-### Forking a repository
-
-A **fork** of a repository is a copy, hosted under your account, of a repository created by someone else. You then have complete control to modify and change the code to suit your needs (within the limits of copyright/the license on the project). The fork is tied to the original repository (repo) and you can issue requests to the original owner to incorporate your changes into the original project. This process is called a **pull request**.
-
-[TODO: more discussion of forks]
+* Your Github copy is exactly that: **your copy**.
+* You can do whatever you want to your copy >> you can change it to suit your needs (within the limits of copyright/the license on the project).
+* You do NOT have to explicitly share any of your changes back to the original author
+* Github will maintain a link, behind the scenes, for you so that you can share your changes (we'll talk about that later)
+* Unless they go looking, no one at the original repo will generally even know/notice about the specific details of your changes until you tell them about it. (Caveat: finding your changes is not hard, but there is generally no reason for folks to go looking).
 
 
 ## Resources
@@ -74,4 +77,4 @@ A **fork** of a repository is a copy, hosted under your account, of a repository
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Setting up Virtual Environments](./virtual_environments.md) | [Environment Set-up](./environment_overview.md) | [Forking a Repository](./fork_a_repo.md) |
+| [Setting up Virtual Environments](./virtual_environments.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
