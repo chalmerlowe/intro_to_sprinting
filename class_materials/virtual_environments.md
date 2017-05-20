@@ -21,6 +21,19 @@ Through participating in this session, attendees will be able to:
 
 ## What to do
 
+* Create a directory for your project, in this case, we will create a directory called `mytest`
+* On your command prompt, make sure you are in a directory where you want your project folder to be located (many people put this in their `My Documents` OR `home` folder. From that directory, run the following command:
+
+```bash
+$ mkdir mytest
+```
+
+* Change directories into the new folder:
+
+```bash
+$ cd mytest
+```
+
 * Create a virtual environment with Python 3, using the following command:
 
 ```bash
@@ -40,7 +53,7 @@ $ source activate mytest
 C:\> activate mytest
 ```
 
-* Install two additional packages (as a suggestion, try `ipython` and `mock`) to your virtual environment using the following command:
+* Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
 
 ```bash
 conda install ipython mock
