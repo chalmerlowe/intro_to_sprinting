@@ -7,40 +7,39 @@
 
 ## Overview
 
-When you contribute to a project, you'll want your name associated with your contributions. Git will automatically attach your name and email address to every commit you make if you tell it how.
+When you contribute to a project, you'll want your name associated with your contributions. Git will automatically attach your name and email address to every commit you make, if you tell it how.
 
 
 ## What to do
+
+Run the following commands on the commandline to set two global configurations: your name and your email address. NOTE: replace everything including the `<` and `>` when you enter your information.
 
 ```bash
 $ git config --global user.name "<Your Name here>"
 $ git config --global user.email "<your_email@domainname.com>"
 ```
 
-**Note:**
-The "--global" option applies these settings to all git projects on your machine  
-* You only need to run this once per computer.  
-* Re-run the command to change a setting.  
-* To override these settings for specific projects, simply run the command while in that project area, and leave out the "--global" option.
-
 ## The big picture
 
-<high-level concepts that can be described in a few mintues>
+These are the two fundamental configurations needed to use `git`. 
 
+**Note:** The "--global" option applies these settings to all git projects on your machine  
+* You only need to run this **once per computer**.  
+* Re-run the command to change a setting.  
+* To override these settings for a specific project (i.e. a work project versus a personal project), simply run the command while in that project directory, and leave out the `"--global"` option.
+
+Later sections of the workshop will go into greater depth on `git`.
 
 ## Deep dive
 
-### Introduce yourself to the command line
+`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are many configurations that can be set for `git` but they are outside the scope of this workshop. 
 
-`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it.  
-
-If you need a primer for the command line, check out the [free course on Codecademy](https://www.codecademy.com/learn/learn-the-command-line). If you just need a quick reference, check out the [Linux commands cheat sheet on It's Foss](https://itsfoss.com/linux-commands-cheat-sheets/).
+Because git is a commandline tool, if you need a primer for the command line, check out the [free course on Codecademy](https://www.codecademy.com/learn/learn-the-command-line). If you just need a quick reference, check out the [Linux commands cheat sheet on It's Foss](https://itsfoss.com/linux-commands-cheat-sheets/).
 
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
+See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources...
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
