@@ -3,12 +3,12 @@
 
 ## Time-box
 
-<XX> Minutes
+10-15 Minutes
 
 
 ## Overview
 
-Virtual environments enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (ie. `python` or `ruby`) as well as the versions of other libraries that your project might depend upon.
+Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (ie. `python 2.7` or `python 3.5`) as well as the versions of other libraries that your project might depend upon.
 
 ### Objectives
 
@@ -21,51 +21,70 @@ Through participating in this session, attendees will be able to:
 
 ## What to do
 
+* Create a virtual environment with Python 3, using the following command:
+
 ```bash
 $ conda create -n mytest python=3
-(mytest) $
+```
+* Activate your virtual environment using the command appropriate to your operating system:
+
+#### Mac/Linux
+
+```bash
+$ source activate mytest
 ```
 
+#### Windows
+
+```bat
+C:\> activate mytest
+```
+
+* Install two additional packages (as a suggestion, try `ipython` and `mock`) to your virtual environment using the following command:
+
+```bash
+conda install ipython mock
+```
 
 ## The big picture
 
-Throughout this workshop, we will be looking at a series of images to help us understand what we are doing and what effect our changes will have.
+One area of confusion that often comes up when working on open source comes from the fact that at any given time, there may be multiple copies of the code (on your local computer, in your Github repository OR in the original project's repository).
 
-We will try to highlight when we are interacting with local files OR with our Github Repository OR with the original project's repository, etc.
+Throughout this workshop, we will do our best to help highlight which copy of the code we are working with via a series of pictures. Specifically, we will identify when we are interacting with local files OR with our Github Repository OR with the original project's repository, etc.
 
-For this lesson, we can image a fairly typical directory/folder structure on your local computer. Note:
+For this lesson, we image a fairly typical directory/folder structure on your local computer. In this picture, NOTE that we have:
 
-* a directory that **your project(s)** will be saved in
-* a directory for **miniconda**
+* a directory for your **project(s)** to be saved in
+* a directory associated with **miniconda**
 
 ![Our Local Directories](images/basic_dir.png)
 
-When you create a virtualenv, conda will make changes to the miniconda directory. It will create a directory that will contain:
+When you create a virtualenv, conda will add subdirectories to the miniconda directory. Specifically it will create a directory that will contain:
 
 * a database and metadata about the virtualenv
 * software and libraries related to the project (i.e. Python and any modules you install in the virtualenv)
 
-NOTE: these folders are **NOT** duplicates of each other, but they are tied to one another. The miniconda virtualenv folders will **NOT** contain your project code.
+NOTE: these folders are **NOT** duplicates of each other, but they **ARE** tied to one another. 
+NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
 
 ![Local Dirs with conda environments](images/conda_envs.png)
 
 
 ## Deep dive
 
-
 ### What is a virtual environment?
 
-Virtual environments (also called virtualenvs) are tools used to keep projects separate, especially in terms of keeping different software versions separate and different library versions separate. For example, virtualenvs prevent Python's site packages folder from getting disorganized and cluttered AND prevents problems that arise when one project needs **version x.x** of a library but another project needs **version y.y** of the same library. At their core, virtualenvs are glorified directories that use scripts and metadata to organize and control the environment. You are allowed to have an unlimited number of virtualenvs. And as you will see, they are very easy to create using various command line tools, such as `conda`.
+As mentioned above, virtual environments (also called virtualenvs) are tools used to keep projects separate, especially in terms of keeping different software versions separate and different library versions separate. For example, virtualenvs prevent Python's site packages folder from getting filled with potentially conflicting versions of software AND thus prevents problems that arise when one project needs **version x.x** of a library but another project needs **version y.y** of the same library. At their core, virtualenvs are glorified directories that use scripts and metadata to organize and control the environment. You are allowed to have an essentially unlimited number of virtualenvs. And as you saw above, they are very easy to create using various command line tools, such as `conda`.
 
 ### When should we use a virtual environment?
 
-As noted above, anytime you have more than one project and there is a possibility of conflicts between your libraries, it is a good time to use a virtualenv. Having said that, many programmers use virtual environments for **all but the most trivial** programming tasks. Especially for beginners, using virtualenvs early on in your learning career will build a valuable skill AND help eliminate sneaky bugs related to version discrepancies. Bugs that can be hard to diagnose.
+Anytime you have more than one project and there is a possibility of conflicts between your libraries, it is a good time to use a virtualenv. Having said that, many programmers use virtual environments for **all but the most trivial** programming tasks. Especially for beginners, using virtualenvs early on in your learning career will build a valuable skill AND help prevent sneaky bugs related to version discrepancies. Bugs that can be hard to diagnose.
 
 ### How do you create a virtual environment?
 
-There are several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
+While there are several programs or libraries that can generate virtualenvs (see the [Resources](#resources) section for a list). For today's lesson, we will be using the `conda` package manager, which includes the capability to simply and easily produce virtualenvs.
 
-Presuming you have `conda` installed, the following steps will enable you to create your first virtual environment.
+Presuming you have `conda` installed, these steps enable you to create and activate a virtual environment.
 
 ```bash
 $ conda create -n mytest python=3
@@ -81,7 +100,7 @@ Description:
 
 `python=3.2`
 
-Conda will prepare to install python and any dependencies that Python relies upon. It will display output similar to the following. 
+When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following. 
 
 ```bash
 MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
@@ -120,7 +139,7 @@ Proceed ([y]/n)?
 
 To finish the creation of the virtualenv and install the software, press `y`.
 
-### Activate a virtualenv
+### Activating a virtualenv
 
 Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
 
@@ -218,10 +237,7 @@ C:\>
 
 ### Alternatives to Conda
 
-Other tools include:
-
-* `virtualenv`
-* `venv` 
+See the Resources section for links to other tools that are often used to create virtual environments and/or handle package management, like: `pip`, `venv`, `virtualenv`.
 
 Discussing these is outside the scope of this course. Using either of these tools should be very similar to using conda, but there may be nuances depending on your system, the tool you choose to use and your version of Python. 
 
@@ -229,6 +245,11 @@ Discussing these is outside the scope of this course. Using either of these tool
 ## Resources
 
 * [Conda Docs](http://conda.pydata.org/docs/get-started.html): A getting started guide on how to use conda
+* [Pip instructions](https://docs.python.org/3/installing/): An overview of a Python-oriented package manager: Pip
+* [Conda vs Pip](https://jakevdp.github.io/blog/2016/08/25/conda-myths-and-misconceptions/): Excellent discussion on the benefits of conda and the differences between conda and pip
+* [venv](https://docs.python.org/3/library/venv.html): A tool, included with Python, to create isolated Python environments
+* [Virtualenv](https://virtualenv.pypa.io/en/stable/): A popular tool, albeit 3rd party, to create isolated Python environments
+
 
 
 ## Footnotes
