@@ -23,7 +23,7 @@ $ git config --global user.email "<your_email@domainname.com>"
 
 If you (if you're working in pairs, you and your partner) are done, then now you can put your green sticky up! This is how we know you're done with the commands.
 
-![images/green-sticky.png]
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 If you like reading, you can also keep reading this page.
 
