@@ -25,9 +25,12 @@ First check to see if `git` is already installed on your computer.
 
 Open a command prompt/terminal and type `git`
 
-If `git` **is** installed, you will see a help document explaining some of the most common `git` commands.
+You'll see one of these two things.
 
-If `git` **is not** installed your command prompt will tell you. Follow the instructions for your operating system:
+- `git: Command not found.` This means that git is not installed, and you will **keep reading to learn how to intall git.**
+
+- **A whole bunch of text**, which is a document explaining some of the most common `git` commands. If you see this, jump to the instructions on [downloading and installing Conda.](#download-and-install-conda) because git is already installed.
+
 
 #### Windows
 
@@ -68,6 +71,7 @@ $ sudo apt-get install git-all
 ### Confirm your `git` install
 
 In a command prompt type `git config`. If `git` is installed properly, you will see text explaining some of the common configuration options for `git`.
+
 
 ### Download and Install `conda`
 
