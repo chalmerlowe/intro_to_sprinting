@@ -74,7 +74,7 @@ In a command prompt type `git config`. If `git` is installed properly, you will 
 
 ### Download and Install `conda`
 
-Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.R
+Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.
 
 ### Confirm your `conda` install
 
