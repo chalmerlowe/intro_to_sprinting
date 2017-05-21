@@ -103,6 +103,17 @@ $ git push origin master
 
 In this case, you are pushing your `master` branch (i.e. the main branch you have been working on) to **origin**, your Github repository. We will discuss branching in more depth later.
 
+### Status check, part 1.
+Take a look at things now that the file has been pushed, again using `git status`... We should notice a line in the output identifies that your `master` branch is up-to-date/or in sync with **your Github repo** (`origin`).
+
+```bash
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+```
+### Status check, part 2.
+Now go to **your Github Repo** and confirm that the changes you made on your local computer are actually present in the files on Github. You should be able to surf to the file you edited and see the changes!
+
 
 ## The big picture
 
