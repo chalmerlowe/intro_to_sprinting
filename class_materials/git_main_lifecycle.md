@@ -137,25 +137,12 @@ With your own projects, for 95% of what you do, this is sufficient to regularly 
 
 ## Deep dive
 
-<detailed explanations go here, with h3/h4 subsecitons if necessary>
+Especially for beginners, understanding the state of your local directory is critical to growing your skills. And luckily, for 95% of what you do, only a handful of commands will get you most of the way.
 
+### Status checking
 
-## Resources
+Since some of our messages above were abbreviated for clarity, let's look more deeply into what we really get from `git status`. Get into the habit of reading the status messages after every command you type and you will quickly hone in on the feedback you need. The following command tells you that right now, your local copy matches what your computer last heard is on in your Github server... everything is **clean**.
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
-
-
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
-
-
-
-
-### Checking the status of everything
-
-There is a simple way to see what status every file is in: `git status`. Don't try this yet (we'll do it soon), just read the various types of status messages you will encounter regularly and see if you can make sense of them:
 
 ```bash
 $ git status
@@ -164,9 +151,7 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-This tells you that right now your local copy matches what your computer last heard is on the server... everything is **clean**.
-
-If you have locally changed files that are in a **working** state (not yet staged), you will see something like this:
+If you have locally changed files that are in a **working** state (not yet **staged**), you will see something like this:
 
 ```bash
 $ git status
@@ -181,14 +166,20 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there: they tell me how to **add** the README.md file to the staging area and how to **revert** it (get it back to the way it was before I made my change) should I want to do those things.
+This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there that tell me how to: 
 
-Next I want to move the file to staging (**add** it):
+* **add** the README.md file to the staging area
+* **revert** the README.md (i.e. get it back to the way it was before I made my change)
+
+### Staging files
+
+Next I want to move the file to the staging area (i.e. add it to the pallet (**add** it)):
 
 ```bash
 $ git add README.md
 ```
-It is especially useful as you learn to check the status regularly. It will help you get familiar with the messages and hints AND drive home the concepts related to local changes, staged changes, committed changes, etc.
+
+This time, the status message is slightly different. The hints are different and the status announcements are new. Again, reading these status messages will help you get familiar with the commands and hints AND drive home the concepts related to local changes, staged changes, committed changes, etc.
 
 ```
 $ git status
@@ -200,7 +191,9 @@ Changes to be committed:
 	modified:   README.md
 ```
 
-Now we can see that the file is **staged**, but not yet **committed**. We can also see the hint for what to type to if we need to move it back to an unstaged state.
+Now we can see that the file is **staged**, but not yet **committed**. We can also see the hint `git reset HEAD` for what to type to if we need to move it back to an unstaged state.
+
+### Committing files
 
 Next I want to commit the file (i.e. load it on the truck) using `git commit -m "a short description"`, where `-m` is a flag for my commit message. Good commit messages should be short, sweet and descriptive.
 
@@ -209,6 +202,8 @@ $ git commit -m 'my short description of the work'
 [master 206546b] my short description of the work
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
+
+In this case, the output tells me several things: it repeats my commit message and lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e. I swapped out a line). In a later discussion, we will see how to dive into the details of what changed.
 
 `git status` again comes to the rescue to help us confirm and understand the changes we have initiated.
 
@@ -220,9 +215,11 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 ```
 
-Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see what to type to push the file up to Github.
+Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see the hint message that guides me on what to type to `push` the file up to my Github repo.
 
-I can push that file:
+### Pushing files
+
+
 
 ```bash
 $ git push
@@ -246,6 +243,24 @@ nothing to commit, working tree clean
 ... and everything is clean again, but now with my local change pushed to GitHub and available to the world. **IF** you go to **your** github repository, you can see your changes via your web browser.
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
+
+
+## Resources
+
+* [<resource name>](<resource url>)
+* [<resource name>](<resource url>)
+
+
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
+
+
+
+
+### Checking the status of everything
+
+
 
 ## Common Operations
 
