@@ -85,28 +85,23 @@ $ git commit -m "Description of changes"
 **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
 ### Status check
-Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
+Take a look at things now that the file has been committed, again using `git status`... We should notice a line in the output identifies that your files are ahead of/or no longer in sync with the files in **your Github repo**.
 
 ```bash
 $ git status
 <abbreviated for clarity>
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	modified:   git_main_lifecycle.md
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
 ```
-
-
-
 
 ### Push your changes to your Github repo:
-Push the commit to **your** Github repo with the `git push`:
+Push the commit to **your** Github repo with `git push`:
 
 ```bash
-$ git push origin master
+$ git push origin master 
 ```
 
-In this case, you are pushing your master branch to **origin** (the **remote repository**). We'll discuss branching in more depth later.
+In this case, you are pushing your `master` branch (i.e. the main branch you have been working on) to **origin**, your Github repository. We will discuss branching in more depth later.
 
 
 ## The big picture
