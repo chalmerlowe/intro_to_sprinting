@@ -2,7 +2,7 @@
 
 ## Time-box
 
-1-21-21-21-21-21-21-21-21-21-21-2 Minutes
+1-2 Minutes
 
 ## Overview
 
