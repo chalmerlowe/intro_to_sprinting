@@ -49,7 +49,7 @@ Fork the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_co
 
 ## The big picture
 
-Project files on Github are often called repositories or **repo/repos** for short. For every project you contribute to, you will interact with two different repos:
+Project files on Github are often called repositories, or a **repo** for short. For every project you contribute to, you will interact with two different repos:
 
 * One repo will be the original project repository
 * The other repo will be **your personal copy** of the original repo
