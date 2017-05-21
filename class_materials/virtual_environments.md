@@ -59,6 +59,14 @@ C:\> activate mytest
 conda install ipython mock
 ```
 
+## Done with commands for now!
+
+If you (if you're working in pairs, you and your partner) are done, then now you can put your green sticky up! This is how we know you're done with the commands.
+
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
+
+If you like reading, you can also keep reading this page.
+
 ## The big picture
 
 One area of confusion that often comes up when working on open source comes from the fact that at any given time, there may be multiple copies of the code (on your local computer, in your Github repository OR in the original project's repository).
