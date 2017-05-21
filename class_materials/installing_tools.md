@@ -102,17 +102,17 @@ Miniconda contains the `conda` package manager and `Python`. `conda` is language
 
 Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
 
-**NOTE** It is not uncommon for people to suggest the use of alternate tools to create virtual environments OR to handle package management. Some of the most common are listed below. There are instructions online for the use of these tools. The principles for these tools will be very similar to what we cover with `conda`:
-
-* Python's `venv` >>> creates virtual environments
-* `virtualenv` >>> creates virtual environments
-* `pip` >>> Python's Package manager
+**NOTE** For this tutorial, we'll use `conda`. There are other tools that accomplish similar goals and work in similar ways, such as `venv`, `pip`, and `virtualenv`. During PyCon Sprints, make sure to use whatever virtual environment tool your project maintainer suggests. See Resources for more info.
 
 ## Resources
 
 * [Using conda](http://conda.pydata.org/docs/using/index.html): A tutorial on how to use `conda`
 
 * [conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf): A cheatsheet of the most common `conda` commands
+
+* [Python's `venv` and `virtualenv` can also create virtual environments.](http://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
+
+* [`pip` is Python's package manager.](https://en.wikipedia.org/wiki/Pip_(package_manager))
 
 
 | Previous | Up | Next |
