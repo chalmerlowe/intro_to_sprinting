@@ -35,10 +35,11 @@ $ git status
 ### Pick a file and edit it.
  
 Open your favorite text editor or integrated development environment (IDE) and make any one of the following changes. 
-     * Open any file and change any line, word or phrase
-     * Create a new file and add your favorite to poem
-     * **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
-     * Save the file. 
+
+* Open any file and change any line, word or phrase
+* Create a new file and add your favorite to poem
+* **NOTE**: this workshop is intended for all audiences (and may include youth), so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
+* Save the file. 
   
 ### Status Check
 Before we go further, it is often useful to again check the status. We should notice that a line in the output identifies that a text file has been modified, but has not been staged.
@@ -46,30 +47,36 @@ Before we go further, it is often useful to again check the status. We should no
 ```bash
 $ git status
 <abbreviated for clarity>
-  Changes not staged for commit:
-    (use "git add <file>..." to update what will be committed)
-    (use "git checkout -- <file>..." to discard changes in working directory)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
 
-	  modified:   <file you edited.txt>
+	modified:   <file you edited.txt>
 
 ```
 ### Add the file to the staging area
-Add the file **you** edited, to the git staging area using the following command. *ENSURE* you replace <file you edited> with the actual name of the file.
+Add the file **you** edited, to the git staging area using the following command. *ENSURE* you replace `<file you edited>` with the actual name of the file.
 
 ```bash
 $ git add <file you edited>
 ```
 
 ### Status check
-Take a look at things now that the file has been staged...
+Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
 
 ```bash
 $ git status
+<abbreviated for clarity>
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   git_main_lifecycle.md
+```
+
+### Commit your changes
 
 
-
-
-**Commit** your changes when you are ready to make a permanent record of them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
+Commit your changes when you are ready to make a permanent record of them. It is customary to add a short description message (using the `-m` option) describing your changes, whenever you commit.
 
 ```bash
 $ git commit -m "Description of changes"
@@ -77,7 +84,23 @@ $ git commit -m "Description of changes"
 
 **NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
-**Push** the commit to Github with:
+### Status check
+Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
+
+```bash
+$ git status
+<abbreviated for clarity>
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   git_main_lifecycle.md
+```
+
+
+
+
+### Push your changes to your Github repo:
+Push the commit to **your** Github repo with the `git push`:
 
 ```bash
 $ git push origin master
