@@ -1,4 +1,4 @@
-# Git Common Operation(s): diff
+# Git Common Operation(s): diff and add
 
 
 ## Time-box
@@ -8,27 +8,31 @@
 
 ## Overview
 
-<add overview to intro diff>
+`Git` has a number of capabilities to simplify your life, help you understand the status of your directory and improve your ability to communicate about your changes.
+
+When using `git`, sometimes you want to know more about the changes you are committing ... this is where `git diff` comes in. 
+
+When you have changed multiple files, it is sometimes desireable to add them to the staging area in batches. `git add` also has this capability
 
 ## What to do
 
-This portion of the workshop presumes the following:
-<add some steps>
+For this next exercise, we will change a single file and use the `git diff` tool to examine those specific changes in detail.
 
+1. Use your text editor to open the `beowulf.txt` file in the Codeless project.
+2. Change the letter `B` in the first line `Beowulf (modern English translation) ...` to a lowercase `b`.
+1. Execute the following command:
+
+```bash
+git diff
+```
+
+This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the Deep Dive section.
 
 ## The big picture
 
-In this section, we covered a number of commands that break down into several key concepts:
+With your own projects, for 95% of what you do, `git status` and `git diff` should be sufficient to regularly track your progress and confirm the changes you have made. You will use these commands, along with `git add`, `git commit`, `git push` more than any others. 
 
-* Determine the **status** of your local directory
-* **Add** a file to the staging area
-* **Commit** that file for the historical record
-* **Push** the file to your Github repo
-
-With your own projects, for 95% of what you do, this is sufficient to regularly track your progress and get your changes onto the Internet. You will use these commands more than any others. 
-
-**NOTE:** We will cover several more advanced concepts both in the Deep Dive and in later discussions.
-
+**NOTE:** We will cover several more advanced concepts in later discussions.
 
 ## Deep dive
 
@@ -56,7 +60,7 @@ index 90cd3cd..e22a262 100644
              for t in tokens:
 ```
 
-The first part of the output shows me which file is being displayed. The output from `git diff` can contain many files; you can specify individual files or groups of files by providing the file name(s) to git diff with `git diff <file1> <file2> ...`. Even with a single file specified, the output will always tell you which file(s) are being compared with each change.
+The first part of the output shows me which file is being displayed. The output from `git diff` can contain many files; you can also specify individual files or groups of files by providing the file name(s) to git diff with `git diff <file1> <file2> ...`. Even with a single file specified, the output will always show you which file(s) are being compared with each change.
 
 The line that starts with `+` indicates that line is new compared to what's currently committed. Also note that the tool shows me a few lines before and after the change to help me see the context of the change.
 
@@ -134,58 +138,13 @@ Here I can see that I changed line 39 from a `print()` to `log.debug()` and that
 
 Many GUI-based tools will show you more information, such as highlighting the individual characters in a line that were changed. Since this varies from tool to tool, it won't be covered in detail here.
 
-### Adding lots of stuff (at once)
+### Adding for Powerusers
 
 If you need to add more than one file to the staging area, simply separate the filenames with a space:
 
 ```bash
 $ git add <file1> <file2> ...
 ```
-
-... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
-    
-```bash
-$ git add *.txt
-```
-
-There are couple tricks that make adding files to a commit a little bit easier if you pay attention to what you are doing. For instance you can add **all** of the changed files to your staging area with:
-
-```bash
-$ git add *
-```
-
-You can add **all** changed files from the current directory using:
-
-```bash
-$ git add .
-```
-
-**NOTE**: This can lead to problems if you add files that aren't related to the commit. To protect against this you can view which files have pending changes **before** you add them with:
-
-```bash
-$ git status
-```
-
-### Committing (when you have lots to say)
-
-The method taught above works fine, but there are additional flags and parameters that can make for a better commit. First of all, if you would like to add a more in depth description you can use (without the `-m`):
-
-```bash
-$ git commit
-```
-
-This command will bring you into a command line text editor like **vi/vim** or **emacs** where the
-first line serves as the title of the commit, followed by a blank line and then you can add a paragraph-style description.
-
-Another feature related to that, which ties in with open source sprinting is if you enter
-
-```bash
-$ git commit -s
-```
-
-It will bring of the same command line text editor as before but with a `Signed off by:` section
-listing your name, giving the rights to your code to whomever you committed it to.
-
 
 ## Resources
 
