@@ -53,3 +53,6 @@ Beginners will NOT need to have in depth knowledge on the following:
 2. Any specific open source project
 
 
+| Next |
+|:---------|
+| [Table of Contents](./class_materials/README.md) |
