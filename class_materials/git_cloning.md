@@ -8,7 +8,12 @@
 
 ## Overview
 
-With a copy of the project in your Github repository, it's time to clone the project to your local computer, so you have a local copy on your machine to do work on.
+With a copy of the project in your Github repository, it's time to clone the project to your local computer, so you have a local copy on your machine to do work on. The project we will start with is a project that doesn't have any code in it. It is a project full of famous poems. This is on purpose. We want to start off by
+
+* practicing the raw mechanics of making changes
+* propogating them out to the original project owner
+* minimizing the fear of breaking anything AND 
+* without having to spend too much time wrapping our head around someone else's code
 
 
 ## What to do
