@@ -28,7 +28,7 @@ Look at each of the items above, but see how the **upstream repo** differs from 
 The tools seen above are intended to help improve the ability of team members to communicate and track changes and proposed changes to projects.
 
 * If you find a problem in your repo you want help with OR you want to track, you may publish an Issue to let your colleagues know how they can help. If you find a problem in an open source project that you feel needs correcting, but you don't have time or expertise, you may submit an Issue on the upstream project repo.
-* For this Intro to Sprinting workshop, if you have suggestions that would improve the learning experience, we urge you to submit Issues (or better yet, write up a possible edit > `git add` > `git commit` > `git push` and then move on to the next lesson and issue us a Pull Request so we can consider your ideas!). 
+* For this Intro to Sprinting workshop, if you have suggestions that would improve the learning experience, we urge you to submit Issues (or better yet, write up a possible edit > `git add` > `git commit` > `git push` and then move on to the next lesson and issue us a Pull Request so we can consider your ideas!).
 
 ## Deep dive
 
@@ -40,6 +40,4 @@ N/A
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) | 
-
-
+| [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) |
