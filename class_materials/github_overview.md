@@ -8,7 +8,7 @@
 
 ## Overview
 
-Let's switch gears a bit and discuss Github. In the next few sessions, we will explore several capabilities available in Github that greatly simplify code sharing and collaboration. Concepts to be covered include:
+Let's switch gears a bit and go back to discuss Github. In the next few sessions, we will explore several capabilities available in Github that greatly simplify code sharing and collaboration. Concepts to be covered include:
 
 * Github user interface
 * Pull requests
@@ -17,8 +17,8 @@ Let's switch gears a bit and discuss Github. In the next few sessions, we will e
 
 ## Lessons
 
-* [<lesson title>](./<filename>.md): <objective of lesson>
-* [<lesson title>](./<filename>.md): <objective of lesson>
+* [GitHub Concepts](./github_concepts.md)
+* [Submitting a Pull Request](./github_submit_pull_request.md)
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|

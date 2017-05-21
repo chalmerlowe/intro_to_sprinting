@@ -19,7 +19,6 @@ Table of Contents
 1. [Using GitHub](./github_overview.md)
     1. [GitHub Concepts](./github_concepts.md)
     1. [Submitting a Pull Request](./github_submit_pull_request.md)
-    1. [Pull Request Tips and Suggestions](./pull_request_tips.md)
 1. [Practicing for Realz](./for_realz.md)
     1. [RPN Calculator Project](./rpncalc_description.md)
     1. [Now Go Do It!](./now_go_do_it.md)
