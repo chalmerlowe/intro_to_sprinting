@@ -8,8 +8,12 @@
 
 ## Overview
 
-<put single paragraph here>
+In this section, we will cover a number of commands, but the principles are fairly straightforward:
 
+* Determine the **status** of your local directory
+* **Add** a file to the staging area
+* **Commit** that file for the historical record
+* **Push** the file to your Github repo
 
 ## What to do
 
@@ -31,6 +35,8 @@ Before we change any files, we can check to see what the status of our repo is, 
 $ git status
 ```
 **NOTE**: Full details on the messages that appear are down below in the Big Picture/Deep Dive discussion.
+**NOTE**: using `git status` is completely **optional**, but strongly recommended.
+
 
 ### Pick a file and edit it.
  
@@ -117,7 +123,16 @@ Now go to **your Github Repo** and confirm that the changes you made on your loc
 
 ## The big picture
 
-<high-level concepts that can be described in a few mintues>
+In this section, we covered a number of commands that break down into several key concepts:
+
+* Determine the **status** of your local directory
+* **Add** a file to the staging area
+* **Commit** that file for the historical record
+* **Push** the file to your Github repo
+
+With your own projects, for 95% of what you do, this is sufficient to regularly track your progress and get your changes onto the Internet. You will use these commands more than any others. 
+
+**NOTE:** We will cover several more advanced concepts both in the Deep Dive and in later discussions.
 
 
 ## Deep dive
