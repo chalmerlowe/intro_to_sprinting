@@ -48,10 +48,9 @@ If they agree with and approve your **suggested changes** they will merge the ch
 
 ![Merge](images/github_merge.png)
 
-
 ## Deep dive
 
-
+N/A
 
 
 ## Resources
