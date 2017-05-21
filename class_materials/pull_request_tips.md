@@ -50,4 +50,4 @@ N/A
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Submitting a Pull Request](./github_submit_pull_request.md) | [Using GitHub](./github_overview.md) | [Practicing for Realz](./for_realz.md) |
+| [Submitting a Pull Request](./github_submit_pull_request.md) | [Using GitHub](./github_overview.md) |  |
