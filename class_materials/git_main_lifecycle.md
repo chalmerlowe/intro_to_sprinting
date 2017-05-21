@@ -25,45 +25,49 @@ With a freshly cloned repo, we can make some edits and revisions to the Codeless
 * If you type `ls` (or `dir` in Windows) you should see multiple files.
 
 ### Status check
-Presuming you have made no changes to the files yet, if you run the `git status` command, you will see 
+Before we change any files, we can check to see what the status of our repo is, by using `git status` 
 
 ```bash
-git status
+$ git status
 ```
-
-
+**NOTE**: Full details on the messages that appear are down below in the Big Picture/Deep Dive discussion.
 
 ### Pick a file and edit it.
  
-* Open your favorite text editor or integrated development environment (IDE) and make any one of the following changes. 
+Open your favorite text editor or integrated development environment (IDE) and make any one of the following changes. 
      * Open any file and change any line, word or phrase
      * Create a new file and add your favorite to poem
      * **NOTE**: this workshop is intended for all audiences, so please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
      * Save the file. 
   
-### Check status
-
+### Status Check
+Before we go further, it is often useful to again check the status. We should notice that a line in the output identifies that a text file has been modified, but has not been staged.
 
 ```bash
 $ git status
+<abbreviated for clarity>
+  Changes not staged for commit:
+    (use "git add <file>..." to update what will be committed)
+    (use "git checkout -- <file>..." to discard changes in working directory)
+
+	  modified:   <file you edited.txt>
+
 ```
-**Add** the file you edited, to the git **staging area**.
+### Add the file to the staging area
+Add the file **you** edited, to the git staging area using the following command. *ENSURE* you replace <file you edited> with the actual name of the file.
 
 ```bash
 $ git add <file you edited>
 ```
 
-If you need to add more than one file to the staging area, simply separate the filenames with a space:
+### Status check
+Take a look at things now that the file has been staged...
 
 ```bash
-$ git add <file1> <file2> ...
-```
-    
-... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
-    
-```bash
-$ git add *.txt
-```
+$ git status
+
+
+
 
 **Commit** your changes when you are ready to make a permanent record of them. It is customary to add a description message (using the `-m` option) describing your changes, when you commit.
 
@@ -355,3 +359,14 @@ listing your name, giving the rights to your code to whomever you committed it t
 This practice presumes that:
 
 
+If you need to add more than one file to the staging area, simply separate the filenames with a space:
+
+```bash
+$ git add <file1> <file2> ...
+```
+
+... or you can add groups of files using standard [globbing](https://en.wikipedia.org/wiki/Glob_(programming)):
+    
+```bash
+$ git add *.txt
+```
