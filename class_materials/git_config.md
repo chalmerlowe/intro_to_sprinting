@@ -19,6 +19,14 @@ $ git config --global user.name "<Your Name here>"
 $ git config --global user.email "<your_email@domainname.com>"
 ```
 
+## Done with commands for now!
+
+If you (if you're working in pairs, you and your partner) are done, then now you can put your green sticky up! This is how we know you're done with the commands.
+
+![images/green-sticky.png]
+
+If you like reading, you can also keep reading this page.
+
 ## The big picture
 
 These are the two fundamental configurations needed to use `git`. 
