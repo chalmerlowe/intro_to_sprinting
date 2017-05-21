@@ -3,7 +3,7 @@
 
 ## Time-box
 
-10-15 Minutes
+15 Minutes
 
 
 ## Overview
