@@ -19,7 +19,7 @@ As we look at each of these, we will imagine that we are processing materials in
 
 ## What to do
 
-N/A
+Listen :)
 
 
 ## The big picture
@@ -64,7 +64,7 @@ The **commit area** holds all the changes that you are going to release to the i
 
 A **remote** is some other repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere. Remotes are named, and the default name for the first remote is **origin**. Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you forked from.
 
-Nothing gets copied from your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to the remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in **your Github** repository. 
+Nothing gets copied from your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to the remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in **your Github** repository.
 
 ![git push](images/git_push.png)
 
@@ -102,12 +102,3 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
-
-
-
-
-
-
-
-
-

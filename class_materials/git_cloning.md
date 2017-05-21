@@ -12,7 +12,7 @@ With a copy of the project in your Github repository, it's time to clone the pro
 
 * practicing **the mechanics** of making changes and propogating those changes to the owner
 WHILE
-* **minimizing the fear** of breaking anything AND 
+* **minimizing the fear** of breaking anything AND
 * **avoiding** wrapping our head around someone else's code
 
 
@@ -45,6 +45,8 @@ $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_code
 
 **Note:** You'll only do this **one time for each project** you want to work on.
 
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
+
 
 ## The big picture
 
@@ -74,7 +76,7 @@ origin  https://github.com/myusername/intro_to_sprinting_codeless_project (push)
 ```
 Here we see that for the `origin` remote repository, we have the ability to fetch data from it and push data to it. This ability to push data to the repository makes sense, since we own that repository.
 
-As part of committing to open source projects, we want to get updates from the original repository (often called an `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done will interfere with any other work being done on the project. 
+As part of committing to open source projects, we want to get updates from the original repository (often called an `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done will interfere with any other work being done on the project.
 
 To enable git to find the `upstream` we use the following command:
 

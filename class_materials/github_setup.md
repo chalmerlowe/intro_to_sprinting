@@ -32,7 +32,7 @@ If you **DO NOT** have a Github account, you will need to make one:
 2. Fill out the form on the home page:
    * Pick a username (you will need a unique username)
    * Enter your email address
-   * Create a password   
+   * Create a password
 3. Click "Sign up for GitHub"
 
 ### Get a copy of the project you want to work on
@@ -46,6 +46,7 @@ Fork the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_co
 **NOTE**:  The fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro\_to\_sprinting\_codeless\_project:"<br>
 ![Fork link to original repo](images/fork-repo-link.png)
 
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 ## The big picture
 
@@ -60,7 +61,7 @@ When you want to work on a project, Github will enable you to **fork** the origi
 
 ![Personal Repo](images/github_part_1_personal.png)
 
-There are several nuances to understand about this: 
+There are several nuances to understand about this:
 
 * Your Github copy is exactly that: **your copy**.
 * You can do whatever you want to your copy >> you can change it to suit your needs (within the limits of copyright/the license on the project).
