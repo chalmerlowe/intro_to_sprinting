@@ -8,7 +8,6 @@ Table of Contents
     1. [Setting up Virtual Environments](./virtual_environments.md)
     1. [Setting up GitHub](./github_setup.md)
     1. [Forking a Repository](./fork_a_repo.md)
-    1. [Using the Command Line](./command_line.md)
     1. [Setting up Git](./git_config.md)
 1. [Using Git](./git_overview.md)
     1. [Git Concepts](./git_concepts.md)
