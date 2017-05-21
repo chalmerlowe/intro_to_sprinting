@@ -72,15 +72,19 @@ $ sudo apt-get install git-all
 
 In a command prompt type `git config`. If `git` is installed properly, you will see text explaining some of the common configuration options for `git`.
 
-
 ### Download and Install `conda`
 
-Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html).
+Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.R
 
 ### Confirm your `conda` install
 
 In a command prompt type `conda list`. If `conda` is installed properly, you will see a summary of the packages installed by `conda`.
 
+### Troubleshooting
+
+Here's a list of error messages & how to fix them.
+
+- `conda: Command not found.` This means you need to quit & relaunch your terminal. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
 
 ## The big picture
 
