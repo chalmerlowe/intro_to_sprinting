@@ -2,7 +2,7 @@
 
 ## Time-box
 
-<XX> Minutes
+5 Minutes
 
 
 ## Overview
@@ -12,11 +12,11 @@ When you contribute to a project, you'll want your name associated with your con
 
 ## What to do
 
-Run the following commands on the commandline to set two global configurations: your name and your email address. NOTE: replace everything including the `<` and `>` when you enter your information.
+Run the following commands on the commandline to set two global configurations: your name and your email address. Since you are not Johnny Appleseed, please change the commands accordingly.
 
 ```bash
-$ git config --global user.name "<Your Name here>"
-$ git config --global user.email "<your_email@domainname.com>"
+$ git config --global user.name "Johnny Appleseed"
+$ git config --global user.email "johnny.appleseed@example.com"
 ```
 
 ## The big picture
