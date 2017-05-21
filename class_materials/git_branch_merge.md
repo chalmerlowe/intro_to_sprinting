@@ -116,7 +116,7 @@ $ git branch -d my_change_name
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Dealing with Merge Conflicts](./git_merge_conflicts.md) |
+| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
 
 
 
