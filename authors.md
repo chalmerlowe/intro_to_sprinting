@@ -17,4 +17,5 @@ Please feel free to add your name to the bottom of this document.
 * [Sam Murphy](https://github.com/samsammurphy)
 * [Jim Hogarty](https://github.com/808kimosan)
 * [Steve Lorenz](https://github.com/lorenz21)
+* [Brian Thorpe](https://github.com/bsthorpe742)
 * [Kevin Cole](https://github.com/kjcole/)

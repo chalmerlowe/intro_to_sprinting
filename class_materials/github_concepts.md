@@ -23,6 +23,8 @@ Github is a powerful platform. There are many features and capabilities availabl
 
 Look at each of the items above, but see how the **upstream repo** differs from and is similar to **your repo**.
 
+<!-- TODO: Green sticky here -->
+
 ## The big picture
 
 The tools seen above are intended to help improve the ability of team members to communicate and track changes and proposed changes to projects.
