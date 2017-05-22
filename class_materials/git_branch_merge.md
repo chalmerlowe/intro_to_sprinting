@@ -53,7 +53,7 @@ $ git push origin master
 $ git branch -d my-feature-name
 ```
 
-<!-- TODO: Add green sticky here -->
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 ## The big picture
 
