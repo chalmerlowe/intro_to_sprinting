@@ -22,4 +22,4 @@ Let's switch gears a bit and go back to discuss Github. In the next few sessions
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Dealing with Merge Conflicts](./git_merge_conflicts.md) | [Table of Contents](./README.md) | [GitHub Concepts](./github_concepts.md) |
+| [Branching and Merging](./git_branch_merge.md) | [Table of Contents](./README.md) | [GitHub Concepts](./github_concepts.md) |
