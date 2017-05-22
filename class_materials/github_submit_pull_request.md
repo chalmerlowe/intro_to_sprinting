@@ -8,7 +8,7 @@
 
 ## Overview
 
-Once you have a change OR changes pushed to your Github repo, you will want to share those changes with the owner of the upstream project repository. 
+Once you have a change OR changes pushed to your Github repo, you will want to share those changes with the owner of the upstream project repository.
 
 **NOTE**: This lesson presumes that your changes have been pushed to **your own** Github repo (instructions on how to do this were covered in a previous lesson: [Git Overview](./git_overview.md).
 
@@ -18,7 +18,7 @@ Once you have a change OR changes pushed to your Github repo, you will want to s
 1. Navigate to **your** Github repo in your browser.
 1. Above the file list on the left hand side, click on the "New Pull Request" button:<br>
 ![New Pull Request Button](images/new-pull-request-icon.png)
-1. Github will allow you to confirm which changes in your repo you want to share with the original author, as shown in the following image. 
+1. Github will allow you to confirm which changes in your repo you want to share with the original author, as shown in the following image.
    * **NOTE**: Github transfers you to the repo of the original author
    * You will **no longer** be on your own Github account page.
 1. Before proceeding, you should check for the following items.
@@ -35,10 +35,12 @@ Once you have a change OR changes pushed to your Github repo, you will want to s
 
 **REMINDER**:  This leaves you in the original author's repo (Chalmer Lowe in this case) and not your own!
 
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
+
 
 ## The big picture
 
-As shown here, your repo has changes that need to be advertised to the upstream owner. Github uses the concept of a Pull Request to do this. 
+As shown here, your repo has changes that need to be advertised to the upstream owner. Github uses the concept of a Pull Request to do this.
 
 ![Pull Request](images/git_pull_request.png)
 

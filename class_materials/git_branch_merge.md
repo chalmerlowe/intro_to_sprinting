@@ -122,7 +122,3 @@ $ git branch -d my_change_name
 
 
 
-
-### Branching and Merging
-
-
