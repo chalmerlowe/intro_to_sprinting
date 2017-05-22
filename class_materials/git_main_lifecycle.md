@@ -35,7 +35,7 @@ Before we change any files, we can check to see what the status of our repo is, 
 $ git status
 ```
 **NOTE**: Full details on the messages that appear are down below in the Big Picture/Deep Dive discussion.
-**NOTE**: using `git status` is completely **optional**, but strongly recommended.
+**NOTE**: Using `git status` is completely **optional**, but strongly recommended.
 
 
 ### Pick a file and edit it.
@@ -88,7 +88,7 @@ Commit your changes when you are ready to make a permanent record of them. It is
 $ git commit -m "Description of changes"
 ```
 
-**NOTE**: commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
+**NOTE**: Commit messages should be short (typically 50 characters or less). See the Resources below for more details on commit messages.
 
 ### Status check
 Take a look at things now that the file has been committed, again using `git status`... We should notice a line in the output identifies that your files are ahead of/or no longer in sync with the files in **your Github repo**.
@@ -107,7 +107,7 @@ Push the commit to **your** Github repo with `git push`:
 $ git push origin master
 ```
 
-In this case, you are pushing your `master` branch (i.e. the main branch you have been working on) to **origin**, your Github repository. We will discuss branching in more depth later.
+In this case, you are pushing your `master` branch (i.e., the main branch you have been working on) to **origin**, your Github repository. We will discuss branching in more depth later.
 
 ### Status check, part 1.
 Take a look at things now that the file has been pushed, again using `git status`... We should notice a line in the output identifies that your `master` branch is up-to-date/or in sync with **your Github repo** (`origin`).
@@ -204,7 +204,7 @@ $ git commit -m 'my short description of the work'
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-In this case, the output tells me several things: it repeats my commit message and lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e. I swapped out a line). In a later discussion, we will see how to dive into the details of what changed.
+In this case, the output tells me several things: it repeats my commit message and lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line). In a later discussion, we will see how to dive into the details of what changed.
 
 `git status` again comes to the rescue to help us confirm and understand the changes we have initiated.
 
@@ -239,7 +239,7 @@ To github:myusername/my_repo.git
    98b2f3f..206546b  master -> master
 ```
 
-**About Hashes** without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. You can find a specific commit using the hash OR you can revert your project back to a specific commit. The seven digit numbers you see in `git` and on Github (i.e. 206546b) identifies a specific change and are a short form for a longer hash number.
+**About Hashes** without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. You can find a specific commit using the hash OR you can revert your project back to a specific commit. The seven digit numbers you see in `git` and on Github (e.g., 206546b) identifies a specific change and are a short form for a longer hash number.
 
 Let's take again use `git status` to look at the results of our work:
 
