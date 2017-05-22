@@ -3,7 +3,7 @@
 
 ## Time-box
 
-<XX> Minutes
+5 Minutes
 
 
 ## Overview
