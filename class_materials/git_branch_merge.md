@@ -53,6 +53,8 @@ $ git push origin master
 $ git branch -d my-feature-name
 ```
 
+<!-- TODO: Add green sticky here -->
+
 ## The big picture
 
 Let's imagine that you are working on a project with multiple commits to the master branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the master branch during that same timeframe.
