@@ -8,7 +8,7 @@
 
 ## Overview
 
-Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (ie. `python 2.7` or `python 3.5`) as well as the versions of other libraries that your project might depend upon.
+Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (ie. `python 2.7` or `python 3.6`) as well as the versions of other libraries that your project might depend upon.
 
 ### Objectives
 
