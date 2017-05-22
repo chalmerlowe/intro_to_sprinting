@@ -91,7 +91,7 @@ git checkout master
 ```
 
 ```bash
-git merge
+git merge mybranch
 ```
 
 ```bash
