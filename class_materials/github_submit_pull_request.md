@@ -22,8 +22,8 @@ Once you have a change OR changes pushed to your Github repo, you will want to s
    * **NOTE**: Github transfers you to the repo of the original author
    * You will **no longer** be on your own Github account page.
 1. Before proceeding, you should check for the following items.
-  * Confirm that the **base fork** is your fork
-  * Confirm that the **head fork** is the original author's fork
+  * Confirm that the **head fork** is your fork
+  * Confirm that the **base fork** is the original author's fork
   * Confirm that Github says: **Able to merge** (IF there are conflicts, refer to the [Git Overview](./lesson_05_git_overview.md) for instructions on how to fix this problem.<br>
 ![Create Pull Request One](images/create-pull-request-one.png)
 1. Click on "**Create pull request**"
