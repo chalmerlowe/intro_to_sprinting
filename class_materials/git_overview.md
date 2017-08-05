@@ -1,10 +1,5 @@
 # Using Git
 
-## Time-box
-
-3-5 Minutes
-
-
 ## Overview
 
 Git is a version control system -- it enables you to control the various versions of projects, such as open source projects.

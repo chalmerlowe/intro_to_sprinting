@@ -1,11 +1,5 @@
 # Course Overview and Preparation
 
-
-## Time-box
-
-N/A: the steps in this section should ideally be completed by the instructor and/or the participants prior to arrival at the workshop.
-
-
 ## Overview
 
 Welcome to the **Introduction to Open Source Workshop**. Participants are expected to walk away with enough knowledge to be able to participate in a typical open source project. The workshop has a mixture of hands-on and lecture/demo, with the focus on hands-on.
