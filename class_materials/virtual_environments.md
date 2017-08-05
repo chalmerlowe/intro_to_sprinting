@@ -41,13 +41,13 @@ $ conda create -n mytest python=3
 ```
 * Activate your virtual environment using the command appropriate to your operating system:
 
-#### Mac/Linux
+#### <img src = "images/mac_icon.png" width="24" height="24"><img src = "images/linux_icon.jpg" width="24" height="24"> Mac/ Linux
 
 ```bash
 $ source activate mytest
 ```
 
-#### Windows
+#### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
 
 ```bat
 C:\> activate mytest
