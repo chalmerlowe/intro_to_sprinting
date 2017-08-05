@@ -24,9 +24,11 @@ Listen :)
 
 ## The big picture
 
-If you would like to hear it, [Jessica Kerr](https://github.com/jessitron) gave a great talk using this analogy, you can watch it here:
+[Jessica Kerr](https://github.com/jessitron) gave a great talk using this analogy, you can watch it here:
 
-[![Git Happens](https://img.youtube.com/vi/yCh6TSLIQBQ/0.jpg)](https://www.youtube.com/watch?v=yCh6TSLIQBQ)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCh6TSLIQBQ" frameborder="0" allowfullscreen></iframe>
+
+[Git Happens link](https://img.youtube.com/vi/yCh6TSLIQBQ/0.jpg), in case the viewer above isn't visible.
 
 ## Deep dive
 
