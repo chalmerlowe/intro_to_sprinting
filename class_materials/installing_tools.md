@@ -19,7 +19,7 @@ Collaborating on sprints generally requires the use of software tools to truly b
 
 ## What to do
 
-### Download and Install `git`
+### Step One: Download and Install `git`
 
 First check to see if `git` is already installed on your computer.
 
@@ -68,15 +68,15 @@ $ sudo yum install git-all
 $ sudo apt-get install git-all
 ```
 
-### Confirm your `git` install
+### Step Two: Confirm your `git` install
 
 In a command prompt type `git config`. If `git` is installed properly, you will see text explaining some of the common configuration options for `git`.
 
-### Download and Install `conda`
+### Step Three: Download and Install `conda`
 
 Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.
 
-### Confirm your `conda` install
+### Step Four: Confirm your `conda` install
 
 In a command prompt type `conda list`. If `conda` is installed properly, you will see a summary of the packages installed by `conda`.
 
