@@ -27,10 +27,9 @@ Open a command prompt/terminal and type `git`
 
 You'll see one of these two things.
 
-- `git: Command not found.` This is good! It means that you **are going to follow our instructions to install git!** Keep reading.
-
 - **A whole bunch of text**, which is a document explaining some of the most common `git` commands. If you see this, jump to the instructions on [downloading and installing Conda.](#download-and-install-conda) because git is already installed.
 
+- `git: Command not found.` This is good! It means that you **are going to follow our instructions to install git!** Keep reading.
 
 #### Windows
 
