@@ -1,10 +1,5 @@
 # Using Git
 
-## Time-box
-
-3-5 Minutes
-
-
 ## Overview
 
 Git is a version control system -- it enables you to control the various versions of projects, such as open source projects.
@@ -49,7 +44,7 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 
 ## Lessons
 
-* [Git Concepts](./git_cloning.md): <objective of lesson>
+* [Git Concepts](./git_concepts.md): <objective of lesson>
 * [Cloning a Repository](./git_cloning.md): <objective of lesson>
 * [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md): <objective of lesson>
 * [Git Common Operations](./git_common_operations.md): <objective of lesson>
