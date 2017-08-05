@@ -31,13 +31,13 @@ You'll see one of these two things.
 
 - `git: Command not found.` This is good! It means that you **are going to follow our instructions to install git!** Keep reading.
 
-#### Windows
+####<img src="images/windows_icon.jpg" width="24" height="24"> Windows 
 
 1. Download the [git installer](https://git-scm.com/downloads) (**NOTE:** If you are unsure if you need the 32 or 64-bit version, you can [follow these steps](https://support.microsoft.com/en-us/help/15056/windows-7-32-64-bit-faq))
 
 3. Run the .exe file that you downloaded and follow the instructions.
 
-#### Mac OS
+####<img src = "images/mac_icon.png" width="24" height="24"> Mac OS 
 
 1. Download the [git installer](https://git-scm.com/downloads)
 
@@ -51,7 +51,7 @@ Many Mac users use [homebrew](http://brew.sh/) to install programs.
 brew install git
 ```
 
-#### Linux
+####<img src = "images/linux_icon.jpg" width="24" height="24"> Linux 
 
 If you are running Linux, there is a good chance that you already have `git` installed. If it isn't, install it by typing one of these commands into your command prompt.
 

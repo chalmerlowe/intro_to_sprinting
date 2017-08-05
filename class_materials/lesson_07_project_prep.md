@@ -27,13 +27,13 @@ The following steps will set up your system in preparation for the remaining les
 
 Follow the directions below, depending on your operating system.
 
-### Linux\Mac OSX version
+### <img src = "images/linux_icon.jpg" width="24" height="24"><img src = "images/mac_icon.png" width="24" height="24">  Linux\Mac OSX version
 
 1. `conda create -n rpncalc python=3`
 1. `source activate rpncalc`
 1. `conda install ipython`
 
-### Windows version
+### <img src="images/windows_icon.jpg" width="24" height="24"> Windows version
 
 1. `conda create -n rpncalc python=3`
 1. `activate rpncalc`
