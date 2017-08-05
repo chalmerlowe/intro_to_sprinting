@@ -7,7 +7,7 @@
 
 ## Overview
 
-Git is a version control system - it enables you to control the various versions of projects, such as open source projects.
+Git is a version control system -- it enables you to control the various versions of projects, such as open source projects.
 
 Version control systems, along with managing changes to projects, help ensure every contributor is working on the same codebase.
 

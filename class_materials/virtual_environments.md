@@ -8,7 +8,7 @@
 
 ## Overview
 
-Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (ie. `python 2.7` or `python 3.6`) as well as the versions of other libraries that your project might depend upon.
+Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (e.g., `python 2.7` or `python 3.6`) as well as the versions of other libraries that your project might depend upon.
 
 ### Objectives
 
@@ -83,7 +83,7 @@ For this lesson, we image a fairly typical directory/folder structure on your lo
 When you create a virtualenv, conda will add subdirectories to the miniconda directory. Specifically it will create a directory that will contain:
 
 * a database and metadata about the virtualenv
-* software and libraries related to the project (i.e. Python and any modules you install in the virtualenv)
+* software and libraries related to the project (i.e., Python and any modules you install in the virtualenv)
 
 NOTE: these folders are **NOT** duplicates of each other, but they **ARE** tied to one another. 
 NOTE: The miniconda virtualenv folders will **NOT** contain your project code.

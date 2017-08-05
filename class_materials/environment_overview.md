@@ -6,7 +6,7 @@
 
 ## Overview
 
-During this portion of the workshop, we will be installing software and configuring items both on your computer and on the site: Github.com
+During this portion of the workshop, we will be installing software and configuring items both on your computer and on the site http://www.github.com/
 
 ## Lessons
 

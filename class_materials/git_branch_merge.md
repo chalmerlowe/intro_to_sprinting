@@ -19,7 +19,7 @@ By following this pattern, you keep your work isolated from the rest of the proj
 * experimenting with changes to the code
 * fixing bugs
 
-Branches should be small and self-contained so that they can be merged. Sprawling and convoluted changes to code can make it nearly impossible to merge. In addition, it is customary for branches to be focused on specific problems: i.e. one bug fix per branch OR one new feature per branch.
+Branches should be small and self-contained so that they can be merged. Sprawling and convoluted changes to code can make it nearly impossible to merge. In addition, it is customary for branches to be focused on specific problems, i.e., one bug fix per branch OR one new feature per branch.
 
 ## What to do
 
@@ -43,7 +43,7 @@ $ git add jabberwocky.txt
 $ git commit -m 'my second bit of work'
 ```
 
-Once we are done, let's merge the feature branch back into the master branch
+Once we are done, let's merge the feature branch back into the master branch:
 
 ```
 $ git checkout master     # this checks out the master branch   

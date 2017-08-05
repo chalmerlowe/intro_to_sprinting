@@ -34,7 +34,7 @@ These are the two fundamental configurations needed to use `git`.
 **Note:** The "--global" option applies these settings to all git projects on your machine  
 * You only need to run this **once per computer**.  
 * Re-run the command to change a setting.  
-* To override these settings for a specific project (i.e. a work project versus a personal project), simply run the command while in that project directory, and leave out the `"--global"` option.
+* To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `"--global"` option.
 
 Later sections of the workshop will go into greater depth on `git`.
 
@@ -47,7 +47,7 @@ Because git is a commandline tool, if you need a primer for the command line, ch
 
 ## Resources
 
-See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources...
+See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources.
 
 | Previous | Up | Next |
 |:---------|:---:|-----:|
