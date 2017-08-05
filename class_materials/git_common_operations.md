@@ -28,6 +28,8 @@ git diff
 
 This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the Deep Dive section.
 
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
+
 ## The big picture
 
 With your own projects, for 95% of what you do, `git status` and `git diff` should be sufficient to regularly track your progress and confirm the changes you have made. You will use these commands, along with `git add`, `git commit`, `git push` more than any others. 
