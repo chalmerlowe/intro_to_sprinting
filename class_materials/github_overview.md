@@ -1,11 +1,5 @@
 # Using GitHub
 
-
-## Time-box
-
-2 Minutes
-
-
 ## Overview
 
 Let's switch gears a bit and go back to discuss Github. In the next few sessions, we will explore several capabilities available in Github that greatly simplify code sharing and collaboration. Concepts to be covered include:
