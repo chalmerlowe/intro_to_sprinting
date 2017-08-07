@@ -254,6 +254,14 @@ nothing to commit, working tree clean
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
 
+### Adding for Powerusers
+
+If you need to add more than one file to the staging area, simply separate the filenames with a space:
+
+```bash
+$ git add <file1> <file2> ...
+```
+
 
 ## Resources
 
