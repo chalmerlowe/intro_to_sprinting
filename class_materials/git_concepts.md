@@ -47,7 +47,7 @@ The **local directory** is simply the directory on your machine and it contains 
 
 ### Staging area
 
-The **staging area** holds all the files that are ready to be added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e., addit to the pallet), you will use the `git add` command. Just like a pallet, you can continue to add files to the staging area, essentially indefinitely. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
+The **staging area** holds all the files that are ready to be added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add it to the pallet), you will use the `git add` command. Just like a pallet, you can continue to add files to the staging area, essentially indefinitely. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
 
 ![staging](images/git_staging.png)
 
