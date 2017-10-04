@@ -41,7 +41,7 @@ Fork the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_co
 
 1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
-2. Click the Fork button to to create a fork under your account
+2. Click the Fork button to create a fork under your account
 
 **NOTE**:  The fork refers back to the original repo - if you look under your repo name, you'll see it's "forked from chalmerlowe/intro\_to\_sprinting\_codeless\_project:"<br>
 ![Fork link to original repo](images/fork-repo-link.png)

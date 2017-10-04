@@ -18,7 +18,7 @@ When you submit a pull request the original project developer may:
     * someone suggested a better, faster, cheaper solution
 * Not respond back at all...
 
-The world of open source is rich in personalities and capabilities. Some developers are great at communication and some are horrible. Don't be surprised don't let the response (or lack thereof) get you down.
+The world of open source is rich in personalities and capabilities. Some developers are great at communication and some are horrible. Don't be surprised and don't let the response (or lack thereof) get you down.
 
 As a participant in open source there are ways to improve the chance that our hard work will be understood, accepted and respected.
 
