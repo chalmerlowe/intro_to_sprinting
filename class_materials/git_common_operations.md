@@ -140,14 +140,6 @@ Here I can see that I changed line 39 from a `print()` to `log.debug()` and that
 
 Many GUI-based tools will show you more information, such as highlighting the individual characters in a line that were changed. Since this varies from tool to tool, it won't be covered in detail here.
 
-### Adding for Powerusers
-
-If you need to add more than one file to the staging area, simply separate the filenames with a space:
-
-```bash
-$ git add <file1> <file2> ...
-```
-
 ## Resources
 
 * [<resource name>](<resource url>)
