@@ -25,8 +25,6 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
-If you like reading, you can also keep reading this page.
-
 ## The big picture
 
 These are the two fundamental configurations needed to use `git`. 
