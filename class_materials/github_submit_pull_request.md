@@ -44,7 +44,7 @@ As shown here, your repo has changes that need to be advertised to the upstream 
 
 ![Pull Request](images/git_pull_request.png)
 
-Whe you submit a Pull Request, the upstream owner will get a notification in Github and can then review all your suggested changes.
+When you submit a Pull Request, the upstream owner will get a notification in Github and can then review all your suggested changes.
 
 If they agree with and approve your **suggested changes** they will merge the changes into their project.
 
