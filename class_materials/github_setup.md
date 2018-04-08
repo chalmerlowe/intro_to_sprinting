@@ -76,6 +76,9 @@ There are several nuances to understand about this:
 * [GitHub Help](https://help.github.com/)
 * [Are git forks actually git clones?](http://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Setting up Virtual Environments](./virtual_environments.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
+</div>

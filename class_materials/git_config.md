@@ -49,6 +49,9 @@ Because git is a commandline tool, if you need a primer for the command line, ch
 
 See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources.
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Using the Command Line](./command_line.md) | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |
+| [Setting up GitHub and Forking a Repository](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |
+</div>

@@ -60,6 +60,9 @@ N/A
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Pull Request Tips and Suggestions](./pull_request_tips.md) |
+| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Table of Contents](./README.md) |
+</div>

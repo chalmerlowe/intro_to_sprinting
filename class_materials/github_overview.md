@@ -14,6 +14,9 @@ Let's switch gears a bit and go back to discuss Github. In the next few sessions
 * [GitHub Concepts](./github_concepts.md)
 * [Submitting a Pull Request](./github_submit_pull_request.md)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Branching and Merging](./git_branch_merge.md) | [Table of Contents](./README.md) | [GitHub Concepts](./github_concepts.md) |
+</div>

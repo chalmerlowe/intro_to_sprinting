@@ -116,9 +116,9 @@ $ git branch -d my_change_name
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
-
-
-
+| [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
+</div>

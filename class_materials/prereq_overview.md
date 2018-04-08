@@ -45,6 +45,9 @@ Participants should expect to achieve the following learning objectives upon com
 * [Instructor Preparation](./prereq_instructor.md): Steps the instructor should take to prepare for the workshop.
 * [Student Preparation](./prereq_student.md): Steps the students should take to prepare for the workshop.
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-|  | [Table of Contents](./README.md) | [Instructor Preparation](./prereq_instructor.md) |
+| [Table of Contents](./README.md) | [Table of Contents](./README.md) | [Instructor Preparation](./prereq_instructor.md) |
+</div>

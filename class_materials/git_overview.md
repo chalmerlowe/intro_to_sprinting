@@ -50,6 +50,9 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 * [Git Common Operations](./git_common_operations.md): <objective of lesson>
 * [Branching and Merging](./git_branch_merge.md): <objective of lesson>
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Setting up Git](./git_config.md) | [Table of Contents](./README.md) | [Git Concepts](./git_concepts.md) |
+</div>

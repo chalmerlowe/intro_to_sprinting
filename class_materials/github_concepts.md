@@ -40,6 +40,9 @@ N/A
 
 N/A
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) |
+</div>

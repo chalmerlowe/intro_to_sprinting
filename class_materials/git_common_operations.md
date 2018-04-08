@@ -146,8 +146,8 @@ Many GUI-based tools will show you more information, such as highlighting the in
 * [<resource name>](<resource url>)
 
 
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
-
-
+| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
+</div>

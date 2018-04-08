@@ -101,6 +101,8 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
 
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
+</div>

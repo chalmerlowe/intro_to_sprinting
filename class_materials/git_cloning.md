@@ -102,6 +102,8 @@ upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fet
 * [<resource name>](<resource url>)
 
 
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Git Concepts](./git_concepts.md) | [Using Git](./git_overview.md) | [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) |
+</div>

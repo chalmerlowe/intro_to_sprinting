@@ -269,6 +269,8 @@ $ git add <file1> <file2> ...
 * [<resource name>](<resource url>)
 
 
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Common Operations](./git_common_operations.md) |
+| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Git Common Operations](./git_common_operations.md) |
+</div>
