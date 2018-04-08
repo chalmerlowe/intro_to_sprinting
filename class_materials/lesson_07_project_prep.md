@@ -1,4 +1,4 @@
-# Prepping for the RPN Calculator Project
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 Now that you have been through the demo and seen, heard and in some cases, tried each of the steps, let's put it all together and get you set up to work on the RPN Calculator project.
 
@@ -112,5 +112,4 @@ You will be transferred to the original project Github Repo:
 1. Click on "**Create pull request**" button
 
 
-|[<<< Previous Lesson: GitHub Part Deux](./lesson_06_github_part_deux.md)|[Next Lesson: Intro to the Project >>>](./lesson_08_intro_to_the_project.md)|
-|:--|--:|
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

@@ -1,4 +1,7 @@
+<!-- begin auto-generated title section -->
 # Setting up Git
+<!-- end auto-generated section -->
+
 
 ## Time-box
 
@@ -51,7 +54,8 @@ Because `git` is a command-line tool, if you need a primer for the command line,
 * Cheatsheet for Windows command-line commands: 
 * Cheatsheet for Mac command-line commands:
 
-
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| []() | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |
+| [Setting up GitHub and Forking a Repository](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |
+<!-- end auto-generated section -->

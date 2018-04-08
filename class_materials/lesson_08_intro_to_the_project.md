@@ -1,4 +1,4 @@
-# Introduction to the Project
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 We will be working on a group project. The project is a Reverse Polish Notation (RPN) Calculator. Each of you will have a chance to add to the project.
 
@@ -159,5 +159,5 @@ AND then
 
 [Reverse Polish Notation](https://en.wikipedia.org/wiki/Reverse_Polish_notation)
 
-|[<<< Previous Lesson: Prepping for the Project](./lesson_07_project_prep.md)|
-|:--|
+
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

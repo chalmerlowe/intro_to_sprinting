@@ -1,4 +1,7 @@
+<!-- begin auto-generated title section -->
 # Branching and Merging
+<!-- end auto-generated section -->
+
 
 ## Time-box
 
@@ -116,9 +119,8 @@ $ git branch -d my_change_name
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
-
-
-
+| [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
+<!-- end auto-generated section -->

@@ -1,4 +1,7 @@
+<!-- begin auto-generated title section -->
 # Using Git
+<!-- end auto-generated section -->
+
 
 ## Overview
 
@@ -45,6 +48,8 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 * [Git Common Operations](./git_common_operations.md): <objective of lesson>
 * [Branching and Merging](./git_branch_merge.md): <objective of lesson>
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Setting up Git](./git_config.md) | [Table of Contents](./README.md) | [Git Concepts](./git_concepts.md) |
+<!-- end auto-generated section -->

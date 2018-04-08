@@ -1,4 +1,6 @@
+<!-- begin auto-generated title section -->
 # Git Concepts
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -100,7 +102,10 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
+JKE
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
+<!-- end auto-generated section -->

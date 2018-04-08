@@ -1,4 +1,6 @@
+<!-- begin auto-generated title section -->
 # Instructor Preparation
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -54,6 +56,8 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 N/A
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Course Overview and Preparation](./prereq_overview.md) | [Course Overview and Preparation](./prereq_overview.md) | [Student Preparation](./prereq_student.md) |
+<!-- end auto-generated section -->

@@ -1,4 +1,6 @@
+<!-- begin auto-generated title section -->
 # Submitting a Pull Request
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -60,6 +62,8 @@ N/A
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Pull Request Tips and Suggestions](./pull_request_tips.md) |
+| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Table of Contents](./README.md) |
+<!-- end auto-generated section -->

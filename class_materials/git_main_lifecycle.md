@@ -1,4 +1,6 @@
+<!-- begin auto-generated title section -->
 # Git Primary Workflow: Add, Commit, Push
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -268,7 +270,10 @@ $ git add <file1> <file2> ...
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+JKE
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Common Operations](./git_common_operations.md) |
+| [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Git Common Operations](./git_common_operations.md) |
+<!-- end auto-generated section -->

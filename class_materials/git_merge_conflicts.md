@@ -1,4 +1,4 @@
-# Dealing with Merge Conflicts
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -25,6 +25,5 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Branching and Merging](./git_branch_merge.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
+
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

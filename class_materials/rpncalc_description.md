@@ -1,4 +1,4 @@
-# RPN Calculator Project
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -25,6 +25,5 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Practicing for Realz](./for_realz.md) | [Practicing for Realz](./for_realz.md) | [Now Go Do It!](./now_go_do_it.md) |
+
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

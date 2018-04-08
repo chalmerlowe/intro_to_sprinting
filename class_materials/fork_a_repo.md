@@ -1,4 +1,4 @@
-# Forking a Repository
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -25,6 +25,5 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Setting up GitHub](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using the Command Line](./command_line.md) |
+
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

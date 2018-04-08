@@ -1,4 +1,4 @@
-# Using the Command Line
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -25,6 +25,5 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Forking a Repository](./fork_a_repo.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
+
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

@@ -1,4 +1,6 @@
+<!-- begin auto-generated title section -->
 # Setting up Virtual Environments
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -277,7 +279,8 @@ Discussing these is outside the scope of this course. Using either of these tool
 
 [1]: the maintainers of conda put together resources for the most recent versions of Python libraries as they get released, but sometimes there may be a short lag.
 
-
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub](./github_setup.md) |
+| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
+<!-- end auto-generated section -->

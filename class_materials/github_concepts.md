@@ -1,4 +1,7 @@
+<!-- begin auto-generated title section -->
 # GitHub Concepts
+<!-- end auto-generated section -->
+
 
 ## Time-box
 
@@ -40,6 +43,8 @@ N/A
 
 N/A
 
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) |
+<!-- end auto-generated section -->
