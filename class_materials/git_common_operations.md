@@ -10,7 +10,7 @@
 
 ## Overview
 
-`Git` has a number of capabilities to simplify your life, help you understand the status of your directory and improve your ability to communicate about your changes.
+Git has a number of capabilities to simplify your life, help you understand the status of your directory and improve your ability to communicate about your changes.
 
 When using `git`, sometimes you want to know more about the changes you are committing ... this is where `git diff` comes in. 
 
