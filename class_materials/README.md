@@ -1,4 +1,4 @@
-Table of Contents
+# Table of Contents
 
 1. [Course Overview and Preparation](./prereq_overview.md)
     1. [Instructor Preparation](./prereq_instructor.md)

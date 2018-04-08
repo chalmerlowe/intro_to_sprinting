@@ -8,6 +8,9 @@ import re
 
 log = logging.getLogger(__name__)
 
+TOC_MAX_DEPTH = int(os.environ.get('TOC_MAX_DEPTH', '3'))
+LOGLEVEL = os.environ.get('LOGLEVEL', 'WARNING')
+
 
 HIERARCHY = ('Table of Contents', './README.md', (
     ('Course Overview and Preparation', './prereq_overview.md', (
@@ -108,9 +111,21 @@ def rewrite_file(fname, root):
         fout.write(updated)
 
 
+def write_toc_node(node, level, fout):
+    if level >= TOC_MAX_DEPTH:
+        return
+    log.info('writing table of contents node: %d -> %s', level, node.title)
+    fout.write('{0}1. [{1}]({2})\n'.format(' ' * level * 4, node.title, node.filename))
+    for child in node.children:
+        write_toc_node(child, level + 1, fout)
+
+
 def rewrite_toc(root):
+    log.info('writing table of contents file')
     with open(os.path.join(CONTENT_DIR, root.filename), 'w') as fout:
-        pass
+        fout.write('# Table of Contents\n\n')
+        for node in root.children:
+            write_toc_node(node, 0, fout)
 
 
 def main():
@@ -138,9 +153,10 @@ def main():
             rewrite_file(fname, root)
         else:
             log.warning('skipping file %s (not in page structure)', fname)
+    rewrite_toc(root)
 
 
 if __name__ == '__main__':
     log.addHandler(logging.StreamHandler())
-    log.setLevel(os.environ.get('LOGLEVEL', 'INFO'))
+    log.setLevel(LOGLEVEL)
     main()
