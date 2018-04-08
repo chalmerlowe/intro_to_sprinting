@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Setting up GitHub and Forking a Repository
-</h1>
+<!-- begin auto-generated title section -->
+# Setting up GitHub and Forking a Repository
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -78,9 +78,8 @@ There are several nuances to understand about this:
 * [GitHub Help](https://help.github.com/)
 * [Are git forks actually git clones?](http://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Setting up Virtual Environments](./virtual_environments.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
-</div>
+<!-- end auto-generated section -->

@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Environment Set-up
-</h1>
+<!-- begin auto-generated title section -->
+# Environment Set-up
+<!-- end auto-generated section -->
 
 
 ## Overview
@@ -15,9 +15,8 @@ During this portion of the workshop, we will be installing software and configur
 1. [Forking a Repository](./fork_a_repo.md)
 1. [Setting up Git](./git_config.md)
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
-</div>
+<!-- end auto-generated section -->

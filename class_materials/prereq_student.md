@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Student Preparation
-</h1>
+<!-- begin auto-generated title section -->
+# Student Preparation
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -46,9 +46,8 @@ In the hands-on practice session, you will be using command-line tools to contri
 * [Windows command-line](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) Windows commandline stuff
 * [Linux/Mac command-line](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux commandline stuff
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Instructor Preparation](./prereq_instructor.md) | [Course Overview and Preparation](./prereq_overview.md) | [Environment Set-up](./environment_overview.md) |
-</div>
+<!-- end auto-generated section -->

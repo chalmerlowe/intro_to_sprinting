@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Branching and Merging
-</h1>
+<!-- begin auto-generated title section -->
+# Branching and Merging
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -119,9 +119,8 @@ $ git branch -d my_change_name
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
-</div>
+<!-- end auto-generated section -->

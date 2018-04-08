@@ -1,6 +1,4 @@
-<h1 id="title" "this section is auto-generated, do not manually edit">
-Using the Command Line
-</h1>
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -28,9 +26,4 @@ Using the Command Line
 * [<resource name>](<resource url>)
 
 
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [RPN Calculator Project](./rpncalc_description.md) | [Practicing for Realz](./for_realz.md) |  |
-</div>
-
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Instructor Preparation
-</h1>
+<!-- begin auto-generated title section -->
+# Instructor Preparation
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -56,9 +56,8 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 N/A
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Course Overview and Preparation](./prereq_overview.md) | [Course Overview and Preparation](./prereq_overview.md) | [Student Preparation](./prereq_student.md) |
-</div>
+<!-- end auto-generated section -->

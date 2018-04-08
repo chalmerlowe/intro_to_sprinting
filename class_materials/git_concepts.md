@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Git Concepts
-</h1>
+<!-- begin auto-generated title section -->
+# Git Concepts
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -102,9 +102,10 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
+JKE
 
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using Git](./git_overview.md) | [Using Git](./git_overview.md) | [Cloning a Repository](./git_cloning.md) |
-</div>
+<!-- end auto-generated section -->

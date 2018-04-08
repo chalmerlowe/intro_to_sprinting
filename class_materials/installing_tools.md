@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Installing the Software You'll Need
-</h1>
+<!-- begin auto-generated title section -->
+# Installing the Software You'll Need
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -123,9 +123,8 @@ Whenever you work on a new project, you should create a separate environment for
 
 * [`pip` is Python's package manager.](https://en.wikipedia.org/wiki/Pip_(package_manager))
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up Virtual Environments](./virtual_environments.md) |
-</div>
+<!-- end auto-generated section -->

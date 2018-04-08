@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-GitHub Concepts
-</h1>
+<!-- begin auto-generated title section -->
+# GitHub Concepts
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -43,9 +43,8 @@ N/A
 
 N/A
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Using GitHub](./github_overview.md) | [Using GitHub](./github_overview.md) | [Submitting a Pull Request](./github_submit_pull_request.md) |
-</div>
+<!-- end auto-generated section -->

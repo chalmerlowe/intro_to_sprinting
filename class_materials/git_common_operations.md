@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Git Common Operations
-</h1>
+<!-- begin auto-generated title section -->
+# Git Common Operations
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -147,9 +147,8 @@ Many GUI-based tools will show you more information, such as highlighting the in
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
-</div>
+<!-- end auto-generated section -->

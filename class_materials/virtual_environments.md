@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Setting up Virtual Environments
-</h1>
+<!-- begin auto-generated title section -->
+# Setting up Virtual Environments
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -279,9 +279,8 @@ Discussing these is outside the scope of this course. Using either of these tool
 
 [1]: the maintainers of conda put together resources for the most recent versions of Python libraries as they get released, but sometimes there may be a short lag.
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
-</div>
+<!-- end auto-generated section -->

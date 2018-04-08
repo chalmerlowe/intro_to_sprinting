@@ -1,6 +1,4 @@
-<h1 id="title" "this section is auto-generated, do not manually edit">
-Using the Command Line
-</h1>
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -16,9 +14,4 @@ Using the Command Line
 * [<lesson title>](./<filename>.md): <objective of lesson>
 
 
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
-</div>
-
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

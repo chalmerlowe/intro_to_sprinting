@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Git Primary Workflow: Add, Commit, Push
-</h1>
+<!-- begin auto-generated title section -->
+# Git Primary Workflow: Add, Commit, Push
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -270,9 +270,10 @@ $ git add <file1> <file2> ...
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+JKE
 
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Cloning a Repository](./git_cloning.md) | [Using Git](./git_overview.md) | [Git Common Operations](./git_common_operations.md) |
-</div>
+<!-- end auto-generated section -->

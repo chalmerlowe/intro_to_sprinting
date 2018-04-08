@@ -1,6 +1,4 @@
-<h1 id="title" "this section is auto-generated, do not manually edit">
-Using the Command Line
-</h1>
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 Now that you have been through the demo and seen, heard and in some cases, tried each of the steps, let's put it all together and get you set up to work on the RPN Calculator project.
 
@@ -114,9 +112,4 @@ You will be transferred to the original project Github Repo:
 1. Click on "**Create pull request**" button
 
 
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
-</div>
-
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->

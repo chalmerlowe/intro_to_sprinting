@@ -33,19 +33,19 @@ HIERARCHY = ('Table of Contents', './README.md', (
     )),
 ))
 
-TITLE_TAGS = ('<h1 id="title" comment="this section is auto-generated, do not manually edit">', '</h1>')
-TITLE_CONTENT = '\\1\n{title}\n\\2\n\n\n'
+AUTO_SECTION_TAGS = ('<!-- begin auto-generated {0} section -->', '<!-- end auto-generated section -->')
+TITLE_OPEN_TAG = AUTO_SECTION_TAGS[0].format('title')
+NAV_OPEN_TAG = AUTO_SECTION_TAGS[0].format('nav-links')
 
-NAV_TAGS = ('<div id="nav-links" comment="this section is auto-generated, do not manually edit">', '</div>')
-NAV_CONTENT = '\n\n{0}\n'.format('''\\1
+TITLE_CONTENT = '{OPEN_TAG}\n# {title}\n{CLOSE_TAG}\n\n\n'
+NAV_CONTENT = '\n\n{0}\n'.format('''{OPEN_TAG}
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [{prev_title}]({prev_url}) | [{up_title}]({up_url}) | [{next_title}]({next_url}) |
-\\2''')
+{CLOSE_TAG}''')
 
-
-TITLE_REGEX = re.compile(f'\s*({TITLE_TAGS[0]})\s*.*?\s*({TITLE_TAGS[1]})\s*', re.MULTILINE | re.DOTALL)
-NAV_REGEX = re.compile(f'^\s*({NAV_TAGS[0]})\s*.*?\s*({NAV_TAGS[1]})\s*', re.MULTILINE | re.DOTALL)
+TITLE_REGEX = re.compile(f'\s*{TITLE_OPEN_TAG}\s*.*?\s*{AUTO_SECTION_TAGS[1]}\s*', re.MULTILINE | re.DOTALL)
+NAV_REGEX = re.compile(f'\s*{NAV_OPEN_TAG}\s*.*?\s*{AUTO_SECTION_TAGS[1]}\s*', re.MULTILINE | re.DOTALL)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 CONTENT_DIR = os.path.join(BASE_DIR, 'class_materials')
@@ -74,6 +74,45 @@ def make_subtree(item, parent):
     return node
 
 
+def rewrite_file(fname, root):
+    fpath = os.path.join(CONTENT_DIR, fname)
+    with open(fpath) as fin:
+        content = fin.read()
+    node = NODES_BY_PATH[fname]
+    log.debug('node %d: %s (%s)', node.index, node.title, node.parent)
+    new_title = TITLE_CONTENT.format(title=node.title, OPEN_TAG=TITLE_OPEN_TAG, CLOSE_TAG=AUTO_SECTION_TAGS[1])
+    updated = re.sub(TITLE_REGEX, new_title, content)
+    log.debug('title updated: %s', updated != content)
+    content = updated
+    parent = NODES_BY_PATH[node.parent] if node.parent else root
+    log.debug('parent: %s', parent.title)
+    prev = ALL_NODES[node.index-1] if node.index > 0 else root
+    log.debug('prev: %s', prev.title)
+    nxt = ALL_NODES[node.index+1] if node.index < len(ALL_NODES) - 1 else root
+    log.debug('next: %s', nxt.title)
+    new_nav = NAV_CONTENT.format(
+        prev_title=prev.title,
+        prev_url=prev.filename,
+        up_title=parent.title if parent else None,
+        up_url=parent.filename if parent else None,
+        next_title=nxt.title,
+        next_url=nxt.filename,
+        OPEN_TAG=NAV_OPEN_TAG,
+        CLOSE_TAG=AUTO_SECTION_TAGS[1],
+    )
+    log.debug('nav regex: %s', NAV_REGEX)
+    log.debug('updated nav: %s', new_nav)
+    updated = re.sub(NAV_REGEX, new_nav, content)
+    log.debug('nav updated: %s', updated != content)
+    with open(fpath, 'w') as fout:
+        fout.write(updated)
+
+
+def rewrite_toc(root):
+    with open(os.path.join(CONTENT_DIR, root.filename), 'w') as fout:
+        pass
+
+
 def main():
     log.info('building page hierarchy tree')
     tree = make_subtree(HIERARCHY, None)
@@ -93,36 +132,10 @@ def main():
         if fname not in all_files:
             log.critical('hierarchy refers to non-existent page: %s', fname)
             raise Exception
-    for fname in all_files:
+    for fname in list(all_files):
         log.info('fname: %s', fname)
         if fname in NODES_BY_PATH and fname != root.title:
-            fpath = os.path.join(CONTENT_DIR, fname)
-            with open(fpath) as fin:
-                content = fin.read()
-            node = NODES_BY_PATH[fname]
-            log.debug('node %d: %s (%s)', node.index, node.title, node.parent)
-            new_title = TITLE_CONTENT.format(title=node.title)
-            updated = re.sub(TITLE_REGEX, new_title, content)
-            log.debug('title updated: %s', updated != content)
-            content = updated
-            parent = NODES_BY_PATH[node.parent] if node.parent else root
-            log.debug('parent: %s', parent.title)
-            prev = ALL_NODES[node.index-1] if node.index > 0 else root
-            log.debug('prev: %s', prev.title)
-            nxt = ALL_NODES[node.index+1] if node.index < len(ALL_NODES) - 1 else root
-            log.debug('next: %s', nxt.title)
-            new_nav = NAV_CONTENT.format(
-                prev_title=prev.title,
-                prev_url=prev.filename,
-                up_title=parent.title if parent else None,
-                up_url=parent.filename if parent else None,
-                next_title=nxt.title,
-                next_url=nxt.filename,
-            )
-            updated = re.sub(NAV_REGEX, new_nav, content)
-            log.debug('nav updated: %s', updated != content)
-            with open(fpath, 'w') as fout:
-                fout.write(updated)
+            rewrite_file(fname, root)
         else:
             log.warning('skipping file %s (not in page structure)', fname)
 

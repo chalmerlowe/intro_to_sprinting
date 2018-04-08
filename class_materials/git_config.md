@@ -1,6 +1,6 @@
-<h1 id="title" comment="this section is auto-generated, do not manually edit">
-Setting up Git
-</h1>
+<!-- begin auto-generated title section -->
+# Setting up Git
+<!-- end auto-generated section -->
 
 
 ## Time-box
@@ -52,9 +52,8 @@ Because git is a commandline tool, if you need a primer for the command line, ch
 
 See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources.
 
-
-<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+<!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Setting up GitHub and Forking a Repository](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using Git](./git_overview.md) |
-</div>
+<!-- end auto-generated section -->
