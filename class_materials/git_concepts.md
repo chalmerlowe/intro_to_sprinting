@@ -10,18 +10,22 @@
 
 ## Overview
 
-Git repositories are very sophisticated, but at the lowest level, they are fairly simple. Git tracks changes to files in a database AND categorizes files in the following ways:
+Git repositories can seem sophisticated, but at the lowest level, they are fairly simple: Git tracks changes to files in a special database AND categorizes those files. For our purposes, we will compare each categorization to an analogy in the following ways:
 
-1. Local directory (warehouse)
-2. Staging area (pallet)
-3. Commit (truck)
-4. Remote (remote warehouse shared by all, typically called "origin")
+||Category|Analogy|
+|:---|:----|:----|
+|1.|Local directory|Local warehouse|
+|2.|Staging area|Pallet|
+|3.|Commit|Truck|
+|4.|Remote|Remote warehouse shared by all (typically called "origin")|
 
-As we look at each of these, we will imagine that we are processing materials in a warehouse and shipping them to another location.
+As we look at each of these, we will imagine that we are processing materials in a warehouse and shipping them to another warehouse location.
 
 ## What to do
 
-Listen :)
+Take a break, listen, enjoy the show
+
+: )
 
 
 ## The big picture
@@ -30,55 +34,68 @@ Listen :)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yCh6TSLIQBQ" frameborder="0" allowfullscreen></iframe>
 
-[Git Happens link](https://img.youtube.com/vi/yCh6TSLIQBQ/0.jpg), in case the viewer above isn't visible.
+If the above viewer isn't visible, you can reach this video, here: [Git Happens](https://img.youtube.com/vi/yCh6TSLIQBQ/0.jpg).
 
 ## Deep dive
 
-As noted above, git tracks changes to files in a database AND categorizes files in the following ways:
+As noted above, `git` tracks changes to files in a database AND categorizes files in the following ways:
 
-1. Local directory (warehouse)
-2. Staging area (pallet)
-3. Commit (truck)
-4. Remote (remote warehouse shared by all, typically called "origin")
+||Category|Analogy|
+|:---|:----|:----|
+|1.|Local directory|Local warehouse|
+|2.|Staging area|Pallet|
+|3.|Commit|Truck|
+|4.|Remote|Remote warehouse shared by all (typically called "origin")|
 
 ### Local directory
 
-The **local directory** is simply the directory on your machine and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the warehouse in our example. There are plenty of materials: some that are necessary to run the warehouse (but not part of what is typically stored in the warehouse), some things that have been ordered, and some things that are not quite ready to ship. Any new files you create in your local directory will only be visible to you.
+The **local directory** is simply the directory on your computer and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the local warehouse in our example. 
+
+Just like in a real warehouse, there are a wide variety of materials:
+
+* the products that you are storing/selling (this would be your project files)
+* some items that are needed to run the warehouse, but aren't part of what you sell (this might be utilities and tools you created to help clean up your work, autogenerate content, configure your compilation environment, etc)
+* there might be some items that still need to processed before you can sell them (files that are a work in progress, currently being edited, etc)
+
+NOTE: Any new files you create in your local directory will only be visible to you, until you process them (more on that as we go).
 
 ![staging](images/basic_dir.png)
 
 ### Staging area
 
-The **staging area** holds all the files that are ready to be added to the project and shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add it to the pallet), you will use the `git add` command. Just like a pallet, you can continue to add files to the staging area, essentially indefinitely. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
+The **staging area** holds all the files that are ready to be added to the project and eventually shared with others. The staging area can be compared to the pallet in our example. Everything that is 'done' and ready to be loaded on the truck gets placed on the pallet. To put a file into the staging area (i.e. add it to the pallet), you will use the `git add` command. Just like a pallet, you can continue to add files to the staging area, essentially indefinitely. While things are still in the staging area (on the pallet), it is fairly easy to add more files, remove files, change files, etc.
 
 ![staging](images/git_staging.png)
 
-**NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, you will need to add the file a second time to capture the newest changes.
-
+**NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, the newest changes will **not** be staged. Staging takes a snapshot in time. You will need to `git add` the file a second time to capture the newest changes.
 
 ### Commit
 
-The **commit area** holds all the changes that you are going to release to the internet, and ultimately to the original author. The commit area can be compared to the truck in our example. Once your pallet is full, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (gets loaded on the truck). To commit a file, you will use the `git commit` command.
+The **commit area** holds all the changes that you are going to release to the remote warehouse. The commit area can be compared to the truck in our example. Once your pallet is full and ready to go, you load it onto the truck for delivery. Everything that is ready to be shipped goes into the commit area (i.e. gets loaded on the truck). To commit a file, you will use the `git commit` command.
 
 ![commiting](images/git_commit.png)
 
-**NOTE**: much like we saw above...if you edit something that has been committed, then the new changes will not be released to the original author. Any new changes will have to be added to the staging area and then committed **again**.
+**NOTE**: much like we saw above... if you add a file to the commit area and **THEN** make additional changes to the file, the newest changes will **not** be staged OR committed. Committing also takes a snapshot in time. You will need to `git add` the file a second time to stage it and then `git commmit` it to capture the newest changes.
 
 ### Remote
 
-A **remote** is some other repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere. Remotes are named, and the default name for the first remote is **origin**. Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you forked from.
+A **remote** is a repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere (i.e. on a server within your company OR an alternative to GitHub, like BitBucket OR GitLab). 
+
+Remotes are named, and the default name for the remote you `git clone` from is typically **origin**. 
+
+Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you `fork` from.
 
 Nothing gets copied from your local system until you `git push` it to a remote repository. Only items that have been committed are pushed to the remote. Pushing to `origin` (the default remote when you clone from GitHub, for example) can be compared to the truck driving away to deliver the pallet. Once changes have been pushed, they are published and others can see those changes in **your Github** repository.
 
 ![git push](images/git_push.png)
 
-**NOTE:** we're not yet thinking about how to get your changes back to the original project; that will be covered later.
+**NOTE:** we're not yet thinking about how to get your changes back to the original project; that will be covered later. At this point, all these efforts have been focused on repos that you control.
 
 ## Resources
 
 ### Documentation and Books:
 
-[Pro-Git](https://git-scm.com/book/en/v2), a free online resource (and in [PDF](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf) form to save to your computer) with comprehensive documentation about using git well by Scott Chacon and Ben Straub
+[Pro-Git](https://git-scm.com/book/en/v2), a free online resource (available in [PDF format](https://progit2.s3.amazonaws.com/en/2016-03-22-f3531/progit-en.1084.pdf).) with comprehensive documentation about using Git efficiently by Scott Chacon and Ben Straub
 
 [User Manual](https://git-scm.com/docs/user-manual.html)
 
