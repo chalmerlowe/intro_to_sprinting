@@ -14,7 +14,7 @@ Git repositories can seem sophisticated, but at the lowest level, they are fairl
 
 ||Category|Analogy|
 |:---|:----|:----|
-|1.|Local directory|Local warehouse|
+|1.|Local directory|Local warehouse (typically cloned from a remote warehouse)|
 |2.|Staging area|Pallet|
 |3.|Commit|Truck|
 |4.|Remote|Remote warehouse shared by all (typically called "origin")|
@@ -42,7 +42,7 @@ As noted above, `git` tracks changes to files in a database AND categorizes file
 
 ||Category|Analogy|
 |:---|:----|:----|
-|1.|Local directory|Local warehouse|
+|1.|Local directory|Local warehouse (typically cloned from a remote warehouse)|
 |2.|Staging area|Pallet|
 |3.|Commit|Truck|
 |4.|Remote|Remote warehouse shared by all (typically called "origin")|
@@ -58,6 +58,8 @@ Just like in a real warehouse, there are a wide variety of materials:
 * there might be some items that still need to processed before you can sell them (files that are a work in progress, currently being edited, etc)
 
 NOTE: Any new files you create in your local directory will only be visible to you, until you process them (more on that as we go).
+
+NOTE: Local directories are often produced via a `git clone` command and based on a remote repository.
 
 ![staging](images/basic_dir.png)
 
