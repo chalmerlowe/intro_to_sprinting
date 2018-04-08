@@ -1,4 +1,6 @@
-# Using the Command Line
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 ## Time-box
 
@@ -25,6 +27,10 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Forking a Repository](./fork_a_repo.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+</div>
+

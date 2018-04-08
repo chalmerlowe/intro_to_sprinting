@@ -1,4 +1,6 @@
-# Practicing for Realz
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 ## Time-box
 
@@ -13,6 +15,10 @@
 * [<lesson title>](./<filename>.md): <objective of lesson>
 * [<lesson title>](./<filename>.md): <objective of lesson>
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Pull Request Tips and Suggestions](./pull_request_tips.md) | [Table of Contents](./README.md) | [RPN Calculator Project](./rpncalc_description.md) |
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+</div>
+

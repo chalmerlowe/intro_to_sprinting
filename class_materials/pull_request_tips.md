@@ -1,4 +1,6 @@
-# Pull Request Tips and Suggestions
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 ## Time-box
 
@@ -48,6 +50,10 @@ N/A
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Submitting a Pull Request](./github_submit_pull_request.md) | [Using GitHub](./github_overview.md) |  |
+</div>
+

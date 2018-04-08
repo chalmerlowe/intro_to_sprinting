@@ -1,4 +1,7 @@
-# Setting up Git
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Setting up Git
+</h1>
+
 
 ## Time-box
 

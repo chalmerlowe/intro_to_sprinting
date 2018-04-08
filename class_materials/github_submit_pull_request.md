@@ -1,4 +1,6 @@
-# Submitting a Pull Request
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Submitting a Pull Request
+</h1>
 
 
 ## Time-box

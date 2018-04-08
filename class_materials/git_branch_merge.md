@@ -1,4 +1,7 @@
-# Branching and Merging
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Branching and Merging
+</h1>
+
 
 ## Time-box
 

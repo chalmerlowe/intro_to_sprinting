@@ -1,4 +1,7 @@
-# Using GitHub
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Using GitHub
+</h1>
+
 
 ## Overview
 

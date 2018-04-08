@@ -1,4 +1,6 @@
-# Cloning a Repository
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Cloning a Repository
+</h1>
 
 
 ## Time-box

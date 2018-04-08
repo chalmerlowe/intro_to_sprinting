@@ -1,4 +1,7 @@
-# Using Git
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Using Git
+</h1>
+
 
 ## Overview
 

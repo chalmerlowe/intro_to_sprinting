@@ -1,4 +1,6 @@
-# Git Common Operation(s): diff and add
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Git Common Operations
+</h1>
 
 
 ## Time-box

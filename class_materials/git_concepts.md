@@ -1,4 +1,6 @@
-# Git Concepts
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Git Concepts
+</h1>
 
 
 ## Time-box

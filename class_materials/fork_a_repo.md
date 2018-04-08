@@ -1,4 +1,6 @@
-# Forking a Repository
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 ## Time-box
 
@@ -25,6 +27,10 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Setting up GitHub](./github_setup.md) | [Environment Set-up](./environment_overview.md) | [Using the Command Line](./command_line.md) |
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+</div>
+

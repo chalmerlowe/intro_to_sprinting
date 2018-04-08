@@ -1,4 +1,6 @@
-# Prepping for the RPN Calculator Project
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 Now that you have been through the demo and seen, heard and in some cases, tried each of the steps, let's put it all together and get you set up to work on the RPN Calculator project.
 
@@ -112,5 +114,9 @@ You will be transferred to the original project Github Repo:
 1. Click on "**Create pull request**" button
 
 
-|[<<< Previous Lesson: GitHub Part Deux](./lesson_06_github_part_deux.md)|[Next Lesson: Intro to the Project >>>](./lesson_08_intro_to_the_project.md)|
-|:--|--:|
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
+| Previous | Up | Next |
+|:---------|:---:|-----:|
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+</div>
+

@@ -1,4 +1,6 @@
-# Setting up GitHub
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Setting up GitHub and Forking a Repository
+</h1>
 
 
 ## Time-box

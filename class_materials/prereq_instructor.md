@@ -1,4 +1,6 @@
-# Instructor Preparation
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Instructor Preparation
+</h1>
 
 
 ## Time-box

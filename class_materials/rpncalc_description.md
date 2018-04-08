@@ -1,4 +1,6 @@
-# RPN Calculator Project
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 ## Time-box
 
@@ -25,6 +27,9 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
 |:---------|:---:|-----:|
 | [Practicing for Realz](./for_realz.md) | [Practicing for Realz](./for_realz.md) | [Now Go Do It!](./now_go_do_it.md) |
+</div>

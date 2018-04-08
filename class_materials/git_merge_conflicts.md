@@ -1,4 +1,6 @@
-# Dealing with Merge Conflicts
+<h1 id="title" "this section is auto-generated, do not manually edit">
+Using the Command Line
+</h1>
 
 ## Time-box
 
@@ -25,6 +27,16 @@
 * [<resource name>](<resource url>)
 * [<resource name>](<resource url>)
 
+
+<div id="nav-links" comment="this section is auto-generated, do not manually edit">
 | Previous | Up | Next |
+
+
+
+
+
+
 |:---------|:---:|-----:|
-| [Branching and Merging](./git_branch_merge.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
+| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+</div>
+

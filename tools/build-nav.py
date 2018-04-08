@@ -33,7 +33,9 @@ HIERARCHY = ('Table of Contents', './README.md', (
     )),
 ))
 
-TITLE_TAGS = ('<div id="title" comment="this section is auto-generated, do not manually edit">', '</div>')
+TITLE_TAGS = ('<h1 id="title" comment="this section is auto-generated, do not manually edit">', '</h1>')
+TITLE_CONTENT = '\\1\n{title}\n\\2\n\n\n'
+
 NAV_TAGS = ('<div id="nav-links" comment="this section is auto-generated, do not manually edit">', '</div>')
 NAV_CONTENT = '\n\n{0}\n'.format('''\\1
 | Previous | Up | Next |
@@ -42,8 +44,8 @@ NAV_CONTENT = '\n\n{0}\n'.format('''\\1
 \\2''')
 
 
-TITLE_REGEX = re.compile(f'\s+({TITLE_TAGS[0]})\s+.*?\s+({TITLE_TAGS[1]})', re.MULTILINE | re.DOTALL)
-NAV_REGEX = re.compile(f'^\s+({NAV_TAGS[0]})\s+.*?\s+({NAV_TAGS[1]})\s+', re.MULTILINE | re.DOTALL)
+TITLE_REGEX = re.compile(f'\s*({TITLE_TAGS[0]})\s*.*?\s*({TITLE_TAGS[1]})\s*', re.MULTILINE | re.DOTALL)
+NAV_REGEX = re.compile(f'^\s*({NAV_TAGS[0]})\s*.*?\s*({NAV_TAGS[1]})\s*', re.MULTILINE | re.DOTALL)
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 CONTENT_DIR = os.path.join(BASE_DIR, 'class_materials')
@@ -99,11 +101,15 @@ def main():
                 content = fin.read()
             node = NODES_BY_PATH[fname]
             log.debug('node %d: %s (%s)', node.index, node.title, node.parent)
+            new_title = TITLE_CONTENT.format(title=node.title)
+            updated = re.sub(TITLE_REGEX, new_title, content)
+            log.debug('title updated: %s', updated != content)
+            content = updated
             parent = NODES_BY_PATH[node.parent] if node.parent else root
             log.debug('parent: %s', parent.title)
             prev = ALL_NODES[node.index-1] if node.index > 0 else root
             log.debug('prev: %s', prev.title)
-            nxt = ALL_NODES[node.index+1] if node.index < len(ALL_NODES) - 1     else root
+            nxt = ALL_NODES[node.index+1] if node.index < len(ALL_NODES) - 1 else root
             log.debug('next: %s', nxt.title)
             new_nav = NAV_CONTENT.format(
                 prev_title=prev.title,
@@ -114,7 +120,7 @@ def main():
                 next_url=nxt.filename,
             )
             updated = re.sub(NAV_REGEX, new_nav, content)
-            log.debug('changes: %s', updated == content)
+            log.debug('nav updated: %s', updated != content)
             with open(fpath, 'w') as fout:
                 fout.write(updated)
         else:

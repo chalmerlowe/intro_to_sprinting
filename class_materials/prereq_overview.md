@@ -1,4 +1,7 @@
-# Course Overview and Preparation
+<h1 id="title" comment="this section is auto-generated, do not manually edit">
+Course Overview and Preparation
+</h1>
+
 
 ## Overview
 
