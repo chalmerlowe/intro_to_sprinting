@@ -72,8 +72,8 @@ If you are curious, and want to confirm the link and the name of the remote repo
 
 ```bash
 $ git remote -v
-origin  https://github.com/myusername/intro_to_sprinting_codeless_project (fetch)
-origin  https://github.com/myusername/intro_to_sprinting_codeless_project (push)
+origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
+origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
 ```
 Here we see that for the `origin` remote repository, we have the ability to fetch data from it and push data to it. This ability to push data to the repository makes sense, since we own that repository.
 
@@ -85,12 +85,12 @@ To enable `git` to find the `upstream` we use the following command:
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
-Again, if you are curious, you can confirm that `git` has stored the correct upstream repository with this command `git remote -v`. And now we see that `git` recognizes both our GitHub repo and the original project's repo.
+Again, if you are curious, you can confirm that `git` has stored the correct upstream repository with the command `git remote -v`. And now we see that `git` recognizes both our GitHub repo and the original project's repo.
 
 ```bash
 $ git remote -v
-origin   https://github.com/myusername/intro_to_sprinting_codeless_project (fetch)
-origin   https://github.com/myusername/intro_to_sprinting_codeless_project (push)
+origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
+origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
 upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
 ```
 
