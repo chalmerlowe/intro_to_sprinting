@@ -16,13 +16,13 @@ With larger projects, it is very common to create **branches** and then **merge*
 1. merging your changes back into `master`
 1. submitting a pull request to the project owner (covered in a separate discussion)
 
-By following this pattern, you keep your work isolated from the rest of the project until it is ready to be released. Examples include:
+By following this pattern, you keep your work isolated from the rest of the project until it is ready to be shared or incorporated. Examples include:
 
 * creating new features
 * experimenting with changes to the code
 * fixing bugs
 
-Branches should be small and self-contained so that they can be merged. Sprawling and convoluted changes to code can make it nearly impossible to merge. In addition, it is customary for branches to be focused on specific problems, i.e., one bug fix per branch OR one new feature per branch.
+Branches should be small and self-contained so that they can be merged easily. Sprawling and convoluted changes to code can make it nearly impossible to merge changes. In addition, it is customary for branches to be focused on specific problems, i.e., one bug fix per branch OR one new feature per branch.
 
 ## What to do
 
