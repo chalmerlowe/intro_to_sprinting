@@ -56,6 +56,8 @@ $ git push origin master
 $ git branch -d my-feature-name
 ```
 
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 ## The big picture
