@@ -14,21 +14,23 @@ Git has a number of capabilities to simplify your life, help you understand the 
 
 When using `git`, sometimes you want to know more about the changes you are committing ... this is where `git diff` comes in. 
 
-When you have changed multiple files, it is sometimes desireable to add them to the staging area in batches. `git add` also has this capability
-
 ## What to do
 
 For this next exercise, we will change a single file and use the `git diff` tool to examine those specific changes in detail.
 
-1. Use your text editor to open the `beowulf.txt` file in the Codeless project.
-2. Change the letter `B` in the first line `Beowulf (modern English translation) ...` to a lowercase `b`.
+1. Use your text editor to open the `beowulf.txt` file in the your local Codeless Project repo.
+2. Change the letter `B` in the first line `The Project Getenberg EBook of Beowulf ...` to a lowercase `b`.
 1. Execute the following command:
 
 ```bash
 git diff
 ```
 
-This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the Deep Dive section.
+This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the **Deep Dive** section.
+
+## Done with commands for now!
+
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
@@ -50,95 +52,84 @@ If I add a line to a file, I'll see something like this:
 
 ```bash
 $ git diff
-diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
-index 90cd3cd..e22a262 100644
---- a/rpncalculator/parser.py
-+++ b/rpncalculator/parser.py
-@@ -39,6 +39,7 @@ class Parser(object):
-         """scan input stream and return token generator"""
-         if isinstance(stream, str):
-             stream = StringIO(stream)
-+        print(str(stream))
-         for line in stream:
-             tokens, remainder = _scanner.scan(line)
-             for t in tokens:
+diff --git a/test.txt b/test.txt
+index 624b469..f8b6f0a 100644
+--- a/test.txt
++++ b/test.txt
+@@ -10,3 +10,4 @@ line 9
+ line 10
+ line 11
+ line 12
++line 13
 ```
 
-The first part of the output shows me which file is being displayed. The output from `git diff` can contain many files; you can also specify individual files or groups of files by providing the file name(s) to git diff with `git diff <file1> <file2> ...`. Even with a single file specified, the output will always show you which file(s) are being compared with each change.
+The first part of the output shows the filenames for the files being compared. This is important, because the output from `git diff` might display many files if you have changed numerous files in your repo. You can also specify individual files or groups of files by providing the file name(s) as arguments to the `git diff` command like so: `git diff <file1> <file2> ...`. Even with a single file specified, the output will always show you which file(s) are being compared with each change.
 
-The line that starts with `+` indicates that line is new compared to what's currently committed. Also note that the tool shows me a few lines before and after the change to help me see the context of the change.
+The line that starts with a single `+` indicates that this line is new compared to what's currently staged OR committed. Also note that the tool shows me a few lines before and/or after the change to help me see the context of the change.
 
-Also you can see which line number(s) are involved in the change. The `@@` line tells you that line 39 is the affected line. There are two line numbers there because changes to multiple places in a file can mess up your idea of line numbers. Just remember that the first number is the line in the original file and the second number is the line in the modified file.
+Also you can see which line number(s) are involved in the change. The `@@` line tells you that the displayed content starts at line 10 and includes 3 lines (`10,3`) from the original file and then tells you that the displayed content also starts at line 10 and includes 4 lines (`10,4`) from the new file.
 
 Similarly, if I remove a line:
 
 ```bash
 $ git diff
-diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
-index e22a262..90cd3cd 100644
---- a/rpncalculator/parser.py
-+++ b/rpncalculator/parser.py
-@@ -39,7 +39,6 @@ class Parser(object):
-         """scan input stream and return token generator"""
-         if isinstance(stream, str):
-             stream = StringIO(stream)
--        print(str(stream))
-         for line in stream:
-             tokens, remainder = _scanner.scan(line)
-             for t in tokens:
+diff --git a/test.txt b/test.txt
+index f8b6f0a..abe1f83 100644
+--- a/test.txt
++++ b/test.txt
+@@ -9,5 +9,4 @@ line 8
+ line 9
+ line 10
+ line 11
+-line 12
+ line 13
 ```
 
-Here, the `-` shows me the line that was removed.
+Here, the `-` shows me the line that was removed, i.e. line 12. Notice that the value displayed for the starting line and the number of lines displayed may change: the `@@` line tells you that the displayed content starts at line 9 and includes 5 lines (`9,5`) from the original file and then tells you that the displayed content also starts at line 9 and includes only 4 lines (`9,4`) from the new file.
 
-If I *change* a line, it will show as a removed line and an added line:
+If I *change* a line, the change actually appears as a removed line AND an added line:
 
 ```bash
 $ git diff
-diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
-index e22a262..b186e9a 100644
---- a/rpncalculator/parser.py
-+++ b/rpncalculator/parser.py
-@@ -39,7 +39,7 @@ class Parser(object):
-         """scan input stream and return token generator"""
-         if isinstance(stream, str):
-             stream = StringIO(stream)
--        print(str(stream))
-+        log.debug(str(stream))
-         for line in stream:
-             tokens, remainder = _scanner.scan(line)
-             for t in tokens:
+diff --git a/test.txt b/test.txt
+index abe1f83..6276304 100644
+--- a/test.txt
++++ b/test.txt
+@@ -8,5 +8,5 @@ line 7
+ line 8
+ line 9
+ line 10
+-line 11
++line eleven
+ line 13
 ```
-
-Here you can see that I changed the print() call to a log.debug() call.
+The `@@` line tells you that the displayed content starts at line 8 and includes 5 lines (`8,5`) from the original file and then tells you that the displayed content also starts at line 8 and includes 5 lines (`8,4`) from the new file.
 
 A file with multiple changes would look like this:
 
 ```bash
 $ git diff
-diff --git a/rpncalculator/parser.py b/rpncalculator/parser.py
-index e22a262..7e8bf4a 100644
---- a/rpncalculator/parser.py
-+++ b/rpncalculator/parser.py
-@@ -39,7 +39,7 @@ class Parser(object):
-         """scan input stream and return token generator"""
-         if isinstance(stream, str):
-             stream = StringIO(stream)
--        print str(stream)
-+        log.debug(str(stream))
-         for line in stream:
-             tokens, remainder = _scanner.scan(line)
-             for t in tokens:
-@@ -50,6 +50,7 @@ class Parser(object):
-         if not engine:
-             engine = Engine()
-         result = None
-+        log.debug(str(stream))
-         for token in self.scan(stream):
-             if isinstance(token, float) or isinstance(token, int):
-                 result = engine.push(token)
+diff --git a/test.txt b/test.txt
+index abe1f83..a3fc0c5 100644
+--- a/test.txt
++++ b/test.txt
+@@ -2,11 +2,11 @@ line 1
+ line 2
+ line 3
+ line 4
+-line 5
++line five
+ line 6
+ line 7
+ line 8
+ line 9
+ line 10
+-line 11
++line eleven
+ line 13
 ```
 
-Here I can see that I changed line 39 from a `print()` to `log.debug()` and that I also added a new `log.debug()` call at line 50.
+Here I can see that I changed line 5 and line 11.
 
 Many GUI-based tools will show you more information, such as highlighting the individual characters in a line that were changed. Since this varies from tool to tool, it won't be covered in detail here.
 
