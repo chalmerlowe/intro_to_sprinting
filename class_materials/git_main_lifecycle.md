@@ -23,8 +23,8 @@ This portion of the workshop presumes the following:
 
 1. your `mytest` virtualenv is **active**
 1. you have **forked** the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
-1. you have **cloned** that material into your local `mytest` directory
-1. you are in the `intro_to_sprinting_codeless_project` directory
+1. you have **cloned** the Codeless Project repo into your local `mytest` directory
+1. you are in the `intro_to_sprinting_codeless_project` directory on your commandline
 
 With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of poetry files.
 
@@ -92,7 +92,7 @@ Changes to be committed:
 ### Commit your changes
 
 
-`git commit` your changes when you are ready to make a permanent record of them. It is customary to add a short description message (using the `-m` option) describing your changes, whenever you commit.
+`git commit` your changes when you are ready to make a permanent record of them. It is customary to add a short descriptive message (using the `-m` option) describing your changes, whenever you commit.
 
 ```bash
 $ git commit -m "Description of changes"
@@ -147,7 +147,7 @@ In this section, we covered a number of commands that break down into several ke
 
 With your own projects, for 95% of what you do, this is sufficient to regularly track your progress and get your changes onto the internet. You will use these commands more than any others.
 
-**NOTE:** We will cover several more advanced concepts both in the Deep Dive and in later discussions.
+**NOTE:** We will cover several more advanced concepts both in the **Deep Dive** and in later discussions.
 
 
 ## Deep dive
@@ -188,13 +188,13 @@ This says the file called "README.md" is changed locally but not yet staged. Not
 
 ### Staging files
 
-Next I want to move the file to the staging area (i.e. add it to the pallet (`git add` it)):
+Next I want to move the file to the staging area (i.e. `git add` to the pallet):
 
 ```bash
 $ git add README.md
 ```
 
-This time, the status message is slightly different. The hints are different and the status announcements are new. Again, reading these status messages will help you get familiar with the commands and hints AND drive home the concepts related to local changes, staged changes, committed changes, etc.
+This time, the status message is slightly different. The hints are different and the status announcements are new. Again, reading these status messages will help you get familiar with the commands AND hints AND will drive home the concepts related to local changes, staged changes, committed changes, etc.
 
 ```
 $ git status
@@ -218,9 +218,14 @@ $ git commit -m 'my short description of the work'
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-In this case, the output tells me several things: it repeats my commit message and lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line). In a later discussion, we will see how to dive into the details of what changed.
+In this case, the output tells me several things: 
 
-`git status` again comes to the rescue to help us confirm and understand the changes we have initiated.
+* it repeats my commit message 
+* lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line). 
+
+In a later discussion, we will see how to see exactly what content changed.
+
+`git status` again comes to the rescue to help us confirm and understand the changes we have committed.
 
 ```
 $ git status
@@ -230,7 +235,7 @@ Your branch is ahead of 'origin/master' by 1 commit.
 nothing to commit, working tree clean
 ```
 
-Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see the hint message that guides me on what to type to `git push` the file up to my GitHub repo.
+Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see the hint message that guides me on what to type to `git push` the file up to my **GitHub repo** (`origin`).
 
 ### Pushing files
 
@@ -253,12 +258,12 @@ To github:myusername/my_repo.git
    98b2f3f..206546b  master -> master
 ```
 
-**About Hashes** without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
+**About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
 
 * pick specific commits to examine OR
 * specific commits to revert back to, if you find you need to undo a change to your repository. 
 
-The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identifies a specific change and are a short form for a longer hash number.
+The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
 
 Let's again use `git status` to look at the results of our work:
 
@@ -269,7 +274,7 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
-... and everything is clean again, but now with our local change pushed to GitHub and available to the world. **IF** you go to **your** GitHub repository, you can see your changes via your web browser.
+... and everything is clean again, but now with our local change pushed to GitHub and available to the world. **IF** you go to **your GitHub repository**, you can see your changes via your web browser.
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
 
