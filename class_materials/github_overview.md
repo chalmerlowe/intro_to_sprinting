@@ -5,11 +5,11 @@
 
 ## Overview
 
-Let's switch gears a bit and go back to discuss Github. In the next few sessions, we will explore several capabilities available in Github that greatly simplify code sharing and collaboration. Concepts to be covered include:
+Let's switch gears a bit and go back to discuss GitHub. In the next few sessions, we will explore several capabilities available in GitHub that greatly simplify code sharing and collaboration. Concepts to be covered include:
 
-* Github user interface
+* GitHub user interface
 * Pull requests
-* Github Flow (lightweight branch-based workflow)
+* GitHub Flow (lightweight branch-based workflow)
 
 
 ## Lessons
