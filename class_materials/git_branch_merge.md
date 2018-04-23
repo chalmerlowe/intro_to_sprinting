@@ -28,32 +28,58 @@ Branches should be small and self-contained so that they can be merged easily. S
 
 A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
 
+**Create a new branch** & cause `git` to begin tracking changes in that branch
+
 ```bash
-$ git checkout -b my-feature-name     # "-b" creates a new branch named "my-feature-branch"
+$ git checkout -b appleseed-feature     # "-b" creates a new branch named "appleseed-feature"
 ```
 
-... **do some work/make some changes** in my editor or IDE ... ie, change the 23rd line "jabberwocky.txt".
+**Do work/edit files** in your editor or IDE ... ie, change the 23rd line in the file "jabberwocky.txt".
 
-```
+**`git add`** changes to the staging area ... 
+
+```bash
 $ git add jabberwocky.txt
 $ git commit -m 'my first bit of work'
 ```
 
-... **do some more work** in my editor or IDE ...
+**Continue editing if desired** ...
 
-```
+**`git add`** these new changes to the staging area ... 
+
+```bash
 $ git add jabberwocky.txt
 $ git commit -m 'my second bit of work'
 ```
 
-Once we are done, let's merge the feature branch back into the master branch:
+**checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
 
+```bash
+$ git checkout master     # this checks out the master branch
 ```
-$ git checkout master     # this checks out the master branch   
-$ git pull                # this pulls any remote changes into master           
-$ git merge my-feature-name
+
+**update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
+
+```bash   
+$ git pull                # this pulls any upstream changes into master 
+```          
+
+**merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
+
+```bash
+$ git merge appleseed-feature
+```
+
+**`git push`** changes to our **GitHub repo** ... presuming a successful merge (don't worry will discuss what to do if the merge is not successful) you can now `git push` your changes to your **GitHub repo** (your changes do NOT go to upstream, yet...)
+
+```bash
 $ git push origin master
-$ git branch -d my-feature-name
+```
+
+**delete your unneeded branch** ... presuming a successful push, you can safely delete the branch:
+
+```bash
+$ git branch -d appleseed-feature
 ```
 
 If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
@@ -66,43 +92,57 @@ Let's imagine that you are working on a project with multiple commits to the mas
 
 The history created by the above steps would look something like this:
 
-<img src="http://sentheon.com/images/27052016_branches.png">
-**Source**: http://sentheon.com/images/27052016_branches.png
+<img src="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png">
+**Source**: https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png
 
-Following this workflow allows you to potentially work on multiple features or bugs and yet still maintain a clean, reliable and working set of code at all time.
+Following this workflow allows you to potentially work on multiple features or bugs and yet still maintain a clean, reliable and working set of code at all times.
 
 ## Deep dive
 
 ### Make a change in a branch
 
-Besides `git add`, `git commit`, `git push`, the next logical step is to grow familiar with using the branch-work-merge flow to isolate your work from changes made by others.
+Besides `git add`, `git commit`, `git push`, the next logical step is to grow familiar with using the **branch-work-merge** flow to isolate your work from changes made by others.
 
 #### Create a branch
 
-**Note:** replace "my\_change\_name" with the name of the feature you are adding.
+**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git checkout` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `-b` option. 
 
 ```bash
-$ git checkout -b my_change_name
+$ git checkout -b appleseed-feature
 ```
+
+What makes a good branch name? What are the rules for naming branches? This is a short list of rules (for a complete list, see the [git man pages](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format.html).
+
+* They cannot have two consecutive dots `..` anywhere
+* They cannot contain a `\`
+* They cannot be the single character `@`
+* They cannot begin or end with a slash `/`
+* They cannot have question-mark `?`, asterisk `*`, or open bracket `[` anywhere
+* They cannot have ASCII control characters (`\t`, `\n`), `space`, tilde `~`, caret `^`, or colon `:` anywhere.
 
 #### Make your changes
 
-When you are finished making changes, proceed with the remaining steps.
+The whole point of creating a branch is to create a safe place to modify a specific portion of the code. With a `git branch` created, it is safe to edit your files, before proceeding with the remaining steps belows.
 
-#### Commit your changes
+#### Stage and commit your changes
+
+As previously described, once you are satisifed with your changes, they must be staged and then committed.
 
 ```bash
 $ git add johnny_appleseed.txt
-$ git commit -m 'added my new feature'
+$ git commit -m "added edits to johnny's history"
 ```
 
-
 #### Merge your changes into the master branch
+
+As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by `git` and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those change may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
+
+For now, we will presume that there are no conflicts between your changes and other changes. With that premise in mind, you can merge your code and your local copy of the `upstream` repo.
 
 ```bash
 $ git checkout master
 $ git pull
-$ git merge my_change_name
+$ git merge appleseed-feature
 ```
 
 If you have any conflicts, you will need to address them. GitHub has a simple resource for [resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
@@ -112,7 +152,7 @@ If you have any conflicts, you will need to address them. GitHub has a simple re
 When you are finished using a branch (i.e. all the pertinent changes have been merged into master), you can simply delete it:
 
 ```bash
-$ git branch -d my_change_name
+$ git branch -d appleseed-feature
 ```
 
 
