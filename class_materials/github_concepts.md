@@ -9,31 +9,48 @@
 
 ## Overview
 
-Github is a powerful platform. There are many features and capabilities available in Github. Let's review a handful of them
+GitHub is a powerful platform. There are many features and capabilities available in GitHub. Let's review a handful of them.
 
 
 ## What to do
 
-1. Navigate to **your Github** repo for the codeless project.
-1. The repo has a number of tabs across the top: `Code`, `Issues`, `Pull requests`, `Wiki`, `Graphs`, etc.
+1. Navigate to **your GitHub** repo for the Codeless Project. **NOTE:** make sure you are looking at **your repo**.
+1. Your repo has a number of tabs across the top: `Code`, `Issues`, `Pull requests`, `Projects`, `Wiki`, `Insights`, etc.
 ![Codeless Repo](images/github_codeless_repo.png)
-1. Click on the `Issues` tab. You will find a list of issues<br><br>
+1. Click on the `Issues` tab. You will find a list of issues.<br><br>
 ![Issues tab](images/github_issues.png)
-1. Click on several Issues and explore them: see the milestones, the labels, the commentary, etc.
+1. Click on several issues and explore them: see whether they have milestones, what labels they might have, what discussion is occurring relative to that issue, etc.
 1. Click on the `Wiki` tab. This is a great place to capture documentation and planning notes.
 
-**NEXT** Navigate to the upstream Github repo for the codeless project, by clicking the small link under the name of the repo.
+**NEXT** Navigate to the **upstream GitHub repo** for the Codeless Project. I often do this by clicking the small link under the name of the repo AND opening the link in a new tab so that I have both my **origin GitHub repo** and the **upstream GitHub repo** open at the same time. That link should say something like: `'forked from chalmerlowe/intro_to_sprinting_codeless_project:'` much like this example from `sigsevneo`'s repository.<br>
+![Fork link to original repo](images/fork-repo-link.png)
 
-Look at each of the items above, but see how the **upstream repo** differs from and is similar to **your repo**.
+Once you get to the upstream GitHub repo, look at each of the items above, but see how the **upstream repo** might differ from and is similar to **your repo**.
 
-<!-- TODO: Green sticky here -->
+* are the tabs different?
+* do you have the ability to perform certain actions as the owner of your repo versus being a visitor to someone else's repo?
+* etc.
+
+
+
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 ## The big picture
 
 The tools seen above are intended to help improve the ability of team members to communicate and track changes and proposed changes to projects.
 
-* If you find a problem in your repo you want help with OR you want to track, you may publish an Issue to let your colleagues know how they can help. If you find a problem in an open source project that you feel needs correcting, but you don't have time or expertise, you may submit an Issue on the upstream project repo.
-* For this Intro to Sprinting workshop, if you have suggestions that would improve the learning experience, we urge you to submit Issues (or better yet, write up a possible edit > `git add` > `git commit` > `git push` and then move on to the next lesson and issue us a Pull Request so we can consider your ideas!).
+* If you find a problem in your repo you want help with OR you want to track, you may publish an Issue to let your colleagues know how they can help.
+* If you find a problem in an open source project that you feel needs correcting, but you don't have time or expertise, you may submit an Issue on the upstream project repo.
+
+For this Intro to Sprinting workshop, if you have suggestions that would improve the learning experience, we urge you to either:
+
+* submit an Issues
+
+OR better yet
+
+* write up a possible edit > `git add` > `git commit` > `git push` and then move on to the next lesson and submit a Pull Request so we can consider your idea and maybe even incorporate it into the lesson material!
 
 ## Deep dive
 
