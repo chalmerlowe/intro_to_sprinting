@@ -289,10 +289,7 @@ $ git add <file1> <file2> ...
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
-
-JKE
+* [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

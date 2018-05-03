@@ -158,8 +158,8 @@ $ git branch -d appleseed-feature
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
+* [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
+* [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

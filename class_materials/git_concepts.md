@@ -121,8 +121,6 @@ Nothing gets copied from your local system until you `git push` it to a remote r
 
 [Git cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf)
 
-JKE
-
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|

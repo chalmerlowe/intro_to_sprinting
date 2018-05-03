@@ -135,8 +135,7 @@ Many GUI-based tools will show you more information, such as highlighting the in
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
+* [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

@@ -99,8 +99,7 @@ upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fet
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
+* [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository))
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
