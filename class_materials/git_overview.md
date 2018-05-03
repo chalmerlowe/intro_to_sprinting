@@ -48,6 +48,11 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 * [Git Common Operations](./git_common_operations.md): <objective of lesson>
 * [Branching and Merging](./git_branch_merge.md): <objective of lesson>
 
+
+## Resources
+
+* [Getting Started - Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|

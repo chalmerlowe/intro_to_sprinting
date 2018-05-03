@@ -78,6 +78,7 @@ There are several nuances to understand about this:
 
 ## Resources
 
+* [GitHub - Account Setup and Configuration](https://git-scm.com/book/en/v2/GitHub-Account-Setup-and-Configuration)
 * [GitHub Bootcamp](https://help.github.com/categories/bootcamp/)
 * [GitHub Help](https://help.github.com/)
 * [Are Git forks actually Git clones?](http://stackoverflow.com/questions/6286571/are-git-forks-actually-git-clones)
