@@ -48,6 +48,7 @@ Because `git` is a command-line tool, if you need a primer for the command line,
 
 ## Resources
 
+* [Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
 * See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources related to `git`.
 * Free [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy
 * Cheatsheet for [Linux command-line commands](https://itsfoss.com/linux-commands-cheat-sheets/)

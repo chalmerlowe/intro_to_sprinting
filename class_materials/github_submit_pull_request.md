@@ -70,8 +70,7 @@ N/A
 
 ## Resources
 
-* [<resource name>](<resource url>)
-* [<resource name>](<resource url>)
+* [GitHub - Contributing to a Project](https://git-scm.com/book/en/v2/GitHub-Contributing-to-a-Project)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
