@@ -44,12 +44,15 @@ This project can be modified for the needs of other sprints and other languages.
 
 Beginners will need to already know the following:
 
-1. How to edit plain text files on their computer.
-2. The basics of using the command line (simple commands like cd, ls/dir, etc)
+* How to edit plain text files on their computer.
+
+It helps if a beginner knows:
+
+* The basics of using the command line (simple commands like cd, ls/dir, etc)
 
 Beginners will NOT need to have in depth knowledge on the following:
 
-1. Programming OR python (many contributors to open source never write code: they help with design, documentation, etc)
+1. Programming OR Python (many contributors to open source never write code: they help with design, documentation, etc)
 2. Any specific open source project
 
 
