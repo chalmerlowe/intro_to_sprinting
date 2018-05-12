@@ -48,7 +48,7 @@ Beginners will need to already know the following:
 
 It helps if a beginner knows:
 
-* The basics of using the command line (simple commands like cd, ls/dir, etc)
+* The basics of using the command line (commands to change directories, list files, etc)
 
 Beginners will NOT need to have in depth knowledge on the following:
 
