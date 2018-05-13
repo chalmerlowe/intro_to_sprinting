@@ -40,7 +40,7 @@ $ git checkout -b appleseed-feature     # "-b" creates a new branch named "apple
 
 ```bash
 $ git add jabberwocky.txt
-$ git commit -m 'my first bit of work'
+$ git commit -m "my first bit of work"
 ```
 
 **Continue editing if desired** ...
@@ -49,7 +49,7 @@ $ git commit -m 'my first bit of work'
 
 ```bash
 $ git add jabberwocky.txt
-$ git commit -m 'my second bit of work'
+$ git commit -m "my second bit of work"
 ```
 
 **checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...

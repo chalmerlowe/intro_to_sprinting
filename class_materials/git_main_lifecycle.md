@@ -213,7 +213,7 @@ Now we can see that the file is **staged**, but not yet **committed**. We can al
 Next I want to commit the file (i.e. load it on the truck) using `git commit -m "a short description"`, where `-m` is a flag for my commit message. Good commit messages should be short, sweet and descriptive.
 
 ```bash
-$ git commit -m 'my short description of the work'
+$ git commit -m "my short description of the work"
 [master 206546b] my short description of the work
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
