@@ -105,7 +105,7 @@ Take a look at things now that the file has been committed, again using `git sta
 
 ```bash
 $ git status
-<abbreviated for clarity>
+# abbreviated for clarity
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
 ```
