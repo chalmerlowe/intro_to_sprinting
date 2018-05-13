@@ -62,7 +62,7 @@ Before we go further, it is often useful to again check the status using `git st
 
 ```bash
 $ git status
-<abbreviated for clarity>
+# abbreviated for clarity
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -82,7 +82,7 @@ Take a look at things now that the file has been staged, again using `git status
 
 ```bash
 $ git status
-<abbreviated for clarity>
+# abbreviated for clarity
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
