@@ -32,9 +32,9 @@ Take a break, listen, enjoy the show
 
 [Jessica Kerr](https://github.com/jessitron) gave a great talk using this analogy, you can watch it here:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yCh6TSLIQBQ" frameborder="0" allowfullscreen></iframe>
+[![Git Happens Thumbnail](https://i.imgur.com/K38FXnG.png)](https://www.youtube.com/watch?v=yCh6TSLIQBQ)
 
-If the above viewer isn't visible, you can reach this video, here: [Git Happens](https://img.youtube.com/vi/yCh6TSLIQBQ/0.jpg).
+You can reach this video, here: [Git Happens](https://www.youtube.com/watch?v=yCh6TSLIQBQ).
 
 ## Deep dive
 
