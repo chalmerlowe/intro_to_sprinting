@@ -60,8 +60,9 @@ $ git checkout master            # this checks out the master branch
 
 **update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
 
-```bash   
-$ git pull upstream master       # this pulls any upstream changes into master 
+```bash
+$ git pull origin master         # this pulls any changes in *your* github fork repo to your computer
+$ git pull upstream master       # this pulls any upstream changes into your computer
 ```          
 
 **merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
