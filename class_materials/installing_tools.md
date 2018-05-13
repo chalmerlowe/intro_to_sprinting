@@ -111,7 +111,7 @@ Miniconda contains the `conda` package manager and `Python`. `conda` is language
 
 Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
 
-**NOTE** For this tutorial, we'll use `conda`. There are other tools that accomplish similar goals and work in similar ways, such as `venv`, `pip`, and `virtualenv`. During PyCon Sprints, make sure to use whatever virtual environment tool your project maintainer suggests. See Resources for more info.
+**NOTE** For this tutorial, we'll use `conda`. There are other tools that accomplish similar goals and work in similar ways, such as `venv`, `pip`, `pipenv`, and `virtualenv`. During PyCon Sprints, make sure to use whatever virtual environment tool your project maintainer suggests. See Resources for more info.
 
 ## Resources
 
