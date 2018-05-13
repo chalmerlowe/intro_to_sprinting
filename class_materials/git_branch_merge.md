@@ -94,7 +94,8 @@ Let's imagine that you are working on a project with multiple commits to the mas
 The history created by the above steps would look something like this:
 
 <img src="https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png">
-**Source**: https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png
+
+**Source:** https://git-scm.com/book/en/v2/book/03-git-branching/images/basic-merging-2.png
 
 Following this workflow allows you to potentially work on multiple features or bugs and yet still maintain a clean, reliable and working set of code at all times.
 
