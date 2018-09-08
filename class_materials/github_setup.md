@@ -39,13 +39,18 @@ If you **DO NOT** have a GitHub account, you will need to make one:
 
 ### Get a copy of the project you want to work on
 
-Fork the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) into your GitHub acccount:
+If you are doing this in an instructor-led workshop, your instructor may provide a URL to a copy that they have made of our Codeless Project. 
 
+If you are doing this on your own (i.e. self-study), feel free to use our standard [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
+
+Fork a copy of the Codeless Project into your GitHub acccount:
+
+1. Open the webpage for the Codeless Project (either ours OR the version provided by your workshop instructor)
 1. In the upper right hand corner, you'll see a **Fork** button:<br>
 ![Fork a Repo Button](images/fork-repo-icon.png)
-2. Click the Fork button to to create a fork under your account
+1. Click the Fork button to to create a fork under your account
 
-**NOTE**:  The fork refers back to the original repo - if you look under your repo name, you'll see it's "`forked from chalmerlowe/intro_to_sprinting_codeless_project:`" much like this example from `sigsevneo`'s repository.<br>
+**NOTE**:  The fork refers back to the original repo - if you look under your repo name, you'll see it should look something like this: "`forked from chalmerlowe/intro_to_sprinting_codeless_project:`" much like this example from `sigsevneo`'s repository.<br>
 ![Fork link to original repo](images/fork-repo-link.png)
 
 ## Done with commands for now!
