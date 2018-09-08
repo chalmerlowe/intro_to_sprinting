@@ -64,10 +64,10 @@ $ git checkout master            # this checks out the master branch
 $ git pull upstream master       # this pulls any upstream changes into your computer
 ```          
 
-**NOTE:** if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via pull request.
+**NOTE:** This is generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via pull request.
  
 ```bash
-$ git pull origin master         # this pulls any changes in *your* github fork repo to your computer
+$ git pull origin master         # Generally not necessary, but this pulls any changes in *your* github fork repo to your computer
 ```
 
 **Merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
