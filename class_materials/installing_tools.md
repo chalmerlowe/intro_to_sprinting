@@ -10,7 +10,7 @@
 
 ## Overview
 
-Collaborating on sprints generally requires the use of software tools to truly be effective and efficient. For this workshop, we will use `git` and `miniconda (conda)` to practice our skills. 
+Collaborating on sprints generally requires the use of software tools to truly be effective and efficient. For this workshop, we will focus on using `git`, and there is follow-on material on setting up additional tooling you'll use for different kinds of projects.
 
 ### Objectives
 
@@ -73,14 +73,6 @@ $ sudo apt-get install git-all
 
 In a command prompt type `git config`. If `git` is installed properly, you will see text explaining some of the common configuration options for `git`.
 
-### Step Three: Download and Install `conda`
-
-Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.
-
-### Step Four: Confirm your `conda` install
-
-In a command prompt type `conda list`. If `conda` is installed properly, you will see a summary of the packages installed by `conda`.
-
 ### Troubleshooting
 
 Here's a list of error messages & how to fix them.
@@ -101,30 +93,12 @@ If you like reading, you can also keep reading this page.
 
 `git` is a distributed version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project. A later lesson will provide more details on `git`.
 
-### What is miniconda (`conda`) and why did we install it?
-
-Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to: 
-
-* create virtual environments and 
-* manage separate installations of `Python` 
-* manage a large number of Python packages/libraries
-
-Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
-
-**NOTE** For this tutorial, we'll use `conda`. There are other tools that accomplish similar goals and work in similar ways, such as `venv`, `pip`, `pipenv`, and `virtualenv`. During PyCon Sprints, make sure to use whatever virtual environment tool your project maintainer suggests. See Resources for more info.
-
 ## Resources
 
-* [Using conda](http://conda.pydata.org/docs/using/index.html): A tutorial on how to use `conda`
-
-* [conda cheatsheet](https://conda.io/docs/_downloads/conda-cheatsheet.pdf): A cheatsheet of the most common `conda` commands
-
-* [Python's `venv` and `virtualenv` can also create virtual environments.](http://stackoverflow.com/questions/41573587/what-is-the-difference-between-venv-pyvenv-pyenv-virtualenv-virtualenvwrappe)
-
-* [`pip` is Python's package manager.](https://en.wikipedia.org/wiki/Pip_(package_manager))
+* [Pro Git](https://git-scm.com/book/en/v2): also called "The Git Book", Pro Git is the authoritative book on doing everything that Git can do. It can be read online and also downloaded in many formats so you can read it anywhere.
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up Virtual Environments](./virtual_environments.md) |
+| [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
 <!-- end auto-generated section -->

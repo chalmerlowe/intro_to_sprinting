@@ -21,7 +21,6 @@ In this section, we will cover a number of commands, but the principles are fair
 
 This portion of the workshop presumes the following:
 
-1. your `mytest` virtualenv is **active**
 1. you have **forked** the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) to your repo
 1. you have **cloned** the Codeless Project repo into your local `mytest` directory
 1. you are in the `intro_to_sprinting_codeless_project` directory on your commandline

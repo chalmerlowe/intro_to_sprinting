@@ -53,7 +53,7 @@ $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_code
 
 Before you can start adding to a project, you will need to clone the project to your local computer in your local working directory. In this picture, presume we are wanting to work on a the RPN Calculator Project. It has been forked to our GitHub repo and then cloned to our local hard drive. Copies of all the folders in the RPN Calculator are now available on our local computer.
 
-![cloning](images/git.png)
+![cloning](images/git_clone_codeless.png)
 
 
 ## Deep dive
