@@ -17,10 +17,12 @@ GitHub is a powerful platform. There are many features and capabilities availabl
 1. Navigate to **your GitHub** repo for the Codeless Project. **NOTE:** make sure you are looking at **your repo**.
 1. Your repo has a number of tabs across the top: `Code`, `Issues`, `Pull requests`, `Projects`, `Wiki`, `Insights`, etc.
 ![Codeless Repo](images/github_codeless_repo.png)
-1. Click on the `Issues` tab. You will find a list of issues.<br><br>
+1. Click on the `Issues` tab. You will find a list of issues. (If you do not see this tab, see the note below)<br><br>
 ![Issues tab](images/github_issues.png)
 1. Click on several issues and explore them: see whether they have milestones, what labels they might have, what discussion is occurring relative to that issue, etc.
 1. Click on the `Wiki` tab. This is a great place to capture documentation and planning notes.
+
+**Note**: if the `Issues` tab is not visible, the project may be set up to track issues on another system. If this is *your* project and you want to use GitHub to track issues, you can enable the `Issues` tab by navigating to your project, clicking `Settings`, then `Options`, and checking the `Issues` checkbox.
 
 **NEXT** Navigate to the **upstream GitHub repo** for the Codeless Project. I often do this by clicking the small link under the name of the repo AND opening the link in a new tab so that I have both my **origin GitHub repo** and the **upstream GitHub repo** open at the same time. That link should say something like: `'forked from chalmerlowe/intro_to_sprinting_codeless_project:'` much like this example from `sigsevneo`'s repository.<br>
 ![Fork link to original repo](images/fork-repo-link.png)
