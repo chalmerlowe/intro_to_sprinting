@@ -52,20 +52,25 @@ $ git add jabberwocky.txt
 $ git commit -m "my second bit of work"
 ```
 
-**checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
+**Checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
 
 ```bash
 $ git checkout master            # this checks out the master branch
 ```
 
-**update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
+**Update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
 
 ```bash
-$ git pull origin master         # this pulls any changes in *your* github fork repo to your computer
 $ git pull upstream master       # this pulls any upstream changes into your computer
 ```          
 
-**merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
+**NOTE:** if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via pull request.
+ 
+```bash
+$ git pull origin master         # this pulls any changes in *your* github fork repo to your computer
+```
+
+**Merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
 
 ```bash
 $ git merge appleseed-feature
@@ -77,7 +82,7 @@ $ git merge appleseed-feature
 $ git push origin master
 ```
 
-**delete your unneeded branch** ... presuming a successful push, you can safely delete the branch:
+**Delete your unneeded branch** ... presuming a successful push, you can safely delete the branch:
 
 ```bash
 $ git branch -d appleseed-feature
