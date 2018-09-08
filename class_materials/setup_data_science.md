@@ -1,5 +1,5 @@
 <!-- begin auto-generated title section -->
-# Setting up Virtual Environments
+# Setting up Virtual Environments for Data Science Work
 <!-- end auto-generated section -->
 
 
