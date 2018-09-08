@@ -30,7 +30,7 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 ## The big picture
 
-These are the two fundamental configurations needed to use `git`. 
+These are the two fundamental configurations needed to use `git`.
 
 **Note:** The `--global` option applies these settings to all `git` projects on your machine  
 * You only need to run this **once per computer**.  
@@ -41,9 +41,9 @@ Later sections of the workshop will go into greater depth on using `git`.
 
 ## Deep dive
 
-`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are many configurations that can be set for `git` but they are outside the scope of this workshop. 
+`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are many configurations that can be set for `git` but they are outside the scope of this workshop.
 
-Because `git` is a command-line tool, if you need a primer for the command line, check out the . If you just need a quick reference, check out the .
+Because `git` is a command-line tool, if you need a primer for the command line, check out the [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy. If you just need a quick reference, check out the cheatsheets in **Resources** section below.
 
 
 ## Resources
@@ -52,7 +52,7 @@ Because `git` is a command-line tool, if you need a primer for the command line,
 * See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources related to `git`.
 * Free [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy
 * Cheatsheet for [Linux command-line commands](https://itsfoss.com/linux-commands-cheat-sheets/)
-* Cheatsheet for Windows command-line commands: 
+* Cheatsheet for Windows command-line commands:
 * Cheatsheet for Mac command-line commands:
 
 <!-- begin auto-generated nav-links section -->
