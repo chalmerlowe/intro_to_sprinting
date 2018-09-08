@@ -34,7 +34,9 @@ A typical iteration of creating a feature (sometimes called a `feature branch`) 
 $ git checkout -b appleseed-feature     # "-b" creates a new branch named "appleseed-feature"
 ```
 
-**Do work/edit files** in your editor or IDE ... ie, change the 23rd line in the file "jabberwocky.txt".
+**Do work/edit files** 
+
+In your editor or IDE ... change the 23rd line in the file "jabberwocky.txt".
 
 **`git add`** changes to the staging area ... 
 
@@ -44,6 +46,8 @@ $ git commit -m "my first bit of work"
 ```
 
 **Continue editing if desired** ...
+
+If you want, you can continue to make changes to the same file OR other files...
 
 **`git add`** these new changes to the staging area ... 
 
@@ -67,10 +71,11 @@ $ git pull upstream master       # this pulls any upstream changes into your com
 **NOTE:** This is generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via pull request.
  
 ```bash
-$ git pull origin master         # Generally not necessary, but this pulls any changes in *your* github fork repo to your computer
+$ git pull origin master         # Generally not necessary, but this pulls
+                                 # any changes in *your* GitHub fork repo to your computer
 ```
 
-**Merge local changes into our local copy of master** ... With the latest and greatest `upstream` changes on your local machine, attempt to merge your branch into your local copy of `master`
+**Merge local changes into our local copy of master** ... With the latest and greatest `upstream` (and/or `origin`) changes on your local machine, attempt to merge your branch into your local copy of `master`
 
 ```bash
 $ git merge appleseed-feature
@@ -129,7 +134,7 @@ What makes a good branch name? What are the rules for naming branches? This is a
 
 #### Make your changes
 
-The whole point of creating a branch is to create a safe place to modify a specific portion of the code. With a `git branch` created, it is safe to edit your files, before proceeding with the remaining steps belows.
+The whole point of creating a branch is to create a safe place to modify a specific portion of the code. With a `git branch` created, it is safe to edit your files, before proceeding with the remaining steps below.
 
 #### Stage and commit your changes
 
@@ -142,7 +147,7 @@ $ git commit -m "added edits to johnny's history"
 
 #### Merge your changes into the master branch
 
-As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by `git` and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those change may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
+As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by `git` and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
 
 For now, we will presume that there are no conflicts between your changes and other changes. With that premise in mind, you can merge your code and your local copy of the `upstream` repo.
 
