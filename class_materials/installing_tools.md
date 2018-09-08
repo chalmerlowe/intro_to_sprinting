@@ -77,7 +77,7 @@ In a command prompt type `git config`. If `git` is installed properly, you will 
 
 Here's a list of error messages & how to fix them.
 
-- `conda: Command not found.` This means you need to quit & relaunch your terminal. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
+- `git config: Command not found.` This means you need to quit & relaunch your terminal. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
 
 ## Done with commands for now!
 

@@ -31,6 +31,12 @@ Follow the instructions for your operating system in the [miniconda quickstart g
 
 In a command prompt type `conda list`. If `conda` is installed properly, you will see a summary of the packages installed by `conda`.
 
+#### Troubleshooting
+
+Here's a list of error messages & how to fix them.
+
+- `conda: Command not found.` This means you need to quit & relaunch your terminal. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
+
 ### Step Three: Set Up Your Project
 
 * Create a directory for your project, in this case, we will create a directory called `mytest`
