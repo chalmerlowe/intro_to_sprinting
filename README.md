@@ -11,9 +11,9 @@ It can be used in multiple ways:
 
 # Why an introduction to sprinting?
 
-At many programming conferences, time is set aside for developers to come together to work on open source projects (called sprints or sprinting). Many project leaders welcome new developers of all skill levels to contribute. This works fine if a newcomer has contributed to a project before and has an understanding of the tools and processes. 
+At many programming conferences, time is set aside for developers to come together to work on open source projects (called sprints or sprinting). Many project leaders welcome new developers of all skill levels to contribute. This works fine if a newcomer has contributed to a project before and has an understanding of the tools and processes.
 
-The struggle for both the project maintainer and the newcomer has been that beginners often have a very steep learning curve and need to learn too many new tools and new skills before they can successfully contribute. 
+The struggle for both the project maintainer and the newcomer has been that beginners often have a very steep learning curve and need to learn too many new tools and new skills before they can successfully contribute.
 
 They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like these fundamental skills, most of which are not specific to a given project.
 
@@ -48,7 +48,7 @@ Beginners will need to already know the following:
 
 It helps if a beginner knows:
 
-* The basics of using the command line (commands to change directories, list files, etc). 
+* The basics of using the command line (`cd`, `ls/dir`, etc). 
 
 For help with the above, see the [Student Preparation instructions](https://github.com/chalmerlowe/intro_to_sprinting/blob/master/class_materials/prereq_student.md)
 
