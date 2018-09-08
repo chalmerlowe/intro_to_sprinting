@@ -5,7 +5,7 @@
 
 ## Overview
 
-Welcome to the **Introduction to Open Source Workshop**. Participants are expected to walk away with enough knowledge to be able to participate in a typical open source project. The workshop has a mixture of hands-on and lecture/demo, with the focus on hands-on.
+Welcome to the **Introduction to Open Source Workshop**. Participants are expected to walk away with enough knowledge to be able to participate in a typical open source project. The workshop has a mixture of hands-on exercises and lecture/demos, with the focus on hands-on activities.
 
 
 ### What to expect
@@ -14,8 +14,8 @@ This workshop covers...
 
 * [Environment Setup](./environment_overview.md): Installing software, creating a virtual environment, forking a repository and setting up version control software.
 * [Using Git](./git_overview.md): basic commands to copy a repository, add your changes, commit those changes and push the changes to Github.
-* [Using Github](./github_overview.md): basic overview of the collaborative tools on Github and how to issue a pull request.
-* [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on Github.
+* [Using GitHub](./github_overview.md): basic overview of the collaborative tools on GitHub and how to issue a pull request.
+* [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on GitHub.
 
 
 ### What not to expect
@@ -34,9 +34,9 @@ The example code in this version of the workshop is written in Python, but this 
 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
 
-* Be able to install the following software: conda, git, etc
+* Be able to install the following software: `conda`, `git`, etc
 * Be able to create a virtual environment
-* Be able to use git and github to create a copy of an open source project on their own computer
+* Be able to use `git` and GitHub to create a copy of an open source project on their own computer
 * Upon editing, adding, or deleting content in a project:
   * incorporate any changes to the project, made by others, into their own local copy
   * correct any conflicts between their changes and other's changes
