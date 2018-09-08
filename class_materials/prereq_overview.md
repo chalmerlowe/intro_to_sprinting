@@ -45,6 +45,19 @@ Participants should expect to achieve the following learning objectives upon com
   * successfully issue a request for their contribution to be added to the open source project
 * Be able to create a virtual environment (if working in Python)
 
+Ultimately, the goal is to help you overcome some of the hurdles inherent in successfully contributing to an open source project...
+
+## Testimony/Feedback...
+
+> "...after nearly 60 years, an Open Hatch workshop, and two PyCon "How to Sprint" workshops, I think I'm beginning to get the hang of things. ;-)
+
+> I'm a BeeWare developer.​​ I have a new job title: Confirmed Yak Shaver. And I have the coin of the realm to prove it. ;-)" 
+
+> **Kevin Cole**
+
+![yak-shaver image with coin](images/yak-shaver.jpg)
+
+
 
 ## Preparatory Lessons
 
