@@ -43,19 +43,16 @@ $ git status
 
 ### Pick a file and edit it.
 
-1) Open your favorite text editor or integrated development environment (IDE).
+1. Open your favorite text editor or integrated development environment (IDE).
+1. Select a file to edit and open the file in your editor/IDE.
+    * **NOTE**: this workshop is intended for all audiences (and may include youth), so in making the following changes, please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
 
-2) Select a file to edit and open the file in your editor/IDE.
+1. Make a simple change:
+    * Change any line, word or phrase
+    * Add a new line
+    * Delete a line
 
-**NOTE**: this workshop is intended for all audiences (and may include youth), so in making the following changes, please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
-
-2) Make a simple change:
-
-* Change any line, word or phrase
-* Add a new line
-* Delete a line
-
-3) Save the file.
+1. Save the file.
 
 ### Status Check
 Before we go further, it is often useful to again check the status using `git status`. We should notice that a line in the output identifies that a text file has been modified, but has not been staged.
@@ -218,10 +215,10 @@ $ git commit -m "my short description of the work"
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-In this case, the output tells me several things: 
+In this case, the output tells me several things:
 
-* it repeats my commit message 
-* lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line). 
+* it repeats my commit message
+* lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line).
 
 In a later discussion, we will see how to see exactly what content changed.
 
@@ -261,7 +258,7 @@ To github:myusername/my_repo.git
 **About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
 
 * pick specific commits to examine OR
-* specific commits to revert back to, if you find you need to undo a change to your repository. 
+* specific commits to revert back to, if you find you need to undo a change to your repository.
 
 The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
 
