@@ -1,5 +1,5 @@
 <!-- begin auto-generated title section -->
-# Setting up Virtual Environments for Data Science Work
+# Setting up Data Science Environments
 <!-- end auto-generated section -->
 
 
@@ -298,5 +298,5 @@ Discussing these is outside the scope of this course. Using either of these tool
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
+| [Setting up Python Environments](./setup_python.md) | [Working with Real Projects](./projects_with_code.md) | [Table of Contents](./README.md) |
 <!-- end auto-generated section -->

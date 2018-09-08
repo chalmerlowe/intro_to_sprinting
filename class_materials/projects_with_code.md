@@ -1,5 +1,5 @@
 <!-- begin auto-generated title section -->
-# Environment Set-up
+# Working with Real Projects
 <!-- end auto-generated section -->
 
 
@@ -35,5 +35,5 @@ If you would like to contribute general setup guidelines for a language you use,
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Student Preparation](./prereq_student.md) | [Table of Contents](./README.md) | [Installing the Software You'll Need](./installing_tools.md) |
+| [Submitting a Pull Request](./github_submit_pull_request.md) | [Table of Contents](./README.md) | [Setting up Python Environments](./setup_python.md) |
 <!-- end auto-generated section -->

@@ -1,5 +1,5 @@
 <!-- begin auto-generated title section -->
-# Setting up for Python Development with Virtual Environments
+# Setting up Python Environments
 <!-- end auto-generated section -->
 
 
@@ -198,9 +198,8 @@ C:\>
 * [Installing packages using pip and virtualenv](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/): A getting started guide on how to use Python's built-in `virtualenv` tool
 * [pip instructions](https://docs.python.org/3/installing/): An overview of a Python-oriented package manager: Pip
 
-
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
+| [Working with Real Projects](./projects_with_code.md) | [Working with Real Projects](./projects_with_code.md) | [Setting up Data Science Environments](./setup_data_science.md) |
 <!-- end auto-generated section -->

@@ -75,5 +75,5 @@ N/A
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Table of Contents](./README.md) |
+| [GitHub Concepts](./github_concepts.md) | [Using GitHub](./github_overview.md) | [Working with Real Projects](./projects_with_code.md) |
 <!-- end auto-generated section -->

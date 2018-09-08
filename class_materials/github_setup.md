@@ -86,5 +86,5 @@ There are several nuances to understand about this:
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Setting up Virtual Environments](./virtual_environments.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
+| [Installing the Software You'll Need](./installing_tools.md) | [Environment Set-up](./environment_overview.md) | [Setting up Git](./git_config.md) |
 <!-- end auto-generated section -->

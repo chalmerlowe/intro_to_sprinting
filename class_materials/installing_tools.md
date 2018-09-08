@@ -100,5 +100,5 @@ If you like reading, you can also keep reading this page.
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up Virtual Environments](./virtual_environments.md) |
+| [Environment Set-up](./environment_overview.md) | [Environment Set-up](./environment_overview.md) | [Setting up GitHub and Forking a Repository](./github_setup.md) |
 <!-- end auto-generated section -->

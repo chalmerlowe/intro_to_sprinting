@@ -19,7 +19,7 @@ HIERARCHY = ('Table of Contents', './README.md', (
         ('GitHub Concepts', './github_concepts.md', ()),
         ('Submitting a Pull Request', './github_submit_pull_request.md', ()),
     )),
-    ('Working with Real Projects', './environment_overview.md', (
+    ('Working with Real Projects', './projects_with_code.md', (
         ('Setting up Python Environments', './setup_python.md', ()),
         ('Setting up Data Science Environments', './setup_data_science.md', ()),
     )),
