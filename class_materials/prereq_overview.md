@@ -12,10 +12,13 @@ Welcome to the **Introduction to Open Source Workshop**. Participants are expect
 
 This workshop covers...
 
-* [Environment Setup](./environment_overview.md): Installing software, creating a virtual environment, forking a repository and setting up version control software.
 * [Using Git](./git_overview.md): basic commands to copy a repository, add your changes, commit those changes and push the changes to Github.
 * [Using GitHub](./github_overview.md): basic overview of the collaborative tools on GitHub and how to issue a pull request.
 * [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on GitHub.
+
+If you have time to move beyond Git, this workshop also covers:
+
+* [Working with Real Projects](./projects_with_code.md): Installing software and creating a working environment for a few real-world scenarios.
 
 
 ### What not to expect
@@ -35,12 +38,12 @@ The example code in this version of the workshop is written in Python, but this 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
 
 * Be able to install the following software: `conda`, `git`, etc
-* Be able to create a virtual environment
 * Be able to use `git` and GitHub to create a copy of an open source project on their own computer
 * Upon editing, adding, or deleting content in a project:
   * incorporate any changes to the project, made by others, into their own local copy
   * correct any conflicts between their changes and other's changes
   * successfully issue a request for their contribution to be added to the open source project
+* Be able to create a virtual environment (if working in Python)
 
 
 ## Preparatory Lessons

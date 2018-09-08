@@ -17,10 +17,10 @@ The struggle for both the project maintainer and the newcomer has been that begi
 
 They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like these fundamental skills, most of which are not specific to a given project.
 
-* setting up virtual environments
 * using version control software,
 * interacting with version control repositories (repos)
 * process of submitting patches and contributions
+* setting up virtual environments (for Python developers)
 
 They are often limited by the sprint leader's availability to help them learn. The sprint leader becomes, through no fault of their own, a bottleneck. The beginners often spend so much time figuring out the basics that they can't really get into the project sufficiently to understand nuances of the bugs they want to fix OR the contributions they want to add. Due to limitations on time, new contributors often leave the sprints without having successfully contributed to the project, at all. Furthermore, once new contributors arrive at home, they are often so removed from the project and the mentorship opportunity, that they may not be able to pick up from where they left off.
 
@@ -30,10 +30,10 @@ This project aims to fix some of these problems by having materials and instruct
 
 This workshop provides a high-level overview of the steps, tools and tradecraft needed to introduce beginners to open source sprints. The workshop provides lecture/demo **AND** lots of hands-on in the following areas.
 
-* Understanding, creating, and using virtual environments
 * Using version control tools such as git and github
 * Hands-on: Creating additions and changes to an open source project
 * Getting those changes incorporated into the project via pull requests
+* Understanding, creating, and using virtual environments
 
 In addition, the overview will include numerous resources for self-study.
 
