@@ -23,6 +23,16 @@ Through participating in this session, attendees will be able to:
 
 ## What to do
 
+### Step One: Download and Install `conda`
+
+Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.
+
+### Step Two: Confirm your `conda` install
+
+In a command prompt type `conda list`. If `conda` is installed properly, you will see a summary of the packages installed by `conda`.
+
+### Step Three: Set Up Your Project
+
 * Create a directory for your project, in this case, we will create a directory called `mytest`
 * On your command prompt, make sure you are in a directory where you want your project folder to be located (many people put this in their `My Documents` OR `home` folder. From that directory, run the following command:
 
@@ -71,9 +81,15 @@ If you like reading, you can also keep reading this page.
 
 ## The big picture
 
-One area of confusion that often comes up when working on open source comes from the fact that at any given time, there may be multiple copies of the code (on your local computer, in your Github repository OR in the original project's repository).
+### What is miniconda (`conda`) and why did we install it?
 
-Throughout this workshop, we will do our best to help highlight which copy of the code we are working with via a series of pictures. Specifically, we will identify when we are interacting with local files OR with our Github Repository OR with the original project's repository, etc.
+Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to: 
+
+* create virtual environments and 
+* manage separate installations of `Python` 
+* manage a large number of Python packages/libraries
+
+Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
 
 For this lesson, we image a fairly typical directory/folder structure on your local computer. In this picture, NOTE that we have:
 
