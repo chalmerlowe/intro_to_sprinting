@@ -24,8 +24,19 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 ## What to do
 
-### Fork and clone the repository we will be using for the workshop
+There are two ways to run this workshop... a short codeless format OR a longer version based on a coding project. 
 
+### Codeless Format: 
+
+The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers `git`, GitHub, etc.
+
+### Coding Project Format: 
+
+The details of the Coding Project Format are still in the works. For Python-focused developers, a calculator-based project is under development that can be used to expand the workshop to a total of ~4 hours and allow the participants to learn more about Sprint experiences such as testing, continuous integration, code formatting, etc.
+
+IF you wish to experiment with a Coding Project Format and don't already have one in mind, do the following: 
+
+* Fork and clone the repository we will be using for the workshop
 * Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [seawolf42/python-rpncalc](https://github.com/seawolf42/python-rpncalc)
 * Duplicate the project into a new project of your own (**do not** fork, you want a completely separate copy of the project)
 * For more information specific to the `rpncalc` project, see the [Instructor ReadMe](https://github.com/seawolf42/python-rpncalc/blob/master/INTRO_TO_SPRINTING_USAGE.md)
