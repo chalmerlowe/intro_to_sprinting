@@ -6,7 +6,13 @@
 
 ## Overview
 
-<put single paragraph here>
+When working on open source projects, it is customary to work with others on a project, which means that we will need to incorporate their changes into our local repositories. 
+
+If their changes are completely different from any changes we have made (i.e. if they modify File A, while we modify File B), then there should be no conflicts and it should be fairly trivial to merge the changes.  
+
+If their changes are in the same file that we changed, but are in completely separate portions of the file, we can often merge without conflict.
+
+But if our changes are in the same file and are too close to each other/overlap, it becomes difficult for git to automagically merge our changes. In those cases, git will turn over the merge process to us, to do manually.
 
 ## What to do
 
