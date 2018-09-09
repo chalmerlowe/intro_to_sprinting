@@ -14,7 +14,7 @@
 
 ## The big picture
 
-<high-level concepts that can be described in a few mintues>
+<high-level concepts that can be described in a few minutes>
 
 ## Deep dive
 
