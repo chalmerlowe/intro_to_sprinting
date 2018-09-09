@@ -18,7 +18,7 @@
 
 ## Deep dive
 
-<detailed explanations go here, with h3/h4 subsections if necessary>
+<detailed explanations go here, with h3/h4 subsection headers if necessary>
 
 ## Resources
 
