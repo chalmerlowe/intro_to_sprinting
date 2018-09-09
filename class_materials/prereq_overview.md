@@ -12,6 +12,8 @@ Welcome to the **Introduction to Open Source Workshop**. Participants are expect
 
 This workshop covers...
 
+
+* [Installing software](./installing_tools.md): basic installation of the version control software Git.
 * [Using Git](./git_overview.md): basic commands to copy a repository, add your changes, commit those changes and push the changes to Github.
 * [Using GitHub](./github_overview.md): basic overview of the collaborative tools on GitHub and how to issue a pull request.
 * [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on GitHub.
