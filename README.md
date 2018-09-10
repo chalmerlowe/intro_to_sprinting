@@ -52,7 +52,7 @@ It helps if a beginner knows:
 
 For help with the above, see the [Student Preparation instructions](https://github.com/chalmerlowe/intro_to_sprinting/blob/master/class_materials/prereq_student.md)
 
-Beginners will NOT need to have in depth knowledge on the following:
+Beginners will NOT need to have in-depth knowledge on the following:
 
 1. Programming OR Python (many contributors to open source never write code: they help with design, documentation, etc)
 2. Any specific open source project
