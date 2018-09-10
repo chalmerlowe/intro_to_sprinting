@@ -6,6 +6,8 @@
 
 ## Overview
 
+THIS FILE IS A WORK IN PROGRESS...
+
 When working on open source projects, it is customary to work with others on a project, which means that we will need to incorporate their changes into our local repositories. 
 
 If their changes are completely different from any changes we have made (i.e. if they modify File A, while we modify File B), then there should be no conflicts and it should be fairly trivial to merge the changes.  
