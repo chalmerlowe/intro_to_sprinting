@@ -144,9 +144,17 @@ $ git push
 
 ## The big picture
 
-<high-level concepts that can be described in a few minutes>
+Git has excellent algorithms to make best effort attempts to merge files even if two files differ significantly from one another. Despite this ability, sometimes changes are so complicated that Git gets lost and just can't decipher which of the part of which file should be retained. 
+
+When you `git merge` and `git` finds a conflict, it makes a best effort to retain the conflicting portion of each file and present them to you in a single file. It annotates each conflicting content so you can compare the changes side-by-side in context. After generating this partially merged but conflicting file, `git` leaves it up to you to manually edit those portions of the file it annotates for you as conflicting. Upon cleaning up the conflict, you proceed as normal: `git add`, `git commit`, `git push`.
 
 ## Deep dive
+
+To demonstrate how to merge a conflict, we want to try and create two versions of the same file with conflicting changes and cause `git` to attempt a merge.
+
+Under normal circumstances conflicts occur when a change is made to a file in your local repository and the same file in the upstream repository. This typically occurs because someone else edits the file and gets it incorporated in the upstream repo at the same time as you are making your changes.
+
+Causing that effect is not viable in a self-study tutorial OR is difficult in a instructor-led workshop, so we are gonna simulate this effect by having the student edit a file in their GitHub and then editing the same file in their local repository.
 
 ### ON GITHUB:
 **Edit the file conflict_lesson.txt in your GitHub fork:**
