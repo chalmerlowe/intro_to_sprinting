@@ -6,7 +6,7 @@
 
 ## Overview
 
-THIS FILE IS A WORK IN PROGRESS...
+THIS FILE IS A WORK IN PROGRESS....
 
 When working on open source projects you will often find yourself working with others on that same project, which means:
 
