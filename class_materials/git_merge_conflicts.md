@@ -2,11 +2,9 @@
 
 ## Time-box
 
-<XX> Minutes
+13 Minutes
 
 ## Overview
-
-THIS FILE IS A WORK IN PROGRESS....
 
 When working on open source projects you will often find yourself working with others on that same project, which means:
 
