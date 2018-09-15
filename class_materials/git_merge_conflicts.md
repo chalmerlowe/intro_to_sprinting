@@ -129,7 +129,7 @@ You will be told when to edit this file.
 
 ```bash
 $ git add conflict_lesson.txt
-$ git commit -m cleaned up conflict
+$ git commit -m "cleaned up conflict"
 $ git push
 ``` 
 
