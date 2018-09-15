@@ -19,12 +19,15 @@ WHILE
 
 ## What to do
 
-Make sure you are in your project directory `mytest`. If you are not there already, you can use the `cd` command.
+**Create a `mytest` folder**
 
-**Note:** Since we don't know the path on your computer, **ENSURE** that you change `/path/to/my/dev/directory/` to the correct path to **YOUR** directory.
+Find a folder where you can create a place to store your project files for today. Make it easy to get to! = ) 
+
+Then change directories to be in the folder...
 
 ```bash
-$ cd /path/to/my/dev/directory/mytest
+$ mkdir mytest
+$ cd mytest
 ```
 
 ### Cloning
