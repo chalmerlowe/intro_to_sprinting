@@ -330,7 +330,7 @@ Changes to be committed:
 
 ```bash
 $ git add conflict_lesson.txt
-$ git commit -m cleaned up conflict
+$ git commit -m "cleaned up conflict"
 $ git push
 ``` 
 
