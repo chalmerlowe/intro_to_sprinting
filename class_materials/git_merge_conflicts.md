@@ -1,7 +1,4 @@
-<!-- begin auto-generated title section -->
-# Merge Conflicts
-<!-- end auto-generated section -->
-
+<!-- begin auto-generated title section --><!-- end auto-generated section -->
 
 ## Time-box
 
@@ -142,6 +139,8 @@ $ git push
 <img src="images/github_merge_post_merge_result.png" alt="github screen, post merger of conflicted file" height="250"> 
 
 **Congratulations**, if all went well, you have now resolved your first merge conflict and your code is ready to be submitted for a pull request.
+
+![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
 ## The big picture
 
@@ -345,8 +344,5 @@ $ git push
 * [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) includes discussion on conflict resolution.
 * [Git advanced merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 
-<!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
-| [Branching and Merging](./git_branch_merge.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
-<!-- end auto-generated section -->
+
+<!-- begin auto-generated nav-links section --><!-- end auto-generated section -->
