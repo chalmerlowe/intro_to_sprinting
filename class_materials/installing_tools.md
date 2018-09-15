@@ -27,11 +27,24 @@ First check to see if `git` is already installed on your computer.
 
 Open a command prompt/terminal and type `git`
 
-You'll see one of these two things.
+You'll see one of two things.
 
-- **A whole bunch of text**, which is a document explaining some of the most common `git` commands. If you see this, jump to the instructions on [downloading and installing Conda.](#download-and-install-conda) because git is already installed.
+- **A whole bunch of text**, similar to the following which is a document explaining some of the most common `git` commands. If you see this go ahead and navigate to the next step in the tutorial using the navigation links at the bottom of the page, because git is already installed.
 
-- `git: Command not found.` This is good! It means that you **are going to follow our instructions to install git!** Keep reading.
+```bash
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+...
+```
+
+OR you might see this:
+
+- **`git: Command not found.`** Don't panic, this is good! It means that you **are going to follow our instructions to install git!** Keep reading.
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows 
 
@@ -77,7 +90,7 @@ In a command prompt type `git config`. If `git` is installed properly, you will 
 
 Here's a list of error messages & how to fix them.
 
-- `git config: Command not found.` This means you need to quit & relaunch your terminal. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
+- `git config: Command not found.` This typically means you need to quit & relaunch your terminal. Everytime you open a terminal window, it references a list of locations to look for installed programs across your computer. Sometimes, if you install a piece of software, the terminal's copy of that list doesn't get updated auotmagically. While there are several ways to update the terminal's references, one of the easiest is to simply close and re-open the terminal window. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
 
 ## Done with commands for now!
 
