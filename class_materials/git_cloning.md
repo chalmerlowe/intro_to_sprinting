@@ -21,9 +21,13 @@ WHILE
 
 Make sure you are in your project directory `mytest`. If you are not there already, you can use the `cd` command.
 
+**Note:** Since we don't know the path on your computer, **ENSURE** that you change `/path/to/my/dev/directory/` to the correct path to **YOUR** directory.
+
 ```bash
 $ cd /path/to/my/dev/directory/mytest
 ```
+
+### Cloning
 
 Use the `git clone` command to clone a copy of the repository to the `mytest` directory.
 
@@ -32,6 +36,8 @@ Use the `git clone` command to clone a copy of the repository to the `mytest` di
 ```bash
 $ git clone https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project.git
 ```
+
+### Move into the new cloned repository
 
 The `clone` command will create a new folder in the `mytest` directory. Change directories into the new folder, using the following command:
 
