@@ -142,6 +142,8 @@ $ git push
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
+If you like reading, you can also keep reading this page.
+
 ## The big picture
 
 Git has excellent algorithms to make best effort attempts to merge files even if two files differ significantly from one another. Despite this ability, sometimes changes are so complicated that Git gets lost and just can't decipher which part of each file should be retained. 
