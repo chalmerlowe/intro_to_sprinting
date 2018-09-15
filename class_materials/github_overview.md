@@ -20,5 +20,5 @@ Let's switch gears a bit and go back to discuss GitHub. In the next few sessions
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Branching and Merging](./git_branch_merge.md) | [Table of Contents](./README.md) | [GitHub Concepts](./github_concepts.md) |
+| [Merge Conflicts](./git_merge_conflicts.md) | [Table of Contents](./README.md) | [GitHub Concepts](./github_concepts.md) |
 <!-- end auto-generated section -->

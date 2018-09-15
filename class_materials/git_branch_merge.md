@@ -176,5 +176,5 @@ $ git branch -d appleseed-feature
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
+| [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Merge Conflicts](./git_merge_conflicts.md) |
 <!-- end auto-generated section -->

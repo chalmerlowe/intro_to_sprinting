@@ -14,6 +14,7 @@ HIERARCHY = ('Table of Contents', './README.md', (
         ('Git Primary Workflow: Add, Commit, Push', './git_main_lifecycle.md', ()),
         ('Git Common Operations', './git_common_operations.md', ()),
         ('Branching and Merging', './git_branch_merge.md', ()),
+        ('Merge Conflicts', './git_merge_conflicts.md', ()),
     )),
     ('Using GitHub', './github_overview.md', (
         ('GitHub Concepts', './github_concepts.md', ()),

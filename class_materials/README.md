@@ -13,6 +13,7 @@
     1. [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md)
     1. [Git Common Operations](./git_common_operations.md)
     1. [Branching and Merging](./git_branch_merge.md)
+    1. [Merge Conflicts](./git_merge_conflicts.md)
 1. [Using GitHub](./github_overview.md)
     1. [GitHub Concepts](./github_concepts.md)
     1. [Submitting a Pull Request](./github_submit_pull_request.md)
