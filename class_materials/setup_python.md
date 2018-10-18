@@ -72,7 +72,7 @@ $ source venv/bin/activate
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
 
 ```bat
-C:\> # TODO: need the windows command for this
+C:\>venv\Scripts\activate.bat
 ```
 
 * Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
