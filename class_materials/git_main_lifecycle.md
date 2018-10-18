@@ -67,7 +67,7 @@ Changes not staged for commit:
 
 ```
 ### Add the file to the staging area
-`git add` the file **you** edited, to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
+`git add` the file **you** edited to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
 
 ```bash
 $ git add johnny_appleseed.txt
