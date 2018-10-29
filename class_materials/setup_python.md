@@ -117,14 +117,16 @@ $ virtualenv venv --python=$(which python3)
 ```
 
 Description:
-* `virtualenv` runs the conda program.
+
+* `virtualenv` runs the virtual environment creation program.
 * `venv` is the name of the directory to use for the virtualenv
-* `--python=$(which python3)` tells virtualenv that you want to install Python version 3 in this virtualenv
+* `--python=$(which python3)` tells `virtualenv` that you want to install Python version 3 in this virtualenv
+    * by default, `virtualenv` will install whichever version of python you have set as the default (run `python --version` to see which version this is)
 
 
 ### Activating a virtualenv
 
-Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
+Once you have created a virtual envvironment, you will need to activate it. Activation has several side effects:
 
 * It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
@@ -149,9 +151,9 @@ C:\> # TODO: need the right windows command
 
 ### Adding software to your virtualenv 
 
-To add more software to the virtualenv, you can use `conda` to install the software. The maintainers of conda provide access to many Python and non-Python libraries, but not all of them. If conda cannot install a particular library that you need, you can generally use `pip` or a similar package installation tool to install it instead (covering `pip` is outside the scope of this workshop).
+To add more software to the virtualenv, you can use `pip` to install the software. The maintainers of `setuptools` (of which `pip` is a part) provide access to many Python and non-Python libraries via [PyPI](https://www.pypi.org), but not all of them. You can also use `pip` to install libraries directly from GitHub (if you need a particular commit of a package, for instance), but this is outside the scope of this lesson.
 
-For example, to install IPython, you can use the following `conda` command:
+For example, to install IPython, you can use the following `pip` command:
 
 ```bash
 (venv) $ pip install ipython
