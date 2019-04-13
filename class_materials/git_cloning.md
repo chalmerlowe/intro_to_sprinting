@@ -21,9 +21,9 @@ WHILE
 
 **Create a `mytest` folder**
 
-Find a folder where you can create a place to store your project files for today. Make it easy to get to! = ) 
+Open a command prompt OR terminal and navigate to a folder/directory where you want to store the project files for today's project. The folder you pick should be somewhere that you can find easily. = ) 
 
-Then change directories to be in the folder...
+Inside your chosen folder, you will make a **new folder** called `mytest` and the you will change directories into the `mytest` folder:
 
 ```bash
 $ mkdir mytest
