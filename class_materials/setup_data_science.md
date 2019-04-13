@@ -117,6 +117,17 @@ NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
 
 ![Local Dirs with conda environments](images/conda_envs.png)
 
+As we install software libraries using `conda` in our new virtual environment, the virtual environment encapsulates/contains our entire development environment:
+
+* a specific version of `python`
+* the dependencies needed by that version of `python` (i.e. `sqlite`) 
+* other libraries you might need for that project (i.e. `numpy`)
+* other the dependencies for those libraries (i.e. `libgfortran`, `mkl`, `mkl-fft`)
+
+Virtual environments are fairly easy and cheap to make, so it is trivial to create multiple environments. And since every project will have different needs in terms of version numbers, dependencies and libraries, as we see here... each of your virtualenvs can contain completely different versions without any interference between these sandboxes.
+
+![Local Dirs with conda environments](images/conda_envs_deps.png)
+
 
 ## Deep dive
 
