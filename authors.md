@@ -19,3 +19,4 @@ Please feel free to add your name to the bottom of this document.
 * [Steve Lorenz](https://github.com/lorenz21)
 * [Brian Thorpe](https://github.com/bsthorpe742)
 * [Kevin Cole](https://github.com/kjcole/)
+* [Jericho Guzman] (https://github.com/mgmt06)
