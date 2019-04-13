@@ -73,6 +73,12 @@ Changes not staged for commit:
 $ git add johnny_appleseed.txt
 ```
 
+If you need to add more than one file to the staging area, simply separate the filenames with a space:
+
+```bash
+$ git add <file1> <file2> ...
+```
+
 ### Status check
 Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
 
@@ -273,15 +279,6 @@ nothing to commit, working tree clean
 ... and everything is clean again, but now with our local change pushed to GitHub and available to the world. **IF** you go to **your GitHub repository**, you can see your changes via your web browser.
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
-
-### Adding multiple files
-
-If you need to add more than one file to the staging area, simply separate the filenames with a space:
-
-```bash
-$ git add <file1> <file2> ...
-```
-
 
 ## Resources
 
