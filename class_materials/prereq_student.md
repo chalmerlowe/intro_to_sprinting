@@ -37,7 +37,7 @@ The workshop is about four hours and covers a lot of material (it may be broken 
 
 ### Using the command line
 
-In the hands-on practice session, you will be using command-line tools to contribute to a practice project, namely a calculator. If you don't feel comfortable with the command-line yet, see the Resources below for cheatsheets and references to a number of the most common commands:
+In the hands-on practice session, you will be using command-line tools to contribute to a codeless project. If you don't feel comfortable with the command-line yet, see the Resources below for cheatsheets and references to a number of the most common commands:
 
 
 
