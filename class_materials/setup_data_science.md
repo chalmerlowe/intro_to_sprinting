@@ -64,18 +64,20 @@ $ conda create -n mytest python=3
 
 ```bash
 $ source activate mytest
+(mytest) $
 ```
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
 
 ```bat
 C:\> activate mytest
+(mytest) C:\>
 ```
 
 * Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
 
 ```bash
-conda install ipython mock
+(mytest) $ conda install ipython mock
 ```
 
 ## Done with commands for now!
@@ -149,7 +151,7 @@ Description:
 When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following. 
 
 ```bash
-MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
+$ conda create -n mytest python=3
 Fetching package metadata .......
 Solving package specifications: ..........
 
@@ -200,12 +202,14 @@ To activate your virtualenv, run the appropriate command for your operating syst
 
 ```bash
 $ source activate mytest
+(mytest) $
 ```
 
 #### Windows
 
 ```bat
 C:\> activate mytest
+(mytest) C:\>
 ```
 
 **Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
@@ -216,8 +220,8 @@ To add more software to the virtualenv, you can use `conda` to install the softw
 
 For example, to install IPython, you can use the following `conda` command:
 
-```
-conda install ipython
+```bash
+$ conda install ipython
 ```
 
 Conda will prepare to install IPython and any dependencies that IPython relies upon. It will display output similar to the following (truncated to save space).

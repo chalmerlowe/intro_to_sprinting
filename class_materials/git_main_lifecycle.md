@@ -194,7 +194,7 @@ $ git add README.md
 
 This time, the status message is slightly different. The hints are different and the status announcements are new. Again, reading these status messages will help you get familiar with the commands AND hints AND will drive home the concepts related to local changes, staged changes, committed changes, etc.
 
-```
+```bash
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -225,7 +225,7 @@ In a later discussion, we will see how to see exactly what content changed.
 
 `git status` again comes to the rescue to help us confirm and understand the changes we have committed.
 
-```
+```bash
 $ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -265,7 +265,7 @@ The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identif
 
 Let's again use `git status` to look at the results of our work:
 
-```
+```bash
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.

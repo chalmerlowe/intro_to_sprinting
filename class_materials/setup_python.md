@@ -67,18 +67,20 @@ $ virtualenv venv
 
 ```bash
 $ source venv/bin/activate
+(venv) $
 ```
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
 
 ```bat
 C:\> # TODO: need the windows command for this
+(venv) C:\>
 ```
 
 * Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
 
 ```bash
-$ pip install ipython mock
+(venv) $ pip install ipython mock
 ```
 
 ## Done with commands for now!
@@ -130,8 +132,8 @@ Once you have created a virtual envvironment, you will need to activate it. Acti
 
 * It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
-    * Mac/Linux: `(mytest) $`
-    * Windows: `(mytest) C:\>`
+    * Mac/Linux: `(venv) $`
+    * Windows: `(venv) C:\>`
 
 To activate your virtualenv, make sure you're in your project directory and run the appropriate command for your operating system:
 
@@ -139,15 +141,17 @@ To activate your virtualenv, make sure you're in your project directory and run 
 
 ```bash
 $ source venv/bin/activate
+(venv) $
 ```
 
 #### Windows
 
 ```bat
 C:\> # TODO: need the right windows command
+(venv) C:\>
 ```
 
-**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
+**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate venv`.
 
 ### Adding software to your virtualenv 
 
@@ -162,7 +166,7 @@ For example, to install IPython, you can use the following `pip` command:
 Pip will prepare to install IPython and any dependencies that IPython relies upon. It will display output similar to the following (truncated to save space).
 
 ```bash
-$ pip install requests
+(venv) $ pip install requests
 Collecting requests
  ...
  ...
@@ -174,7 +178,7 @@ Successfully installed certifi-2018.8.24 chardet-3.0.4 idna-2.7 requests-2.19.1 
 
 Multiple packages can be installed at the same time, by separating the package names with spaces:
 
-`pip install flake8 mock funcsigs`
+`$ pip install flake8 mock funcsigs`
 
 ### Leaving the virtualenv when you are done
 
@@ -183,14 +187,14 @@ When you are done working in your virtualenv, you can deactivate it using the fo
 #### Mac/Linux
 
 ```bash
-(mytest) $ deactivate
+(venv) $ deactivate
 $
 ```
 
 #### Windows
 
 ```bat
-(mytest) C:\> deactivate
+(venv) C:\> deactivate
 C:\>
 ```
 
