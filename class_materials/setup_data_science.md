@@ -151,7 +151,7 @@ Description:
 When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following. 
 
 ```bash
-MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
+$ conda create -n mytest python=3
 Fetching package metadata .......
 Solving package specifications: ..........
 
@@ -220,8 +220,8 @@ To add more software to the virtualenv, you can use `conda` to install the softw
 
 For example, to install IPython, you can use the following `conda` command:
 
-```
-conda install ipython
+```bash
+$ conda install ipython
 ```
 
 Conda will prepare to install IPython and any dependencies that IPython relies upon. It will display output similar to the following (truncated to save space).

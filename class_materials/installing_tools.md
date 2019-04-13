@@ -32,6 +32,7 @@ You'll see one of two things.
 - **A whole bunch of text**, similar to the following which is a document explaining some of the most common `git` commands. If you see this go ahead and navigate to the next step in the tutorial using the navigation links at the bottom of the page, because git is already installed.
 
 ```bash
+$ git
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
            [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
            [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
