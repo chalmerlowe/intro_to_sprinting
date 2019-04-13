@@ -28,7 +28,7 @@ $ git diff
 
 This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the **Deep Dive** section.
 
-Once you are done, you can restore the modified file to it's original state by typing `git checkout -- beowolf.txt`. This essentialy tells Git to "undo" any changes to that file that are not yet staged or committed.
+Once you are done, you can restore the modified file to it's original state by typing `git checkout -- beowulf.txt`. This essentialy tells Git to "undo" any changes to that file that are not yet staged or committed.
 
 ## Done with commands for now!
 
