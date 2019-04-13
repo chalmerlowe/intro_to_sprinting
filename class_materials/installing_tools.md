@@ -3,7 +3,7 @@
 <!-- end auto-generated section -->
 
 
-## Time-box
+# Time-box
 
 15 Minutes
 
