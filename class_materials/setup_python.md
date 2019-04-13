@@ -132,8 +132,8 @@ Once you have created a virtual envvironment, you will need to activate it. Acti
 
 * It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
-    * Mac/Linux: `(mytest) $`
-    * Windows: `(mytest) C:\>`
+    * Mac/Linux: `(venv) $`
+    * Windows: `(venv) C:\>`
 
 To activate your virtualenv, make sure you're in your project directory and run the appropriate command for your operating system:
 
@@ -151,7 +151,7 @@ C:\> # TODO: need the right windows command
 (venv) C:\>
 ```
 
-**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
+**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate venv`.
 
 ### Adding software to your virtualenv 
 
