@@ -30,6 +30,10 @@ There are two ways to run this workshop... a short codeless format OR a longer v
 
 The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers `git`, GitHub, etc.
 
+* Fork and clone the repository we will be using for the workshop
+* Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [chalmerlowe/intro_to_sprinting_codeless_project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project)
+* Duplicate the project into a new project of your own (**do not** fork, you want a completely separate copy of the project)
+
 ### Coding Project Format: 
 
 The details of the Coding Project Format are still in the works. For Python-focused developers, a calculator-based project is under development that can be used to expand the workshop to a total of ~4 hours and allow the participants to learn more about Sprint experiences such as testing, continuous integration, code formatting, etc.
