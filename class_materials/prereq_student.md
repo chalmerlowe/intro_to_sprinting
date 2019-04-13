@@ -25,7 +25,7 @@ Having said that, the following will help with successfully completing this work
 
 ### Learning methods
 
-The workshop is about four hours and covers a lot of material (it may be broken into two days OR may be a single day event). Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
+The workshop is about two hours and covers a lot of material. Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
 
 * Ask questions. Lots of questions. 
     * Take advantage of the fact that you are in a room with mentors to get your questions answered. 
