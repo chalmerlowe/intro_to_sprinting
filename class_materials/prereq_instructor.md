@@ -19,7 +19,7 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 * Hands-on practice labs to enable participants to practice all the skills in a supportive environment
 * Side-saddle mentoring and question answering
 * Pair programming to enable participants to help each other
-* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://swcarpentry.github.io/instructor-training/15-practices/) article.
+* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://carpentries.github.io/instructor-training/14-live/index.html) article.
 
 
 ## What to do
