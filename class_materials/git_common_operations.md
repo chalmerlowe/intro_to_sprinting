@@ -23,7 +23,7 @@ For this next exercise, we will change a single file and use the `git diff` tool
 1. Execute the following command:
 
 ```bash
-git diff
+$ git diff
 ```
 
 This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the **Deep Dive** section.

@@ -63,7 +63,7 @@ OR you might see this:
 Many Mac users use [homebrew](http://brew.sh/) to install programs.
 
 ```bash
-brew install git
+$ brew install git
 ```
 
 #### <img src = "images/linux_icon.jpg" width="24" height="24"> Linux 

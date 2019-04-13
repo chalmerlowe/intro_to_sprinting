@@ -75,7 +75,7 @@ C:\> activate mytest
 * Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
 
 ```bash
-conda install ipython mock
+$ conda install ipython mock
 ```
 
 ## Done with commands for now!
