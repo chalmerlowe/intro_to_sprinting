@@ -105,6 +105,7 @@ index abe1f83..6276304 100644
 +line eleven
  line 13
 ```
+
 The `@@` line tells you that the displayed content starts at line 8 and includes 5 lines (`8,5`) from the original file and then tells you that the displayed content also starts at line 8 and includes 5 lines (`8,5`) from the new file.
 
 A file with multiple changes would look like this:

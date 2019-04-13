@@ -57,6 +57,7 @@ $ cd mytest
 ```bash
 $ conda create -n mytest python=3
 ```
+
 * Activate your virtual environment using the command appropriate to your operating system:
 
 #### <img src = "images/mac_icon.png" width="24" height="24"><img src = "images/linux_icon.jpg" width="24" height="24"> Mac/ Linux
