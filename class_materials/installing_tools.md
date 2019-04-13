@@ -90,7 +90,7 @@ In a command prompt type `git config`. If `git` is installed properly, you will 
 
 Here's a list of error messages & how to fix them.
 
-- `git config: Command not found.` This typically means you need to quit & relaunch your terminal. Everytime you open a terminal window, it references a list of locations to look for installed programs across your computer. Sometimes, if you install a piece of software, the terminal's copy of that list doesn't get updated auotmagically. While there are several ways to update the terminal's references, one of the easiest is to simply close and re-open the terminal window. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
+- `git config: Command not found.` This typically means you need to quit & relaunch your terminal. Every time you open a terminal window, it references a list of locations to look for installed programs across your computer. Sometimes, if you install a piece of software, the terminal's copy of that list doesn't get updated automagically. While there are several ways to update the terminal's references, one of the easiest is to simply close and re-open the terminal window. If that doesn't fix it, ask for help. ([Details here.](https://unix.stackexchange.com/questions/86012/what-is-the-purpose-of-the-hash-command))
 
 ## Done with commands for now!
 
@@ -104,11 +104,11 @@ If you like reading, you can also keep reading this page.
 
 ### What is `git` and why did we install it?
 
-`git` is a distributed version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* other's work so everyone can have the most up to date version of the project. A later lesson will provide more details on `git`.
+`git` is a distributed version control system for managing files. It allows multiple people to work on collections of files (usually source code) and then easily *merge* others' work so everyone can have the most up to date version of the project. A later lesson will provide more details on `git`.
 
 ## Resources
 
-* [Pro Git](https://git-scm.com/book/en/v2): also called "The Git Book", Pro Git is the authoritative book on doing everything that Git can do. It can be read online and also downloaded in many formats so you can read it anywhere.
+* [Pro Git](https://git-scm.com/book/en/v2): also called "The Git Book", Pro Git is the authoritative book on doing everything that `git` can do. It can be read online and also downloaded in many formats so you can read it anywhere.
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

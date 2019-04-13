@@ -12,7 +12,7 @@ N/A: these preparatory steps should be completed prior to the start of the cours
 
 This section is intended for the workshop **instructor**. It outlines what the instructor should do to successfully execute this workshop.
 
-This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following
+This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following:
 
 * Short sections of lecture to elaborate on the what and the why
 * Short demos to show participants what to do and what to expect
