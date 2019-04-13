@@ -35,6 +35,7 @@ At any time, we can check the status of our `git` repository. Before we change a
 ```bash
 $ git status
 ```
+
 **NOTE**: Full details on the messages that appear are spelled out below in the **Big Picture/Deep Dive** discussion.
 
 **NOTE**: Using `git status` is completely **optional**, but strongly recommended.
@@ -64,10 +65,10 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   johnny_appleseed.txt
-
 ```
+
 ### Add the file to the staging area
-`git add` the file **you** edited, to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
+`git add` the file **you** edited to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
 
 ```bash
 $ git add johnny_appleseed.txt
@@ -123,6 +124,7 @@ $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 ```
+
 ### Status check, remote
 Now go to **your GitHub Repo** and confirm that the changes you made on your local computer are actually present in the files on GitHub. You should be able to surf to the file you edited and see the changes!
 

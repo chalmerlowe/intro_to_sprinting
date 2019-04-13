@@ -47,6 +47,7 @@ The `clone` command will create a new folder in the `mytest` directory. Change d
 ```bash
 $ cd intro_to_sprinting_codeless_project
 ```
+
 Next, add a reference to the **original repo (i.e. Chalmer's repo)** using the `git remote` command. The reference is often referred to as an `upstream`:
 
 ```bash
@@ -84,6 +85,7 @@ $ git remote -v
 origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
 origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
 ```
+
 Here we see that for the `origin` remote repository, we have the ability to fetch data from it and push data to it. This ability to push data to the repository makes sense, since we own that repository.
 
 As part of committing to open source projects, we want to get updates from the original repository (often called the `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done will interfere with any other work being done on the project.
