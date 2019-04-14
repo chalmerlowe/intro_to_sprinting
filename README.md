@@ -48,7 +48,7 @@ Beginners will need to already know the following:
 
 It helps if a beginner knows:
 
-* The basics of using the command line (`cd`, `ls/dir`, etc). 
+* The basics of using the command line (`cd`, `ls/dir`, etc).
 
 For help with the above, see the [Student Preparation instructions](https://github.com/chalmerlowe/intro_to_sprinting/blob/master/class_materials/prereq_student.md)
 

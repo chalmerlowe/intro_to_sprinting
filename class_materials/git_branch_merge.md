@@ -34,11 +34,11 @@ A typical iteration of creating a feature (sometimes called a `feature branch`) 
 $ git checkout -b appleseed-feature     # "-b" creates a new branch named "appleseed-feature"
 ```
 
-**Do work/edit files** 
+**Do work/edit files**
 
 In your editor or IDE ... change the 23rd line in the file "jabberwocky.txt".
 
-**`git add`** changes to the staging area ... 
+**`git add`** changes to the staging area ...
 
 ```bash
 $ git add jabberwocky.txt
@@ -49,7 +49,7 @@ $ git commit -m "my first bit of work"
 
 If you want, you can continue to make changes to the same file OR other files...
 
-**`git add`** these new changes to the staging area ... 
+**`git add`** these new changes to the staging area ...
 
 ```bash
 $ git add jabberwocky.txt
@@ -69,7 +69,7 @@ $ git pull upstream master       # this pulls any upstream changes into your com
 ```
 
 **NOTE:** This is generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via pull request.
- 
+
 ```bash
 $ git pull origin master         # Generally not necessary, but this pulls
                                  # any changes in *your* GitHub fork repo to your computer
@@ -117,7 +117,7 @@ Besides `git add`, `git commit`, `git push`, the next logical step is to grow fa
 
 #### Create a branch
 
-**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git checkout` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `-b` option. 
+**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git checkout` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `-b` option.
 
 ```bash
 $ git checkout -b appleseed-feature

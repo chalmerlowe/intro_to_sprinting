@@ -24,9 +24,9 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 
 ## What to do
 
-There are two ways to run this workshop... a short codeless format OR a longer version based on a coding project. 
+There are two ways to run this workshop... a short codeless format OR a longer version based on a coding project.
 
-### Codeless Format: 
+### Codeless Format:
 
 The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers `git`, GitHub, etc.
 
@@ -38,7 +38,7 @@ The Codeless Format can generally be handled in ~2 hours and doesn't require any
 
 The details of the Coding Project Format are still in the works. For Python-focused developers, a calculator-based project is under development that can be used to expand the workshop to a total of ~4 hours and allow the participants to learn more about Sprint experiences such as testing, continuous integration, code formatting, etc.
 
-IF you wish to experiment with a Coding Project Format and don't already have one in mind, do the following: 
+IF you wish to experiment with a Coding Project Format and don't already have one in mind, do the following:
 
 * Fork and clone the repository we will be using for the workshop
 * Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [seawolf42/python-rpncalc](https://github.com/seawolf42/python-rpncalc)
@@ -63,7 +63,7 @@ IF you wish to experiment with a Coding Project Format and don't already have on
 
 * Thank the attendees for their participation
 * Issue a post-workshop survey (i.e. using Surveymonkey.com OR Google forms)
-* If you have suggestions OR found something that just doesn't work: submit an issue to the repo [Intro to Sprinting Workshop](https://github.com/chalmerlowe/intro_to_sprinting/issues/) OR 
+* If you have suggestions OR found something that just doesn't work: submit an issue to the repo [Intro to Sprinting Workshop](https://github.com/chalmerlowe/intro_to_sprinting/issues/) OR
 * Better yet, work with your students to have them submit a Pull Request with suggestions or improvements.
 
 
