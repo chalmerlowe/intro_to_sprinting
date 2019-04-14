@@ -103,6 +103,7 @@ $ git remote -v
 origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
 origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
 upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
+upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (push)
 ```
 
 **Note:** You'll only do this **one time for each project** you want to work on.
@@ -110,7 +111,7 @@ upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fet
 
 ## Resources
 
-* [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository))
+* [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

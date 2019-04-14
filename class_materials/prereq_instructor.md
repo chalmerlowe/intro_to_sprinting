@@ -12,14 +12,14 @@ N/A: these preparatory steps should be completed prior to the start of the cours
 
 This section is intended for the workshop **instructor**. It outlines what the instructor should do to successfully execute this workshop.
 
-This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following
+This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following:
 
 * Short sections of lecture to elaborate on the what and the why
 * Short demos to show participants what to do and what to expect
 * Hands-on practice labs to enable participants to practice all the skills in a supportive environment
 * Side-saddle mentoring and question answering
 * Pair programming to enable participants to help each other
-* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://swcarpentry.github.io/instructor-training/15-practices/) article.
+* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://carpentries.github.io/instructor-training/14-live/index.html) article.
 
 
 ## What to do
