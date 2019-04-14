@@ -28,7 +28,7 @@ There are two ways to run this workshop... a short codeless format OR a longer v
 
 ### Codeless Format: 
 
-The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers `git`, GitHub, etc.
+The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers Git, GitHub, etc.
 
 ### Coding Project Format: 
 
