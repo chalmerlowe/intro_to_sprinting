@@ -15,7 +15,7 @@ At many programming conferences, time is set aside for developers to come togeth
 
 The struggle for both the project maintainer and the newcomer has been that beginners often have a very steep learning curve and need to learn too many new tools and new skills before they can successfully contribute.
 
-They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like these fundamental skills, most of which are not specific to a given project.
+They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like these are fundamental skills, most of which are not specific to a given project.
 
 * using version control software,
 * interacting with version control repositories (repos)
