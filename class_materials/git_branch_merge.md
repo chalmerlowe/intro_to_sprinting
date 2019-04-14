@@ -130,7 +130,7 @@ What makes a good branch name? What are the rules for naming branches? This is a
 * They cannot be the single character `@`
 * They cannot begin or end with a slash `/`
 * They cannot have question-mark `?`, asterisk `*`, or open bracket `[` anywhere
-* They cannot have ASCII control characters (`\t`, `\n`), `space`, tilde `~`, caret `^`, or colon `:` anywhere.
+* They cannot have ASCII control characters (`\t`, `\n`), `space`, tilde `~`, caret `^`, or colon `:` anywhere
 
 #### Make your changes
 

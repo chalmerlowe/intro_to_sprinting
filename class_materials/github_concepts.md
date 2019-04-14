@@ -31,7 +31,7 @@ Once you get to the upstream GitHub repo, look at each of the items above, but s
 
 * are the tabs different?
 * do you have the ability to perform certain actions as the owner of your repo versus being a visitor to someone else's repo?
-* etc.
+* etc
 
 
 
@@ -43,8 +43,8 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 The tools seen above are intended to help improve the ability of team members to communicate and track changes and proposed changes to projects.
 
-* If you find a problem in your repo you want help with OR you want to track, you may publish an Issue to let your colleagues know how they can help.
-* If you find a problem in an open source project that you feel needs correcting, but you don't have time or expertise, you may submit an Issue on the upstream project repo.
+* If you find a problem in your repo you want help with OR you want to track, you may publish an Issue to let your colleagues know how they can help
+* If you find a problem in an open source project that you feel needs correcting, but you don't have time or expertise, you may submit an Issue on the upstream project repo
 
 For this Intro to Sprinting workshop, if you have suggestions that would improve the learning experience, we urge you to either:
 

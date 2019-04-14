@@ -109,7 +109,7 @@ If you like reading, you can also keep reading this page.
 
 ## Resources
 
-* [Pro Git](https://git-scm.com/book/en/v2): also called "The Git Book", Pro Git is the authoritative book on doing everything that `git` can do. It can be read online and also downloaded in many formats so you can read it anywhere.
+* [Pro Git](https://git-scm.com/book/en/v2): also called "The Git Book", Pro Git is the authoritative book on doing everything that `git` can do. It can be read online and also downloaded in many formats so you can read it anywhere
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

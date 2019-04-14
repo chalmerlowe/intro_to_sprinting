@@ -27,7 +27,7 @@ This portion of the workshop presumes the following:
 
 With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of poetry files.
 
-* If you type `ls` (or `dir` in Windows) you should see multiple files.
+* If you type `ls` (or `dir` in Windows) you should see multiple files
 
 ### Status check
 At any time, we can check the status of our `git` repository. Before we change any files, let's check to see what the status of our repo is, by using `git status`
@@ -225,7 +225,7 @@ $ git commit -m "my short description of the work"
 In this case, the output tells me several things:
 
 * it repeats my commit message
-* lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line).
+* lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line)
 
 In a later discussion, we will see how to see exactly what content changed.
 
@@ -245,7 +245,7 @@ Here, like earlier, my working tree is again **clean** (all changes are committe
 
 When pushing your commits to GitHub, the `git push` command will give you a summary of all the changes that it attempted to make. In the following case, we see that `git`:
 
-* sent several objects (it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to `git` and not critical for you to worry about now).
+* sent several objects (it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to `git` and not critical for you to worry about now)
 * compressed the data
 * wrote the data
 * reported back on where the data was sent
@@ -265,7 +265,7 @@ To github:myusername/my_repo.git
 **About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
 
 * pick specific commits to examine OR
-* specific commits to revert back to, if you find you need to undo a change to your repository.
+* specific commits to revert back to, if you find you need to undo a change to your repository
 
 The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
 
