@@ -33,9 +33,9 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 These are the two fundamental configurations needed to use `git`.
 
 **Note:** The `--global` option applies these settings to all `git` projects on your machine
-* You only need to run this **once per computer**.
-* To change a setting, simply re-run the command.
-* To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `--global` option.
+* You only need to run this **once per computer**
+* To change a setting, simply re-run the command
+* To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `--global` option
 
 Later sections of the workshop will go into greater depth on using `git`.
 
@@ -49,7 +49,7 @@ Because `git` is a command-line tool, if you need a primer for the command line,
 ## Resources
 
 * [Getting Started - First-Time Git Setup](https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup)
-* See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources related to `git`.
+* See the lesson [Git Concepts](./git_concepts.md) for a more comprehensive list of resources related to `git`
 * Free [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy
 * [Windows command-line cheatsheet](http://www.cs.columbia.edu/~sedwards/classes/2017/1102-spring/Command%20Prompt%20Cheatsheet.pdf) Windows commandline commands
 * [Linux/Mac command-line cheatsheet](https://files.fosswire.com/2007/08/fwunixref.pdf) Linux commandline commands

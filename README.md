@@ -44,11 +44,11 @@ This project can be modified for the needs of other sprints and other languages.
 
 Beginners will need to already know the following:
 
-* How to edit plain text files on their computer.
+* How to edit plain text files on their computer
 
 It helps if a beginner knows:
 
-* The basics of using the command line (`cd`, `ls/dir`, etc).
+* The basics of using the command line (`cd`, `ls/dir`, etc)
 
 For help with the above, see the [Student Preparation instructions](https://github.com/chalmerlowe/intro_to_sprinting/blob/master/class_materials/prereq_student.md)
 

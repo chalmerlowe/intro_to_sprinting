@@ -13,14 +13,14 @@ Welcome to the **Introduction to Open Source Workshop**. Participants are expect
 This workshop covers...
 
 
-* [Installing software](./installing_tools.md): basic installation of the version control software Git.
-* [Using Git](./git_overview.md): basic commands to copy a repository, add your changes, commit those changes and push the changes to Github.
-* [Using GitHub](./github_overview.md): basic overview of the collaborative tools on GitHub and how to issue a pull request.
-* [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on GitHub.
+* [Installing software](./installing_tools.md): basic installation of the version control software Git
+* [Using Git](./git_overview.md): basic commands to copy a repository, add your changes, commit those changes and push the changes to Github
+* [Using GitHub](./github_overview.md): basic overview of the collaborative tools on GitHub and how to issue a pull request
+* [Practicing your skills](./for_realz.md): A chance to practice these skills on a project on GitHub
 
 If you have time to move beyond Git, this workshop also covers:
 
-* [Working with Real Projects](./projects_with_code.md): Installing software and creating a working environment for a few real-world scenarios.
+* [Working with Real Projects](./projects_with_code.md): Installing software and creating a working environment for a few real-world scenarios
 
 
 ### What not to expect
@@ -39,7 +39,7 @@ The example code in this version of the workshop is written in Python, but this 
 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
 
-* Be able to install the following software: `conda`, `git`, etc.
+* Be able to install the following software: `conda`, `git`, etc
 * Be able to use `git` and GitHub to create a copy of an open source project on their own computer
 * Upon editing, adding, or deleting content in a project:
   * incorporate any changes to the project, made by others, into their own local copy
@@ -63,8 +63,8 @@ Ultimately, the goal is to help you overcome some of the hurdles inherent in suc
 
 ## Preparatory Lessons
 
-* [Instructor Preparation](./prereq_instructor.md): Steps the instructor should take to prepare for the workshop.
-* [Student Preparation](./prereq_student.md): Steps the students should take to prepare for the workshop.
+* [Instructor Preparation](./prereq_instructor.md): Steps the instructor should take to prepare for the workshop
+* [Student Preparation](./prereq_student.md): Steps the students should take to prepare for the workshop
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |

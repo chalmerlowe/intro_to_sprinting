@@ -19,7 +19,7 @@ This workshop is intended to be as 'hands-on' as possible. While some lecture an
 * Hands-on practice labs to enable participants to practice all the skills in a supportive environment
 * Side-saddle mentoring and question answering
 * Pair programming to enable participants to help each other
-* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://carpentries.github.io/instructor-training/14-live/index.html) article.
+* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://carpentries.github.io/instructor-training/14-live/index.html) article
 
 
 ## What to do
@@ -47,8 +47,8 @@ IF you wish to experiment with a Coding Project Format and don't already have on
 
 ### Other pre-workshop reminders
 
-* Secure a location with a projector, tables, chairs, whiteboard, etc.
-* Advertise the session and process registrations, waitlist, etc.
+* Secure a location with a projector, tables, chairs, whiteboard, etc
+* Advertise the session and process registrations, waitlist, etc
 * Plan for food and beverages (the workshop is ~four hours in length)
 * Set up an online collaboration where participants can share resources, ideas, etc. Etherpad
 * Acquire supplies: post-it notes, pencils, markers, etc
@@ -64,7 +64,7 @@ IF you wish to experiment with a Coding Project Format and don't already have on
 * Thank the attendees for their participation
 * Issue a post-workshop survey (i.e. using Surveymonkey.com OR Google forms)
 * If you have suggestions OR found something that just doesn't work: submit an issue to the repo [Intro to Sprinting Workshop](https://github.com/chalmerlowe/intro_to_sprinting/issues/) OR
-* Better yet, work with your students to have them submit a Pull Request with suggestions or improvements.
+* Better yet, work with your students to have them submit a Pull Request with suggestions or improvements
 
 
 ## Resources
