@@ -12,14 +12,14 @@ N/A: these preparatory steps should be completed prior to the start of the cours
 
 This section is intended for the workshop **instructor**. It outlines what the instructor should do to successfully execute this workshop.
 
-This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following
+This workshop is intended to be as 'hands-on' as possible. While some lecture and demonstration is necessary, the focus is on having participants spend the majority of their time working on using the skills demonstrated. As such, the workshop focuses on the following:
 
 * Short sections of lecture to elaborate on the what and the why
 * Short demos to show participants what to do and what to expect
 * Hands-on practice labs to enable participants to practice all the skills in a supportive environment
 * Side-saddle mentoring and question answering
 * Pair programming to enable participants to help each other
-* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://swcarpentry.github.io/instructor-training/15-practices/) article.
+* We strongly recommend the teaching practices suggested by Software Carpentry, including: sticky notes, minute cards, one up/one down, using their own machines, collaborative note taking, pair programming, and the peak rule. For details on these, see this [Software Carpentry](https://carpentries.github.io/instructor-training/14-live/index.html) article.
 
 
 ## What to do
@@ -30,7 +30,11 @@ There are two ways to run this workshop... a short codeless format OR a longer v
 
 The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers `git`, GitHub, etc.
 
-### Coding Project Format:
+* Fork and clone the repository we will be using for the workshop
+* Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [chalmerlowe/intro_to_sprinting_codeless_project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project)
+* Duplicate the project into a new project of your own (**do not** fork, you want a completely separate copy of the project)
+
+### Coding Project Format: 
 
 The details of the Coding Project Format are still in the works. For Python-focused developers, a calculator-based project is under development that can be used to expand the workshop to a total of ~4 hours and allow the participants to learn more about Sprint experiences such as testing, continuous integration, code formatting, etc.
 

@@ -78,7 +78,7 @@ There are several nuances to understand about this:
 * You can do whatever you want to your copy >> you can change it to suit your needs (within the limits of copyright/the license on the project).
 * You do NOT have to explicitly share any of your changes back to the original author
 * GitHub will maintain a link, behind the scenes, for you, so that you can share your changes (we'll talk about that later)
-* Unless they go looking, no one at the original repo will generally even know/notice about the specific details of your changes until you tell them about it. (Caveat: finding your changes is not hard, but there is generally no reason for folks to go looking).
+* Unless they go looking, no one at the original repo will generally even know/notice about the specific details of your changes until you tell them about it. (Caveat: finding your changes is not hard, but there is generally no reason for folks to go looking.)
 
 
 ## Resources

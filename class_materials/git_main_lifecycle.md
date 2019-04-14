@@ -35,6 +35,7 @@ At any time, we can check the status of our `git` repository. Before we change a
 ```bash
 $ git status
 ```
+
 **NOTE**: Full details on the messages that appear are spelled out below in the **Big Picture/Deep Dive** discussion.
 
 **NOTE**: Using `git status` is completely **optional**, but strongly recommended.
@@ -64,13 +65,19 @@ Changes not staged for commit:
   (use "git checkout -- <file>..." to discard changes in working directory)
 
 	modified:   johnny_appleseed.txt
-
 ```
+
 ### Add the file to the staging area
 `git add` the file **you** edited to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
 
 ```bash
 $ git add johnny_appleseed.txt
+```
+
+If you need to add more than one file to the staging area, simply separate the filenames with a space:
+
+```bash
+$ git add <file1> <file2> ...
 ```
 
 ### Status check
@@ -123,6 +130,7 @@ $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 ```
+
 ### Status check, remote
 Now go to **your GitHub Repo** and confirm that the changes you made on your local computer are actually present in the files on GitHub. You should be able to surf to the file you edited and see the changes!
 
@@ -192,7 +200,7 @@ $ git add README.md
 
 This time, the status message is slightly different. The hints are different and the status announcements are new. Again, reading these status messages will help you get familiar with the commands AND hints AND will drive home the concepts related to local changes, staged changes, committed changes, etc.
 
-```
+```bash
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -223,7 +231,7 @@ In a later discussion, we will see how to see exactly what content changed.
 
 `git status` again comes to the rescue to help us confirm and understand the changes we have committed.
 
-```
+```bash
 $ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -263,7 +271,7 @@ The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identif
 
 Let's again use `git status` to look at the results of our work:
 
-```
+```bash
 $ git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
@@ -273,15 +281,6 @@ nothing to commit, working tree clean
 ... and everything is clean again, but now with our local change pushed to GitHub and available to the world. **IF** you go to **your GitHub repository**, you can see your changes via your web browser.
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
-
-### Adding multiple files
-
-If you need to add more than one file to the staging area, simply separate the filenames with a space:
-
-```bash
-$ git add <file1> <file2> ...
-```
-
 
 ## Resources
 

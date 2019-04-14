@@ -57,24 +57,27 @@ $ cd mytest
 ```bash
 $ conda create -n mytest python=3
 ```
+
 * Activate your virtual environment using the command appropriate to your operating system:
 
 #### <img src = "images/mac_icon.png" width="24" height="24"><img src = "images/linux_icon.jpg" width="24" height="24"> Mac/ Linux
 
 ```bash
 $ source activate mytest
+(mytest) $
 ```
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
 
 ```bat
 C:\> activate mytest
+(mytest) C:\>
 ```
 
 * Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
 
 ```bash
-conda install ipython mock
+(mytest) $ conda install ipython mock
 ```
 
 ## Done with commands for now!
@@ -114,6 +117,17 @@ NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
 
 ![Local Dirs with conda environments](images/conda_envs.png)
 
+As we install software libraries using `conda` in our new virtual environment, the virtual environment encapsulates/contains our entire development environment:
+
+* a specific version of `python`
+* the dependencies needed by that version of `python` (i.e. `sqlite`) 
+* other libraries you might need for that project (i.e. `numpy`)
+* other dependencies for those libraries (i.e. `libgfortran`, `mkl`, `mkl-fft`)
+
+Virtual environments are fairly easy and cheap to make, so it is trivial to create multiple environments. And since every project will have different needs in terms of version numbers, dependencies and libraries, as we see here... each of your virtualenvs can contain completely different versions without any interference between these sandboxes.
+
+![Local Dirs with conda environments](images/conda_envs_deps.png)
+
 
 ## Deep dive
 
@@ -148,7 +162,7 @@ Description:
 When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following.
 
 ```bash
-MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
+$ conda create -n mytest python=3
 Fetching package metadata .......
 Solving package specifications: ..........
 
@@ -199,12 +213,14 @@ To activate your virtualenv, run the appropriate command for your operating syst
 
 ```bash
 $ source activate mytest
+(mytest) $
 ```
 
 #### Windows
 
 ```bat
 C:\> activate mytest
+(mytest) C:\>
 ```
 
 **Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
@@ -215,8 +231,8 @@ To add more software to the virtualenv, you can use `conda` to install the softw
 
 For example, to install IPython, you can use the following `conda` command:
 
-```
-conda install ipython
+```bash
+$ conda install ipython
 ```
 
 Conda will prepare to install IPython and any dependencies that IPython relies upon. It will display output similar to the following (truncated to save space).

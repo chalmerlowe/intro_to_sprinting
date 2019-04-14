@@ -25,7 +25,7 @@ Having said that, the following will help with successfully completing this work
 
 ### Learning methods
 
-The workshop is about four hours and covers a lot of material (it may be broken into two days OR may be a single day event). Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
+The workshop is about two hours and covers a lot of material. Anything you can do to optimize your learning experience will be beneficial. Below are just some suggestions:
 
 * Ask questions. Lots of questions.
     * Take advantage of the fact that you are in a room with mentors to get your questions answered.
@@ -37,7 +37,7 @@ The workshop is about four hours and covers a lot of material (it may be broken 
 
 ### Using the command line
 
-In the hands-on practice session, you will be using command-line tools to contribute to a practice project, namely a calculator. If you don't feel comfortable with the command-line yet, see the Resources below for cheatsheets and references to a number of the most common commands:
+In the hands-on practice session, you will be using command-line tools to contribute to a codeless project. If you don't feel comfortable with the command-line yet, see the Resources below for cheatsheets and references to a number of the most common commands:
 
 
 

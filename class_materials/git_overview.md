@@ -5,16 +5,16 @@
 
 ## Overview
 
-Git is a version control system -- it enables you to control the various versions of your projects, such as open source projects.
+`git` is a version control system -- it enables you to control the various versions of your projects, such as open source projects.
 
-While Git is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy the project into their own **local repository**, where they can work on adding features and squashing bugs. When finished, they
-push the code to `origin`, for other contributers to see and/or pull from. Version control systems, along with managing changes to projects, also help ensure each contributor is working on the same codebase.
+While `git` is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy the project into their own **local repository**, where they can work on adding features and squashing bugs. When finished, they
+push the code to `origin`, for other contributors to see and/or pull from. Version control systems, along with managing changes to projects, also help ensure each contributor is working on the same codebase.
 
 ## Objectives
 
 Through participating in this session, attendees will be able to:
 
-* Understand why Git is used in an open source project
+* Understand why `git` is used in an open source project
 * Use basic `git` commands to:
     * get a copy of an open source project
     * save modifications/additions/deletions to the project

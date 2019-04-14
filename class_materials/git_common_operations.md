@@ -23,12 +23,12 @@ For this next exercise, we will change a single file and use the `git diff` tool
 1. Execute the following command:
 
 ```bash
-git diff
+$ git diff
 ```
 
 This will show you, in detail, the differences between the last version of the file that was committed via `git` and any changes you have since created. For details on how this is broken out, see the **Deep Dive** section.
 
-Once you are done, you can restore the modified file to it's original state by typing `git checkout -- beowolf.txt`. This essentialy tells Git to "undo" any changes to that file that are not yet staged or committed.
+Once you are done, you can restore the modified file to it's original state by typing `git checkout -- beowulf.txt`. This essentialy tells Git to "undo" any changes to that file that are not yet staged or committed.
 
 ## Done with commands for now!
 
@@ -52,7 +52,7 @@ It can be very helpful to see what's different between the file you are working 
 
 If I add a line to a file, I'll see something like this:
 
-```bash
+```diff
 $ git diff
 diff --git a/test.txt b/test.txt
 index 624b469..f8b6f0a 100644
@@ -73,7 +73,7 @@ Also you can see which line number(s) are involved in the change. The `@@` line 
 
 Similarly, if I remove a line:
 
-```bash
+```diff
 $ git diff
 diff --git a/test.txt b/test.txt
 index f8b6f0a..abe1f83 100644
@@ -91,7 +91,7 @@ Here, the `-` shows me the line that was removed, i.e. line 12. Notice that the 
 
 If I *change* a line, the change actually appears as a removed line AND an added line:
 
-```bash
+```diff
 $ git diff
 diff --git a/test.txt b/test.txt
 index abe1f83..6276304 100644
@@ -105,11 +105,12 @@ index abe1f83..6276304 100644
 +line eleven
  line 13
 ```
+
 The `@@` line tells you that the displayed content starts at line 8 and includes 5 lines (`8,5`) from the original file and then tells you that the displayed content also starts at line 8 and includes 5 lines (`8,5`) from the new file.
 
 A file with multiple changes would look like this:
 
-```bash
+```diff
 $ git diff
 diff --git a/test.txt b/test.txt
 index abe1f83..a3fc0c5 100644
