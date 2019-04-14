@@ -30,7 +30,7 @@ With a freshly cloned repo, we can make some edits and revisions to the Codeless
 * If you type `ls` (or `dir` in Windows) you should see multiple files.
 
 ### Status check
-At any time, we can check the status of our `git` repository. Before we change any files, let's check to see what the status of our repo is, by using `git status`
+At any time, we can check the status of our Git repository. Before we change any files, let's check to see what the status of our repo is, by using `git status`
 
 ```bash
 $ git status
@@ -67,14 +67,14 @@ Changes not staged for commit:
 
 ```
 ### Add the file to the staging area
-`git add` the file **you** edited to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
+`git add` the file **you** edited to the Git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
 
 ```bash
 $ git add johnny_appleseed.txt
 ```
 
 ### Status check
-Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
+Take a look at things now that the file has been staged, again using `git status` ... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
 
 ```bash
 $ git status
@@ -235,9 +235,9 @@ Here, like earlier, my working tree is again **clean** (all changes are committe
 
 ### Pushing files
 
-When pushing your commits to GitHub, the `git push` command will give you a summary of all the changes that it attempted to make. In the following case, we see that `git`:
+When pushing your commits to GitHub, the `git push` command will give you a summary of all the changes that it attempted to make. In the following case, we see that Git:
 
-* sent several objects (it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to `git` and not critical for you to worry about now).
+* sent several objects (it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to Git and not critical for you to worry about now).
 * compressed the data
 * wrote the data
 * reported back on where the data was sent
@@ -254,12 +254,12 @@ To github:myusername/my_repo.git
    98b2f3f..206546b  master -> master
 ```
 
-**About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
+**About Hashes**: without going into the computer science behind it, Git creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
 
 * pick specific commits to examine OR
 * specific commits to revert back to, if you find you need to undo a change to your repository.
 
-The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
+The seven digit numbers you see in Git and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
 
 Let's again use `git status` to look at the results of our work:
 
