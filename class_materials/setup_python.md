@@ -91,7 +91,7 @@ If you like reading, you can also keep reading this page.
 
 ## The big picture
 
-One area of confusion that often comes up when working on open source comes from the fact that at any given time, there may be multiple copies of the code (on your local computer, in your Github repository OR in the original project's repository).
+One area of confusion that often comes up when working on open source comes from the fact that at any given time, there may be multiple copies of the code (on your local computer, in your GitHub repository OR in the original project's repository).
 
 **TODO**: needs a description and imagery for using python virtualenvs this way
 
