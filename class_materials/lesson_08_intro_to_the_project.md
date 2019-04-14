@@ -18,11 +18,11 @@ Through participating in this session, attendees will be able to:
 **Reverse polish notation**, on the other hand, places the operator after the operands: 4 5 +.
 
 The following is from the [Reverse Polish Notation wikipedia article](https://en.wikipedia.org/wiki/Reverse_Polish_notation) (with minor modifications) and helps describe the difference between infix notation and reverse polish notation.
- 
+
     The infix expression "5 + ((1 + 2) × 4) − 3" can be written down like this in RPN:
-    
+
     5 1 2 + 4 × + 3 −
-    
+
     The expression is evaluated left-to-right, with the inputs interpreted as shown in the following table (the Stack is the list of values the algorithm is "keeping track of" after the Operation given in the middle column has taken place):
 
 
@@ -38,7 +38,7 @@ The following is from the [Reverse Polish Notation wikipedia article](https://en
 |3	|Operand	|3 17|	Push onto stack.|
 |−	|Operator	|14|	Pop the two operands (17, 3), calculate (17 - 3 = 14) and push the result onto stack.|
 
-    Result	14	
+    Result	14
     When a computation is finished, its result remains as the top (and only) value in the stack; in this case, 14
 
 ## The calculator
@@ -103,7 +103,7 @@ equal_to | eq | is **a** equal to **b**?
 minimum | min | return smallest value, i.e. either **a** or **b**
 maximum | max | return largest value, i.e. either **a** or **b**
 pi | pi | return pi (e.g. to 6 decimal places)
-factorial | ! | **a** factorial 
+factorial | ! | **a** factorial
 hypotenuse | hyp | hypotenuse of a triangle given lengths **a** and **b**
 deg\_to\_rad | deg\_to\_rad | convert degrees to radians
 rad\_to\_deg | rad\_to\_deg | convert radians to degrees
@@ -137,13 +137,13 @@ hidden_message | secret | see notes below
 secret = hide message in stack using numeric alphabet (e.g. a = 1, b = 2, etc.)..
 
 * extra bonus points if you write a function to retrieve your message
-* double bonus points if you find someone else's message 
+* double bonus points if you find someone else's message
 * triple bonus points if you find their message and change it :)
 
 
 ## Choose an issue
 
-* Select an issue in the project tracker<br> 
+* Select an issue in the project tracker<br>
 OR
 * Identify something you would like to work on and add an issue to the Github repo
 * Create a submission (addition, deletion, modification to the project)

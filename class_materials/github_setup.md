@@ -39,7 +39,7 @@ If you **DO NOT** have a GitHub account, you will need to make one:
 
 ### Get a copy of the project you want to work on
 
-If you are doing this in an instructor-led workshop, your instructor may provide a URL to a copy that they have made of our Codeless Project. 
+If you are doing this in an instructor-led workshop, your instructor may provide a URL to a copy that they have made of our Codeless Project.
 
 If you are doing this on your own (i.e. self-study), feel free to use our standard [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/).
 

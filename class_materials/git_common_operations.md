@@ -12,7 +12,7 @@
 
 Git has a number of capabilities to simplify your life, help you understand the status of your directory and improve your ability to communicate about your changes.
 
-When using `git`, sometimes you want to know more about the changes you are committing ... this is where `git diff` comes in. 
+When using `git`, sometimes you want to know more about the changes you are committing ... this is where `git diff` comes in.
 
 ## What to do
 
@@ -38,7 +38,7 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 ## The big picture
 
-With your own projects, for 95% of what you do, `git status` and `git diff` should be sufficient to regularly track your progress and confirm the changes you have made. You will use these commands, along with `git add`, `git commit`, `git push` more than any others. 
+With your own projects, for 95% of what you do, `git status` and `git diff` should be sufficient to regularly track your progress and confirm the changes you have made. You will use these commands, along with `git add`, `git commit`, `git push` more than any others.
 
 **NOTE:** We will cover several more advanced concepts in later discussions.
 

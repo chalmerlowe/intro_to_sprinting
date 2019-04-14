@@ -49,7 +49,7 @@ As noted above, `git` tracks changes to files in a database AND categorizes file
 
 ### Local directory
 
-The **local directory** is simply the directory on your computer and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the local warehouse in our example. 
+The **local directory** is simply the directory on your computer and it contains all your files, drafts, completed work, incomplete work, tools, etc. This material is uniquely yours. We can consider this to be the local warehouse in our example.
 
 Just like in a real warehouse, there are a wide variety of materials:
 
@@ -81,9 +81,9 @@ The **commit area** holds all the changes that you are going to release to the r
 
 ### Remote
 
-A **remote** is a repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere (i.e. on a server within your company OR an alternative to GitHub, like BitBucket OR GitLab). 
+A **remote** is a repository other than the local copy on your computer; this is typically stored somewhere like GitHub but can be just about anywhere (i.e. on a server within your company OR an alternative to GitHub, like BitBucket OR GitLab).
 
-Remotes are named, and the default name for the remote you `git clone` from is typically **origin**. 
+Remotes are named, and the default name for the remote you `git clone` from is typically **origin**.
 
 Another remote name you will hear often if you're submitting code to other people's projects is **upstream**, which usually refers to the original project you `fork` from.
 

@@ -32,9 +32,9 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 These are the two fundamental configurations needed to use `git`.
 
-**Note:** The `--global` option applies these settings to all `git` projects on your machine  
-* You only need to run this **once per computer**.  
-* To change a setting, simply re-run the command.  
+**Note:** The `--global` option applies these settings to all `git` projects on your machine
+* You only need to run this **once per computer**.
+* To change a setting, simply re-run the command.
 * To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `--global` option.
 
 Later sections of the workshop will go into greater depth on using `git`.

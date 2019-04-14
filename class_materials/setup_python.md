@@ -128,7 +128,7 @@ Description:
 
 Once you have created a virtual envvironment, you will need to activate it. Activation has several side effects:
 
-* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
+* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory.
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
     * Mac/Linux: `(mytest) $`
     * Windows: `(mytest) C:\>`
@@ -149,7 +149,7 @@ C:\> # TODO: need the right windows command
 
 **Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
 
-### Adding software to your virtualenv 
+### Adding software to your virtualenv
 
 To add more software to the virtualenv, you can use `pip` to install the software. The maintainers of `setuptools` (of which `pip` is a part) provide access to many Python and non-Python libraries via [PyPI](https://www.pypi.org), but not all of them. You can also use `pip` to install libraries directly from GitHub (if you need a particular commit of a package, for instance), but this is outside the scope of this lesson.
 

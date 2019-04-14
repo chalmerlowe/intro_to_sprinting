@@ -89,10 +89,10 @@ If you like reading, you can also keep reading this page.
 
 ### What is miniconda (`conda`) and why did we install it?
 
-Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to: 
+Miniconda contains the `conda` package manager and `Python`. `conda` is language agnostic, so you can also use it to support delivering this workshop with programming languages besides `Python`. Once miniconda is installed, you will be able to:
 
-* create virtual environments and 
-* manage separate installations of `Python` 
+* create virtual environments and
+* manage separate installations of `Python`
 * manage a large number of Python packages/libraries
 
 Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
@@ -109,7 +109,7 @@ When you create a virtualenv, conda will add subdirectories to the miniconda dir
 * a database and metadata about the virtualenv
 * software and libraries related to the project (i.e., Python and any modules you install in the virtualenv)
 
-NOTE: these folders are **NOT** duplicates of each other, but they **ARE** tied to one another. 
+NOTE: these folders are **NOT** duplicates of each other, but they **ARE** tied to one another.
 NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
 
 ![Local Dirs with conda environments](images/conda_envs.png)
@@ -145,7 +145,7 @@ Description:
 
 `python=3.2`
 
-When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following. 
+When you execute the `conda create` command, `conda` prepares to install Python and any dependencies that Python relies upon. It will display output similar to the following.
 
 ```bash
 MacComputer:intro_to_sprinting username$ conda create -n mytest python=3
@@ -188,7 +188,7 @@ To finish the creation of the virtualenv and install the software, press `y`.
 
 Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
 
-* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory. 
+* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory.
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
     * Mac/Linux: `(mytest) $`
     * Windows: `(mytest) C:\>`
@@ -209,7 +209,7 @@ C:\> activate mytest
 
 **Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
 
-### Adding software to your virtualenv 
+### Adding software to your virtualenv
 
 To add more software to the virtualenv, you can use `conda` to install the software. The maintainers of conda provide access to many Python and non-Python libraries, but not all of them. If conda cannot install a particular library that you need, you can generally use `pip` or a similar package installation tool to install it instead (covering `pip` is outside the scope of this workshop).
 
@@ -284,7 +284,7 @@ C:\>
 
 See the Resources section for links to other tools that are often used to create virtual environments and/or handle package management, like: `pip`, `venv`, `virtualenv`.
 
-Discussing these is outside the scope of this course. Using either of these tools should be very similar to using conda, but there may be nuances depending on your system, the tool you choose to use and your version of Python. 
+Discussing these is outside the scope of this course. Using either of these tools should be very similar to using conda, but there may be nuances depending on your system, the tool you choose to use and your version of Python.
 
 
 ## Resources

@@ -13,8 +13,8 @@ When you submit a pull request the original project developer may:
 * Respond back and ask that you refine your suggestion
 * Respond back and provide guidance or clarification on what is really needed
 * Respond back and let you know they won't be accepting the changes at all
-    * Maybe the project is moving in a different direction OR 
-    * changing technologies OR 
+    * Maybe the project is moving in a different direction OR
+    * changing technologies OR
     * someone suggested a better, faster, cheaper solution
 * Not respond back at all...
 

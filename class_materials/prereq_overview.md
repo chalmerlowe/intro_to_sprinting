@@ -32,7 +32,7 @@ This workshop does **not** cover...
 
 This is not a programming workshop, nor is it a Python workshop. It is intended to prep students to contribute to open source projects, it is not intended to teach students how to program.
 
-The example code in this version of the workshop is written in Python, but this project can be run using an example project in another programming language, if desired. 
+The example code in this version of the workshop is written in Python, but this project can be run using an example project in another programming language, if desired.
 
 
 ## Learning objectives
@@ -53,7 +53,7 @@ Ultimately, the goal is to help you overcome some of the hurdles inherent in suc
 
 > "...after nearly 60 years, an Open Hatch workshop, and two PyCon "How to Sprint" workshops, I think I'm beginning to get the hang of things. ;-)
 
-> I'm a BeeWare developer.​​ I have a new job title: Confirmed Yak Shaver. And I have the coin of the realm to prove it. ;-)" 
+> I'm a BeeWare developer.​​ I have a new job title: Confirmed Yak Shaver. And I have the coin of the realm to prove it. ;-)"
 
 > **Kevin Cole**
 

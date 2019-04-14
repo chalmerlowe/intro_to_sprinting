@@ -21,7 +21,7 @@ WHILE
 
 **Create a `mytest` folder**
 
-Find a folder where you can create a place to store your project files for today. Make it easy to get to! = ) 
+Find a folder where you can create a place to store your project files for today. Make it easy to get to! = )
 
 Then change directories to be in the folder...
 
