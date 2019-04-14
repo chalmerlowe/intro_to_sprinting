@@ -30,20 +30,20 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 ## The big picture
 
-These are the two fundamental configurations needed to use `git`.
+These are the two fundamental configurations needed to use Git.
 
-**Note:** The `--global` option applies these settings to all `git` projects on your machine  
+**Note:** The `--global` option applies these settings to all Git projects on your machine  
 * You only need to run this **once per computer**.  
 * To change a setting, simply re-run the command.  
 * To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `--global` option.
 
-Later sections of the workshop will go into greater depth on using `git`.
+Later sections of the workshop will go into greater depth on using Git.
 
 ## Deep dive
 
-`git` is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are many configurations that can be set for `git` but they are outside the scope of this workshop.
+Git is a command-line tool, and as such you will be doing a lot of typing when you work with it. There are many configurations that can be set for Git but they are outside the scope of this workshop.
 
-Because `git` is a command-line tool, if you need a primer for the command line, check out the [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy. If you just need a quick reference, check out the cheatsheets in **Resources** section below.
+Because Git is a command-line tool, if you need a primer for the command line, check out the [Learn the command-line](https://www.codecademy.com/learn/learn-the-command-line) course on Codecademy. If you just need a quick reference, check out the cheatsheets in **Resources** section below.
 
 
 ## Resources
