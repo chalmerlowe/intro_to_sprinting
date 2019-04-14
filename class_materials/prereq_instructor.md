@@ -48,6 +48,7 @@ IF you wish to experiment with a Coding Project Format and don't already have on
 ### Other pre-workshop reminders
 
 * Secure a location with a projector, tables, chairs, whiteboard, etc
+    * Don't forget to reserve the room starting about an hour prior to the start of the session so you have time to confirm everything is working as expected
 * Advertise the session and process registrations, waitlist, etc
 * Plan for food and beverages (the workshop is ~four hours in length)
 * Set up an online collaboration where participants can share resources, ideas, etc. Etherpad
@@ -58,6 +59,7 @@ IF you wish to experiment with a Coding Project Format and don't already have on
 * Set up the projector, tables, chairs
 * Pick up any food/beverages
 * Distribute post-it notes, pencils to each student
+* Time allowing, open the room as early as possible so that students can start [installing prerequisites](./prereq_student.md)
 
 ### Post workshop follow-up
 
