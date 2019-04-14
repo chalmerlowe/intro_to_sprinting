@@ -12,7 +12,7 @@
 
 With a fork of the project in your GitHub repository, it's time to `git clone` the project to your local computer, so you have a local copy on your machine to do work on. The project we will start with is a project that doesn't have any code in it. It is a project full of famous poems. This is on purpose. We want to start off by
 
-* practicing **the mechanics** of making changes and propogating those changes to the owner
+* practicing **the mechanics** of making changes and propagating those changes to the owner
 WHILE
 * **minimizing the fear** of breaking anything AND
 * **avoiding** having to figure out the nuances of someone else's code
@@ -47,7 +47,7 @@ The `clone` command will create a new folder in the `mytest` directory. Change d
 ```bash
 $ cd intro_to_sprinting_codeless_project
 ```
-Next, add a reference to the **original repo (i.e. Chalmer's repo)** using the `git remote` command. The reference is often referred to as an `upstream`:
+Next, add a reference to the **original repo (i.e., Chalmer's repo)** using the `git remote` command. The reference is often referred to as an `upstream`:
 
 ```bash
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
@@ -75,7 +75,7 @@ The following discussion will give you more insight into cloning repositories an
 $ git clone https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project.git
 ```
 
-The `clone` command creates a folder, which should be full of project files. `git` will automatically set up a link to a repository and will give it the default name: `origin` as a **remote** repository. In this case, it will point to **your** GitHub fork of the repository.
+The `clone` command creates a folder, which should be full of project files. Git will automatically set up a link to a repository and will give it the default name: `origin` as a **remote** repository. In this case, it will point to **your** GitHub fork of the repository.
 
 If you are curious, and want to confirm the link and the name of the remote repository, you can use the `git remote -v` command:
 
@@ -88,7 +88,7 @@ Here we see that for the `origin` remote repository, we have the ability to fetc
 
 As part of committing to open source projects, we want to get updates from the original repository (often called the `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done will interfere with any other work being done on the project.
 
-To enable `git` to find the `upstream` we use the following command:
+To enable Git to find the `upstream` we use the following command:
 
 ```bash
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
