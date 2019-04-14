@@ -145,7 +145,7 @@ secret = hide message in stack using numeric alphabet (e.g. a = 1, b = 2, etc.).
 
 * Select an issue in the project tracker<br> 
 OR
-* Identify something you would like to work on and add an issue to the Github repo
+* Identify something you would like to work on and add an issue to the GitHub repo
 * Create a submission (addition, deletion, modification to the project)
 * Stage your submission
 * Commit your submission
