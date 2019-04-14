@@ -7,8 +7,8 @@
 
 |Command|Comment|Reference
 |:---|:---|:---|
-|`<nobr>git clone [url]</nobr>`|downloads a copy of the repository from the given url (typically **your** GitHub repo)||
-|`<nobr>git remote add [alias] [url]</nobr>`<br>`<nobr>git remote add upstream [url]</nobr>`|adds an alias (often 'upstream') for a remote repository (repo) located at the `url` (the `upstream` repo will generally be the main project repo on GitHub)||
+|<code><nobr>git clone [url]</nobr></code>|downloads a copy of the repository from the given url (typically **your** GitHub repo)||
+|<code><nobr>git remote add [alias] [url]</nobr></code><br><code><nobr>git remote add upstream [url]</nobr></code>|adds an alias (often 'upstream') for a remote repository (repo) located at the `url` (the `upstream` repo will generally be the main project repo on GitHub)||
 
 ## When editing a project
 
