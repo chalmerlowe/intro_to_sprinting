@@ -74,7 +74,7 @@ $ source venv/bin/activate
 
 ```bat
 C:\> # TODO: need the windows command for this
-(venv) C:\>
+(venv) C:\>venv\Scripts\activate.bat
 ```
 
 * Install two additional packages to your virtual environment (as a suggestion, try `ipython` and `mock`) using the following command:
@@ -147,7 +147,7 @@ $ source venv/bin/activate
 #### Windows
 
 ```bat
-C:\> # TODO: need the right windows command
+C:\>venv\Scripts\activate.bat
 (venv) C:\>
 ```
 
