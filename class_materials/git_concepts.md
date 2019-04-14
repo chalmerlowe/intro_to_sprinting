@@ -38,7 +38,7 @@ You can reach this video, here: [Git Happens](https://www.youtube.com/watch?v=yC
 
 ## Deep dive
 
-As noted above, `git` tracks changes to files in a database AND categorizes files in the following ways:
+As noted above, Git tracks changes to files in a database AND categorizes files in the following ways:
 
 ||Category|Analogy|
 |:---|:----|:----|
