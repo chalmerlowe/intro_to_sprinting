@@ -150,7 +150,7 @@ $ conda create -n mytest python=3
 ```
 
 Description:
-* `conda` runs the conda program.
+* `conda` runs the conda program
 * `create` tells it to create a virtualenv
 * `-n` identifies the name of the virtualenv, in this case, `mytest`
 * `python=3` tells conda that you want to install Python version 3 in this virtualenv
@@ -202,7 +202,7 @@ To finish the creation of the virtualenv and install the software, press `y`.
 
 Once you have created a virtualenv, you will need to activate it. Activation has several side effects:
 
-* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory.
+* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
     * Mac/Linux: `(mytest) $`
     * Windows: `(mytest) C:\>`

@@ -281,7 +281,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Since `git` tells us what file failed to merge, we can immediately take a look. Open the file with a text editor and you should see that the file now includes:
 
 * text from both sources
-* three extra lines with special symbols to segregate the material in conflict from each other and from the file as a whole.
+* three extra lines with special symbols to segregate the material in conflict from each other and from the file as a whole
    * seven "less than" chevrons and a reference to the current branch using the special label `HEAD`: `<<<<<<< HEAD`
    * seven "equals signs": `=======`
    * seven "greater than" chevrons and a reference to the branch you attempted to merge in: `>>>>>>> conflict-merge`
@@ -346,7 +346,7 @@ $ git push
 
 ## Resources
 
-* [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) includes discussion on conflict resolution.
+* [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging) includes discussion on conflict resolution
 * [Git advanced merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 
 <!-- begin auto-generated nav-links section -->

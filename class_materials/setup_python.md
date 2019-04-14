@@ -120,7 +120,7 @@ $ virtualenv venv --python=$(which python3)
 
 Description:
 
-* `virtualenv` runs the virtual environment creation program.
+* `virtualenv` runs the virtual environment creation program
 * `venv` is the name of the directory to use for the virtualenv
 * `--python=$(which python3)` tells `virtualenv` that you want to install Python version 3 in this virtualenv
     * by default, `virtualenv` will install whichever version of python you have set as the default (run `python --version` to see which version this is)
@@ -130,7 +130,7 @@ Description:
 
 Once you have created a virtual envvironment, you will need to activate it. Activation has several side effects:
 
-* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory.
+* It temporarily changes your `$PATH` variable so calls to the `python` command (and similar commands) will look first in the virtualenv's `bin/` directory
 * It temporarily changes your shell prompt to show which virtualenv you are using. Your prompt will likely look something like this, with the name of your virtualenv in parenthesis in front of the prompt:
     * Mac/Linux: `(venv) $`
     * Windows: `(venv) C:\>`
