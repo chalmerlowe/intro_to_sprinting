@@ -5,7 +5,7 @@
 
 ## Overview
 
-When you start working with live projects, there are additional things you will need to configure besides `git`, including:
+When you start working with live projects, there are additional things you will need to configure besides Git, including:
 
 * editors
 * build tooling
