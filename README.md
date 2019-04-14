@@ -30,14 +30,14 @@ This project aims to fix some of these problems by having materials and instruct
 
 This workshop provides a high-level overview of the steps, tools and tradecraft needed to introduce beginners to open source sprints. The workshop provides lecture/demo **AND** lots of hands-on in the following areas.
 
-* Using version control tools such as git and github
+* Using version control tools such as Git and GitHub
 * Hands-on: Creating additions and changes to an open source project
 * Getting those changes incorporated into the project via pull requests
 * Understanding, creating, and using virtual environments
 
 In addition, the overview will include numerous resources for self-study.
 
-This project is based on anaconda, git, and github for Python sprints.
+This project is based on Anaconda, Git, and GitHub for Python sprints.
 This project can be modified for the needs of other sprints and other languages.
 
 # Prerequisites

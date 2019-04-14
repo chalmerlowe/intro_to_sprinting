@@ -39,12 +39,12 @@ The example code in this version of the workshop is written in Python, but this 
 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
 
-* Be able to install the following software: `conda`, `git`, etc
-* Be able to use `git` and GitHub to create a copy of an open source project on their own computer
+* Be able to install the following software: conda, Git, etc.
+* Be able to use Git and GitHub to create a copy of an open source project on their own 
 * Upon editing, adding, or deleting content in a project:
-  * incorporate any changes to the project, made by others, into their own local copy
-  * correct any conflicts between their changes and others' changes
-  * successfully issue a request for their contribution to be added to the open source project
+* incorporate any changes to the project, made by others, into their own local copy
+* correct any conflicts between their changes and others' changes
+* successfully issue a request for their contribution to be added to the open source project
 * Be able to create a virtual environment (if working in Python)
 
 Ultimately, the goal is to help you overcome some of the hurdles inherent in successfully contributing to an open source project...
