@@ -7,19 +7,19 @@
 
 |Command|Comment|Reference
 |:---|:---|:---|
-|<code>git&nbsp;clone&nbsp;[url]</code>|downloads a copy of the repository from the given url (typically **your** GitHub repo)||
-|<code>git&nbsp;remote&nbsp;add&nbsp;[alias]&nbsp;[url]</code><br><code>git&nbsp;remote&nbsp;add&nbsp;upstream&nbsp;[url]</code>|adds an alias (often 'upstream') for a remote repository (repo) located at the `url` (the `upstream` repo will generally be the main project repo on GitHub)||
+|<nobr>`git clone [url]`</nobr>|downloads a copy of the repository from the given url (typically **your** GitHub repo)||
+|<nobr>`git remote add [alias] [url]`</nobr><br><nobr>`git remote add upstream [url]`</nobr>|adds an alias (often 'upstream') for a remote repository (repo) located at the `url` (the `upstream` repo will generally be the main project repo on GitHub)||
 
 ## When editing a project
 
 |Command|Comment|Reference|
 |:---|:---|:---|
-|<code>git&nbsp;status</code>|shows files and the status of the local git repo (i.e. staged for next commit, modified, etc. Also shows frequently used commands to take you to the next step) ||
-|<code>git&nbsp;add&nbsp;[file]</code><br><code>git&nbsp;add&nbsp;[file]&nbsp;[file]&nbsp;[file]</code>|add a file to the staging area in preparation for commit||
-|<code>git commit&nbsp;-m&nbsp;"[descriptive&nbsp;msg]"</code>|commit your staged content||
-|<code>git&nbsp;checkout&nbsp;-b&nbsp;[branchname]</code>|create a new branch||
-|<code>git&nbsp;checkout&nbsp;master</code>|checkout the `master` branch||
-|<code>git&nbsp;merge&nbsp;[branchname]</code>|merge the specified branch into the current branch (often `master`)||
-|<code>git&nbsp;push&nbsp;[alias]&nbsp;[branch]</code><br><code>git&nbsp;push&nbsp;origin&nbsp;master</code>|push the committed changes in the branch (often `master`) to the matching branch on the repo represented by the alias (often `origin`) ||
-|<code>git&nbsp;branch&nbsp;-d&nbsp;[branchname]</code>|delete a branch after it has been successfully merged||
+|<nobr>`git status`|shows files and the status of the local git repo (i.e. staged for next commit, modified, etc. Also shows frequently used commands to take you to the next step) ||
+|<nobr>`git add [file]`</nobr><br><nobr>`git add [file] [file] [file]`</nobr>|add a file to the staging area in preparation for commit||
+|<nobr>`git commit -m "[descriptive msg]"`</nobr>|commit your staged content||
+|<nobr>`git checkout -b [branchname]`</nobr>|create a new branch||
+|<nobr>`git checkout master`</nobr>|checkout the `master` branch||
+|<nobr>`git merge [branchname]`</nobr>|merge the specified branch into the current branch (often `master`)||
+|<nobr>`git push [alias] [branch]`</nobr><br><nobr>`git push origin master`</nobr>|push the committed changes in the branch (often `master`) to the matching branch on the repo represented by the alias (often `origin` ||
+|<nobr>`git branch -d [branchname]`</nobr>|delete a branch after it has been successfully merged||
 ||||
