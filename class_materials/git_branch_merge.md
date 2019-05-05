@@ -172,6 +172,7 @@ $ git branch -d appleseed-feature
 
 * [Git Branching - Branches in a Nutshell](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell)
 * [Git Branching - Basic Branching and Merging](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+* [Advanced Git](https://youtu.be/4EOZvow1mk4) - a great talk about some commands that will make working with multiple branches easier
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
