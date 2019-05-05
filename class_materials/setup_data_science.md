@@ -25,7 +25,7 @@ Through participating in this session, attendees will be able to:
 
 ### Step One: Download and Install `conda`
 
-Follow the instructions for your operating system in the [miniconda quickstart guide](http://conda.pydata.org/docs/install/quick.html). Use a **Python 3** version of conda.
+Follow the instructions for your operating system in the [miniconda quickstart guide](https://docs.conda.io/en/latest/miniconda.html). Use a **Python 3** version of conda.
 
 ### Step Two: Confirm your `conda` install
 
