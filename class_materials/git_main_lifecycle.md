@@ -21,7 +21,7 @@ In this section, we will cover a number of commands, but the principles are fair
 
 This portion of the workshop presumes the following:
 
-1. you have **forked** the Codeless Project to your repo (NOTE: either our version if you are doing self study [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) or a copy identified for you by your workshop instructor.
+1. you have **forked** the Codeless Project to your repo (NOTE: either our version if you are doing self study via the [Codeless Project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project/) or a copy identified for you by your workshop instructor.
 1. you have **cloned** the Codeless Project repo into your local `mytest` directory
 1. you are in the `intro_to_sprinting_codeless_project` directory on your commandline
 
