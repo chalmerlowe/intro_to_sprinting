@@ -120,7 +120,7 @@ NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
 As we install software libraries using `conda` in our new virtual environment, the virtual environment encapsulates/contains our entire development environment:
 
 * a specific version of `python`
-* the dependencies needed by that version of `python` (i.e. `sqlite`) 
+* the dependencies needed by that version of `python` (i.e. `sqlite`)
 * other libraries you might need for that project (i.e. `numpy`)
 * other dependencies for those libraries (i.e. `libgfortran`, `mkl`, `mkl-fft`)
 

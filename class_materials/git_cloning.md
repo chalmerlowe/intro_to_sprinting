@@ -21,7 +21,7 @@ WHILE
 
 **Create a `mytest` folder**
 
-Open a command prompt OR terminal and navigate to a folder/directory where you want to store the project files for today's project. The folder you pick should be somewhere that you can find easily. = ) 
+Open a command prompt OR terminal and navigate to a folder/directory where you want to store the project files for today's project. The folder you pick should be somewhere that you can find easily. = )
 
 Inside your chosen folder, you will make a **new folder** called `mytest` and the you will change directories into the `mytest` folder:
 
