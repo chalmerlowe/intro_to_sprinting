@@ -5,17 +5,17 @@
 
 ## Overview
 
-`git` is a version control system -- it enables you to control the various versions of your projects, such as open source projects.
+Git is a version control system -- it enables you to control the various versions of your projects, such as open source projects.
 
-While `git` is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy the project into their own **local repository**, where they can work on adding features and squashing bugs. When finished, they
+While Git is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy the project into their own **local repository**, where they can work on adding features and squashing bugs. When finished, they
 push the code to `origin`, for other contributors to see and/or pull from. Version control systems, along with managing changes to projects, also help ensure each contributor is working on the same codebase.
 
 ## Objectives
 
 Through participating in this session, attendees will be able to:
 
-* Understand why `git` is used in an open source project
-* Use basic `git` commands to:
+* Understand why Git is used in an open source project
+* Use basic Git commands to:
     * get a copy of an open source project
     * save modifications/additions/deletions to the project
     * submit those changes to the project
@@ -23,12 +23,12 @@ Through participating in this session, attendees will be able to:
     * verify the status of the project repository
     * perform basic troubleshooting
 
-**NOTE**: this will be a **hands-on** overview of `git`. It is incredibly powerful with many options and capabilities. The goal is to get you **started** with `git`, but it will take time and practice on your own to make you into an expert.
+**NOTE**: this will be a **hands-on** overview of Git. It is incredibly powerful with many options and capabilities. The goal is to get you **started** with Git, but it will take time and practice on your own to make you into an expert.
 
 
 ### Command-line interface
 
-We will be using `git` from the command line in this course. There are a lot of commands, and they can be kind of confusing. That's OK... it will start to make sense once you do it a few times. And that's why you're here!
+We will be using Git from the command line in this course. There are a lot of commands, and they can be kind of confusing. That's OK... it will start to make sense once you do it a few times. And that's why you're here!
 
 ### Graphical User Interface (GUI)-based `git` tools
 

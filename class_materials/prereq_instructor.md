@@ -28,7 +28,7 @@ There are two ways to run this workshop... a short codeless format OR a longer v
 
 ### Codeless Format:
 
-The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers `git`, GitHub, etc.
+The Codeless Format can generally be handled in ~2 hours and doesn't require any code writing, but does include some commandline usage and covers Git, GitHub, etc.
 
 * Fork and clone the repository we will be using for the workshop
 * Log-in to GitHub (create a GitHub account if you don't have one already) and navigate to [chalmerlowe/intro_to_sprinting_codeless_project](https://github.com/chalmerlowe/intro_to_sprinting_codeless_project)

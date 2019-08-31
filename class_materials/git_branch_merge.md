@@ -28,7 +28,7 @@ Branches should be small and self-contained so that they can be merged easily. S
 
 A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
 
-**Create a new branch** & cause `git` to begin tracking changes in that branch
+**Create a new branch** & cause Git to begin tracking changes in that branch
 
 ```bash
 $ git checkout -b appleseed-feature     # "-b" creates a new branch named "appleseed-feature"
@@ -123,7 +123,7 @@ Besides `git add`, `git commit`, `git push`, the next logical step is to grow fa
 $ git checkout -b appleseed-feature
 ```
 
-What makes a good branch name? What are the rules for naming branches? This is a short list of rules (for a complete list, see the [git man pages](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format.html).
+What makes a good branch name? What are the rules for naming branches? This is a short list of rules (for a complete list, see the [Git man pages](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format.html).
 
 * They cannot have two consecutive dots `..` anywhere
 * They cannot contain a `\`
@@ -147,7 +147,7 @@ $ git commit -m "added edits to johnny's history"
 
 #### Merge your changes into the master branch
 
-As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by `git` and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
+As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by Git and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
 
 For now, we will presume that there are no conflicts between your changes and other changes. With that premise in mind, you can merge your code and your local copy of the `upstream` repo.
 

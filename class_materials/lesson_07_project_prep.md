@@ -14,7 +14,7 @@ Through participating in this session, attendees will be able to:
     * setup a virtual environment specific to this project
     * activate the virtualenv
     * install the software required for the project in the virtualenv
-    * fork the project to your Github repo
+    * fork the project to your GitHub repo
     * clone the project to your local directory
 * Review the major steps performed when making changes
 * Review the major steps when issuing a Pull Request
@@ -39,12 +39,12 @@ Follow the directions below, depending on your operating system.
 1. `activate rpncalc`
 1. `conda install ipython`
 
-## Fork the RPN Calculator project on github
+## Fork the RPN Calculator project on GitHub
 
 You will need to fork the calculator repo.
 
-1. Navigate to this github repo: [RPN Calculator](https://github.com/chalmerlowe/python-rpncalc-20170506)
-2. Click on the **Fork** button to fork the repo to your github account
+1. Navigate to this GitHub repo: [RPN Calculator](https://github.com/chalmerlowe/python-rpncalc-20170506)
+2. Click on the **Fork** button to fork the repo to your GitHub account
 
 ## Clone the repo to your desktop
 
@@ -61,7 +61,7 @@ Add the upstream repo:
 $ git remote add upstream https://github.com/chalmerlowe/python-rpncalc-20170506.git
 ```
 
-Confirm that git has stored the correct upstream repository with this command:
+Confirm that Git has stored the correct upstream repository with this command:
 
 ```bash
 $ git remote -v
@@ -101,11 +101,11 @@ $ git push
 
 ## Pull Requests
 
-Navigate via your browser to your Github account:
+Navigate via your browser to your GitHub account:
 
 1. Click on "**New Pull Request**" button
 
-You will be transferred to the original project Github Repo:
+You will be transferred to the original project GitHub Repo:
 
 1. Click on "**Create pull request**" button
 1. Add summary notes
