@@ -11,7 +11,6 @@ During this portion of the workshop, we will be installing software and configur
 
 1. [Installing the Software You'll Need](./installing_tools.md)
 1. [Setting up GitHub](./github_setup.md)
-1. [Forking a Repository](./fork_a_repo.md)
 1. [Setting up Git](./git_config.md)
 
 <!-- begin auto-generated nav-links section -->
