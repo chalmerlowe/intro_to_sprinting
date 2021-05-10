@@ -13,7 +13,7 @@ It can be used in multiple ways:
 
 At many programming conferences, time is set aside for developers to come together to work on open source projects (called sprints or sprinting). Many project leaders welcome new developers of all skill levels to contribute. This works fine if a newcomer has contributed to a project before and has an understanding of the tools and processes.
 
-The struggle for both the project maintainer and the newcomer has been that beginners often have a very steep learning curve and need to learn too many new tools and new skills before they can successfully contribute.
+The struggle for both the project maintainer and the newcomer has been that beginners often have a significant learning curve and need to become familiar with too many new tools and new skills before they can successfully contribute.
 
 They often turn to the sprint leader for help and mentoring on the basics of "contributing to open source". Things like these are fundamental skills, most of which are not specific to a given project.
 
@@ -37,7 +37,7 @@ This workshop provides a high-level overview of the steps, tools and tradecraft 
 
 In addition, the overview will include numerous resources for self-study.
 
-This project is based on anaconda, git, and github for Python sprints.
+This project is based on conda, git, and github for Python sprints.
 This project can be modified for the needs of other sprints and other languages.
 
 # Prerequisites
