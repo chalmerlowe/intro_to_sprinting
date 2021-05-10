@@ -15,7 +15,7 @@ In this section, we will cover a number of commands, but the principles are fair
 * Determine the **status** of your local directory
 * **Add** a file to the staging area
 * **Commit** that file for the historical record
-* **Push** the file to your GitHub repo
+* **Push** the file to **your** GitHub repo
 
 ## What to do
 
@@ -27,7 +27,15 @@ This portion of the workshop presumes the following:
 
 With a freshly cloned repo, we can make some edits and revisions to the Codeless Project, which is full of poetry files.
 
-* If you type `ls` (or `dir` in Windows) you should see multiple files
+If you type `ls` (or `dir` if you are using Windows) you should see multiple files, such as:
+
+* annabel_lee.txt
+* beowulf.txt
+* do_not_go_gentle.txt
+* the raven.txt
+* jabberwocky.txt
+* etc
+
 
 ### Status check
 At any time, we can check the status of our `git` repository. Before we change any files, let's check to see what the status of our repo is, by using `git status`
@@ -38,7 +46,7 @@ $ git status
 
 **NOTE**: Full details on the messages that appear are spelled out below in the **Big Picture/Deep Dive** discussion.
 
-**NOTE**: Using `git status` is completely **optional**, but strongly recommended.
+**NOTE**: Using `git status` is completely **optional**, but strongly recommended. As you learn how each of the `git` commands change the state of your repository it can provide feedback and better understanding.
 
 
 ### Pick a file and edit it.
@@ -47,7 +55,7 @@ $ git status
 1. Select a file to edit and open the file in your editor/IDE.
     * **NOTE**: this workshop is intended for all audiences (and may include youth), so in making the following changes, please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
 
-1. Make a simple change:
+1. Make a simple change, such as:
     * Change any line, word or phrase
     * Add a new line
     * Delete a line
@@ -68,7 +76,7 @@ Changes not staged for commit:
 ```
 
 ### Add the file to the staging area
-`git add` the file **you** edited to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
+We now add the file **you** edited to the git staging area using the `git add` command. **ENSURE** you replace `johnny_appleseed.txt` with the actual name of the file.
 
 ```bash
 $ git add johnny_appleseed.txt
@@ -81,7 +89,7 @@ $ git add <file1> <file2> ...
 ```
 
 ### Status check
-Take a look at things now that the file has been staged, again using `git status`... We should notice that a line in the output identifies that a text file has been modified AND is now ready to be committed.
+Take a look at things now that the file has been staged, again using `git status`... We should notice that the output identifies that a text file has been modified AND is now ready to be committed.
 
 ```bash
 $ git status
@@ -95,13 +103,13 @@ Changes to be committed:
 ### Commit your changes
 
 
-`git commit` your changes when you are ready to make a permanent record of them. It is customary to add a short descriptive message (using the `-m` option) describing your changes, whenever you commit.
+We use `git commit` to commit your changes when you are ready to make a permanent record of them. It is customary to add a short descriptive message (using the `-m` option) describing your changes, whenever you commit.
 
 ```bash
 $ git commit -m "Description of changes"
 ```
 
-**NOTE**: Commit messages should be short (typically 50 characters or less). See the **Resources** below for more details on commit messages.
+> **NOTE**: Commit messages should be short (typically 50 characters or less). See the **Resources** below for more details on commit messages.
 
 ### Status check
 Take a look at things now that the file has been committed, again using `git status`... We should notice a line in the output identifies that your files are ahead of/or no longer in sync with the files in **your GitHub repo**.
@@ -109,26 +117,29 @@ Take a look at things now that the file has been committed, again using `git sta
 ```bash
 $ git status
 # abbreviated for clarity
-Your branch is ahead of 'origin/master' by 1 commit.
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 ```
 
 ### Push your changes to your GitHub repo:
+
+> **NOTE**: historically, git repositories used the term `master` to indicate the main branch OR the latest branch of a repository. This term comes with some negative connotations and as such, many open source development teams have changed the name of the main branch in their repository to be `main`. Both the **Intro to Sprinting** and the **Intro to Sprinting Codeless Project** have set our primary branch name to be main. Having said that, in other tutorials, in other repos, etc you may still find references to `master`.
+
 Push the commit to **your** GitHub repo with `git push`:
 
 ```bash
-$ git push origin master
+$ git push origin main
 ```
 
-In this case, you are pushing your `master` branch (i.e., the main branch you have been working on) to **origin**, your GitHub repository. We will discuss branching in more depth later.
+In this case, you are pushing your `main` branch (i.e., the main branch you have been working on) to **origin**, your GitHub repository. We will discuss branching in more depth later.
 
 ### Status check, local
-Take a look at things now that the file has been pushed, again using `git status`... We should notice a line in the output identifies that your `master` branch is up-to-date/or in sync with **your GitHub repo** (`origin`).
+Take a look at things now that the file has been pushed, again using `git status`... We should notice a line in the output identifies that your `main` branch is up-to-date/or in sync with **your GitHub repo** (`origin`).
 
 ```bash
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 ```
 
 ### Status check, remote
@@ -136,7 +147,7 @@ Now go to **your GitHub Repo** and confirm that the changes you made on your loc
 
 ## Done with commands for now!
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done. Feel free to read the following sections to learn more about some of steps you just completed.
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
@@ -162,11 +173,13 @@ Especially for beginners, understanding the state of your local directory is cri
 
 Since some of our messages above were abbreviated for clarity, let's look more deeply into what we really get from `git status`. Get into the habit of reading the status messages after every command you type and you will quickly hone in on the feedback you need. The following command tells you that right now, your local copy matches what your computer last heard is in your GitHub server... everything is **clean**.
 
+> **NOTE**: git does not check the remote repository every time you do this. It simply compares the state of your files since the last time it checked in with that remote repository.
+
 
 ```bash
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
@@ -174,8 +187,8 @@ If you have locally changed files that are in a **working** state (not yet **sta
 
 ```bash
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -185,10 +198,14 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-This says the file called "README.md" is changed locally but not yet staged. Note particularly that there are several helper messages in there that tell me how to:
+This says the file called "README.md" is changed locally but not yet staged. 
+
+> **NOTE**: There are several helper messages in the above status report that tell us how to:
 
 * **add** the README.md file to the staging area
 * **revert** the README.md (i.e. get it back to the way it was before I made my change)
+
+These helper messages show up regularly in `git status` (and elsewhere, to point you in the right direction for the most common use cases).
 
 ### Staging files
 
@@ -202,15 +219,15 @@ This time, the status message is slightly different. The hints are different and
 
 ```bash
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
 	modified:   README.md
 ```
 
-Now we can see that the file is **staged**, but not yet **committed**. We can also see the hint `git reset HEAD` for what to type to if we need to move a given file back to an unstaged state.
+Now we can see that the file is **staged**, but not yet **committed**. We can also see the hint `git reset HEAD` for what to type if we need to move a given file back to an unstaged state.
 
 ### Committing files
 
@@ -218,34 +235,34 @@ Next I want to commit the file (i.e. load it on the truck) using `git commit -m 
 
 ```bash
 $ git commit -m "my short description of the work"
-[master 206546b] my short description of the work
+[main 206546b] my short description of the work
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
-In this case, the output tells me several things:
+In this case, the immediate output from the `git commit` command tells me several things:
 
 * it repeats my commit message
 * lets me know what types of changes occurred: 1 file changed, 1 line was inserted, 1 line was deleted (i.e., I swapped out a line)
 
-In a later discussion, we will see how to see exactly what content changed.
+In a later discussion, we will discuss how to see exactly what content changed.
 
 `git status` again comes to the rescue to help us confirm and understand the changes we have committed.
 
 ```bash
 $ git status
-On branch master
-Your branch is ahead of 'origin/master' by 1 commit.
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
 nothing to commit, working tree clean
 ```
 
-Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see the hint message that guides me on what to type to `git push` the file up to my **GitHub repo** (`origin`).
+Here, like earlier, my working tree is again **clean** (all changes are committed). However, unlike before, I have some changes in my local repository that are not yet on the remote server. Like all other status messages, I can see the hint message that provides guidance on how to proceed: i.e. type `git push` to send the file up to **my GitHub repo** (`origin`).
 
 ### Pushing files
 
-When pushing your commits to GitHub, the `git push` command will give you a summary of all the changes that it attempted to make. In the following case, we see that `git`:
+When pushing your commits to GitHub, the `git push` command will give you a summary of all the changes that it attempted to make. In the following case, we see that `git push`:
 
-* sent several objects (it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to `git` and not critical for you to worry about now)
+* sent several objects (NOTE: it is normal for multiple objects to be sent up even if you only changed one file. Those other items are internal to `git` and not critical for you to worry about now)
 * compressed the data
 * wrote the data
 * reported back on where the data was sent
@@ -259,26 +276,25 @@ Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 284 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
 To github:myusername/my_repo.git
-   98b2f3f..206546b  master -> master
+   98b2f3f..206546b  main -> main
 ```
 
-**About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
-
-* pick specific commits to examine OR
-* specific commits to revert back to, if you find you need to undo a change to your repository
-
-The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number.
+> **About Hashes**: without going into the computer science behind it, `git` creates a unique value called a `hash` for every change that gets committed. Because hashes are unique values, they allow you to:
+> * pick specific commits to examine OR
+> * specific commits to revert back to, if you find you need to undo a change to your repository
+>
+> The seven digit numbers you see in `git` and on GitHub (e.g., `206546b`) identify a specific change and are a short form for a longer hash number. Generally, about seven or eight digits are sufficient to uniquely identify a specific hash number within a git repository. A sample of the longer form of a hash might look like this: `206546b828dd2e0e34bb20041dec0a029348133f`
 
 Let's again use `git status` to look at the results of our work:
 
 ```bash
 $ git status
-On branch master
-Your branch is up-to-date with 'origin/master'.
+On branch main
+Your branch is up-to-date with 'origin/main'.
 nothing to commit, working tree clean
 ```
 
-... and everything is clean again, but now with our local change pushed to GitHub and available to the world. **IF** you go to **your GitHub repository**, you can see your changes via your web browser.
+... and everything is clean again, but now with our local change has been pushed to GitHub and available to the world. **IF** you go to **your GitHub repository**, you can see your changes via your web browser.
 
 Get in the habit of using `git status` regularly, it is probably the most informative and helpful command for understanding exactly what's going on.
 
