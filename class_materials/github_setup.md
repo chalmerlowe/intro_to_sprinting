@@ -10,15 +10,24 @@
 
 ## Overview
 
-GitHub is a web-based version control repository. It also serves as an Internet hosting service. GitHub provides the functionality of `Git` (like distributed version control and source code management). It also offers bug tracking, task management, wikis, gists, feature requests and more. GitHub is the world's largest repository for source code. GitHub is used in tandem with `Git` to make changes, share changes, deal with conflicts and enable project participants to synchronize their work.
+GitHub is a web-based version control repository. It also serves as an Internet hosting service. GitHub provides the functionality of `Git` (such as distributed version control and source code management). It also offers:
+
+* bug tracking
+* task management
+* wikis
+* gists
+* feature requests
+* and more. 
+
+GitHub is the world's largest repository for source code. GitHub is used in tandem with `Git` to make changes, share changes, deal with conflicts and enable project participants to synchronize their work.
 
 
 ## Objectives
 
 Through participating in this session, attendees will be able to:
 
-* Understand why GitHub is used in an open source project
-* Use some basic features of GitHub to prepare for contributing to a project, including creating a copy of the project
+* Understand why GitHub is used to support open source projects
+* Use some basic features of GitHub to prepare for contributing to a project, including creating a copy of the project (i.e. a fork)
 
 A later session will discuss features and capabilities of GitHub and will discuss additional steps in the open source process such as issuing a **pull request**, etc.
 
@@ -30,12 +39,16 @@ If you **ALREADY** have a GitHub account, log into your regular account.
 
 If you **DO NOT** have a GitHub account, you will need to make one:
 
-1. Open your browser and navigate to the [GitHub Home Page](https://github.com/)
-2. Fill out the form on the home page:
-   * Pick a username (you will need a unique username)
-   * Enter your email address
-   * Create a password
-3. Click "Sign up for GitHub"
+1. Open your browser and navigate to the [Join GitHub Account Creation](https://github.com/join) page.
+2. Initiate an accoount sign-up:
+Fill out the form on the home page:
+   
+   * Enter a username in the Username field (NOTE: you will need a unique username)
+   * Enter your email address in the Email address field
+   * Enter a password in the Password field
+   * Select your email preference via the Email preference checkbox
+   * If necessary, verify your account via the Verify your account widget.
+3. Click the "Create Account" button
 
 ### Get a copy of the project you want to work on
 
@@ -50,12 +63,12 @@ Fork a copy of the Codeless Project into your GitHub acccount:
 ![Fork a Repo Button](images/fork-repo-icon.png)
 1. Click the Fork button to to create a fork under your account
 
-**NOTE**:  The fork refers back to the original repo - if you look under your repo name, you'll see it should look something like this: "`forked from chalmerlowe/intro_to_sprinting_codeless_project:`" much like this example from `sigsevneo`'s repository.<br>
+**NOTE**:  The fork refers back to the original repository - if you look under your repository name, you'll see it should look something like this: "`forked from chalmerlowe/intro_to_sprinting_codeless_project:`" much like this example from `sigsevneo`'s repository.<br>
 ![Fork link to original repo](images/fork-repo-link.png)
 
 ## Done with commands for now!
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done. Feel free to read the following sections to learn more about some of steps you just completed.
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
@@ -64,11 +77,10 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 Project files on GitHub are often called repositories, or a **repo/repos** for short. For every project you contribute to, you will interact with several different GitHub repos:
 
 * One repo will be the original project repository
-* The other repo will be **your personal copy** of the original repo
 
 ![Remote Repo](images/github_part_1_remote.png)
 
-When you want to work on a project, GitHub will enable you to **fork** the original project so that you can have a copy of the project under your account.
+* The other repo will be **your personal copy** of the original repo. When you want to work on a project, GitHub will enable you to **fork** the original project so that you can have a copy of the project under your account. In this case, Johnny Appleseed is forking a copy of the codeless project.
 
 ![Personal Repo](images/github_part_1_personal.png)
 
