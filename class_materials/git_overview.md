@@ -7,8 +7,7 @@
 
 `git` is a version control system -- it enables you to control the various versions of your projects, such as open source projects.
 
-While `git` is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy the project into their own **local repository**, where they can work on adding features and squashing bugs. When finished, they
-push the code to `origin`, for other contributors to see and/or pull from. Version control systems, along with managing changes to projects, also help ensure each contributor is working on the same codebase.
+While `git` is great for helping you manage versions for **your own** projects, it also makes it easy to contribute to projects that **other people** are working on. If you are collaborating on a project with others OR if you have a copy of your project hosted somewhere, such as GitHub, the project code will live in a central **remote repository**, traditionally called `origin`. Programmers copy a fork of the project into their own remote repository and then clone the fork to a **local repository**, where they can work on adding features and squashing bugs. When finished, they push the code to their fork and issue a pull request to `origin`, for other contributors to see and/or incorporate. Version control systems, along with managing changes to projects, also help ensure each contributor is working on the same codebase.
 
 ## Objectives
 
@@ -23,7 +22,7 @@ Through participating in this session, attendees will be able to:
     * verify the status of the project repository
     * perform basic troubleshooting
 
-**NOTE**: this will be a **hands-on** overview of `git`. It is incredibly powerful with many options and capabilities. The goal is to get you **started** with `git`, but it will take time and practice on your own to make you into an expert.
+**NOTE**: this will be a **hands-on** overview of `git`. The `git` software is incredibly powerful with many options and capabilities. The goal is to get you **started** with `git`, but it will take time and practice on your own to make you into an expert.
 
 
 ### Command-line interface
