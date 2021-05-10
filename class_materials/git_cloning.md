@@ -10,7 +10,7 @@
 
 ## Overview
 
-With a fork of the project in your GitHub repository, it's time to `git clone` the project to your local computer, so you have a local copy on your machine to do work on. The project we will start with is a project that doesn't have any code in it. It is a project full of famous poems. This is on purpose. We want to start off by
+If you successfully completed the step where we [setup and forked a repository](./github_setup.md) it is time to `git clone` the project to your local computer, so you have a local copy on your machine to do work on. The project we will start with is a project that doesn't have any code in it. It is a project full of famous poems. This is on purpose. We want to start off by
 
 * practicing **the mechanics** of making changes and propogating those changes to the owner
 WHILE
@@ -58,6 +58,7 @@ $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_code
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done. Feel free to read the following sections to learn more about some of steps you just completed.
 
 ## The big picture
 
