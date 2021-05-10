@@ -51,6 +51,8 @@ Ultimately, the goal is to help you overcome some of the hurdles inherent in suc
 
 ## Testimony/Feedback...
 
+Here is some feedback from a previous attendee at one of our workshops:
+
 > "...after nearly 60 years, an Open Hatch workshop, and two PyCon "How to Sprint" workshops, I think I'm beginning to get the hang of things. ;-)
 
 > I'm a BeeWare developer.​​ I have a new job title: Confirmed Yak Shaver. And I have the coin of the realm to prove it. ;-)"
@@ -63,11 +65,13 @@ Ultimately, the goal is to help you overcome some of the hurdles inherent in suc
 
 ## Preparatory Lessons
 
+Depending on your role (instructor vs student) and/or level of experience, the following preparatory lessons should be useful in getting you ready to successfully completing this workshop.
+
 * [Instructor Preparation](./prereq_instructor.md): Steps the instructor should take to prepare for the workshop
 * [Student Preparation](./prereq_student.md): Steps the students should take to prepare for the workshop
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
-| [Table of Contents](./README.md) | [Table of Contents](./README.md) | [Instructor Preparation](./prereq_instructor.md) |
+| [Table of Contents](./README.md) | [Table of Contents](./README.md) | [Instructor Preparation](./prereq_instructor.md)<br> OR <br> [Student Preparation](./prereq_student.md)|
 <!-- end auto-generated section -->
