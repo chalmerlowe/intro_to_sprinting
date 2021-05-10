@@ -24,7 +24,7 @@ $ git config --global user.email "johnny.appleseed@example.com"
 
 ## Done with commands for now!
 
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done. Feel free to read the following sections to learn more about some of steps you just completed.
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
