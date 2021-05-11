@@ -9,14 +9,14 @@
 
 ## Overview
 
-With larger projects, it is very common to create **branches** and then **merge** the branches into the main project when you make changes. You've seen references to `master` above, the default branch. A typical enhancement would be done by:
+With larger projects, it is very common to create **branches** and then **merge** the branches into the project's main branch when finalize your changes. You've seen references to `main` in earlier lessons. `main` is the default branch (you may also see primary or default branches referred to as `master` in legacy projects). A typical enhancement would be done by:
 
 1. creating a branch (so you have a separate workspace to work in) using `git checkout -b <branch name>`
-1. doing your work as a series of `git add`, `git commit` cycles to the branch
-1. merging your changes back into `master`
+1. doing your work as a series of `git add` and `git commit` cycles to the branch
+1. merging your changes with `main`
 1. submitting a pull request to the project owner (covered in a separate discussion)
 
-By following this pattern, you keep your work isolated from the rest of the project until it is ready to be shared or incorporated. Examples include:
+By following this pattern of using branches to develop your changes and then merging into `main`, you can keep your work isolated from the rest of the project until it is ready to be shared or incorporated. Examples include:
 
 * creating new features
 * experimenting with changes to the code
@@ -26,7 +26,7 @@ Branches should be small and self-contained so that they can be merged easily. S
 
 ## What to do
 
-A typical iteration of creating a feature (sometimes called a `feature branch`) would look like this:
+Do the following steps to get a feel for a typical iteration of creating a feature (sometimes called a `feature branch`):
 
 **Create a new branch** & cause `git` to begin tracking changes in that branch
 
@@ -59,41 +59,36 @@ $ git commit -m "my second bit of work"
 **Checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
 
 ```bash
-$ git checkout master            # this checks out the master branch
+$ git checkout main            # this checks out the master branch
 ```
 
 **Update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
 
 ```bash
-$ git pull upstream master       # this pulls any upstream changes into your computer
+$ git pull upstream main       # this pulls any upstream changes into your computer
 ```
 
-**NOTE:** This is generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via pull request.
+> **NOTE:** This next step generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via a Pull Request.
 
 ```bash
-$ git pull origin master         # Generally not necessary, but this pulls
-                                 # any changes in *your* GitHub fork repo to your computer
+$ git pull origin main         # Generally not necessary, but this pulls
+                               # any changes in *your* GitHub fork repo to your computer
 ```
 
-**Merge local changes into our local copy of master** ... With the latest and greatest `upstream` (and/or `origin`) changes on your local machine, attempt to merge your branch into your local copy of `master`
+**Merge local changes from main into our local copy of appleseed-feature** ... With the latest and greatest `upstream` (and/or `origin`) changes on your local machine, attempt to merge `main` with your local copy of `appleseed-feature`. We do this by checking out `appleseed-feature` and then merging it with any changes from `main`.
 
 ```bash
-$ git merge appleseed-feature
+$ git checkout appleseed-feature
+$ git merge main
 ```
 
-**`git push`** changes to our **GitHub repo** ... presuming a successful merge (don't worry will discuss what to do if the merge is not successful) you can now `git push` your changes to your **GitHub repo** (your changes do NOT go to upstream, yet...)
+Then we **`git push`** changes to our **GitHub repo** ... presuming a successful merge (don't worry will discuss what to do if the merge is not successful) you can now `git push` your changes to your **GitHub repo** (your changes do NOT go to upstream, yet...)
 
 ```bash
-$ git push origin master
+$ git push origin appleseed-feature
 ```
 
-**Delete your unneeded branch** ... presuming a successful push, you can safely delete the branch:
-
-```bash
-$ git branch -d appleseed-feature
-```
-
-If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done.
+If you (and your partner, if you're working in pairs) are done, then you can put your green sticky up! This is how we know you're done. Feel free to read the following sections to learn more about some of steps you just completed.
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
@@ -113,9 +108,9 @@ Following this workflow allows you to potentially work on multiple features or b
 
 ### Make a change in a branch
 
-Besides `git add`, `git commit`, `git push`, the next logical step is to grow familiar with using the **branch-work-merge** flow to isolate your work from changes made by others.
+Besides `git add`, `git commit`, `git push`, a next logical step in preparing to contribute to open source projects is to grow familiar with using the **branch-work-merge** workflow to isolate your work from changes made by others.
 
-#### Create a branch
+### Create a branch
 
 **Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git checkout` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `-b` option.
 
@@ -132,11 +127,11 @@ What makes a good branch name? What are the rules for naming branches? This is a
 * They cannot have question-mark `?`, asterisk `*`, or open bracket `[` anywhere
 * They cannot have ASCII control characters (`\t`, `\n`), `space`, tilde `~`, caret `^`, or colon `:` anywhere
 
-#### Make your changes
+### Make your changes
 
 The whole point of creating a branch is to create a safe place to modify a specific portion of the code. With a `git branch` created, it is safe to edit your files, before proceeding with the remaining steps below.
 
-#### Stage and commit your changes
+### Stage and commit your changes
 
 As previously described, once you are satisifed with your changes, they must be staged and then committed.
 
@@ -145,28 +140,27 @@ $ git add johnny_appleseed.txt
 $ git commit -m "added edits to johnny's history"
 ```
 
-#### Merge your changes into the master branch
+### Merge your changes into the master branch
 
-As noted above, `git checkout` allows you to change to an alternate branch. The `master` branch is created by default by `git` and is often used as the main branch for release. To change back to the `master` branch, use `git checkout master`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
+As noted above, `git checkout` allows you to change to an alternate branch. The `main` branch is created by default by `git` and is often used as the primary branch for release. To change back to the `main` branch, use `git checkout main`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
 
 For now, we will presume that there are no conflicts between your changes and other changes. With that premise in mind, you can merge your code and your local copy of the `upstream` repo.
 
 ```bash
-$ git checkout master
+$ git checkout main
 $ git pull
-$ git merge appleseed-feature
+$ git checkout appleseed-feature
+$ git merge main
 ```
 
-If you have any conflicts, you will need to address them. GitHub has a simple resource for [resolving conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
+If you have any conflicts, you will need to address them. GitHub has a simple resource describing how to [resolve conflicts](https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/). A full discussion of conflict resolution is beyond the scope of this lesson.
 
-#### Delete your feature branch
-
-When you are finished using a branch (i.e. all the pertinent changes have been merged into master), you can simply delete it:
+Presuming there are no merge conflicts we next **`git push`** changes to our **GitHub repo** ... 
+Remember, the changes go to your **GitHub repo** (your changes do NOT go to upstream, YET...)
 
 ```bash
-$ git branch -d appleseed-feature
+$ git push origin appleseed-feature
 ```
-
 
 ## Resources
 
