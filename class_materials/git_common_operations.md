@@ -19,7 +19,7 @@ When using `git`, sometimes you want to know more about the changes you are comm
 For this next exercise, we will change a single file and use the `git diff` tool to examine those specific changes in detail.
 
 1. Use your text editor to open the `beowulf.txt` file in the your local Codeless Project repo
-1. Change the letter `B` in the first line `The Project Gutenberg EBook of Beowulf ...` to a lowercase `b`
+1. Change the capital letter `B` in the first line to a lowercase letter `b`
 1. Save the file 
 1. Execute the following command:
 
