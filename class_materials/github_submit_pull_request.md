@@ -18,7 +18,9 @@ Once you have a change OR changes pushed to your GitHub repo, you will want to s
 ## What to do
 
 1. Navigate to **your** GitHub repo in your browser.
-1. Above the file list on the left hand side, click on the **New Pull Request** button:<br>
+1. Click on the Branch Dropdown button.
+1. Select the branch you want to examine: in this case, the `conflict-merge` branch
+1. Click the **Pull Request** link to issue a pull request
 ![New Pull Request Button](images/new-pull-request-icon.png)
 1. GitHub will allow you to confirm which changes in your repo you want to share with the original author, as shown in the following image.
    * **NOTE**: GitHub transfers you to the repo of the original author
