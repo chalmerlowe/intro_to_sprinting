@@ -30,12 +30,10 @@ Once you have a change OR changes pushed to your GitHub repo, you will want to s
   * Confirm that the **head fork** is your fork
   * Confirm that GitHub says: **Able to merge** (IF there are conflicts, refer to the [Git Overview](./lesson_05_git_overview.md) for instructions on how to fix this problem.<br>
 ![Create Pull Request One](images/create-pull-request-one.png)
-1. Click on the **Create pull request** button
 1. Follow these steps to prep the Pull Request for creation:
     * Write a Summary Title describing your changes (~50 characters or so)
     * Write a brief Description of what you're changing in this pull request. Your description should be clear and concise and should help the upstream developers understand your submission. They are often busy and may get a lots of pull requests. Help them understand why your work should be included in their project.
-    * Click on the **Create pull request** button<br>
-![Create Pull Request Two](images/create-pull-request-two.png)
+1. Click on the **Create pull request** button
 
 **REMINDER**:  Once you do these steps, GitHub leaves you on the upstream GitHub repo (Chalmer Lowe's in this case) and not your own!
 
