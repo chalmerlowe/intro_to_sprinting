@@ -138,7 +138,7 @@ Similarly, if their changes are in the same file that we changed, but are in com
     ```bash
     $ git add conflict_lesson.txt
     $ git commit -m "Removes merge conflicts"
-    $ git push
+    $ git push origin conflict-merge
     ```
 
 ### ON GITHUB:
