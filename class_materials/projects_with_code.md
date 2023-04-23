@@ -27,10 +27,8 @@ If you would like to contribute general setup guidelines for a language you use,
 
 ## Lessons
 
-1. [Python Projects](./setup_python.md)
 1. [Data Science (with Python and other languages)](./setup_data_science.md)
-
-1. Python
+1. Python projects (## TODO)
 
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
