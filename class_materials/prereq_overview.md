@@ -32,9 +32,6 @@ This workshop does **not** cover...
 
 This is not a programming workshop, nor is it a Python workshop. It is intended to prep students to contribute to open source projects; it is not intended to teach students how to program.
 
-The example code in this version of the workshop is written in Python, but this project can be run using an example project in another programming language, if desired.
-
-
 ## Learning objectives
 
 Participants should expect to achieve the following learning objectives upon completing this workshop:
