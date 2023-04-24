@@ -241,7 +241,7 @@ $ git checkout main
 $ git pull origin main
 ```
 
-**NOTE**: as mentioned in the previous lesson, normally, you would prioritize getting changes from `upstream` by using `git pull upstream master`, but since you made your changes to **your** GitHub repo, we are using `origin` as a workaround for the purposes of this lesson.
+**NOTE**: as mentioned in the previous lesson, normally, you would prioritize getting changes from `upstream` by using `git pull upstream main`, but since you made your changes to **your** GitHub repo, we are using `origin` as a workaround for the purposes of this lesson.
 
 **Attempt to merge** the versions in your `main` branch and your `conflict-merge` branch using the `merge` command:
 
