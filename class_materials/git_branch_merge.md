@@ -56,13 +56,13 @@ $ git add jabberwocky.txt
 $ git commit -m "my second bit of work"
 ```
 
-**Checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
+**Checkout the main branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
 
 ```bash
-$ git checkout main            # this checks out the master branch
+$ git checkout main            # this checks out the main branch
 ```
 
-**Update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
+**Update our local copy** ... Before we try to merge our changes to main, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
 
 ```bash
 $ git pull upstream main       # this pulls any upstream changes into your computer
@@ -94,7 +94,7 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 ## The big picture
 
-Let's imagine that you are working on a project with multiple commits to the master branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the master branch during that same timeframe.
+Let's imagine that you are working on a project with multiple commits to the main branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the main branch during that same timeframe.
 
 The history created by the above steps would look something like this:
 
@@ -140,7 +140,7 @@ $ git add johnny_appleseed.txt
 $ git commit -m "added edits to johnny's history"
 ```
 
-### Merge your changes into the master branch
+### Merge your changes into the main branch
 
 As noted above, `git checkout` allows you to change to an alternate branch. The `main` branch is created by default by `git` and is often used as the primary branch for release. To change back to the `main` branch, use `git checkout main`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
 
