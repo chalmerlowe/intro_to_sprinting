@@ -103,8 +103,8 @@ Again, if you are curious, you can confirm that `git` has stored the correct ups
 $ git remote -v
 origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (fetch)
 origin   https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project (push)
-upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
-upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (push)
+upstream        https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (fetch)
+upstream        https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (push)
 ```
 
 **Note:** You'll only do this **one time for each project** you want to work on.
@@ -115,7 +115,7 @@ upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (pus
 * [Git Basics - Getting a Git Repository](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository)
 
 <!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
+| Previous                          |               Up               |                                                               Next |
+| :-------------------------------- | :----------------------------: | -----------------------------------------------------------------: |
 | [Git Concepts](./git_concepts.md) | [Using Git](./git_overview.md) | [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) |
 <!-- end auto-generated section -->

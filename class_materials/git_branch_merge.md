@@ -11,7 +11,7 @@
 
 With larger projects, it is very common to create **branches** and then **merge** the branches into the project's main branch when finalize your changes. You've seen references to `main` in earlier lessons. `main` is the default branch (you may also see primary or default branches referred to as `master` in legacy projects). A typical enhancement would be done by:
 
-1. creating a branch (so you have a separate workspace to work in) using `git checkout -b <branch name>`
+1. creating a branch (so you have a separate workspace to work in) using `git switch --create <branch name>`
 1. doing your work as a series of `git add` and `git commit` cycles to the branch
 1. merging your changes with `main`
 1. submitting a pull request to the project owner (covered in a separate discussion)
@@ -31,7 +31,7 @@ Do the following steps to get a feel for a typical iteration of creating a featu
 **Create a new branch** & cause `git` to begin tracking changes in that branch
 
 ```bash
-$ git checkout -b appleseed-feature     # "-b" creates a new branch named "appleseed-feature"
+$ git switch --create appleseed-feature     # "--create", or "-c", creates a new branch named "appleseed-feature"
 ```
 
 **Do work/edit files**
@@ -56,13 +56,13 @@ $ git add jabberwocky.txt
 $ git commit -m "my second bit of work"
 ```
 
-**Checkout the master branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
+**Switch to the main branch** and prepare to merge all our changes with any other changes that have been accepted into the upstream codebase...
 
 ```bash
-$ git checkout main            # this checks out the master branch
+$ git switch main            # this switches/checks out the main branch and is the same as "git checkout main"
 ```
 
-**Update our local copy** ... Before we try to merge our changes to master, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
+**Update our local copy** ... Before we try to merge our changes to main, let's update our local copy of the repo with any updates that might have occurred in the `upstream` version by using `git pull`.
 
 ```bash
 $ git pull upstream main       # this pulls any upstream changes into your computer
@@ -78,7 +78,7 @@ $ git pull origin main         # Generally not necessary, but this pulls
 **Merge local changes from main into our local copy of appleseed-feature** ... With the latest and greatest `upstream` (and/or `origin`) changes on your local machine, attempt to merge `main` with your local copy of `appleseed-feature`. We do this by checking out `appleseed-feature` and then merging it with any changes from `main`.
 
 ```bash
-$ git checkout appleseed-feature
+$ git switch appleseed-feature # again, the same as "git checkout appleseed-feature"
 $ git merge main
 ```
 
@@ -94,7 +94,7 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 ## The big picture
 
-Let's imagine that you are working on a project with multiple commits to the master branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the master branch during that same timeframe.
+Let's imagine that you are working on a project with multiple commits to the main branch and a single bug fix branch to fix Issue #53 called `iss53`. Commits `C3` and `C5` are the changes that were committed on the branch, and `C4` is a change made by someone else to the main branch during that same timeframe.
 
 The history created by the above steps would look something like this:
 
@@ -112,10 +112,10 @@ Besides `git add`, `git commit`, `git push`, a next logical step in preparing to
 
 ### Create a branch
 
-**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git checkout` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `-b` option.
+**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git switch` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `--create` (the same as `-c`) option.
 
 ```bash
-$ git checkout -b appleseed-feature
+$ git switch -c appleseed-feature
 ```
 
 What makes a good branch name? What are the rules for naming branches? This is a short list of rules (for a complete list, see the [git man pages](https://mirrors.edge.kernel.org/pub/software/scm/git/docs/git-check-ref-format.html).
@@ -140,16 +140,16 @@ $ git add johnny_appleseed.txt
 $ git commit -m "added edits to johnny's history"
 ```
 
-### Merge your changes into the master branch
+### Merge your changes into the main branch
 
-As noted above, `git checkout` allows you to change to an alternate branch. The `main` branch is created by default by `git` and is often used as the primary branch for release. To change back to the `main` branch, use `git checkout main`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
+As noted above, `git switch` allows you to change to an alternate branch. The `main` branch is created by default by `git` and is often used as the primary branch for release. To change back to the `main` branch, use `git switch main`. Often others may be working on the same codebase and some of those changes may impact your codebase, so it is critical to collect all of those changes (i.e. download them from the `upstream` repository) for comparison to your code, using `git pull`.
 
 For now, we will presume that there are no conflicts between your changes and other changes. With that premise in mind, you can merge your code and your local copy of the `upstream` repo.
 
 ```bash
-$ git checkout main
+$ git switch main
 $ git pull
-$ git checkout appleseed-feature
+$ git switch appleseed-feature
 $ git merge main
 ```
 
@@ -169,7 +169,7 @@ $ git push origin appleseed-feature
 * [Advanced Git](https://youtu.be/4EOZvow1mk4) - a great talk about some commands that will make working with multiple branches easier
 
 <!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
+| Previous                                            |               Up               |                                        Next |
+| :-------------------------------------------------- | :----------------------------: | ------------------------------------------: |
 | [Git Common Operations](./git_common_operations.md) | [Using Git](./git_overview.md) | [Merge Conflicts](./git_merge_conflicts.md) |
 <!-- end auto-generated section -->
