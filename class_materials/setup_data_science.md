@@ -10,7 +10,7 @@
 
 ## Overview
 
-Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (e.g., `python 2.7` or `python 3.6`) as well as the versions of other libraries that your project might depend upon.
+Virtual environment tools enable you to create a standalone environment for your project so that you can avoid conflicts between one project and another in terms of software versions (e.g., `Python 2.7` or `Python 3.6`) as well as the versions of other libraries that your project might depend upon.
 
 ### Objectives
 
@@ -100,7 +100,7 @@ Miniconda contains the `conda` package manager and `Python`. `conda` is language
 
 Whenever you work on a new project, you should create a separate environment for that project. `conda` lets you do this easily and efficiently. A later lesson will provide more details on both virtual environments and the use of the `conda` package manager.
 
-For this lesson, we image a fairly typical directory/folder structure on your local computer. In this picture, NOTE that we have:
+For this lesson, we imagine a fairly typical directory/folder structure on your local computer. In this picture, NOTE that we have:
 
 * a directory for your **project(s)** to be saved in
 * a directory associated with **miniconda**
@@ -119,8 +119,8 @@ NOTE: The miniconda virtualenv folders will **NOT** contain your project code.
 
 As we install software libraries using `conda` in our new virtual environment, the virtual environment encapsulates/contains our entire development environment:
 
-* a specific version of `python`
-* the dependencies needed by that version of `python` (i.e. `sqlite`) 
+* a specific version of `Python`
+* the dependencies needed by that version of `Python` (i.e. `sqlite`) 
 * other libraries you might need for that project (i.e. `numpy`)
 * other dependencies for those libraries (i.e. `libgfortran`, `mkl`, `mkl-fft`)
 
@@ -155,7 +155,7 @@ Description:
 * `-n` identifies the name of the virtualenv, in this case, `mytest`
 * `python=3` tells conda that you want to install Python version 3 in this virtualenv
 
-**NOTE**: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta... [see footnote 1](#footnotes). If you need to select a specific minor version of python, use the following syntax:
+**NOTE**: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta... [see footnote 1](#footnotes). If you need to select a specific minor version of Python, use the following syntax:
 
 `python=3.2`
 
