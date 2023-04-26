@@ -82,7 +82,7 @@ $ git switch appleseed-feature # again, the same as "git checkout appleseed-feat
 $ git merge main
 ```
 
-Then we **`git push`** changes to our **GitHub repo** ... presuming a successful merge (don't worry will discuss what to do if the merge is not successful) you can now `git push` your changes to your **GitHub repo** (your changes do NOT go to upstream, yet...)
+Then we **`git push`** changes to our **GitHub repo** ... presuming a successful merge (don't worry we'll discuss what to do if the merge is not successful) you can now `git push` your changes to your **GitHub repo** (your changes do NOT go to upstream, yet...)
 
 ```bash
 $ git push origin appleseed-feature
