@@ -22,3 +22,4 @@ Please feel free to add your name to the bottom of this document.
 * [Jericho Guzman](https://github.com/mgmt06)
 * [Jorge L. Gimeno](https://github.com/jlgimeno)
 * [Mikhail Kulikov](https://github.com/MKulikoff)
+* [Moises Delgado](https://github.com/mdelgadonyc)
