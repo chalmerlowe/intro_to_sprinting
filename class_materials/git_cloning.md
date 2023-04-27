@@ -23,7 +23,7 @@ WHILE
 
 Open a command prompt OR terminal and navigate to a folder/directory where you want to store the project files for today's project. The folder you pick should be somewhere that you can find easily. = ) 
 
-Inside your chosen folder, you will make a **new folder** called `mytest` and the you will change directories into the `mytest` folder:
+Inside your chosen folder, you will make a **new folder** called `mytest` and then you will change directories into the `mytest` folder:
 
 ```bash
 $ mkdir mytest
@@ -89,7 +89,7 @@ origin  https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project 
 
 Here we see that for the `origin` remote repository, we have the ability to fetch data from it and push data to it. This ability to push data to the repository makes sense, since we own that repository.
 
-As part of committing to open source projects, we want to get updates from the original repository (often called the `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done will interfere with any other work being done on the project.
+As part of committing to open source projects, we want to get updates from the original repository (often called the `upstream` repository) whenever the project developer makes changes so that we can confirm that nothing we have done locally will interfere with any other work being done on the project.
 
 To enable `git` to find the `upstream` we use the following command:
 
