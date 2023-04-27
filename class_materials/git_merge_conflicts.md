@@ -194,7 +194,7 @@ It is not necessary, for this simple example, to add text to the empty fields. N
 ![github_edit_pencil](images/github_merge_commit_changes_button.png)
 
 ### IN YOUR TERMINAL:
-**Create and switch to a new branch** called `conflict-merge`. Since this branch doesn't yet exist, we need to create it by using the `-b` flag.
+**Create and switch to a new branch** called `conflict-merge`. Since this branch doesn't yet exist, we need to create it by using the `-c` flag.
 
 ```bash
 $ git switch -c conflict-merge
