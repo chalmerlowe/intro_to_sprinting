@@ -40,7 +40,7 @@ If you **ALREADY** have a GitHub account, log into your regular account.
 If you **DO NOT** have a GitHub account, you will need to make one:
 
 1. Open your browser and navigate to the [Join GitHub Account Creation](https://github.com/join) page.
-2. Initiate an accoount sign-up:
+2. Initiate an account sign-up:
 Fill out the form on the home page:
    
    * Enter a username in the Username field (NOTE: you will need a unique username)
