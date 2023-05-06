@@ -31,10 +31,10 @@ This will show you, in detail, the differences between the last version of the f
 
 Once you are done, you can restore the modified file to it's original state by typing:
 ```bash
-`git checkout -- beowulf.txt`
+$ git restore beowulf.txt
 ```
 
-This essentialy tells git to "undo" any changes to that file that are not yet staged or committed.
+This essentialy tells git to "undo" any changes to that file that are not yet staged or committed. Note that this is the same as `git checkout -- beowulf.txt`.
 
 ## Done with commands for now!
 
@@ -164,7 +164,7 @@ Many GUI-based tools will show you more information, such as highlighting the in
 * [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
 <!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
+| Previous                                                           |               Up               |                                           Next |
+| :----------------------------------------------------------------- | :----------------------------: | ---------------------------------------------: |
 | [Git Primary Workflow: Add, Commit, Push](./git_main_lifecycle.md) | [Using Git](./git_overview.md) | [Branching and Merging](./git_branch_merge.md) |
 <!-- end auto-generated section -->

@@ -35,6 +35,7 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 
 * [gitk](https://lostechies.com/joshuaflanagan/2010/09/03/use-gitk-to-understand-git/)
 * [SourceTree](https://www.sourcetreeapp.com/)
+* [GitHub Desktop](https://desktop.github.com/)
 
 ... and there are many others.
 
@@ -53,7 +54,7 @@ There are Graphical User Interface (GUI) tools available as well, but they are b
 * [Getting Started - Git Basics](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
 
 <!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
+| Previous                          |                Up                |                              Next |
+| :-------------------------------- | :------------------------------: | --------------------------------: |
 | [Setting up Git](./git_config.md) | [Table of Contents](./README.md) | [Git Concepts](./git_concepts.md) |
 <!-- end auto-generated section -->

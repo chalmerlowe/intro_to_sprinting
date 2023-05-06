@@ -49,7 +49,7 @@ Similarly, if their changes are in the same file that we changed, but are in com
 1. Create and switch to a new branch called `conflict-merge` by typing the following on your command line:
 
     ```bash
-    $ git checkout -b conflict-merge
+    $ git switch -c conflict-merge
     ```
 
 1. Open `conflict_lesson.txt` in your **local repository** with a text editor.
@@ -72,7 +72,7 @@ Similarly, if their changes are in the same file that we changed, but are in com
 1. Switch back to the `main` branch
 
     ```bash
-    $ git checkout main
+    $ git switch main
     ```
 
 1. **Pull down the changes you made on your GitHub repo** by pulling from `origin main`
@@ -83,10 +83,10 @@ Similarly, if their changes are in the same file that we changed, but are in com
 
     > **NOTE**: as mentioned in the previous lesson, normally, you would prioritize getting changes from `upstream` by pulling from `upstream main`, but since you made your changes to **your** GitHub repo, we are using this as a **workaround** for the purposes of this lesson.
 
-1. Checkout your branch `conflict-merge` using:
+1. Switch to your branch `conflict-merge` using:
 
     ```bash
-    $ git checkout conflict-merge
+    $ git switch conflict-merge
     ```
 
 1. Attempt to merge the versions in your `main` branch and your `conflict-merge` branch using the `merge` command:
@@ -194,10 +194,10 @@ It is not necessary, for this simple example, to add text to the empty fields. N
 ![github_edit_pencil](images/github_merge_commit_changes_button.png)
 
 ### IN YOUR TERMINAL:
-**Create and switch to a new branch** called `conflict-merge`. Since this branch doesn't yet exist, we need to create it by using the `-b` flag.
+**Create and switch to a new branch** called `conflict-merge`. Since this branch doesn't yet exist, we need to create it by using the `-c` flag.
 
 ```bash
-$ git checkout -b conflict-merge
+$ git switch -c conflict-merge
 ```
 
 **Edit the file conflict_lesson.txt locally:**
@@ -232,7 +232,7 @@ The customary workflow is to:
 Let's continue by checking out `main` so we can update it.
 
 ```bash
-$ git checkout main
+$ git switch main
 ```
 
 **Pull down the changes you made on your GitHub repo** by pulling from `origin main`
@@ -357,7 +357,7 @@ $ git push
 * [Git advanced merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
 
 <!-- begin auto-generated nav-links section -->
-| Previous | Up | Next |
-|:---------|:---:|-----:|
+| Previous                                       |               Up               |                                 Next |
+| :--------------------------------------------- | :----------------------------: | -----------------------------------: |
 | [Branching and Merging](./git_branch_merge.md) | [Using Git](./git_overview.md) | [Using GitHub](./github_overview.md) |
 <!-- end auto-generated section -->
