@@ -302,6 +302,14 @@ Get in the habit of using `git status` regularly, it is probably the most inform
 
 * [Git Basics - Recording Changes to the Repository](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
+* [Git Commit](https://github.com/git-guides/git-commit)
+
+* [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+
+* [Commit Message Quidelines](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
+
+* 
+
 <!-- begin auto-generated nav-links section -->
 | Previous | Up | Next |
 |:---------|:---:|-----:|
