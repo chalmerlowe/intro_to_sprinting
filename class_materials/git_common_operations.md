@@ -46,7 +46,14 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 With your own projects, for 95% of what you do, `git status` and `git diff` should be sufficient to regularly track your progress and confirm the changes you have made. You will use these commands, along with `git add`, `git commit`, `git push` more than any others.
 
-> **NOTE:** We will cover several more advanced concepts in later discussions.
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> We will cover several more advanced concepts in later discussions.
+</div>
+<br>
 
 ## Deep dive
 
@@ -54,7 +61,14 @@ It can be very helpful to see what's different between the file you are working 
 
 `git diff` represents changes in a manner referred to generally as "diff format". This format generally represents all changes as the addition or removal of lines from files.
 
-**Note:** depending on the renderer, the examples below may show up in black/white, but in most command-line environments (`bash`, for example) they will also be color-coded to help make them easier to read.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> depending on the renderer, the examples below may show up in black/white, but in most command-line environments (`bash`, for example) they will also be color-coded to help make them easier to read.
+</div>
+<br>
+
 
 If I add a line to a file, I'll see something like this:
 

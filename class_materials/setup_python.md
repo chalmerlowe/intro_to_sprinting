@@ -151,7 +151,15 @@ C:\>venv\Scripts\activate.bat
 (venv) C:\>
 ```
 
-**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate venv`.
+<div style="background-color: #BF3D30; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+    <path d="M12 2L1 21h22L12 2zm0 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+  </svg>
+  <b>WARNING:</b>If you are using Power Shell, "activate" won't work out of the box. Type "cmd" first to get a regular command prompt, <b>then</b> "activate venv".
+
+</div>
+<br>
+
 
 ### Adding software to your virtualenv
 

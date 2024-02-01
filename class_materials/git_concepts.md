@@ -71,7 +71,15 @@ The **staging area** holds all the files that are ready to be added to the proje
 
 ![staging](images/git_staging.png)
 
-**NOTE**: if you add a file to the staging area and **THEN** make additional changes to the file, the newest changes will **not** be staged. Staging takes a snapshot in time. You will need to `git add` the file a second time to capture the newest changes.
+
+<div style="background-color: #BF3D30; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+    <path d="M12 2L1 21h22L12 2zm0 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+  </svg>
+  <b>WARNING:</b> if you add a file to the staging area and <b>THEN</b> make additional changes to the file, the newest changes will <b>not</b> be staged. Staging takes a snapshot in time. You will need to `git add` the file a second time to capture the newest changes.
+
+</div>
+<br>
 
 ### Commit
 
@@ -79,7 +87,14 @@ The **commit area** holds all the changes that you are going to release to the r
 
 ![commiting](images/git_commit.png)
 
-**NOTE**: much like we saw above... if you add a file to the commit area and **THEN** make additional changes to the file, the newest changes will **not** be staged OR committed. Committing also takes a snapshot in time. You will need to `git add` the file a second time to stage it and then `git commmit` it to capture the newest changes.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> much like we saw above... if you add a file to the commit area and <b>THEN</b> make additional changes to the file, the newest changes will <b>not</b> be staged OR committed. Committing also takes a snapshot in time. You will need to `git add` the file a second time to stage it and then `git commmit` it to capture the newest changes.
+
+</div>
+<br>
 
 ### Remote
 
@@ -93,7 +108,14 @@ Nothing gets copied from your local system until you use the `git push` command 
 
 ![git push](images/git_push.png)
 
-**NOTE:** we're not yet thinking about how to get your changes back to the original project; that will be covered later. At this point, all these efforts have been focused on repositories that you control.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> we're not yet thinking about how to get your changes back to the original project; that will be covered later. At this point, all these efforts have been focused on repositories that you control.
+</div>
+<br>
+
 
 ## Resources
 

@@ -12,7 +12,15 @@
 
 Once you have a change OR changes pushed to your GitHub repo, you will want to share those changes with the owner of the upstream project repository.
 
-**NOTE**: This lesson presumes that your changes have been pushed to **your own** GitHub repo (instructions on how to do this were covered in a previous lesson: [Git Overview](./git_overview.md).
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> This lesson presumes that your changes have been pushed to <b>your own</b> GitHub repo (instructions on how to do this were covered in a previous lesson.
+
+</div>
+<br>
 
 
 ## What to do
@@ -23,8 +31,15 @@ Once you have a change OR changes pushed to your GitHub repo, you will want to s
 1. Click the **Pull Request** link to issue a pull request
 ![New Pull Request Button](images/new-pull-request-icon.png)
 1. GitHub will allow you to confirm which changes in your repo you want to share with the original author, as shown in the following image.
-   * **NOTE**: GitHub transfers you to the repo of the original author
    * You will **no longer** be on your own GitHub account page.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> GitHub transfers you to the repo of the original author
+
+</div>
+<br>
 1. Before proceeding, you should check for the following items.
   * Confirm that the **base branch** is the original author's branch
   * Confirm that the **compare branch** is your branch

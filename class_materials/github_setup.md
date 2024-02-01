@@ -63,7 +63,14 @@ Fork a copy of the Codeless Project into your GitHub acccount:
 ![Fork a Repo Button](images/fork-repo-icon.png)
 1. Click the Fork button to to create a fork under your account
 
-**NOTE**:  The fork refers back to the original repository - if you look under your repository name, you'll see it should look something like this: "`forked from chalmerlowe/intro_to_sprinting_codeless_project:`" much like this example from `sigsevneo`'s repository.<br>
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> The fork refers back to the original repository - if you look under your repository name, you'll see it should look something like this: "forked from chalmerlowe/intro_to_sprinting_codeless_project:" much like this example from sigsevneo's repository.
+
+</div>
+<br>
 ![Fork link to original repo](images/fork-repo-link.png)
 
 ## Done with commands for now!
