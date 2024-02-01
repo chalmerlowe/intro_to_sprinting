@@ -32,10 +32,19 @@ If you (and your partner, if you're working in pairs) are done, then you can put
 
 These are the two fundamental configurations needed to use `git`.
 
-**Note:** The `--global` option applies these settings to all `git` projects on your machine
-* You only need to run this **once per computer**
-* To change a setting, simply re-run the command
-* To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the `--global` option
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> The `--global` option applies these settings to all `git` projects on your machine<br>
+
+- You only need to run this <b>once per computer</b><br>
+- To change a setting, simply re-run the command<br>
+- To override these settings for a specific project (e.g., a work project versus a personal project), simply run the command while in that project directory, and leave out the "--global" option
+
+</div>
+<br>
 
 Later sections of the workshop will go into greater depth on using `git`.
 

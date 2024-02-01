@@ -22,8 +22,15 @@ Through participating in this session, attendees will be able to:
     * verify the status of the project repository
     * perform basic troubleshooting
 
-**NOTE**: this will be a **hands-on** overview of `git`. The `git` software is incredibly powerful with many options and capabilities. The goal is to get you **started** with `git`, but it will take time and practice on your own to make you into an expert.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> this will be a <b>hands-on</b> overview of `git`. The `git` software is incredibly powerful with many options and capabilities. The goal is to get you <b>started</b> with `git`, but it will take time and practice on your own to make you into an expert.
 
+
+</div>
+<br>
 
 ### Command-line interface
 

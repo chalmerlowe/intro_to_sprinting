@@ -155,7 +155,14 @@ Description:
 * `-n` identifies the name of the virtualenv, in this case, `mytest`
 * `python=3` tells conda that you want to install Python version 3 in this virtualenv
 
-**NOTE**: you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta... [see footnote 1](#footnotes). If you need to select a specific minor version of Python, use the following syntax:
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> you can use version 2.x or version 3.x of Python and regardless which you choose, conda will default to the most recent version of Python. Sorta... <a style="color:#01AED1" href="#footnotes">see footnote 1</a>. If you need to select a specific minor version of Python, use the following syntax:
+
+</div>
+<br>
 
 `python=3.2`
 
@@ -223,7 +230,15 @@ C:\> activate mytest
 (mytest) C:\>
 ```
 
-**Note:** If you are using Power Shell, `activate` won't work out of the box. Type `cmd` first to get a regular command prompt, *then* `activate mytest`.
+
+<div style="background-color: #BF3D30; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+    <path d="M12 2L1 21h22L12 2zm0 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+  </svg>
+  <b>WARNING:</b>If you are using Power Shell, "activate" won't work out of the box. Type "cmd" first to get a regular command prompt, <b>then</b> "activate mytest".
+
+</div>
+<br>
 
 ### Adding software to your virtualenv
 

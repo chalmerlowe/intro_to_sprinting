@@ -44,16 +44,28 @@ At any time, we can check the status of our `git` repository. Before we change a
 $ git status
 ```
 
-**NOTE**: Full details on the messages that appear are spelled out below in the **Big Picture/Deep Dive** discussion.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> Full details on the messages that appear are spelled out below in the <b>Big Picture/Deep Dive</b> discussion.
 
-**NOTE**: Using `git status` is completely **optional**, but strongly recommended. As you learn how each of the `git` commands change the state of your repository it can provide feedback and better understanding.
+</div>
+<br>
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> Using `git status` is completely <b>optional</b>, but strongly recommended. As you learn how each of the `git` commands change the state of your repository it can provide feedback and better understanding.
+
+</div>
+<br>
 
 
 ### Pick a file and edit it.
 
 1. Open your favorite text editor or integrated development environment (IDE).
 1. Select a file to edit and open the file in your editor/IDE.
-    * **NOTE**: this workshop is intended for all audiences (and may include youth), so in making the following changes, please avoid anything inappropriate OR not safe for work (NSFW). **Play like a champion**.
 
 1. Make a simple change, such as:
     * Change any line, word or phrase
@@ -61,6 +73,14 @@ $ git status
     * Delete a line
 
 1. Save the file.
+
+<div style="background-color: #BF3D30; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;">
+    <path d="M12 2L1 21h22L12 2zm0 15h-2v-2h2v2zm0-4h-2V7h2v6z"/>
+  </svg>
+  <b>WARNING:</b> this workshop is intended for all audiences (and may include youth), so in making the following changes, please avoid anything inappropriate OR not safe for work (NSFW). <b>Play like a champion</b>.
+</div>
+<br>
 
 ### Status Check
 Before we go further, it is often useful to again check the status using `git status`. We should notice that a line in the output identifies that a text file has been modified, but has not been staged.
@@ -109,7 +129,15 @@ We use `git commit` to commit your changes when you are ready to make a permanen
 $ git commit -m "Description of changes"
 ```
 
-> **NOTE**: Commit messages should be short (typically 50 characters or less). See the **Resources** below for more details on commit messages.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> Commit messages should be short (typically 50 characters or less). See the <b>Resources</b> below for more details on commit messages.
+
+
+</div>
+<br>
 
 ### Status check
 Take a look at things now that the file has been committed, again using `git status`... We should notice a line in the output identifies that your files are ahead of/or no longer in sync with the files in **your GitHub repo**.
@@ -123,8 +151,14 @@ Your branch is ahead of 'origin/main' by 1 commit.
 
 ### Push your changes to your GitHub repo:
 
-> **NOTE**: historically, git repositories used the term `master` to indicate the main branch OR the latest branch of a repository. This term comes with some negative connotations and as such, many open source development teams have changed the name of the main branch in their repository to be `main`. Both the **Intro to Sprinting** and the **Intro to Sprinting Codeless Project** have set our primary branch name to be main. Having said that, in other tutorials, in other repos, etc you may still find references to `master`.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> historically, git repositories used the term `master` to indicate the main branch OR the latest branch of a repository. This term comes with some negative connotations and as such, many open source development teams have changed the name of the main branch in their repository to be `main`. Both the <b>Intro to Sprinting</b> and the <b>Intro to Sprinting Codeless Project</b> have set our primary branch name to be main. Having said that, in other tutorials, in other repos, etc you may still find references to `master`.
 
+</div>
+<br>
 Push the commit to **your** GitHub repo with `git push`:
 
 ```bash
@@ -162,7 +196,15 @@ In this section, we covered a number of commands that break down into several ke
 
 With your own projects, for 95% of what you do, this is sufficient to regularly track your progress and get your changes onto the internet. You will use these commands more than any others.
 
-**NOTE:** We will cover several more advanced concepts both in the **Deep Dive** and in later discussions.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> We will cover several more advanced concepts both in the <b>Deep Dive</b> and in later discussions.
+
+</div>
+<br>
+
 
 
 ## Deep dive
@@ -173,7 +215,14 @@ Especially for beginners, understanding the state of your local directory is cri
 
 Since some of our messages above were abbreviated for clarity, let's look more deeply into what we really get from `git status`. Get into the habit of reading the status messages after every command you type and you will quickly hone in on the feedback you need. The following command tells you that right now, your local copy matches what your computer last heard is in your GitHub server... everything is **clean**.
 
-> **NOTE**: git does not check the remote repository every time you do this. It simply compares the state of your files since the last time it checked in with that remote repository.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> git does not check the remote repository every time you do this. It simply compares the state of your files since the last time it checked in with that remote repository.
+
+</div>
+<br>
 
 
 ```bash
@@ -200,7 +249,14 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 This says the file called "README.md" is changed locally but not yet staged. 
 
-> **NOTE**: There are several helper messages in the above status report that tell us how to:
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> There are several helper messages in the above status report that tell us how to:
+
+</div>
+<br>
 
 * **add** the README.md file to the staging area
 * **revert** the README.md (i.e. get it back to the way it was before I made my change)

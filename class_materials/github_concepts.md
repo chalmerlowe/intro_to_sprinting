@@ -14,7 +14,7 @@ GitHub is a powerful platform. There are many features and capabilities availabl
 
 ## What to do
 
-1. Navigate to **your GitHub** repo for the Codeless Project. **NOTE:** make sure you are looking at **your repo**.
+1. Navigate to **your GitHub** repo for the Codeless Project. 
 1. Your repo has a number of tabs across the top: `Code`, `Issues`, `Pull requests`, `Projects`, `Wiki`, `Insights`, etc.
 ![Codeless Repo](images/github_codeless_repo.png)
 1. Click on the `Issues` tab. You will find a list of issues. (If you do not see this tab, see the note below)<br><br>
@@ -22,7 +22,24 @@ GitHub is a powerful platform. There are many features and capabilities availabl
 1. Click on several issues and explore them: see whether they have milestones, what labels they might have, what discussion is occurring relative to that issue, etc.
 1. Click on the `Wiki` tab. This is a great place to capture documentation and planning notes.
 
-**Note**: if the `Issues` tab is not visible, the project may be set up to track issues on another system. If this is *your* project and you want to use GitHub to track issues, you can enable the `Issues` tab by navigating to your project, clicking `Settings`, then `Options`, and checking the `Issues` checkbox.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> make sure you are looking at <b>your repo</b>.
+
+</div>
+<br>
+
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> if the "Issues" tab is not visible, the project may be set up to track issues on another system. If this is <b>your</b> project and you want to use GitHub to track issues, you can enable the "Issues" tab by navigating to your project, clicking "Settings", then "Options", and checking the "Issues" checkbox.
+
+</div>
+<br>
 
 **NEXT** Navigate to the **upstream GitHub repo** for the Codeless Project. I often do this by clicking the small link under the name of the repo AND opening the link in a new tab so that I have both my **origin GitHub repo** and the **upstream GitHub repo** open at the same time. That link should say something like: `'forked from chalmerlowe/intro_to_sprinting_codeless_project:'` much like this example from `sigsevneo`'s repository.<br>
 ![Fork link to original repo](images/fork-repo-link.png)

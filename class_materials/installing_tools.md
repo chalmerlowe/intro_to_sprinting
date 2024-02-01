@@ -49,9 +49,18 @@ OR you might see this:
 
 #### <img src="images/windows_icon.jpg" width="24" height="24"> Windows
 
-1. Download the [git installer](https://git-scm.com/downloads) (**NOTE:** If you are unsure if you need the 32 or 64-bit version, you can [follow these steps](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d))
+1. Download the [git installer](https://git-scm.com/downloads) 
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> If you are unsure if you need the 32 or 64-bit version, you can 
+ <a style="color:#01AED1" href="https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d">follow these steps</a>.
 
-3. Run the **.exe** file that you downloaded and follow the instructions.
+</div>
+<br>
+
+2. Run the **.exe** file that you downloaded and follow the instructions.
 
 #### <img src = "images/mac_icon.png" width="24" height="24"> Mac OS
 

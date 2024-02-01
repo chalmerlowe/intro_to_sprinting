@@ -68,7 +68,15 @@ $ git switch main            # this switches/checks out the main branch and is t
 $ git pull upstream main       # this pulls any upstream changes into your computer
 ```
 
-> **NOTE:** This next step generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via a Pull Request.
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+  <b>NOTE:</b> This next step generally not necessary, but if *your* GitHub fork also has some changes not reflected in your local copy, you should update the local copy by pulling in those changes as well. How could this happen, you ask? If you directly edit content on your GitHub fork in the browser OR if you (via a separate account) or someone else have applied changes to your GitHub fork directly or via a Pull Request.
+</div>
+
+
 
 ```bash
 $ git pull origin main         # Generally not necessary, but this pulls
@@ -112,7 +120,14 @@ Besides `git add`, `git commit`, `git push`, a next logical step in preparing to
 
 ### Create a branch
 
-**Note:** replace "appleseed-feature" with the name of the feature you are adding. The `git switch` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `--create` (the same as `-c`) option.
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> replace "appleseed-feature" with the name of the feature you are adding. The `git switch` command allows you to change to a new branch. If that branch does not exist yet, it can be created with the `--create` (the same as `-c`) option.
+</div>
+
 
 ```bash
 $ git switch -c appleseed-feature

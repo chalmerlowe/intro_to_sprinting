@@ -34,7 +34,13 @@ $ cd mytest
 
 Use the `git clone` command to clone a copy of the repository to the `mytest` directory.
 
-**Note:** Since you are not Johnny Appleseed, **ENSURE** that you change `johnny_appleseed` to the name of **YOUR** account.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> Since you are not Johnny Appleseed, <b>ENSURE</b> that you change `johnny_appleseed` to the name of <b>YOUR</b> account.
+</div>
+<br>
 
 ```bash
 $ git clone https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project.git
@@ -54,7 +60,13 @@ Next, add a reference to the **original repo (i.e. Chalmer's repo)** using the `
 $ git remote add upstream https://github.com/chalmerlowe/intro_to_sprinting_codeless_project.git
 ```
 
-**Note:** You'll only do this **one time for each project** you want to work on.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+  <b>Note:</b> You'll only do this <b>one time for each project</b> you want to work on.
+</div>
+<br>
 
 ![green sticky note](images/Sticky-Note-02-Green-300px.png)
 
@@ -71,7 +83,14 @@ Before you can start adding to a project, you will need to clone the project to 
 
 The following discussion will give you more insight into cloning repositories and what happens in the background during each of these commands.
 
-**Note:** Since you are not Johnny Appleseed, **ENSURE** that you change `johnny_appleseed` to the name of **YOUR** account.
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> Since you are not Johnny Appleseed, <b>ENSURE</b> that you change `johnny_appleseed` to the name of <b>YOUR</b> account.
+</div>
+
+<br>
 
 ```bash
 $ git clone https://github.com/johnny_appleseed/intro_to_sprinting_codeless_project.git
@@ -107,7 +126,13 @@ upstream        https://github.com/chalmerlowe/intro_to_sprinting_codeless_proje
 upstream        https://github.com/chalmerlowe/intro_to_sprinting_codeless_project (push)
 ```
 
-**Note:** You'll only do this **one time for each project** you want to work on.
+
+<div style="background-color: #eaea8d; border: 2px solid #0e0e0e; padding: 5px; color:#0e0e0e">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+    <path d="M4 2v20h16V2H4zm16 2l-8 5-8-5M4 6l8 5 8-5" />
+  </svg>
+ <b>NOTE:</b> You'll only do this <b>one time for each project</b> you want to work on.
+</div>
 
 
 ## Resources
