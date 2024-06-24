@@ -83,6 +83,28 @@ C:\> # TODO: need the windows command for this
 (venv) $ pip install ipython mock
 ```
 
+* Alternatively if you have multiple python interpreters installed you can choose which one like this:
+```bash
+This will install python2.7 from your system onto the virtualenv
+$ virtualenv -p `which python2.7` venv
+
+OR
+
+This will install python3.6 from your system onto the virtualenv
+$ virtualenv -p `which python3.6` venv
+
+OR
+
+This will install python3.7 from your system onto the virtualenv
+$ virtualenv -p `which python3.7` venv
+
+$ source venv/bin/activate
+$ (venv) ... : which python
+$ (venv) ... : /Users/../../venv/bin/python
+
+```
+
+
 ## Done with commands for now!
 
 If you (if you're working in pairs, you and your partner) are done, then now you can put your green sticky up! This is how we know you're done with the commands.
